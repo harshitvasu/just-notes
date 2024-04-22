@@ -1,0 +1,1767 @@
+<!DOCTYPE html><html><head>
+      <title>spectrum</title>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      
+      <link rel="stylesheet" href="file:////Users/harshitvasu/.vscode/extensions/shd101wyy.markdown-preview-enhanced-0.8.13/crossnote/dependencies/katex/katex.min.css">
+      <script src="toggleParagraphs.js" defer></script>
+      
+      
+      
+      
+      <style>
+      code[class*=language-],pre[class*=language-]{color:#333;background:0 0;font-family:Consolas,"Liberation Mono",Menlo,Courier,monospace;text-align:left;white-space:pre;word-spacing:normal;word-break:normal;word-wrap:normal;line-height:1.4;-moz-tab-size:8;-o-tab-size:8;tab-size:8;-webkit-hyphens:none;-moz-hyphens:none;-ms-hyphens:none;hyphens:none}pre[class*=language-]{padding:.8em;overflow:auto;border-radius:3px;background:#f5f5f5}:not(pre)>code[class*=language-]{padding:.1em;border-radius:.3em;white-space:normal;background:#f5f5f5}.token.blockquote,.token.comment{color:#969896}.token.cdata{color:#183691}.token.doctype,.token.macro.property,.token.punctuation,.token.variable{color:#333}.token.builtin,.token.important,.token.keyword,.token.operator,.token.rule{color:#a71d5d}.token.attr-value,.token.regex,.token.string,.token.url{color:#183691}.token.atrule,.token.boolean,.token.code,.token.command,.token.constant,.token.entity,.token.number,.token.property,.token.symbol{color:#0086b3}.token.prolog,.token.selector,.token.tag{color:#63a35c}.token.attr-name,.token.class,.token.class-name,.token.function,.token.id,.token.namespace,.token.pseudo-class,.token.pseudo-element,.token.url-reference .token.variable{color:#795da3}.token.entity{cursor:help}.token.title,.token.title .token.punctuation{font-weight:700;color:#1d3e81}.token.list{color:#ed6a43}.token.inserted{background-color:#eaffea;color:#55a532}.token.deleted{background-color:#ffecec;color:#bd2c00}.token.bold{font-weight:700}.token.italic{font-style:italic}.language-json .token.property{color:#183691}.language-markup .token.tag .token.punctuation{color:#333}.language-css .token.function,code.language-css{color:#0086b3}.language-yaml .token.atrule{color:#63a35c}code.language-yaml{color:#183691}.language-ruby .token.function{color:#333}.language-markdown .token.url{color:#795da3}.language-makefile .token.symbol{color:#795da3}.language-makefile .token.variable{color:#183691}.language-makefile .token.builtin{color:#0086b3}.language-bash .token.keyword{color:#0086b3}pre[data-line]{position:relative;padding:1em 0 1em 3em}pre[data-line] .line-highlight-wrapper{position:absolute;top:0;left:0;background-color:transparent;display:block;width:100%}pre[data-line] .line-highlight{position:absolute;left:0;right:0;padding:inherit 0;margin-top:1em;background:hsla(24,20%,50%,.08);background:linear-gradient(to right,hsla(24,20%,50%,.1) 70%,hsla(24,20%,50%,0));pointer-events:none;line-height:inherit;white-space:pre}pre[data-line] .line-highlight:before,pre[data-line] .line-highlight[data-end]:after{content:attr(data-start);position:absolute;top:.4em;left:.6em;min-width:1em;padding:0 .5em;background-color:hsla(24,20%,50%,.4);color:#f4f1ef;font:bold 65%/1.5 sans-serif;text-align:center;vertical-align:.3em;border-radius:999px;text-shadow:none;box-shadow:0 1px #fff}pre[data-line] .line-highlight[data-end]:after{content:attr(data-end);top:auto;bottom:.4em}html body{font-family:'Helvetica Neue',Helvetica,'Segoe UI',Arial,freesans,sans-serif;font-size:16px;line-height:1.6;color:#333;background-color:#fff;overflow:initial;box-sizing:border-box;word-wrap:break-word}html body>:first-child{margin-top:0}html body h1,html body h2,html body h3,html body h4,html body h5,html body h6{line-height:1.2;margin-top:1em;margin-bottom:16px;color:#000}html body h1{font-size:2.25em;font-weight:300;padding-bottom:.3em}html body h2{font-size:1.75em;font-weight:400;padding-bottom:.3em}html body h3{font-size:1.5em;font-weight:500}html body h4{font-size:1.25em;font-weight:600}html body h5{font-size:1.1em;font-weight:600}html body h6{font-size:1em;font-weight:600}html body h1,html body h2,html body h3,html body h4,html body h5{font-weight:600}html body h5{font-size:1em}html body h6{color:#5c5c5c}html body strong{color:#000}html body del{color:#5c5c5c}html body a:not([href]){color:inherit;text-decoration:none}html body a{color:#08c;text-decoration:none}html body a:hover{color:#00a3f5;text-decoration:none}html body img{max-width:100%}html body>p{margin-top:0;margin-bottom:16px;word-wrap:break-word}html body>ol,html body>ul{margin-bottom:16px}html body ol,html body ul{padding-left:2em}html body ol.no-list,html body ul.no-list{padding:0;list-style-type:none}html body ol ol,html body ol ul,html body ul ol,html body ul ul{margin-top:0;margin-bottom:0}html body li{margin-bottom:0}html body li.task-list-item{list-style:none}html body li>p{margin-top:0;margin-bottom:0}html body .task-list-item-checkbox{margin:0 .2em .25em -1.8em;vertical-align:middle}html body .task-list-item-checkbox:hover{cursor:pointer}html body blockquote{margin:16px 0;font-size:inherit;padding:0 15px;color:#5c5c5c;background-color:#f0f0f0;border-left:4px solid #d6d6d6}html body blockquote>:first-child{margin-top:0}html body blockquote>:last-child{margin-bottom:0}html body hr{height:4px;margin:32px 0;background-color:#d6d6d6;border:0 none}html body table{margin:10px 0 15px 0;border-collapse:collapse;border-spacing:0;display:block;width:100%;overflow:auto;word-break:normal;word-break:keep-all}html body table th{font-weight:700;color:#000}html body table td,html body table th{border:1px solid #d6d6d6;padding:6px 13px}html body dl{padding:0}html body dl dt{padding:0;margin-top:16px;font-size:1em;font-style:italic;font-weight:700}html body dl dd{padding:0 16px;margin-bottom:16px}html body code{font-family:Menlo,Monaco,Consolas,'Courier New',monospace;font-size:.85em;color:#000;background-color:#f0f0f0;border-radius:3px;padding:.2em 0}html body code::after,html body code::before{letter-spacing:-.2em;content:'\00a0'}html body pre>code{padding:0;margin:0;word-break:normal;white-space:pre;background:0 0;border:0}html body .highlight{margin-bottom:16px}html body .highlight pre,html body pre{padding:1em;overflow:auto;line-height:1.45;border:#d6d6d6;border-radius:3px}html body .highlight pre{margin-bottom:0;word-break:normal}html body pre code,html body pre tt{display:inline;max-width:initial;padding:0;margin:0;overflow:initial;line-height:inherit;word-wrap:normal;background-color:transparent;border:0}html body pre code:after,html body pre code:before,html body pre tt:after,html body pre tt:before{content:normal}html body blockquote,html body dl,html body ol,html body p,html body pre,html body ul{margin-top:0;margin-bottom:16px}html body kbd{color:#000;border:1px solid #d6d6d6;border-bottom:2px solid #c7c7c7;padding:2px 4px;background-color:#f0f0f0;border-radius:3px}@media print{html body{background-color:#fff}html body h1,html body h2,html body h3,html body h4,html body h5,html body h6{color:#000;page-break-after:avoid}html body blockquote{color:#5c5c5c}html body pre{page-break-inside:avoid}html body table{display:table}html body img{display:block;max-width:100%;max-height:100%}html body code,html body pre{word-wrap:break-word;white-space:pre}}.markdown-preview{width:100%;height:100%;box-sizing:border-box}.markdown-preview ul{list-style:disc}.markdown-preview ul ul{list-style:circle}.markdown-preview ul ul ul{list-style:square}.markdown-preview ol{list-style:decimal}.markdown-preview ol ol,.markdown-preview ul ol{list-style-type:lower-roman}.markdown-preview ol ol ol,.markdown-preview ol ul ol,.markdown-preview ul ol ol,.markdown-preview ul ul ol{list-style-type:lower-alpha}.markdown-preview .newpage,.markdown-preview .pagebreak{page-break-before:always}.markdown-preview pre.line-numbers{position:relative;padding-left:3.8em;counter-reset:linenumber}.markdown-preview pre.line-numbers>code{position:relative}.markdown-preview pre.line-numbers .line-numbers-rows{position:absolute;pointer-events:none;top:1em;font-size:100%;left:0;width:3em;letter-spacing:-1px;border-right:1px solid #999;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none}.markdown-preview pre.line-numbers .line-numbers-rows>span{pointer-events:none;display:block;counter-increment:linenumber}.markdown-preview pre.line-numbers .line-numbers-rows>span:before{content:counter(linenumber);color:#999;display:block;padding-right:.8em;text-align:right}.markdown-preview .mathjax-exps .MathJax_Display{text-align:center!important}.markdown-preview:not([data-for=preview]) .code-chunk .code-chunk-btn-group{display:none}.markdown-preview:not([data-for=preview]) .code-chunk .status{display:none}.markdown-preview:not([data-for=preview]) .code-chunk .output-div{margin-bottom:16px}.markdown-preview .md-toc{padding:0}.markdown-preview .md-toc .md-toc-link-wrapper .md-toc-link{display:inline;padding:.25rem 0}.markdown-preview .md-toc .md-toc-link-wrapper .md-toc-link div,.markdown-preview .md-toc .md-toc-link-wrapper .md-toc-link p{display:inline}.markdown-preview .md-toc .md-toc-link-wrapper.highlighted .md-toc-link{font-weight:800}.scrollbar-style::-webkit-scrollbar{width:8px}.scrollbar-style::-webkit-scrollbar-track{border-radius:10px;background-color:transparent}.scrollbar-style::-webkit-scrollbar-thumb{border-radius:5px;background-color:rgba(150,150,150,.66);border:4px solid rgba(150,150,150,.66);background-clip:content-box}html body[for=html-export]:not([data-presentation-mode]){position:relative;width:100%;height:100%;top:0;left:0;margin:0;padding:0;overflow:auto}html body[for=html-export]:not([data-presentation-mode]) .markdown-preview{position:relative;top:0;min-height:100vh}@media screen and (min-width:914px){html body[for=html-export]:not([data-presentation-mode]) .markdown-preview{padding:2em calc(50% - 457px + 2em)}}@media screen and (max-width:914px){html body[for=html-export]:not([data-presentation-mode]) .markdown-preview{padding:2em}}@media screen and (max-width:450px){html body[for=html-export]:not([data-presentation-mode]) .markdown-preview{font-size:14px!important;padding:1em}}@media print{html body[for=html-export]:not([data-presentation-mode]) #sidebar-toc-btn{display:none}}html body[for=html-export]:not([data-presentation-mode]) #sidebar-toc-btn{position:fixed;bottom:8px;left:8px;font-size:28px;cursor:pointer;color:inherit;z-index:99;width:32px;text-align:center;opacity:.4}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] #sidebar-toc-btn{opacity:1}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc{position:fixed;top:0;left:0;width:300px;height:100%;padding:32px 0 48px 0;font-size:14px;box-shadow:0 0 4px rgba(150,150,150,.33);box-sizing:border-box;overflow:auto;background-color:inherit}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc::-webkit-scrollbar{width:8px}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc::-webkit-scrollbar-track{border-radius:10px;background-color:transparent}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc::-webkit-scrollbar-thumb{border-radius:5px;background-color:rgba(150,150,150,.66);border:4px solid rgba(150,150,150,.66);background-clip:content-box}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc a{text-decoration:none}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc .md-toc{padding:0 16px}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc .md-toc .md-toc-link-wrapper .md-toc-link{display:inline;padding:.25rem 0}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc .md-toc .md-toc-link-wrapper .md-toc-link div,html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc .md-toc .md-toc-link-wrapper .md-toc-link p{display:inline}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc .md-toc .md-toc-link-wrapper.highlighted .md-toc-link{font-weight:800}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .markdown-preview{left:300px;width:calc(100% - 300px);padding:2em calc(50% - 457px - 300px / 2);margin:0;box-sizing:border-box}@media screen and (max-width:1274px){html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .markdown-preview{padding:2em}}@media screen and (max-width:450px){html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .markdown-preview{width:100%}}html body[for=html-export]:not([data-presentation-mode]):not([html-show-sidebar-toc]) .markdown-preview{left:50%;transform:translateX(-50%)}html body[for=html-export]:not([data-presentation-mode]):not([html-show-sidebar-toc]) .md-sidebar-toc{display:none}
+/* Please visit the URL below for more information: */
+/*   https://shd101wyy.github.io/markdown-preview-enhanced/#/customize-css */
+
+      </style>
+      <!-- The content below will be included at the end of the <head> element. --><script type="text/javascript">
+  document.addEventListener("DOMContentLoaded", function () {
+    // your code here
+  });
+</script></head><body for="html-export">
+    
+    
+      <div class="crossnote markdown-preview  ">
+      
+<h1 id="chapter-5-expansion-and-consolidation-of-british-power-in-india">Chapter 5: Expansion and Consolidation of British Power in India </h1>
+<h2 id="the-british-imperial-history">The British Imperial History </h2>
+<p>The entire imperial history of Britain can be periodised into two phases, the ‘first empire’ stretching across the Atlantic towards America and the West Indies, and the ‘second empire’ beginning around 1783 (Peace of Paris) and swinging towards the East—Asia and Africa. The imperial history of Britain started with the conquest of Ireland in the 16th century. The English then sprang up as the ‘new Romans’, charged with civilising so-called backward races throughout the world. For this, the post-Enlightenment intellectuals of Britain, in particular, and of Europe, in general, started certifying themselves as civilised vis-a-vis the Orient peoples and others. Owing to various spatial and situational forces, the nature of imperial ideology of Britain changed over time but its fundamentals remained the same.</p>
+<h3 id="was-the-british-conquest-accidental-or-intentional">Was the British Conquest Accidental or Intentional? </h3>
+<p>Historians have debated over the fundamental query, whether the British conquest of India was accidental or intentional. John Seeley leads the group which says that the British conquest of India was made blindly, unintentionally, and accidentally, and in a “fit of absent-mindedness”. This school of opinion argues that the British came to trade in India and had no desire to acquire territories or to squander their profits on war waged for territorial expansion. The English, it is argued, were unwillingly drawn into the political turmoil created by the Indians themselves and were almost forced to acquire territories.</p>
+<p>The other group says that the British came to India with the clear intention of establishing a large and powerful empire, a plan which they completed by working on it bit by bit over the years. They dismiss as propaganda the claim of the peaceful intent and political neutrality of the English East India Company in its early days.</p>
+<p>Both the schools of opinion appear to be overstating their viewpoints. Initially, perhaps, the Company officials started acquiring territory just to promote and protect their trade interests, especially when they saw how factionalised the political situation was. They came to realise how easily they could pit one local ruler against another and began to interfere in local politics and, in the process, acquired territories. But later on, the British politicians back in Britain and the administrators sent by them to India worked on a clear desire and plan to acquire territories and establish an empire.</p>
+<p>The enormous profits from the trade in the East,notably India, attracted the English traders (the Company) as it did other Europeans. A desire for quick profits, personal ambitions of individuals, plain avarice, and effects of political developments in Europe were some of the factors that made the British increase their political clout in India. At times, they waged wars to protect their commercial interests, and at others, they did so to protect their Indian allies from the attacks of potential rivals. B.L. Grover writes: “Lord Wellesley resorted to aggressive application of the subsidiary alliance system to extend British dominion in India as a defensive counter measure against the imperialistic designs of France and Russia. From 1798 to 1818 the British motives were consciously imperialistic. Lord Hastings further carried the policy of Wellesley and treated India as a conquered rather than an acquired country. Thereafter, the British seemed to work on a set design to conquer the whole of India, and even some neighbouring states.”</p>
+<h3 id="when-did-the-british-period-begin-in-india">When did the British Period Begin in India? </h3>
+<p>In mid-18th-century India, various historical forces were at work, consequent to which the country moved towards a new direction. Some historians regard the year 1740, when the Anglo-French struggle for supremacy in India began in the wake of the War of Austrian Succession in Europe, as the beginning of the British period. Some see the year 1757, when the British defeated the Nawab of Bengal at Plassey, as the designated date. Still others regard 1761, the year of the Third Battle of Panipat when the Marathas were defeated by Ahmad Shah Abdali, as the beginning of this phase of Indian history. However, all such chronological landmarks are somewhat arbitrary because the political transformation which began around that time took about eighty years to complete. For instance, as we think of 1761, the British would certainly come to mind (because of their victory over the Nawab of Bengal at Plassey and over the French) but we would not entirely write off the Marathas and would probably also consider the prospects of Haidar Ali. In fact, it was a period of Indian history which it would probably be a mistake to interpret in terms of what we know in the present. Nonetheless, the circumstances under which the British succeeded are not clear, and the few bottlenecks which they faced were not of a serious nature. It is this paradox which makes the causes of British success in establishing an empire in India a matter of considerable interest.</p>
+<h2 id="causes-of-british-success-in-india">Causes of British Success in India </h2>
+<p>The entire process of expansion and consolidation of the British power in India took almost a century. In these hundred odd years, the English used many diplomatic and military tactics, apart from other mechanisms, to finally emerge as the rulers of India. Both war and administrative policies were used by the English to impose their power over various kingdoms and finally to consolidate their own rule over the entire India. The British were not averse to using unscrupulous tactics to exploit a situation or a regional ruler to get their own way. The causational forces and factors for the success of the British are as follows:</p>
+<h3 id="superior-arms-military-and-strategy">Superior Arms, Military, and Strategy </h3>
+<p>The firearms used by the English, which included muskets and cannons, were better than the Indian arms both in speed of firing and in range. On realising this, many Indian rulers imported European arms and employed European officers to train their troops, but, unfortunately, the Indian military officers and the ranks could never match the English officers and English armies; in the absence of originality, the military officers and armies of Indian rulers became mere imitators.</p>
+<h3 id="better-military-discipline-and-regular-salary">Better Military Discipline and Regular Salary </h3>
+<p>A regular system of payment of salaries and a strict regime of discipline were the means by which the English Company ensured that the officers and the troops were loyal. On their part, most of the Indian rulers did not have enough money  to pay salaries regularly. The Marathas at times diverted their military campaigns to collect revenue so as to pay their troops. Also, the Indian rulers were dependent on personal retinues or a rabble of mercenary elements who were not amenable to discipline and could turn rebellious or join the opponents when the going was not good.</p>
+<h3 id="civil-discipline-and-fair-selection-system">Civil Discipline and Fair Selection System </h3>
+<p>The Company officers and troops were given charge on the basis of their reliability and skill and not on hereditary or caste and clan ties. They themselves were subject to strict discipline and were aware of the objectives of their campaigns. In contrast, the Indian administrators and military officers were appointed on the basis of caste and personal relations, often disregarding merit and ability. As a result, their competence was doubtful and they often tended to be rebellious and disloyal in order to pursue their own interests. Brilliant Leadership and Support of Second-Line Leaders Clive, Warren Hastings, Elphinstone, Munro, Marquess of Dalhousie, etc., displayed rare qualities of leadership. The English also had the advantage of a long list of secondary leaders like Sir Eyre Coote, Lord Lake, and Arthur Wellesley, who fought not for the leader but for the cause and the glory of their country. The Indian side too had brilliant leaders like Haidar Ali, Tipu Sultan, Chin Qilich Khan, Madhu Rao Scindia, and Yashwant Rao Holkar, but they often lacked a team of second-line trained personnel. Moreover, the Indian leaders were as much fighting against one another as against the British. The spirit of fighting for a united cause was not their motivation. Thus, they often supported the British against neighbouring rulers. The consciousness of ‘India’ was lacking.</p>
+<h3 id="strong-financial-backup">Strong Financial Backup </h3>
+<p>The income of the Company was adequate enough to pay its shareholders handsome dividends as also to finance the English wars in India. Furthermore, England was earning fabulous profits from its trade with the rest of the world. This vast amount of resources in money, materials, and men was available to the British in times of need, thanks to their superiority in sea power.</p>
+<h3 id="nationalist-pride">Nationalist Pride </h3>
+<p>An economically thriving British people believing in material advancement and proud of their national glory faced the ‘weak, divided-amongst-themselves Indians’ bereft of a sense of unified political nationalism. The lack of materialistic vision among Indians was also a reason for the success of the English Company.</p>
+<h2 id="british-conquest-of-bengal">British Conquest of Bengal </h2>
+<h3 id="bengal-on-the-eve-of-british-conquest">Bengal on the Eve of British Conquest </h3>
+<p>Bengal, the richest province of the Mughal Empire, included<br>
+present-day Bangladesh, and its Nawab had authority over the<br>
+region constituting present-day states of Bihar and Odisha.<br>
+Exports from Bengal to Europe consisted of raw products<br>
+such as saltpetre, rice, indigo, pepper, sugar, silk, cotton<br>
+textiles, handicrafts, etc. The English East India Company had<br>
+vital commercial interests in trading in Bengal, as nearly 60<br>
+per cent of the British imports from Asia consisted of goods<br>
+from Bengal. During the 1630s, regular contact of the British<br>
+with Bengal continued when they established factories in<br>
+Balasore, Hooghly, Kasimbazar, Patna, and Dacca. By the<br>
+1690s, the foundation of Calcutta by the English company<br>
+completed the process of English commercial settlement in<br>
+Bengal. The Company paid a sum of Rs 3,000 (£ 350) per<br>
+annum to the Mughal emperor who allowed them to trade<br>
+freely in Bengal. In contrast, the Company’s exports from<br>
+Bengal were worth more than £ 50,000 per annum.<br>
+In 1700, Murshid Quli Khan became the Dewan of<br>
+Bengal and ruled till his death in 1727. He was succeeded<br>
+by his son-in-law, Shujauddin, who ruled till 1739. After that,<br>
+for a year (1739–40), Sarfaraz Khan, an incapable son of<br>
+Murshid Quli Khan, became the ruler; he was killed by<br>
+Alivardi Khan. Alivardi Khan ruled till 1756 and also stopped<br>
+paying tributes to the Mughal emperor. Under the rule of<br>
+these rulers, Bengal made unprecedented progress. There<br>
+were other factors too, which made Bengal prosperous, for<br>
+instance, the rest of India was disturbed by inter-border<br>
+disputes, the Maratha invasions, Jat revolts, and external<br>
+invasions by Nadir Shah and Ahmed Shah Abdali. The region<br>
+of Bengal was fortunate enough to escape these challenges.<br>
+The population of Calcutta rose from 15,000 (in 1706) to<br>
+100,000 (in 1750), and other cities like Dacca and<br>
+Murshidabad became highly populous.<br>
+Almost all the governors of Bengal strongly resented<br>
+the special privileges enjoyed by the English company as it<br>
+meant a huge loss to the provincial exchequer. So, the friction<br>
+between the English commercial interests and the Bengal<br>
+government became the chief cause for conflict between the<br>
+two. During a short period between 1757 and 1765, the power<br>
+gradually got transferred from the Nawabs of Bengal to the<br>
+British, with the latter defeating the former.</p>
+<h3 id="alivardi-khan-and-the-english">Alivardi Khan and the English </h3>
+<p>In 1741, Alivardi Khan, the Deputy Governor of Bihar, killed<br>
+the Nawab of Bengal Sarfaraz Khan in a battle and certified<br>
+his own position as the new Subahdar of Bengal by paying<br>
+a large sum of money to the Mughal Emperor, Muhammad<br>
+Shah. Alivardi Khan ruled for 15 years, during which he<br>
+fought off the Marathas. The English, too, took the advantage<br>
+of the Maratha incursions in Bengal, by obtaining a permission<br>
+from the nawab to dig a ditch and throw up an entrenchment<br>
+around their settlement of Fort William. Later, Alivardi<br>
+Khan’s apprehensions were drawn to the Carnatic region,<br>
+where the European companies had usurped all power; on<br>
+realising this, he was urged to expel the Europeans from<br>
+Bengal. But he died in April 1756 and was succeeded by his<br>
+grandson, Siraj-ud-Daulah, the son of Alivardi’s youngest<br>
+daughter.</p>
+<h3 id="challenges-before-siraj-ud-daulah">Challenges Before Siraj-ud-Daulah </h3>
+<p>A youth just in his twentieth year, Siraj inherited many<br>
+troubles from his grandfather. He had a rival in his cousin,<br>
+the Nawab of Purnea, Shaukat Jang; a hostile aunt, Ghasiti<br>
+Begum, a childless widow; a rebellious commander of the<br>
+army, Mir Jafar, husband of Alivardi Khan’s sister; and an<br>
+alarmed (Hindu) subject population. There was a dominant<br>
+group in his court comprising Jagat Seth, Omichand, Rai<br>
+Ballabh, Rai Durlabh, and others who were opposed to him.<br>
+To these internal rivals were added the threat to Siraj’s<br>
+position from the ever-growing commercial activity of the<br>
+English company. Impulsive by nature and lacking experience,<br>
+Siraj felt insecure, and this prompted him to act in ways<br>
+which proved counter-productive. He defeated Shaukat Jang<br>
+and killed him in a battle, divested Ghasiti Begum of her<br>
+treasures and secured her, and dismissed Mir Jafar, appointing<br>
+Mir Madan in his place. A Kashmiri officer, Mohan Lal, was<br>
+appointed as the overall administrator, and he acted almost<br>
+like a prime minister.</p>
+<h3 id="the-battle-of-plassey">The Battle of Plassey </h3>
+<h4 id="prelude-to-the-battle">Prelude to the battle </h4>
+<h4 id="the-battle">The Battle </h4>
+<p>The arrival of a strong force under the command of Robert<br>
+Clive at Calcutta from Madras strengthened the English<br>
+position in Bengal. Clive forged a secret alliance with the<br>
+traitors of the nawab—Mir Jafar, Rai Durlabh, Jagat Seth (an<br>
+influential banker of Bengal), and Omichand. Under the deal,<br>
+Mir Jafar was to be made the nawab, who, in turn, would<br>
+reward the Company for its services. The secret alliance of<br>
+the Company with the conspirators further strengthened the<br>
+English position. So, the English victory in the Battle of<br>
+Plassey (June 23, 1757) was decided before the battle was<br>
+even fought. Due to the conspiracy of the nawab’s officials,<br>
+the 50,000-strong force of Siraj was defeated by a handful<br>
+of Clive’s forces. Siraj-ud-Daulah was captured and murdered<br>
+by the order of Mir Jafar’s son, Miran. The Battle of Plassey<br>
+placed at the disposal of the English vast resources of Bengal.<br>
+After Plassey, the English virtually monopolised the trade and<br>
+commerce of Bengal.</p>
+<h4 id="significance-of-battle-of-plassey">Significance of Battle of Plassey </h4>
+<p>As a result of this victory, Mir Jafar became the Nawab of<br>
+Bengal. He gave large sums of money plus the zamindari<br>
+of 24 parganas to the English.<br>
+The Battle of Plassey had political significance, for it<br>
+laid the foundation of the British empire in India; it has been<br>
+rightly regarded as the starting point of British rule in India.<br>
+The battle established the military supremacy of the English<br>
+in Bengal. Their main rivals, the French, were ousted. They<br>
+obtained a grant of territories for the maintenance of a<br>
+properly equipped military force, and their prestige increased<br>
+manifold. But there was no apparent change in the form of<br>
+government, though the supreme control of affairs passed to<br>
+Clive, on whose support the new nawab, Mir Jafar, was<br>
+entirely dependent for maintaining his newly acquired position.<br>
+The sovereignty of the English over Calcutta was recognised,<br>
+and the English posted a resident at the nawab’s court.</p>
+<h3 id="mir-kasim-and-the-treaty-of-1760">Mir Kasim and the Treaty of 1760 </h3>
+<p>Mir Jafar was increasingly irritated by the interference of<br>
+Clive. He entered into a conspiracy with the Dutch at<br>
+Chinsura. But the Dutch were defeated and humbled by the<br>
+English forces at Bedara in November 1759. The treachery<br>
+of Mir Jafar and his failure to make the payments due to<br>
+the Company, annoyed the English. Meanwhile, Miran, the<br>
+son of Jafar died and there started a fight for the nawabship<br>
+of Bengal between Mir Kasim, the son-in-law of Mir Jafar,<br>
+and Miran’s son. Vansittart, the new Governor of Calcutta,<br>
+agreed to support Mir Kasim’s claim after a treaty between<br>
+Mir Kasim and the Company was signed in 1760. Important<br>
+features of the treaty were as follows:<br>
+(i) Mir Kasim agreed to cede to the Company the<br>
+districts of Burdwan, Midnapur, and Chittagong.<br>
+(ii) The Company would get half of the share in chunam<br>
+trade of Sylhet.<br>
+(iii) Mir Kasim agreed to pay off the outstanding dues<br>
+to the Company.<br>
+(iv) Mir Kasim promised to pay a sum of five lakh rupees<br>
+towards financing the Company’s war efforts in<br>
+southern India.<br>
+(v) It was agreed that Mir Kasim’s enemies were the<br>
+Company’s enemies, and his friends, the Company’s<br>
+friends.<br>
+(vi) It was agreed that tenants of the nawab’s territory<br>
+would not be allowed to settle in the lands of the<br>
+Company, and vice-versa.<br>
+Under the pressure of the Company, Mir Jafar decided<br>
+to resign in favour of Mir Kasim. A pension of Rs 1,500<br>
+per annum was fixed for Mir Jafar.</p>
+<h4 id="steps-taken-by-mir-kasim">Steps taken by Mir Kasim </h4>
+<p>Mir Kasim was the ablest nawab among the successors of<br>
+Alivardi Khan. After assuming power, Mir Kasim shifted the<br>
+capital from Murshidabad to Munger in Bihar. The move was<br>
+taken to allow a safe distance from the Company at Calcutta.<br>
+His other important steps were reorganising the bureaucracy<br>
+with the men of his own choice and remodelling the army<br>
+to enhance its skill and efficiency.</p>
+<h3 id="the-battle-of-buxar">The Battle of Buxar </h3>
+<h4 id="prelude-to-the-battle-1">Prelude to the Battle </h4>
+<p>The Company had thought that Mir Kasim would prove to<br>
+be an ideal puppet for them. However, Mir Kasim belied the<br>
+expectations of the Company. Ram Narayan, the deputygovernor<br>
+of Bihar, was not responding to repeated requests<br>
+by the nawab to submit the accounts of the revenues of Bihar.<br>
+Mir Kasim could not tolerate this open defiance of his<br>
+authority. But Ram Narayan was supported by the English<br>
+trade permit (a permit which exempted the goods specified<br>
+from payment of duties) by Company officials also resulted<br>
+in tensions between the nawab and the English.<br>
+The misuse of the dastak meant the loss of tax revenue<br>
+to the nawab. It also made the local merchants face unequal<br>
+competition with the Company merchants. By an imperial<br>
+farman, the English company had obtained the right to trade<br>
+in Bengal without paying transit dues or tolls. However, the<br>
+servants of the Company also claimed the same privileges<br>
+for their private trade. The Company’s servants also sold<br>
+dastak to Indian merchants for a commission. Besides, they<br>
+used coercive methods to get goods at cheaper rates, which<br>
+was against the spirit of the duty-free trade. The duty-free<br>
+trade simply meant buying cheap in an otherwise competitive<br>
+market. Mir Kasim decided to abolish the duties altogether,<br>
+but the British protested against this and insisted upon having<br>
+preferential treatment as against other traders.<br>
+The Nawab-Company tussle over transit duty led to the<br>
+outbreak of wars between the English and Mir Kasim in 1763.<br>
+The English gained successive victories at Katwah,<br>
+Murshidabad, Giria, Sooty, and Munger. Mir Kasim fled to<br>
+Awadh (or Oudh) and formed a confederacy with the Nawab<br>
+of Awadh, Shuja-ud-Daulah, and the Mughal Emperor, Shah<br>
+Alam II, with a view to recover Bengal from the English.</p>
+<h4 id="the-battle-1">The Battle </h4>
+<p>The combined armies of Mir Kasim, the Nawab of Awadh,<br>
+and Shah Alam II were defeated by the English forces under<br>
+Major Hector Munro at Buxar on October 22, 1764 in a<br>
+closely contested battle. The English campaign against Mir<br>
+Kasim was short but decisive.<br>
+The importance of this battle lay in the fact that not<br>
+only the Nawab of Bengal but also the Mughal Emperor of<br>
+India was defeated by the English. The victory made the<br>
+English a great power in northern India and contenders for<br>
+the supremacy over the whole country.<br>
+After the battle, Mir Jafar, who was made Nawab in<br>
+1763 when relations between Mir Kasim and the Company<br>
+became strained, agreed to hand over the districts of<br>
+Midnapore, Burdwan, and Chittagong to the English for the<br>
+maintenance of their army. The English were also permitted<br>
+duty-free trade in Bengal, except for a duty of 2 per cent<br>
+on salt. After the death of Mir Jafar, his minor son, Najimud-<br>
+daula, was appointed nawab, but the real power of<br>
+administration lay in the hands of the naib-subahdar, who<br>
+could be appointed or dismissed by the English.</p>
+<h3 id="the-treaty-of-allahabad">The Treaty of Allahabad </h3>
+<p>Robert Clive concluded two important treaties at Allahabad<br>
+in August 1765—one with the Nawab of Awadh and the other<br>
+with the Mughal Emperor, Shah Alam II.<br>
+Nawab Shuja-ud-Daula agreed to:<br>
+(i) surrender Allahabad and Kara to Emperor Shah<br>
+Alam II;<br>
+(ii) pay Rs 50 lakh to the Company as war indemnity;<br>
+and<br>
+(iii) give Balwant Singh, Zamindar of Banaras, full<br>
+possession of his estate.<br>
+Shah Alam II agreed to:<br>
+(i) reside at Allahabad, to be ceded to him by the<br>
+Nawab of Awadh, under the Company’s protection;<br>
+(ii) issue a farman granting the diwani of Bengal,<br>
+Bihar, and Orissa to the East India Company in lieu<br>
+of an annual payment of Rs 26 lakh; and<br>
+(iii) a provision of Rs 53 lakh to the Company in return<br>
+for nizamat functions (military defence, police,<br>
+and administration of justice) of the said provinces.<br>
+Clive did not want to annex Awadh because it would<br>
+have placed the Company under an obligation to protect an<br>
+extensive land frontier from the Afghan and the Maratha<br>
+invasions. The treaty made the Nawab a firm friend of the<br>
+Company, and turned Awadh into a buffer state. Similarly,<br>
+Clive’s arrangement with Shah Alam II was inspired by<br>
+practical considerations. It made the emperor a useful ‘rubber<br>
+stamp’ of the Company. Besides, the emperor’s farman<br>
+legalised the political gains of the Company in Bengal.<br>
+Mir Kasim, the dethroned Nawab of Bengal, spent the<br>
+rest of his life in abject misery as a homeless wanderer and<br>
+died in June 1777.</p>
+<h3 id="dual-government-in-bengal-176572">Dual Government in Bengal (1765–72) </h3>
+<p>After the battle of Buxar, the East India Company became<br>
+the real masters of Bengal. Robert Clive introduced the dual<br>
+system of government, i.e., the rule of the two—the Company<br>
+and the Nawab—in Bengal in which both the diwani, i.e.,<br>
+collecting revenues, and nizamat, i.e., police and judicial<br>
+functions, came under the control of the Company. The<br>
+Company exercised diwani rights as the diwan and the<br>
+nizamat rights through its right to nominate the deputy<br>
+subahdar. The Company acquired the diwani functions from<br>
+the emperor and nizamat functions from the subahdar of<br>
+Bengal.<br>
+The system held a great advantage for the Company.<br>
+It left the appearance of authority to the puppet Indian ruler<br>
+while keeping the sovereign power in the hands of the<br>
+Company. The nawab was responsible for maintaining peace<br>
+and order, but he depended both for funds and forces upon<br>
+the Company because the latter controlled the army and<br>
+revenues.<br>
+For the exercise of diwani functions, the Company<br>
+appointed two deputy diwans, Mohammad Reza Khan for<br>
+Bengal and Raja Sitab Roy for Bihar. Mohammad Reza Khan<br>
+also acted as deputy nazim or deputy subahdar.<br>
+The dual system led to an administrative breakdown and<br>
+proved disastrous for the people of Bengal. Neither the<br>
+Company nor the Nawab cared for administration and public<br>
+welfare. Warren Hastings did away with the dual system in<br>
+1772.</p>
+<h2 id="mysores-resistance-to-the-company">Mysore’s Resistance to the Company </h2>
+<h3 id="the-wodeyar--mysore-dynasty">The Wodeyar / Mysore Dynasty </h3>
+<p>After the battle of Talikota (1565) gave a deadly blow to<br>
+the great kingdom of Vijayanagara, many small kingdoms<br>
+emerged from its remnants. In 1612 a Hindu kingdom under<br>
+the Wodeyars emerged in the region of Mysore. Chikka<br>
+Krishnaraja Wodeyar II ruled from 1734 to 1766. During the<br>
+second half of the 18th century, Mysore emerged as a<br>
+formidable power under the leadership of Haidar Ali and Tipu<br>
+Sultan. The English felt their political and commercial<br>
+interests in South India was threatened because of Mysore’s<br>
+proximity with the French and Haidar Ali and Tipu’s control<br>
+over the rich trade of the Malabar Coast. Mysore’s power<br>
+was also seen as a threat to the control of the English over<br>
+Madras.</p>
+<h3 id="rise-of-haidar-ali">Rise of Haidar Ali </h3>
+<p>In the early 18th century two brothers, Nanjaraj (the<br>
+sarvadhikari) and Devaraj (the Dulwai) had reduced Chikka<br>
+Krishnaraja Wodeyar to a mere puppet. Haidar Ali, born in<br>
+1721 in an obscure family, started his career as a horseman<br>
+in the Mysore army under the ministers, Nanjaraj and Devaraj.<br>
+Though uneducated, he possessed a keen intellect and was<br>
+a man of great energy and determination.<br>
+Repeated incursions of the Marathas and of the Nizam’s<br>
+troops into the territories of Mysore resulted in heavy<br>
+financial demands made by the aggressors from Mysore.<br>
+Mysore became financially and politically weak. The need<br>
+of the hour was a leader with high degree of military powers<br>
+and diplomatic skill. Haidar Ali fulfilled that need and<br>
+usurped the royal authority by becoming the de facto ruler<br>
+of Mysore in 1761. He realised that the exceedingly mobile<br>
+Marathas could be contained only by a swift cavalry, that the<br>
+cannons of the French-trained Nizami army could be silenced<br>
+only by an effective artillery, and that the superior arms from<br>
+the West could only be matched by arms brought from the<br>
+same place or manufactured with the same know-how.<br>
+Haidar Ali took the help of the French to set up an<br>
+arms factory at Dindigul (now in Tamil Nadu), and also<br>
+introduced Western methods of training for his army. He also<br>
+started to use his considerable diplomatic skill to<br>
+outmanoeuvre his opponents. With his superior military skill,<br>
+he captured Dod Ballapur, Sera, Bednur, and Hoskote in<br>
+1761–63, and brought to submission the troublesome Poligars<br>
+of South India (in what is now Tamil Nadu). Recovering from<br>
+their defeat at Panipat, the Marathas under Madhavrao attacked<br>
+Mysore, and defeated Haidar Ali in 1764, 1766, and 1771.<br>
+To buy peace, Haidar Ali had to give them large sums of<br>
+money, but after Madhavrao’s death in 1772, Haidar Ali<br>
+raided the Marathas a number of times during 1774–76 and<br>
+recovered all the territories he had previously lost, besides<br>
+capturing new areas.</p>
+<h3 id="first-anglo-mysore-war-1767-69">First Anglo-Mysore War (1767-69) </h3>
+<h4 id="background">Background </h4>
+<p>After their easy success in Bengal, the English were confident<br>
+of their military strength. They concluded a treaty with the<br>
+Nizam of Hyderabad (1766), persuading him to give them<br>
+the Northern Circars (region) in lieu of which they said they<br>
+would protect the Nizam from Haidar Ali. Haidar already had<br>
+territorial disputes with the Nawab of Arcot and differences<br>
+with the Marathas.</p>
+<h4 id="changing-alliances">Changing Alliances </h4>
+<p>The Nizam, the Marathas, and the English allied together<br>
+against Haidar Ali. Haidar acted with considerable tact and<br>
+diplomatic skill. He paid the Marathas to turn them neutral<br>
+and, promising to share conquered territories with the Nizam,<br>
+converted the Nizam into his ally. He then joined the Nizam<br>
+to attack the Nawab of Arcot.</p>
+<h4 id="course-of-war">Course of War </h4>
+<p>The war continued for a year-and-a-half without any conclusion.<br>
+Haidar changed his strategy and suddenly appeared before the<br>
+gates of Madras. There was complete chaos and panic at<br>
+Madras forcing the English to conclude a very humiliating<br>
+treaty with Haidar on April 4, 1769—the Treaty of Madras.<br>
+The treaty provided for the exchange of prisoners and mutual<br>
+restitution of conquests. Haidar Ali was promised the help<br>
+of the English in case he was attacked by any other power.</p>
+<h3 id="second-anglo-mysore-war-178084">Second Anglo-Mysore War (1780–84) </h3>
+<h4 id="background-1">Background </h4>
+<p>Haidar Ali accused the English of breach of faith and nonobservance<br>
+of the Treaty of Madras when in 1771 he was<br>
+attacked by the Marathas, and the English failed to come to<br>
+his aid. Also, he found that the French were much more<br>
+helpful than the English in meeting his army’s requirement<br>
+of guns, saltpetre, and lead. Consequently, through Mahe, a<br>
+French possession on the Malabar Coast, some French war<br>
+material was brought to Mysore. Meanwhile, the American<br>
+war of independence had broken out in which the French were<br>
+on the side of the rebels against the English. Under the<br>
+circumstances, Haidar Ali’s friendship with the French caused<br>
+even more concern to the English. They, therefore, tried to<br>
+capture Mahe, which Haidar regarded to be under his<br>
+protection. Haidar considered the English attempt to capture<br>
+Mahe a direct challenge to his authority.</p>
+<h4 id="course-of-war-1">Course of War </h4>
+<p>Haidar forged an anti-English alliance with the Marathas and<br>
+the Nizam. He followed it up by an attack in the Carnatic,<br>
+capturing Arcot, and defeating the English army under<br>
+Colonel Baillie in 1781. In the meantime, the English (under<br>
+Sir Eyre Coote) detached both the Marathas and the Nizam<br>
+from Haidar’s side, but the undeterred Haidar faced the<br>
+English boldly only to suffer a defeat at Porto Novo in<br>
+November 1781. However, he regrouped his forces and<br>
+defeated the English and captured their commander,<br>
+Braithwaite.<br>
+Treaty of Mangalore Haidar Ali died of cancer on<br>
+December 7, 1782. Now his son, Tipu Sultan, carried on the<br>
+war for one year without any positive outcome. Fed up with<br>
+an inconclusive war, both sides opted for peace, negotiating<br>
+the Treaty of Mangalore (March, 1784) under which each<br>
+party gave back the territories it had taken from the other.</p>
+<h3 id="third-anglo-mysore-war">Third Anglo-Mysore War </h3>
+<h4 id="background-2">Background </h4>
+<p>A dispute arose between Tipu and the state of Travancore.<br>
+Travancore had purchased Jalkottal and Cannanore from the<br>
+Dutch in the Cochin state. As Cochin was a feudatory of Tipu,<br>
+he considered the act of Travancore as a violation of his<br>
+sovereign rights. So, in April 1790, Tipu declared war against<br>
+Travancore for the restoration of his rights.</p>
+<h4 id="course-of-war-2">Course of War </h4>
+<p>The English, siding with Travancore, attacked Tipu. In 1790,<br>
+Tipu defeated the English under General Meadows. In 1791,<br>
+Cornwallis took the leadership and at the head of a large army<br>
+marched through Ambur and Vellore to Bangalore (captured<br>
+in March 1791) and from there to Seringapatam. Coimbatore<br>
+fell to them, but they lost it again, and at last with the support<br>
+of the Marathas and the Nizam, the English attacked<br>
+Seringapatam for the second time. Tipu offered serious<br>
+opposition, but the odds were against him. Consequently, he<br>
+had to pay heavily under the Treaty of Seringapatam.<br>
+Treaty of Seringapatam Under this treaty of 1792,<br>
+nearly half of the Mysorean territory was taken over by the<br>
+victors. Baramahal, Dindigul, and Malabar went to the English,<br>
+while the Marathas got the regions surrounding the Tungabhadra<br>
+and its tributaries and the Nizam acquired the areas from the<br>
+Krishna to beyond the Pennar. Besides, a war damage of three<br>
+crore rupees was also taken from Tipu. Half of the war<br>
+indemnity was to be paid immediately, while the rest was<br>
+to be given in installments, for which Tipu’s two sons were<br>
+taken as hostages by the English.</p>
+<h3 id="fourth-anglo-mysore-war">Fourth Anglo-Mysore War </h3>
+<h4 id="background-3">Background </h4>
+<p>The English as well as Tipu Sultan used the period 1792 to<br>
+1799 to recoup their losses. Tipu fulfilled all the terms of<br>
+the Treaty of Seringapatam and got his sons released. In 1796,<br>
+when the Hindu ruler of Wodeyar dynasty died, Tipu refused<br>
+to place Wodeyar’s minor son on the throne and declared<br>
+himself sultan. He also decided to avenge his humilitating<br>
+defeat and the terms put by the Treaty of Seringapatam.<br>
+In 1798, Lord Wellesley succeeded Sir John Shore as<br>
+the new governor general. An imperialist to the core,<br>
+Wellesley was concerned about Tipu’s growing friendship<br>
+with the French and aimed at annihilating Tipu’s independent<br>
+existence or force him to submission through the system of<br>
+Subsidiary Alliance. So, the chargesheet against Tipu mentioned<br>
+that he was plotting against the English with the Nizam and<br>
+the Marathas and that he had sent emissaries to Arabia,<br>
+Afghanistan, Kabul, and Zaman Shah, as also to Isle of France<br>
+(Mauritius) and Versailles, with treasonable intent. Tipu’s<br>
+explanation did not satisfy Wellesley.</p>
+<h4 id="course-of-war-3">Course of War </h4>
+<p>The war began on April 17, 1799 and ended on May 4, 1799<br>
+with the fall of Seringapatam. Tipu was defeated first by<br>
+English General Stuart and then by General Harris. Arthur<br>
+Wellesley, the brother of Lord Wellesley, also participated<br>
+in the war. The English were again helped by the Marathas<br>
+and the Nizam. The Marathas had been promised half of the<br>
+territory of Tipu and the Nizam had already signed the<br>
+Subsidiary Alliance. Tipu laid down his life fighting bravely;<br>
+his family members were interned at Vellore, and his<br>
+treasures were confiscated by the English. The English chose<br>
+a boy from the earlier Hindu royal family of Mysore as the<br>
+maharaja and also imposed on him the subsidiary alliance<br>
+system.</p>
+<h3 id="mysore-after-tipu">Mysore After Tipu </h3>
+<p>● Wellesley offered Soonda and Harponelly districts<br>
+of Mysore Kingdom to the Marathas, which the latter refused.<br>
+● The Nizam was given the districts of Gooty and<br>
+Gurramkonda.<br>
+● The English took possession of Kanara, Wynad,<br>
+Coimbatore, Dwaraporam, and Seringapatam.<br>
+● The new state of Mysore was handed over to the old<br>
+Hindu dynasty (Wodeyars) under a minor ruler Krishnaraja<br>
+III, who accepted the subsidiary alliance.<br>
+● In 1831, William Bentinck took control of Mysore<br>
+on grounds of misgovernance.<br>
+● In 1881, Lord Ripon restored the kingdom to its ruler.</p>
+<h2 id="anglo-maratha-struggle-for-supremacy">Anglo-Maratha Struggle for Supremacy </h2>
+<h3 id="rise-of-the-marathas">Rise of the Marathas </h3>
+<p>As the Mughal Empire declined, one of the staunchest and<br>
+hardiest of the empire’s adversaries, the Marathas, got a<br>
+chance to rise in power. They controlled a large portion of<br>
+the country; besides, they also received tributes from areas<br>
+not directly under their control. By the middle of the 18th<br>
+century, they were in Lahore thinking of becoming rulers of<br>
+the North Indian empire and in the court of the Mughals<br>
+playing the role of kingmakers.<br>
+Though the Third Battle of Panipat (1761), in which<br>
+they were defeated by Ahmad Shah Abdali, changed the<br>
+situation, they regrouped, regained their strength, and, within<br>
+a decade, achieved a position of power in India.<br>
+Bajirao I (1720–40), considered greatest of all the<br>
+Peshwas, had started a confederacy of prominent Maratha<br>
+chiefs to manage the rapidly expanding Maratha power, and<br>
+to some extent appease the kshatriya section of the Marathas<br>
+(Peshwas were brahmins) led by the senapati Dabodi. Under<br>
+the arrangement of the Maratha confederacy, each prominent<br>
+family under a chief was assigned a sphere of influence which<br>
+he was supposed to conquer and rule, but in the name of<br>
+the then Maratha king, Shahu. The Maratha families which<br>
+emerged prominent were: (i) the Gaekwad of Baroda;<br>
+(ii) the Bhonsle of Nagpur; (iii) the Holkars of Indore;<br>
+(iv) the Sindhias of Gwalior; and (v) the Peshwa of Poona.<br>
+The confederacy, under Bajirao I to Madhavrao I, worked<br>
+cordially but the Third Battle of Panipat (1761) changed<br>
+everything. The defeat at Panipat and later the death of the<br>
+young Peshwa, Madhavrao I, in 1772, weakened the control<br>
+of the Peshwas over the confederacy. Though the chiefs of<br>
+the confederacy united on occasion, as against the British<br>
+(1775–82), more often they quarrelled among themselves.</p>
+<h3 id="entry-of-the-english-into-maratha-politics">Entry of the English into Maratha Politics </h3>
+<p>The years between the last quarter of the 18th century and<br>
+the first quarter of the 19th century witnessed the Marathas<br>
+Expansion and Consolidation of British Power ✫ 103<br>
+and the English clashing thrice for political supremacy, with<br>
+the English emerging victorious in the end. The cause of<br>
+these conflicts was the inordinate ambition of the English,<br>
+and the divided house of the Marathas that encouraged the<br>
+English to hope for success in their venture. The English in<br>
+Bombay wanted to establish a government on the lines of<br>
+the arrangement made by Clive in Bengal, Bihar, and Orissa.<br>
+So, it was a longed-for opportunity for the English when<br>
+dissensions over a succession divided the Marathas.</p>
+<h3 id="first-anglo-maratha-war-177582">First Anglo-Maratha War (1775–82) </h3>
+<p>Background<br>
+After the death of Madhavrao in 1772, his brother Narayanrao<br>
+succeeded him as the fifth peshwa. However, Narayanrao’s<br>
+uncle, Raghunathrao, had his nephew assassinated and named<br>
+himself as the next peshwa, although he was not a legal heir.<br>
+Narayanrao’s widow, Gangabai, gave birth to a son after her<br>
+husband’s death. The newborn infant was named ‘Sawai’ (One<br>
+and a Quarter) Madhavrao and he was legally the next peshwa.<br>
+Twelve Maratha chiefs (Barabhai), led by Nana Phadnavis,<br>
+made an effort to name the infant as the new peshwa and<br>
+rule for him as regents.<br>
+Treaties of Surat and Purandhar Raghunathrao,<br>
+unwilling to give up his position in power, sought help from<br>
+the English at Bombay and signed the Treaty of Surat in<br>
+1775. Under the treaty, Raghunathrao ceded the territories<br>
+of Salsette and Bassein to the English along with a portion<br>
+of the revenues from Surat and Bharuch districts. In return,<br>
+the English were to provide Raghunathrao with 2,500 soldiers.<br>
+The British Calcutta Council, on the other side of India,<br>
+condemned the Treaty of Surat (1775) and sent Colonel<br>
+Upton to Pune to annul it and make a new treaty (Treaty<br>
+of Purandhar, 1776) with the regency renouncing Raghunath<br>
+and promising him a pension. The Bombay government<br>
+rejected this and gave refuge to Raghunath. In 1777, Nana<br>
+Phadnavis violated his treaty with the Calcutta Council by<br>
+granting the French a port on the west coast. The English<br>
+retaliated by sending a force towards Pune.<br>
+104 ✫ A Brief History of Modern India<br>
+Course of War<br>
+The English and the Maratha armies met on the outskirts of<br>
+Pune. Though the Maratha army had a larger number of<br>
+soldiers than the English, the latter had highly superior<br>
+ammunition and cannons. However, the Maratha army was<br>
+commanded by a brilliant general named Mahadji Scindia<br>
+(also known as Mahadji Shinde). Mahadji lured the English<br>
+army into the ghats (mountain passes) near Talegaon and<br>
+trapped the English from all sides and attacked the English<br>
+supply base at Khopali. The Marathas also utilised a scorched<br>
+earth policy, burning farmland and poisoning wells. As the<br>
+English began to withdraw to Talegaon, the Marathas attacked,<br>
+forcing them to retreat to the village of Wadgaon. Here, the<br>
+English army was surrounded on all sides by the Marathas<br>
+and cut off from food and water supplies. The English<br>
+surrendered by mid-January 1779 and signed the Treaty of<br>
+Wadgaon that forced the Bombay government to relinquish<br>
+all territories acquired by the English since 1775.<br>
+Treaty of Salbai (1782): End of the First Phase of<br>
+the Struggle Warren Hastings, the Governor General in<br>
+Bengal, rejected the Treaty of Wadgaon and sent a large force<br>
+of soldiers under Colonel Goddard, who captured Ahmedabad<br>
+in February 1779, and Bassein in December 1780. Another<br>
+Bengal detachment led by Captain Popham captured Gwalior<br>
+in August 1780. In February 1781, the English, under General<br>
+Camac, finally defeated Sindhia at Sipri.<br>
+Sindhia proposed a new treaty between the Peshwa and<br>
+the English, and the Treaty of Salbai was signed in May 1782;<br>
+it was ratified by Hastings in June 1782 and by Phadnavis<br>
+in February 1783. The treaty guaranteed peace between the<br>
+two sides for twenty years. The main provisions of the Treaty<br>
+of Salbai were:<br>
+(i) Salsette should continue in the possession of the<br>
+English.<br>
+(ii) The whole of the territory conquered since the<br>
+Treaty of Purandhar (1776), including Bassein, should be<br>
+restored to the Marathas.<br>
+(iii) In Gujarat, Fateh Singh Gaekwad should remain in<br>
+possession of the territory which he had before the war and<br>
+should serve the Peshwa as before.<br>
+Expansion and Consolidation of British Power ✫ 105<br>
+(iv) The English should not offer any further support<br>
+to Raghunathrao and the Peshwa should grant him a<br>
+maintenance allowance.<br>
+(v) Haidar Ali should return all the territory taken from<br>
+the English and the Nawab of Arcot.<br>
+(vi) The English should enjoy the privileges at trade<br>
+as before.<br>
+(vii) The Peshwa should not support any other European<br>
+nation.<br>
+(viii) The Peshwa and the English should undertake that<br>
+their several allies should remain at peace with one another.<br>
+(ix) Mahadji Scindia should be the mutual guarantor for<br>
+the proper observance of the terms of the treaty.</p>
+<h3 id="second-anglo-maratha-war-180305">Second Anglo-Maratha War (1803–05) </h3>
+<p>Background<br>
+The Second Anglo-Maratha war started in circumstances<br>
+similar to those of the first. After Peshwa Madhavrao Narayan<br>
+committed suicide in 1795, Bajirao II, the worthless son of<br>
+Raghunathrao, became the Peshwa. Nana Phadnavis, a bitter<br>
+foe of Bajirao II, became the chief minister. The dissensions<br>
+among the Marathas provided the English with an opportunity<br>
+to intervene in Maratha affairs. The death of Nana Phadnavis<br>
+in 1800 gave the British an added advantage.<br>
+Course of War<br>
+On April 1, 1801, the Peshwa brutally murdered the brother<br>
+of Jaswantrao (also called Yashwantrao by some historians)<br>
+Holkar, Vithuji. A furious Jaswant arrayed his forces against<br>
+the combined armies of Scindia and Bajirao II. The turmoil<br>
+continued, and on October 25, 1802, Jaswant defeated the<br>
+armies of the Peshwa and Scindia decisively at Hadapsar near<br>
+Poona and placed Vinayakrao, son of Amritrao, on the<br>
+Peshwa’s seat. A terrified Bajirao II fled to Bassein where,<br>
+on December 31, 1802, he signed a treaty with the English.<br>
+Treaty of Bassein (1802) Under the treaty, the Peshwa<br>
+agreed:<br>
+(i) to receive from the Company a native infantry<br>
+(consisting of not less than 6,000 troops), with the usual<br>
+proportion of field artillery and European artillery men<br>
+attached, to be permanently stationed in his territories;<br>
+106 ✫ A Brief History of Modern India<br>
+(ii) to cede to the Company territories yielding an<br>
+income of Rs 26 lakh;<br>
+(iii) to surrender the city of Surat;<br>
+(iv) to give up all claims for chauth on the Nizam’s<br>
+dominions;<br>
+(v) to accept the Company’s arbitration in all differences<br>
+between him and the Nizam or the Gaekwad;<br>
+(vi) not to keep in his employment Europeans of any<br>
+nation at war with the English; and<br>
+(vii) to subject his relations with other states to the<br>
+control of the English.<br>
+Reduced to Vassalage After the Peshwa accepted the<br>
+subsidiary alliance, Scindia and Bhonsle attempted to save<br>
+Maratha independence. But the well-prepared and organised<br>
+army of the English under Arthur Wellesley defeated the<br>
+combined armies of Scindia and Bhonsle and forced them<br>
+to conclude separate subsidiary treaties with the English.<br>
+In 1804, Yashwantrao Holkar made an attempt to form<br>
+a coalition of Indian rulers to fight against the English. But<br>
+his attempt proved unsuccessful. The Marathas were defeated,<br>
+reduced to British vassalage and isolated from one another.<br>
+[(i) Defeat of Bhonsle (December 17, 1803, Treaty of<br>
+Deogaon); (ii) Defeat of Scindia (December 30, 1803,<br>
+Treaty of Surji-Anjangaon); and (iii) Defeat of Holkar<br>
+(1806, Treaty of Rajpurghat)].<br>
+Significance of the Treaty of Bassein Admittedly, the<br>
+treaty was signed by a Peshwa who lacked political authority,<br>
+but the gains made by the English were immense. The<br>
+provision of keeping English troops permanently in Maratha<br>
+territory was of great strategical benefit. The Company<br>
+already had troops in Mysore, Hyderabad, and Lucknow. The<br>
+addition of Poona on the list meant that the Company’s troops<br>
+were now more evenly spread and could be rushed to any<br>
+place without much delay in times of need. Though the Treaty<br>
+of Bassein did not hand over India to the Company on a<br>
+platter, it was a major development in that direction; the<br>
+Company was now well placed to expand its areas of<br>
+influence. In the circumstances, the observation that the<br>
+treaty “gave the English the key to India,” may be exaggerated,<br>
+but appears understandable.<br>
+Expansion and Consolidation of British Power ✫ 107</p>
+<h3 id="third-anglo-maratha-war-181719">Third Anglo-Maratha War (1817–19) </h3>
+<p>Background<br>
+Lord Hastings had the imperialistic design of imposing<br>
+British paramountcy. By the Charter Act of 1813, the East<br>
+India Company’s monopoly of trade in China (except tea)<br>
+ended and, hence, the company needed more markets.<br>
+The Pindaris, made up of many castes and classes, were<br>
+attached to Maratha armies as mercenaries. When the Marathas<br>
+became weak, the Pindaris could not get regular employment.<br>
+As a consequence, they started plundering neighbouring<br>
+territories, including those of the Company. The English<br>
+charged the Marathas with giving shelter to the Pindaris.<br>
+Pindari leaders like Amir Khan and Karim Khan surrendered,<br>
+while Chitu Khan fled into the jungles.<br>
+The Treaty of Bassein, described as “a treaty with a<br>
+cipher (the Peshwa)”, wounded the feelings of the other<br>
+Maratha leaders. They saw the treaty as an absolute surrender<br>
+of independence.<br>
+Lord Hastings’ actions taken against the Pindaris were<br>
+seen as a transgression of the sovereignty of the Marathas;<br>
+they served to once again unite the Maratha confederacy. A<br>
+repentant Bajirao II made a last bid in 1817 by rallying<br>
+together the Maratha chiefs against the English in course of<br>
+the Third Anglo-Maratha War.<br>
+Course of War<br>
+The Peshwa attacked the British Residency at Poona. Appa<br>
+Sahib of Nagpur attacked the residency at Nagpur, and the<br>
+Holkar made preparations for war. But, by then, the Marathas<br>
+had lost almost all those elements which are needed for the<br>
+growth of a power. The political and administrative conditions<br>
+of all the Maratha states were confused and inefficient. After<br>
+the death of Jaswantrao Holkar, Tulsi Bai, the Holkar’s<br>
+favourite mistress, came to the helm of affairs in Poona.<br>
+Though a clever and intelligent woman, she could not<br>
+administer the state properly because she was influenced by<br>
+some unworthy men such as Balram Seth and Amir Khan.<br>
+The Bhonsle at Nagpur and the Scindia at Gwalior had also<br>
+become weak. So, the English, striking back vigorously,<br>
+108 ✫ A Brief History of Modern India<br>
+succeeded in not allowing the Peshwa to exert his authority<br>
+again on the Maratha confederacy.<br>
+Result The Peshwa was defeated at Khirki, Bhonsle at<br>
+Sitabuldi, and Holkar at Mahidpur.<br>
+Some important treaties were signed. These were:<br>
+● June 1817, Treaty of Poona, with Peshwa.<br>
+● November 1817, Treaty of Gwalior, with Scindia.<br>
+● January 1818, Treaty of Mandasor, with Holkar.<br>
+In June 1818, the Peshwa finally surrendered and the<br>
+Maratha confederacy was dissolved. The peshwaship was<br>
+abolished. Peshwa Bajirao became a British retainer at Bithur<br>
+near Kanpur. Pratap Singh, a lineal descendant of Shivaji, was<br>
+made ruler of a small principality, Satara, formed out of the<br>
+Peshwa’s dominions.</p>
+<h3 id="why-the-marathas-lost">Why the Marathas Lost </h3>
+<p>There were several reasons for the Marathas’ defeat by the<br>
+English. The main reasons were as follows:<br>
+(i) Inept Leadership The Maratha state was despotic<br>
+in character. The personality and character of the head of<br>
+the state had a great bearing on the affairs of the state. But,<br>
+unfortunately, the later Maratha leaders Bajirao II, Daulatrao<br>
+Scindia and Jaswantrao Holkar were worthless and selfish<br>
+leaders. They were no match for the English officials such<br>
+as Elphinstone, John Malcolm, and Arthur Wellesley (who<br>
+later led the English to conquer Napoleon).<br>
+(ii) Defective Nature of Maratha State The cohesion<br>
+of the people of the Maratha state was not organic but<br>
+artificial and accidental, and hence precarious. There was no<br>
+effort, right from the days of Shivaji, for a well-thought-out<br>
+organised communal improvement, spread of education, or<br>
+unification of the people. The rise of the Maratha state was<br>
+based on the religio-national movement. This defect of the<br>
+Maratha state became glaring when they had to contend with<br>
+a European power organised on the best pattern of the West.<br>
+(iii) Loose Political Set-up The Maratha empire was<br>
+a loose confederation under the leadership of the Chhatrapati<br>
+and later the Peshwa. Powerful chiefs such as the Gaikwad,<br>
+the Holkar, the Scindia, and the Bhonsle carved out semiindependent<br>
+kingdoms for themselves and paid lip service to<br>
+Expansion and Consolidation of British Power ✫ 109<br>
+the authority of the Peshwa. Further, there existed<br>
+irreconcilable hostility between different units of the<br>
+confederacy. The Maratha chief often took sides with one<br>
+or the other. The lack of a cooperative spirit among the<br>
+Maratha chiefs proved detrimental to the Maratha state.<br>
+(iv) Inferior Military System Though full of personal<br>
+prowess and valour, the Marathas were inferior to the English<br>
+in organisation of the forces, in war weapons, in disciplined<br>
+action, and in effective leadership. The centrifugal tendencies<br>
+of divided command accounted for much of the Maratha<br>
+failures. Treachery in the ranks was instrumental in weakening<br>
+the Maratha forces. The adoption of the modern techniques<br>
+of warfare by the Marathas was inadequate. The Marathas<br>
+neglected the paramount importance of artillery. Though the<br>
+Poona government set up an artillery department, it hardly<br>
+functioned effectively.<br>
+(v) Unstable Economic Policy The Maratha leadership<br>
+failed to evolve a stable economic policy to suit the changing<br>
+needs of time. There were no industries or foreign trade<br>
+openings. So, the economy of the Maratha was not conducive<br>
+to a stable political set-up.<br>
+(vi) Superior English Diplomacy and Espionage The<br>
+English had better diplomatic skill to win allies and isolate<br>
+the enemy. The disunity among the Maratha chiefs simplified<br>
+the task of the English. Diplomatic superiority enabled the<br>
+English to take a quick offensive against the target.<br>
+Unlike the Marathas’ ignorance and lack of information<br>
+about their enemy, the English maintained a well-knit spy<br>
+system to gather knowledge of the potentialities, strengths,<br>
+weaknesses, and military methods of their foes.<br>
+(vii) Progressive English Outlook The English were<br>
+rejuvenated by the forces of Renaissance, emancipating them<br>
+from the shackles of the Church. They were devoting their<br>
+energies to scientific inventions, extensive ocean voyages,<br>
+and acquisition of colonies. Indians, on the other hand, were<br>
+still steeped in medievalism marked by old dogmas and<br>
+notions. The Maratha leaders paid very little attention to<br>
+mundane matters of the state. Insistence on maintenance of<br>
+traditional social hierarchy based on the dominance of the<br>
+priestly class made the union of an empire difficult.<br>
+110 ✫ A Brief History of Modern India<br>
+In the end, it can be concluded that the English attacked<br>
+a ‘divided house’ which started crumbling after a few pushes.</p>
+<h2 id="conquest-of-sindh">Conquest of Sindh </h2>
+<p>In the early 19th century, the English started to show an<br>
+interest in Sindh where they enjoyed some trade facilities<br>
+authorised by a farman of the Mughal Emperor in 1630. The<br>
+farman provided the English with such privileges in the ports<br>
+of Sindh which they enjoyed elsewhere.</p>
+<h3 id="rise-of-talpuras-amirs">Rise of Talpuras Amirs </h3>
+<p>In the 18th century, prior to the rule of Talpuras Amirs, Sindh<br>
+was ruled by the Kallora chiefs. In 1758, an English factory<br>
+was built at Thatta, owing to a parwana given by the Kallora<br>
+prince, Ghulam Shah. In 1761, Ghulam Shah, on the arrival<br>
+of an English resident in his court, not only ratified the<br>
+earlier treaty, but also excluded other Europeans from trading<br>
+there. This advantage was enjoyed by the English up to 1775<br>
+when a not-too-friendly ruler, Sarfraz Khan, made the English<br>
+close their factory.<br>
+In the 1770s, a Baluch tribe called Talpuras, descended<br>
+from the hills and settled in the plains of Sindh. They were<br>
+excellent soldiers as well as adapted to hard life. They<br>
+acquired great influence and soon usurped power in the new<br>
+region. In 1783, the Talpuras, under the leadership of Mir<br>
+Fath (Fatah) Ali Khan, established complete hold over Sindh<br>
+and sent the Kallora prince into exile. The then Durrani<br>
+monarch confirmed the claims of Mir Fath Khan and ordered<br>
+the latter to share the country with his brothers (Mir’s<br>
+brothers, popularly known as ‘Char Yar’). When Mir Fath<br>
+died in 1800, the Char Yar divided the kingdom among<br>
+themselves, calling themselves the Amirs or Lords of Sindh.<br>
+These amirs extended their dominion on all sides. They<br>
+conquered Amarkot from the Raja of Jodhpur, Karachi from<br>
+the chief of Luz, and Shaikarpur and Bukkar from the Afghans.</p>
+<h3 id="gradual-ascendancy-over-sindh">Gradual Ascendancy over Sindh </h3>
+<p>A common belief in the late 18th century was that Napoleon<br>
+was conspiring with Tipu Sultan to invade India. In 1799,<br>
+behind Lord Wellesley’s efforts to revive commercial relations<br>
+Expansion and Consolidation of British Power ✫ 111<br>
+with Sindh was the hidden aim to counteract the alliance of<br>
+the French, Tipu Sultan and Shah Zaman, the Kabul monarch.<br>
+Negotiations were opened with Fath Ali Khan. But under the<br>
+influence of Tipu Sultan and the jealousy of the local traders,<br>
+aided by the anti-British party at Hyderabad (Sindh), the amir<br>
+in October 1800, ordered the British agent to quit Sindh<br>
+within ten days. The British agent (Crow) left Sindh and the<br>
+Company quietly suffered the insult.<br>
+Treaty of ‘Eternal Friendship’<br>
+In June 1807, the alliance of Tilsit with Alexander I of Russia<br>
+was joined by Napoleon Bonaparte. The alliance had as one<br>
+of its conditions a combined invasion of India by the land<br>
+route. Now the British wanted to create a barrier between<br>
+Russia and British India. To achieve this, Lord Minto sent<br>
+three delegations under the leadership of various prominent<br>
+persons to forge alliances. Accordingly, Metcalfe was sent<br>
+to Lahore, Elphinstone to Kabul, and Malcolm to Teheran.<br>
+Sindh was visited by Nicholas Smith, who met the Amirs to<br>
+conclude a defensive arrangement. After negotiations, the<br>
+Amirs agreed to a treaty—their first-ever treaty with the<br>
+English. After professing eternal friendship, both sides<br>
+agreed to exclude the French from Sindh and to exchange<br>
+agents at each other’s court. The treaty was renewed in 1820,<br>
+with the addition of an article excluding the Americans and<br>
+resolving some border disputes on the side of Kachch after<br>
+the final defeat of the Maratha confederacy in 1818.<br>
+Treaty of 1832<br>
+In 1832, William Bentinck sent Colonel Pottinger to Sindh<br>
+to sign a treaty with the Amirs. The provisions of the treaty<br>
+were as follows:<br>
+(i) Free passage through Sindh would be allowed to the<br>
+English traders and travellers and the use of Indus for trading<br>
+purposes; however, no warships would ply, nor any materials<br>
+for war would be carried.<br>
+(ii) No English merchant would settle down in Sindh,<br>
+and passports would be needed for travellers.<br>
+(iii) Tariff rates could be altered by the Amirs if found<br>
+high and no military dues or tolls would be demanded.<br>
+112 ✫ A Brief History of Modern India<br>
+(iv) The Amirs would work with the Raja of Jodhpur<br>
+to put down the robbers of Kachch.<br>
+(v) The old treaties were confirmed and the parties<br>
+would not be jealous of each other.<br>
+Lord Auckland and Sindh<br>
+Lord Auckland, who became the Governor General in 1836,<br>
+looked at Sindh from the perspective of saving India from<br>
+a possible Russian invasion and wished to obtain a counteracting<br>
+influence over the Afghans. Ranjit Singh in Punjab was strong<br>
+enough to resist coercion in this regard, but the Amirs were<br>
+not. Thus, the English view was that they had to consolidate<br>
+their position in Sindh as a necessary first step for their plans<br>
+on Afghanistan. They got an opportunity when Ranjit Singh<br>
+captured a frontier town of Sindh, Rojhan, and Pottinger was<br>
+sent to Hyderabad to sign a new treaty with the Amirs. The<br>
+treaty offered protection to the Amirs on the condition that<br>
+the Company troops would be kept in the capital at the Amir’s<br>
+expense or alternatively the English would be given suitable<br>
+concessions in return. The Amirs initially refused but later<br>
+agreed reluctantly to sign the treaty in 1838 when the<br>
+possibility of Ranjit Singh getting help from others was<br>
+pointed out to them. The treaty permitted the English to<br>
+intervene in the disputes between the Amirs and the Sikhs<br>
+as also to establish the presence of a British resident who<br>
+could go anywhere he liked escorted by English troops. Thus,<br>
+Sindh was turned into a British protectorate in 1838.<br>
+Tripartite Treaty of 1838 To address the Afghan<br>
+problem (as the British imagined it), the Company resorted<br>
+to further duplicity. Firstly, they persuaded Ranjit Singh to<br>
+sign a tripartite treaty in June 1838 agreeing to British<br>
+mediation in his disputes with the Amirs, and then made<br>
+View<br>
+Under Auckland and his cabinet of secretaries British policy in<br>
+India had fallen to a lower level of unscrupulousness than ever<br>
+before and the plain fact is that the treatment of Sindh from<br>
+this time onward, however expedient politically, was morally<br>
+indefensible.<br>
+—P.E. Roberts<br>
+Expansion and Consolidation of British Power ✫ 113<br>
+Emperor Shah Shuja give up his sovereign rights on Sindh,<br>
+provided the arrears of tribute were paid. The exact amount<br>
+of the tribute was to be determined by the English whose<br>
+main objective was to obtain finances for the Afghan<br>
+adventure and obtain so much of the Amirs’ territory as would<br>
+secure a line of operation against Afghanistan through Sindh.<br>
+Sindh Accepts Subsidiary Alliance (1839) The<br>
+Company intended to persuade or compel the Amirs to pay<br>
+the money and also to consent to the abrogation of that article<br>
+in the treaty of 1832, which prohibited the movement of<br>
+English troops in Sindh by land or by river. B.L. Grover<br>
+writes: “Under threat of superior force, the Amirs accepted<br>
+a treaty in February 1839 by which a British subsidiary force<br>
+had to be stationed at Shikarpur and Bukkar and the Amirs<br>
+of Sindh were to pay Rs 3 lakh annually for the maintenance<br>
+of the Company’s troops.” Henceforth, the Amirs were<br>
+debarred from having any negotiations with foreign states<br>
+without the knowledge of the Company. Further, they were<br>
+to provide a storeroom at Karachi for the Company’s military<br>
+supplies, besides abolishing all tolls on the Indus, and<br>
+furnishing an auxiliary force for the Afghan war if called upon<br>
+to do so.<br>
+Capitulation of Sindh The first Anglo-Afghan War<br>
+(1839–42), fought on the soil of Sindh, was never liked by<br>
+the Amirs of Sindh; neither did they like the presence of<br>
+the British troops in their region. However, under the treaty<br>
+they were asked to pay for all this, which they did. They were<br>
+not rewarded or thanked for their services, but were charged<br>
+with hostility and disaffection against the British government.<br>
+The Amirs were charged with treasonable activities against<br>
+the British, and Ellenborough, placed in a precarious position<br>
+due to the Afghan war reverses, sent Outram to Sindh to<br>
+negotiate a new treaty. Under this treaty, the Amirs were<br>
+required to cede important provinces as the price of their<br>
+past transgressions, to supply fuel to the Company’s steamers<br>
+plying on the Indus, and to stop minting coins. Furthermore,<br>
+in a succession dispute, the English intervened through<br>
+Napier and started a war when the Amirs rose in revolt. The<br>
+whole of Sindh capitulated within a short time, and the Amirs<br>
+114 ✫ A Brief History of Modern India<br>
+were made captives and banished from Sindh. In 1843, under<br>
+Governor General Ellenborough, Sindh was merged into the<br>
+British Empire and Charles Napier was appointed its first<br>
+governor.</p>
+<h3 id="criticisms-of-the-conquest-of-sindh">Criticisms of the Conquest of Sindh </h3>
+<p>Historians generally condemn the acquisition of Sindh by the<br>
+British in strong words. The causes for annexation were<br>
+deliberately manufactured. Like many episodes in the British<br>
+conquest of India, the Afghan war is also a tale of bullying<br>
+tactics and deceit. However, in the instance of the First<br>
+Afghan War, the English suffered terribly at the hands of the<br>
+Afghans with a corresponding loss of prestige. To compensate<br>
+for this, they annexed Sindh, which prompted Elphinstone to<br>
+comment: “Coming from Afghanistan it put one in mind of<br>
+a bully who has been knocked in the street and went home<br>
+to beat his wife in revenge.”</p>
+<h2 id="conquest-of-punjab">Conquest of Punjab </h2>
+<p>Consolidation of Punjab under the Sikhs<br>
+After the murder of the last Sikh guru, Guru Gobind Singh,<br>
+a section of Sikhs under the leadership of Banda Bahadur<br>
+revolted against the Mughals during the rule of Bahadur Shah.<br>
+In 1715, Banda Bahadur was defeated by Farrukhsiyar and put<br>
+to death in 1716. Thus, the Sikh polity, once again, became<br>
+Views<br>
+We have no right to seize Sindh, yet we shall do so, and a<br>
+very advantageous, useful, humane piece of rascality it will be.<br>
+—Charles Napier<br>
+...to remove such brutal tyrants (the Amirs) was worthy of<br>
+England’s greatness. The conquest of Sindh is therefore no<br>
+iniquity...<br>
+—Charles Napier<br>
+I am sick of your policy; I will not say yours is the best, but<br>
+it is undoubtedly the shortest, that of the sword...<br>
+—James Outram, Deputy of Napier at<br>
+the time of annexation of Sindh.<br>
+Expansion and Consolidation of British Power ✫ 115<br>
+leaderless and later got divided into two groups—Bandai<br>
+(Liberal) and Tat Khalsa (Orthodox). This rift among the<br>
+followers ended in 1721 under the influence of Bhai Mani<br>
+Singh. Later, in 1784, Kapur Singh Faizullapuria organised<br>
+the Sikhs under Dal Khalsa, with the objective of uniting<br>
+followers of Sikhism, politically, culturally, and economically.<br>
+The whole body of the Khalsa was formed into two sections—<br>
+Budha Dal, the army of the veterans, and Taruna Dal, the<br>
+army of the young.<br>
+The weakness of the Mughals and invasions of Ahmad<br>
+Shah Abdali created a general confusion and anarchy in<br>
+Punjab. These political conditions helped the organised Dal<br>
+Khalsa to consolidate further. The Sikhs consolidated in<br>
+misls, which were military brotherhoods with a democratic<br>
+set-up. Misl is an Arabic word which means equal or alike.<br>
+Another meaning of Misl is State. During the period, 1763<br>
+to 1773, many misls started to rule the Punjab region under<br>
+Sikh chieftains, from Saharanpur in the east to Attock in the<br>
+west, from the mountaineous regions of the north to Multan<br>
+in the south.<br>
+Sukarchakiya Misl and Ranjit Singh<br>
+At the time of the birth of Ranjit Singh (November 2, 1780),<br>
+there were 12 important misls—Ahluwaliya, Bhangi,<br>
+Dallewalia, Faizullapuria, Kanhaiya, Krorasinghia, Nakkai,<br>
+Nishaniya, Phulakiya, Ramgarhiya Sukharchakiya, and<br>
+Shaheed. The central administration of a misl was based on<br>
+Gurumatta Sangh, which was essentially a political, social,<br>
+and economic system. Ranjit Singh was the son of Mahan<br>
+Singh, the leader of the Sukarchakiya misl. Mahan Singh died<br>
+when Ranjit Singh was only 12 years old. But Ranjit Singh<br>
+showed an early acumen at political affairs. Towards the close<br>
+of the 18th century, all the important misls (except<br>
+Sukarchakiya) were in a state of disintegration. Afghanistan<br>
+was also engulfed in a civil war due to a power struggle which<br>
+went on for the next three decades. These events in the<br>
+neighbouring regions were fully exploited by Ranjit Singh,<br>
+who followed a ruthless policy of ‘blood and iron’ and carved<br>
+out for himself a kingdom in the central Punjab. In 1799,<br>
+Ranjit Singh was appointed as the governor of Lahore by<br>
+116 ✫ A Brief History of Modern India<br>
+Zaman Shah, the ruler of Afghanistan. In 1805, Ranjit Singh<br>
+acquired Jammu and Amritsar, and, thus, the political capital<br>
+(Lahore) and religious capital (Amritsar) of Punjab came<br>
+under the rule of Ranjit Singh. He also maintained good<br>
+relations with the Dogras and the Nepalese and enlisted them<br>
+in his army.</p>
+<h3 id="ranjit-singh-and-the-english">Ranjit Singh and the English </h3>
+<p>The prospects of a joint Franco-Russian invasion of India<br>
+through the land-route had alarmed the English. In 1807, Lord<br>
+Minto sent Charles Metcalfe to Lahore. Ranjit Singh offered<br>
+to accept Metcalfe’s proposal of an offensive and defensive<br>
+alliance on the condition that the English would remain<br>
+neutral in case of a Sikh-Afghan war and would consider<br>
+Ranjit Singh the sovereign of the entire Punjab, including the<br>
+Malwa (cis-Sutlej) territories. However, the negotiations<br>
+failed. In the changed political scenario in which the<br>
+Napoleonic danger receded and the English became more<br>
+assertive, Ranjit Singh agreed to sign the Treaty of Amritsar<br>
+(April 25, 1809) with the Company.<br>
+Treaty of Amritsar<br>
+The Treaty of Amritsar was significant for its immediate as<br>
+well as potential effects. It checked one of the most<br>
+cherished ambitions of Ranjit Singh to extend his rule over<br>
+the entire Sikh nation by accepting the river Sutlej as the<br>
+boundary line for his dominions and the Company’s. Now<br>
+he directed his energies towards the west and captured Multan<br>
+(1818), Kashmir (1819), and Peshawar (1834).<br>
+In June 1838, Ranjit Singh was compelled by political<br>
+compulsions to sign the Tripartite Treaty with the English;<br>
+however, he refused to give passage to the British army<br>
+through his territories to attack Dost Mohammad, the Afghan<br>
+Amir.<br>
+The relations of Raja Ranjit Singh with the Company,<br>
+from 1809 to 1839, clearly indicate the former’s weak<br>
+position. Although he was conscious of his weak position,<br>
+he took no step to organise a coalition of other Indian princes<br>
+or maintain a balance of power. Ranjit Singh died in June<br>
+1839, and, with his death, the process of the decline of his<br>
+empire began.<br>
+Expansion and Consolidation of British Power ✫ 117</p>
+<h3 id="punjab-after-ranjit-singh">Punjab After Ranjit Singh </h3>
+<p>Beginning of Court Factions<br>
+Ranjit Singh’s only legitimate son and successor, Kharak<br>
+Singh, was not efficient, and during the brief period of his<br>
+reign, court factions became active. Kharak Singh’s sudden<br>
+death in 1839 and the accidental death of his son, Prince<br>
+Nau Nihal Singh (when he was returning from his father’s<br>
+funeral), led to an anarchic situation in Punjab. Plans and<br>
+counter plans of various groups to capture the throne of<br>
+Lahore provided an opportunity for decisive action by the<br>
+English. The army—the pillar of the Sikh state—was far less<br>
+strong than it appeared to be. Ranjit Singh’s able generals—<br>
+Mokham Chand, Dewan Chand, Hari Singh Nalwa, and Ram<br>
+Dayal—were already dead. Already discontent was growing<br>
+among the troops as a result of irregularity of payment. The<br>
+appointment of unworthy officers led to indiscipline. The<br>
+Lahore government, continuing the policy of friendship with<br>
+the English company, permitted the British troops to pass<br>
+through its territory—once, when they were fleeing from<br>
+Afghanistan, and again, when they were marching back to<br>
+Afghanistan to avenge their defeat. These marches resulted<br>
+in commotion and economic dislocation in Punjab.<br>
+Rani Jindal and Daleep Singh<br>
+After the death of Nau Nihal Singh, Sher Singh, another son<br>
+of Ranjit Singh succeeded, but he was murdered in late 1843.<br>
+Soon afterwards, Daleep Singh, a minor son of Ranjit Singh,<br>
+was proclaimed the Maharaja with Rani Jindan as regent and<br>
+Hira Singh Dogra as wazir. Hira Singh himself fell a victim<br>
+to a court intrigue and was murdered in 1844. The new wazir,<br>
+Jawahar Singh, the brother of Rani Jindan, soon incurred the<br>
+displeasure of the army and was deposed and put to death<br>
+in 1845. Lal Singh, a lover of Rani Jindan, won over the army<br>
+to his side and became the wazir in the same year, and Teja<br>
+Singh was appointed as the commander of the forces.</p>
+<h3 id="first-anglo-sikh-war-184546">First Anglo-Sikh War (1845–46) </h3>
+<p>Causes<br>
+The outbreak of the first of the Anglo-Sikh wars has been<br>
+attributed to the action of the Sikh army crossing the River<br>
+118 ✫ A Brief History of Modern India<br>
+Sutlej on December 11, 1845. This was seen as an aggressive<br>
+manoeuvre that provided the English with the justification to<br>
+declare war. The causes were, however, much more complex<br>
+and may be listed as follows:<br>
+(i) the anarchy in the Lahore kingdom following the<br>
+death of Maharaja Ranjit Singh resulting in a power<br>
+struggle for domination between the court at Lahore<br>
+and the ever-powerful and increasingly local army;<br>
+(ii) suspicions amongst the Sikh army arising from<br>
+English military campaigns to achieve the annexation<br>
+of Gwalior and Sindh in 1841 and the campaign in<br>
+Afghanistan in 1842; and<br>
+(iii) the increase in the number of English troops being<br>
+stationed near the border with the Lahore kingdom.<br>
+Course of War<br>
+The war began in December 1845, with 20,000 to 30,000<br>
+troops in the British side, while the Sikhs had about 50,000<br>
+men under the overall command of Lal Singh. But the<br>
+treachery of Lal Singh and Teja Singh caused five successive<br>
+defeats to the Sikhs at Mudki (December 18, 1845),<br>
+Ferozeshah (December 21–22, 1845), Buddelwal, Aliwal<br>
+(January 28, 1846), and at Sobraon (February 10, 1846).<br>
+Lahore fell to the British forces on February 20, 1846<br>
+without a fight.<br>
+Treaty of Lahore (March 8, 1846) The end of the<br>
+first Anglo-Sikh War forced the Sikhs to sign a humiliating<br>
+treaty on March 8, 1846. The main features of the Treaty<br>
+of Lahore were as follows:<br>
+● War indemnity of more than 1 crore rupees was to<br>
+be given to the English.<br>
+● The Jalandhar Doab (between the Beas and the Sutlej)<br>
+was annexed to the Company’s dominions.<br>
+● A British resident was to be established at Lahore<br>
+under Henry Lawrence.<br>
+● The strength of the Sikh army was reduced.<br>
+● Daleep Singh was recognised as the ruler under Rani<br>
+Jindan as regent and Lal Singh as wazir.<br>
+● Since the Sikhs were not able to pay the entire war<br>
+indemnity, Kashmir, including Jammu, was sold to Gulab Singh<br>
+Expansion and Consolidation of British Power ✫ 119<br>
+and he was required to pay 75 lakh rupees to the Company<br>
+as the price. The transfer of Kashmir to Gulab Singh was<br>
+formalised by a separate treaty on March 16, 1846.<br>
+Treaty of Bhairowal The Sikhs were not satisfied with<br>
+the Treaty of Lahore over the issue of Kashmir, so they<br>
+rebelled. In December, 1846, the Treaty of Bhairowal was<br>
+signed. According to the provisions of this treaty, Rani Jindan<br>
+was removed as regent and a council of regency for Punjab<br>
+was set up. The council consisted of 8 Sikh sardars presided<br>
+over by the English Resident, Henry Lawrence.</p>
+<h3 id="second-anglo-sikh-war-184849">Second Anglo-Sikh War (1848–49) </h3>
+<p>Causes<br>
+The defeat in the first Anglo-Sikh War and the provisions<br>
+of the treaties of Lahore and Bhairowal were highly humiliating<br>
+for the Sikhs. Inhuman treatment meted out to Rani Jindan,<br>
+who was sent to Benares as a pensioner, added to the<br>
+resentment of the Sikhs.<br>
+Mulraj, the governor of Multan, was replaced by a new<br>
+Sikh governor over the issue of increase in annual revenue.<br>
+Mulraj revolted and murdered two English officers<br>
+accompanying the new governor. Sher Singh was sent to<br>
+suppress the revolt, but he himself joined Mulraj, leading to<br>
+a mass uprising in Multan. This could be considered as the<br>
+immediate cause of the war. The then Governor General of<br>
+India, Lord Dalhousie, a hardcore expansionist, got the<br>
+pretext to annex Punjab completely.<br>
+Course of War<br>
+Lord Dalhousie himself proceeded to Punjab. Three important<br>
+battles were fought before the final annexation of Punjab.<br>
+These three battles were:<br>
+(i) Battle of Ramnagar, led by Sir Hugh Gough, the<br>
+commander-in-chief of the Company<br>
+(ii) Battle of Chillhanwala, January, 1849<br>
+(iii) Battle of Gujarat, February 21, 1849; the Sikh army<br>
+surrendered at Rawalpindi, and their Afghan allies were<br>
+chased out of India. (Gujarat is a small town on the banks<br>
+of River Jhelum.)<br>
+120 ✫ A Brief History of Modern India<br>
+Result At the end of the war came:<br>
+● surrender of the Sikh army and Sher Singh in 1849;<br>
+● annexation of Punjab; and for his services the Earl<br>
+of Dalhousie was given the thanks of the British<br>
+Parliament and a promotion in the peerage, as<br>
+Marquess;<br>
+● setting up of a three-member board to govern Punjab,<br>
+comprising of the Lawrence brothers (Henry and<br>
+John) and Charles Mansel.<br>
+In 1853, the board was nullified and Punjab was placed<br>
+under a chief commissioner. John Lawrence became the first<br>
+chief commissioner.</p>
+<h3 id="significance-of-the-anglo-sikh-wars">Significance of the Anglo-Sikh Wars </h3>
+<p>The Anglo-Sikh wars gave the two sides a mutual respect for<br>
+each other’s fighting prowess. The Sikhs were to fight loyally<br>
+on the British side in the Revolt of 1857 and in many other<br>
+campaigns and wars uptil the Indian independence in 1947.</p>
+<h2 id="extension-of-british-paramountcy-through-administrative-policy">Extension of British Paramountcy Through Administrative Policy </h2>
+<p>The process of imperial expansion and consolidation of<br>
+British paramountcy was carried on by the Company during<br>
+the 1757–1857 period through a two-fold method: (a) policy<br>
+of annexation by conquest or war; and (b) policy of annexation<br>
+by diplomacy and administrative mechanisms. We have<br>
+already discussed how the Company defeated and subjugated,<br>
+one by one, the major Indian powers like Bengal, Mysore,<br>
+the Marathas, and the Sikhs, mainly by waging wars against<br>
+them and through considerable deceit. But in the case of<br>
+many other powers, the British applied diplomatic and<br>
+administrative policies. In this context, we may cite examples<br>
+of Warren Hastings’ ‘ring-fence’ policy, Wellesley’s system<br>
+of ‘subsidiary alliance’, and Dalhousie’s ‘doctrine of lapse’<br>
+to see how the British dominion expanded in India.</p>
+<h3 id="the-policy-of-ring-fence">The Policy of Ring-Fence </h3>
+<p>Warren Hastings took charge as the governor general at a<br>
+critical period of British rule when the British were to<br>
+Expansion and Consolidation of British Power ✫ 121<br>
+encounter the powerful combination of the Marathas, Mysore,<br>
+and Hyderabad. He followed a policy of ring-fence which<br>
+aimed at creating buffer zones to defend the Company’s<br>
+frontiers. Broadly speaking, it was the policy of defence of<br>
+their neighbours’ frontiers for safeguarding their own<br>
+territories. This policy of Warren Hastings was reflected in<br>
+his war against the Marathas and Mysore. The chief danger<br>
+to the Company’s territories was from the Afghan invaders<br>
+and the Marathas. To safeguard against these dangers, the<br>
+Company undertook to organise the defence of the frontiers<br>
+of Awadh on the condition that the Nawab would defray the<br>
+expenses of the defending army. The defence of Awadh<br>
+constituted the defence of Bengal during that time. Thus, the<br>
+states brought under the ring-fence system were assured of<br>
+military assistance against external aggression—but at their<br>
+own expense. In other words, these allies were required to<br>
+maintain subsidiary forces which were to be organised,<br>
+equipped, and commanded by the officers of the Company<br>
+who, in turn, were to be paid by the rulers of these states.<br>
+Wellesley’s policy of subsidiary alliance was, in fact,<br>
+an extension of the ring-fence system which sought to reduce<br>
+the Indian states into a position of dependence on the British<br>
+government.</p>
+<h3 id="subsidiary-alliance">Subsidiary Alliance </h3>
+<p>The subsidiary alliance system was used by Lord Wellesley,<br>
+who was governor general from 1798–1805, to build an<br>
+empire in India. Under the system, the allying Indian state’s<br>
+ruler was compelled to accept the permanent stationing of<br>
+a British force within his territory and to pay a subsidy for<br>
+its maintenance. The Indian ruler had to agree to the posting<br>
+of a British resident in his court. The Indian ruler could not<br>
+employ any European in his service without the prior<br>
+consultation with the Company. Nor could he go to war or<br>
+negotiate with any other Indian ruler without consulting the<br>
+governor general. In return for all this, the British would<br>
+defend the ruler from his enemies and adopt a policy of noninterference<br>
+in the internal matters of the allied state.<br>
+One of the objectives behind Wellesley’s strengthening<br>
+122 ✫ A Brief History of Modern India<br>
+of the subsidiary alliance system was to keep the French from<br>
+reviving and expanding their influence in India. Around this<br>
+time, the fear of Napoleon’s expedition towards the East was<br>
+very real for the British who felt that the French could attack<br>
+the western coast of India from their colony of Mauritius.<br>
+Hence, the clause in the alliance treaty the Indian rulers to<br>
+dismiss Europeans (other than the British) from their service<br>
+and not employ any. By means of this system, the Company<br>
+could station its forces at strategic locations and keep the<br>
+French at bay. Besides, the subsidiary alliance would expand<br>
+the Company’s hold over the Indian states and gradually bring<br>
+more and more territory into the Company’s fold.<br>
+The Indian rulers lost their independence by buying<br>
+security. They were not free of interference from the British<br>
+Resident. They lost much of their revenue, paying for the<br>
+British troops. Also, the alliance made the Indian rulers weak<br>
+and irresponsible; the subjects were exploited and it was<br>
+practically impossible to depose the oppressive rulers as they<br>
+were protected by the British.<br>
+Evolution and Perfection<br>
+It was probably Dupleix, who first gave on hire (so to say)<br>
+European troops to Indian rulers to fight their wars. Since<br>
+then, almost all the governor generals from Clive onwards<br>
+applied the system to various Indian states and brought it to<br>
+near perfection.<br>
+The first Indian state to fall into this protection trap<br>
+(which anticipated the subsidiary alliance system) was Awadh,<br>
+which, in 1765, signed a treaty under which the Company<br>
+pledged to defend the frontiers of Awadh on the condition<br>
+of the Nawab defraying the expenses of such defence. It was<br>
+in 1787 that the Company first insisted that the subsidiary<br>
+state should not have foreign relations. This was included in<br>
+the treaty with the Nawab of Carnatic which Cornwallis<br>
+signed in February 1787. It was Wellesley’s genius to make<br>
+it a general rule to negotiate for the surrender of territory<br>
+in full sovereignty for the maintenance of the subsidiary<br>
+force.<br>
+Expansion and Consolidation of British Power ✫ 123<br>
+View<br>
+Wellesley converted the British Empire in India to the British<br>
+Empire of India. From one of the political powers in India, the<br>
+Company became the supreme power in India and claimed the<br>
+whole country as its sole protectorate. From Wellesley’s time<br>
+onwards the defence of India was the Company’s responsibility.<br>
+—Sidney J. Owen (Selection from<br>
+Wellesley’s Despatches)<br>
+Stages of Application of Subsidiary Alliance<br>
+There were four stages in the evolution of the subsidiary<br>
+alliance. In the first stage, the Company offered to help a<br>
+friendly Indian state with its troops to fight any war the state<br>
+might be engaged in. The second stage consisted of making<br>
+a common cause with the Indian state now made friendly and<br>
+taking the field with its own soldiers and those of the state.<br>
+Now came the third stage when the Indian ally was asked<br>
+not for men but for money. In return, the Company promised<br>
+that it would recruit, train, and maintain a fixed number of<br>
+soldiers under British officers, and that the contingent would<br>
+be available to the ruler for his personal protection as also<br>
+for keeping out aggressors. In the fourth or the last stage,<br>
+the money or the protection fee was fixed, usually at a high<br>
+level; when the state failed to pay the money in time, it was<br>
+asked to cede certain parts of its territories to the Company<br>
+in lieu of payment.<br>
+The Company’s entry into the affairs of the state had<br>
+begun; now it would be for the British resident (installed in<br>
+the state capital under the treaty) to initiate, sustain, and<br>
+hasten the process of eventual annexation.<br>
+States which Accepted Alliance<br>
+The Indian princes who accepted the subsidiary system were:<br>
+the Nizam of Hyderabad (September 1798 and 1800), the<br>
+ruler of Mysore (1799), the ruler of Tanjore (October 1799),<br>
+the Nawab of Awadh (November 1801), the Peshwa (December<br>
+1801), the Bhonsle Raja of Berar (December 1803), the<br>
+Scindia (February 1804), the Rajput states of Jodhpur, Jaipur,<br>
+Macheri, Bundi, and the ruler of Bharatpur (1818). The<br>
+Holkars were the last Maratha confederation to accept the<br>
+Subsidiary Alliance in 1818.<br>
+124 ✫ A Brief History of Modern India<br>
+Views<br>
+A 1950 Colonial Office paper disarmingly says that Britain ‘as<br>
+a seafaring and trading nation... had long been a “collector of<br>
+islands and peninsulas”’. In a much-quoted remark, Sir John<br>
+Seeley, the Regius Professor of Modern History at Cambridge,<br>
+said something similar in 1883: ‘We seem, as it were, to have<br>
+conquered and peopled half the world in a fit of absence of mind.<br>
+That didn’t mean quite what it seemed to say: what Seeley meant<br>
+was that there had not been a coherent policy behind Britain’s<br>
+imperial expansion. There had been an incoherent set of policies.<br>
+The 1950 paper explained that the collection of islands and<br>
+peninsulas was assembled to protect trade and the sea routes.<br>
+The motive for Empire was selfish… the motivation consisted<br>
+of desires which interlocked: desires for wealth, for strategic<br>
+possessions from which to defend the wealth, and for prestige,<br>
+the inevitable concomitant of wealth. In the process, numberless<br>
+hundreds of thousands of native populations were slaughtered,<br>
+… Almost always, the subject races, even the most sophisticated<br>
+and educated amongst them, were regarded as and made to<br>
+feel inferior to the ruling caste.<br>
+—Walter Reid, Keeping the Jewel in the Crown<br>
+In the hundred years after Plassey, the East India Company,<br>
+with an army of 260,000 men at the start of the nineteenth<br>
+century and the backing of the British government and Parliament<br>
+(many of whose members were shareholders in the enterprise),<br>
+extended its control over most of India. The Company conquered<br>
+and absorbed a number of hitherto independent or autonomous<br>
+states, imposed executive authority through a series of highborn<br>
+Governors General appointed from London, regulated the<br>
+country’s trade, collected taxes and imposed its fiat on all<br>
+aspects of Indian life.<br>
+Shashi Tharoor, An Era of Darkness</p>
+<h3 id="doctrine-of-lapse">Doctrine of Lapse </h3>
+<p>In simple terms, the doctrine stated that the adopted son<br>
+could be the heir to his foster father’s private property, but<br>
+not the state; it was for the paramount power (the British)<br>
+to decide whether to bestow the state on the adopted son<br>
+or to annex it. The doctrine was stated to be based on Hindu<br>
+law and Indian customs, but Hindu law seemed to be<br>
+somewhat inconclusive on this point, and the instances of<br>
+Expansion and Consolidation of British Power ✫ 125<br>
+Annexation of Awadh<br>
+Awadh was the oldest of the surviving states brought under the<br>
+Subsidiary Alliance, and the cruel impact of the system resulted<br>
+in its continuous maladministration under profligate and extravagant<br>
+nawabs for a long spell of 80 years.<br>
+The people suffered from the heavy taxes imposed by the<br>
+Nawab as also the illegal exactions by his officials and the<br>
+talukdars. The chronic bankruptcy of the treasury was partly due<br>
+to the heavy charges realised by the British government for<br>
+maintenance of the subsidiary troops. In addition, large contributions<br>
+were realised by Lord Hastings, Lord Amherst, and Lord William<br>
+Bentinck for purposes entirely unconnected with the affairs of<br>
+Awadh. In 1819, the Nawab was given the title and status of a<br>
+king.<br>
+Lord Dalhousie directed Sleeman, the Resident in Awadh, to<br>
+make a tour throughout the state and ascertain the actual situation<br>
+by personal inspection. The resident submitted a report describing<br>
+the anarchical condition in the state. He was succeeded as resident<br>
+in 1854 by Outram who submitted a report supporting that of his<br>
+predecessor. Dalhousie hesitated to take the extreme step, i.e.,<br>
+annexation; he preferred permanent British administration, with the<br>
+Nawab retaining his titles and rank. But the Court of Directors<br>
+ordered annexation and abolition of the throne (1856). Wajid Ali Shah<br>
+refused to sign a treaty giving away his rights, and was exiled<br>
+to Calcutta. It was a political blunder for which the British had to<br>
+pay a heavy price during the Revolt of 1857.<br>
+an Indian sovereign annexing the state of his vassal on account<br>
+of ‘lapse’ (i.e., leaving no issue as heir) were rather rare.<br>
+Maharaja Ranjit Singh had annexed a few of his feudatory<br>
+principalities on account of ‘lapse’. Likewise, the Company<br>
+in 1820 acquired a few petty Cis-Sutlej states on the absence<br>
+of heirs. Nonetheless, there was no clear-cut instance of an<br>
+adopted son being deprived of an entire state or of such a<br>
+state being regarded as a ‘lapse’.<br>
+Though this policy is attributed to Lord Dalhousie<br>
+(1848–56), he was not its originator. It was a coincidence<br>
+that during his governor-generalship several important cases<br>
+arose in which the ‘Doctrine’ could be applied. Dalhousie<br>
+showed too much zeal in enforcing this policy which had been<br>
+theoretically enunciated on some previous occasions. His<br>
+126 ✫ A Brief History of Modern India<br>
+predecessors had acted on the general principle of avoiding<br>
+annexation if it could be avoided; Dalhousie, in turn, acted<br>
+on the general principle of annexing if he could do so<br>
+legitimately.<br>
+Annexed Lapsed States<br>
+It was a matter of chance that during Lord Dalhousie’s term<br>
+many rulers of states died without a male issue and seven<br>
+states were annexed under the Doctrine of Lapse. The most<br>
+important of these were Satara (1848), Jhansi, and Nagpur<br>
+(1854). The other small states included Jaitpur (Bundelkhand),<br>
+Sambhalpur (Orissa), and Baghat (Himachal Pradesh).<br>
+Lord Dalhousie annexed Awadh in 1856 after deposing<br>
+Nawab Wajid Ali Shah on grounds of misgovernment.<br>
+Thus, Dalhousie annexed eight states during his eightyear<br>
+tenure (1848–56) as governor general. In these eight<br>
+years, he annexed some quarter million square miles of the<br>
+territory of India. His reign almost completed the process<br>
+of expansion of British power in India, which began with the<br>
+victory over Siraj-ud-Daulah at Plassey in 1757.</p>
+<h2 id="relations-of-british-india-with-neighbouring-countries">Relations of British India with Neighbouring Countries </h2>
+<p>The desire of the British imperialists to consolidate their<br>
+administrative and political power in the region led them into<br>
+conflict with countries neighbouring India.</p>
+<h3 id="anglo-bhutanese-relations">Anglo-Bhutanese Relations </h3>
+<p>The occupation of Assam in 1826 brought the British into<br>
+close contacts with the mountain state of Bhutan. Frequent<br>
+raids by Bhutanese into adjoining territories in Assam and<br>
+Bengal and the bad treatment meted out to Elgin’s envoy in<br>
+1863–64 and the treaty imposed on him, by which the British<br>
+were forced to surrender the passes leading to Assam, led<br>
+to British annexation of these passes and the stopping of<br>
+allowance paid to the Bhutanese. In 1865, the Bhutanese were<br>
+forced to surrender the passes in return for an annual subsidy.<br>
+It was the surrendered district which became a productive<br>
+area with tea gardens.<br>
+Expansion and Consolidation of British Power ✫ 127</p>
+<h3 id="anglo-nepalese-relations">Anglo-Nepalese Relations </h3>
+<p>The Gorkhas wrested control of Nepal from the successors<br>
+of Ranjit Malla of Bhatgaon in 1760. They began to expand<br>
+their dominion beyond the mountains. They found it easier<br>
+to expand in the southern direction, as the north was well<br>
+defended by the Chinese. In 1801, the English annexed<br>
+Gorakhpur, which brought the Gorkhas’ boundary and the<br>
+Company’s boundary together. The conflict started due to the<br>
+Gorkhas’ capture of Butwal and Sheoraj in the period of Lord<br>
+Hastings (1813–23). The war ended in the Treaty of Sagauli<br>
+in 1816, which was in favour of the British.<br>
+As per the treaty,<br>
+● Nepal accepted a British resident.<br>
+● Nepal ceded the districts of Garhwal and Kumaon,<br>
+and abandoned claims to Terai.<br>
+● Nepal also withdrew from Sikkim.<br>
+This agreement brought many advantages to the British:<br>
+● the British empire now reached the Himalayas;<br>
+● it got better facilities for trade with Central Asia;<br>
+● it acquired sites for hill stations, such as Shimla,<br>
+Mussoorie, and Nainital; and<br>
+● the Gorkhas joined the British Indian Army in large<br>
+numbers.</p>
+<h3 id="anglo-burmese-relations">Anglo-Burmese Relations </h3>
+<p>In the beginning of the 19th century, Burma was a free<br>
+country and wanted to expand westward. The expansionist<br>
+urges of the British, fuelled by the lure of the forest<br>
+resources of Burma, market for British manufactures in<br>
+Burma and the need to check French ambitions in Burma and<br>
+the rest of South-East Asia, resulted in three Anglo-Burmese<br>
+Wars, and in the end, the annexation of Burma into British<br>
+India in 1885.<br>
+First Burma War (1824–26)<br>
+The first war with Burma was fought when the Burmese<br>
+expansion westwards and occupation of Arakan and Manipur,<br>
+and the threat to Assam and the Brahmaputra Valley led to<br>
+continuous friction along the ill-defined border between<br>
+Bengal and Burma, in the opening decades of the 19th<br>
+128 ✫ A Brief History of Modern India<br>
+century. The British expeditionary forces occupied Rangoon<br>
+in May 1824 and reached within 72 km of the capital at Ava.<br>
+Peace was established in 1826 with the Treaty of Yandabo,<br>
+which provided that the Government of Burma:<br>
+● pay one crore rupees as war compensation;<br>
+● cede its coastal provinces of Arakan and Tenasserim;<br>
+● abandon claims on Assam, Cachar, and Jaintia;<br>
+● recognise Manipur as an independent state;<br>
+● negotiate a commercial treaty with Britain; and<br>
+● accept a British resident at Ava while posting a<br>
+Burmese envoy at Calcutta.<br>
+Second Burma War (1852)<br>
+The second war was the result of the British commercial need<br>
+and the imperialist policy of Lord Dalhousie. The British<br>
+merchants were keen to get hold of timber resources of upper<br>
+Burma and also sought further inroads into the Burmese<br>
+market. This time, the British occupied Pegu, the only<br>
+remaining coastal province of Burma. An intense guerrilla<br>
+resistance had to be overcome before complete British<br>
+control of lower Burma could be established.<br>
+Third Burma War (1885)<br>
+After the death of Burmese King Bhindan, his son Thibaw<br>
+succeeded to the throne. Thibaw, from the beginning itself,<br>
+was hostile towards the British. The British merchants at<br>
+Rangoon and lower Burma had been complaining about the<br>
+stepmotherly treatment by Thibaw, who had also been<br>
+negotiating commercial treaties with the rival powers of<br>
+France, Germany, and Italy. The French also planned to lay<br>
+a rail link from Mandalay to the French territory at a time<br>
+when the British were in conflict with the French in Niger,<br>
+Egypt, and Madagascar. A humiliating fine had been imposed<br>
+on a British timber company by Thibaw. Dufferin ordered<br>
+the invasion and final annexation of upper Burma in 1885.<br>
+[The British had to face a strong guerrilla uprising in<br>
+the whole of Burma soon after, and a nationalist movement<br>
+after the First World War. The Burmese nationalists joined<br>
+hands with the Indian National Congress. To weaken this link,<br>
+Burma was separated from India in 1935. The Burmese<br>
+Expansion and Consolidation of British Power ✫ 129<br>
+nationalist movement further intensified under U Aung San<br>
+during the Second World War, which finally led to the<br>
+independence of Burma on January 4, 1948.]</p>
+<h3 id="anglo-tibetan-relations">Anglo-Tibetan Relations </h3>
+<p>Tibet was ruled by a theocracy of Buddhist monks (lamas)<br>
+under nominal suzerainty of China. The British efforts to<br>
+establish friendly and commercial relations with Tibet had<br>
+not yielded any result in the past and a deadlock had been<br>
+reached by the time of Curzon’s arrival in India. The Chinese<br>
+suzerainty over Tibet was ineffective and Russian influence<br>
+at Lhasa was increasing. There were reports of Russian arms<br>
+and ammunition coming into Tibet. Curzon felt alarmed and<br>
+sent a small Gorkha contingent under Colonel Younghusband<br>
+on a special mission to Tibet to oblige the Tibetans to come<br>
+to an agreement. The Tibetans refused to negotiate and<br>
+offered non-violent resistance. Younghusband pushed his way<br>
+into Lhasa (August 1904) while the Dalai Lama fled.<br>
+Treaty of Lhasa (1904)<br>
+Younghusband dictated terms to the Tibetan officials which<br>
+provided that:<br>
+● Tibet would pay an indemnity of 75 lakh rupees at<br>
+the rate of one lakh rupees per annum;<br>
+● as a security for payment, the Indian Government<br>
+would occupy the Chumbi Valley (territory between Bhutan<br>
+and Sikkim) for 75 years;<br>
+● Tibet would respect the frontier of Sikkim;<br>
+● Trade marts would be opened at Yatung, Gyantse,<br>
+Gartok; and<br>
+● Tibet would not grant any concession for railways,<br>
+roads, telegraph, etc., to any foreign state, but give Great<br>
+Britain some control over foreign affairs of Tibet.<br>
+Later, on the insistence of the Secretary of State and<br>
+true to the pledge given to Russia, the treaty was revised<br>
+reducing the indemnity from Rs 75 lakh to Rs 25 lakh and<br>
+providing for evacuation of Chumbi valley after three years<br>
+(the valley was actually evacuated only in January 1908).<br>
+Significance Only China gained in the end out of the<br>
+whole affair because the Anglo-Russian convention of 1907<br>
+130 ✫ A Brief History of Modern India<br>
+provided that the two great powers would not negotiate with<br>
+Tibet, except through the mediation of the Chinese government.<br>
+However, Curzon’s policy counteracted all Russian schemes<br>
+in Tibet.</p>
+<h3 id="anglo-afghan-relations">Anglo-Afghan Relations </h3>
+<p>In the early 19th century, increased Russian influence in<br>
+Persia replaced British influence and thwarted an English<br>
+scheme for establishment of a new route by River Euphrates<br>
+to India. Especially after the Treaty of Turkomanchai (1828),<br>
+the English got alarmed about possible Russian plans regarding<br>
+India. Soon, there was a search for a scientific frontier from<br>
+the Indian side. Passes of the north-west seemed to hold the<br>
+key to enter India. The need was felt for Afghanistan to be<br>
+under control of a ruler who would be friendly to the British.<br>
+Forward Policy of Auckland<br>
+Auckland who came to India as the governor general in 1836,<br>
+advocated a forward policy. This implied that the Company<br>
+government in India itself had to take initiatives to protect<br>
+the boundary of British India from a probable Russian attack.<br>
+This objective was to be achieved either through treaties with<br>
+the neighbouring countries or by annexing them completely.<br>
+The Amir of Afghanistan, Dost Mohammed, wanted British<br>
+friendship but made it conditional on the British helping him<br>
+to recover Peshawar from the Sikhs—a condition which the<br>
+British government in India rejected. Dost Mohammed now<br>
+turned to Russia and Persia for help. This prompted the<br>
+British government to go ahead with the forward policy, and<br>
+a Tripartite Treaty (1838) was entered into by the British,<br>
+the Sikhs, and Shah Shuja (who had been deposed from the<br>
+Afghan throne in 1809 and had been living since then as a<br>
+British pensioner at Ludhiana). The treaty provided that:<br>
+● Shah Shuja be enthroned with the armed help of the<br>
+Sikhs, the Company remaining in the background, ‘jingling<br>
+the money-bag’;<br>
+● Shah Shuja conduct foreign affairs with the advice<br>
+of the Sikhs and the British;<br>
+● Shah Shuja give up his sovereign rights over Amirs<br>
+of Sindh in return for a large sum of money;<br>
+Expansion and Consolidation of British Power ✫ 131<br>
+● Shah Shuja recognise the Sikh ruler, Maharaja Ranjit<br>
+Singh’s claims over the Afghan territories on the right bank<br>
+of the River Indus.<br>
+First Anglo-Afghan War (1839–42)<br>
+Soon after the tripartite treaty of 1838, there came about<br>
+a drastic change in the political situation of the region<br>
+because of the removal of the original irritants—Persia lifted<br>
+its siege of Herat, and Russia recalled its envoy from Kabul.<br>
+Nevertheless, the British decided to go ahead with their<br>
+forward policy. This resulted in the First Afghan War (1839–<br>
+42). The British intention was to establish a permanent barrier<br>
+against schemes of aggression from the north-west.<br>
+An English army entered triumphantly into Kabul<br>
+(August 1839) after a successful attack. Most of the tribes<br>
+had already been won over by bribes. Dost Mohammed<br>
+surrendered (1840), and Shah Shuja was made the Amir of<br>
+Afghanistan. But Shah Shuja was unacceptable to the Afghans.<br>
+As soon as the British withdrew, the Afghans rose in<br>
+rebellion, killing the garrison commander in Kabul. The<br>
+British were compelled to sign a treaty (1841) with the<br>
+Afghan chiefs by which they agreed to evacuate Afghanistan<br>
+and restore Dost Mohammed. But the English plan failed.<br>
+Under a new expedition, the British re-occupied Kabul in<br>
+September 1842, but having learned their lesson well, they<br>
+arrived at a settlement with Dost Mohammed by which the<br>
+British evacuated from Kabul and recognised him as the<br>
+independent ruler of Afghanistan.<br>
+The First Afghan War cost India about 1.5 crore rupees<br>
+and nearly 20,000 men.</p>
+<h3 id="john-lawrence-and-the-policy-of-masterly-inactivity">John Lawrence and the Policy of Masterly Inactivity </h3>
+<p>John Lawrence (1864–69) started a policy of masterly<br>
+inactivity, which was a reaction to the disasters of the First<br>
+Afghan War and an outcome of practical common sense and<br>
+an intimate knowledge of the frontier problem and of Afghan<br>
+passion for independence. Even when Dost Mohammed died<br>
+in 1863, there was no interference in the war of succession.<br>
+Lawrence’s policy rested on the fulfilment of two conditions:<br>
+132 ✫ A Brief History of Modern India<br>
+(i) that the peace at the frontier was not disturbed, and (ii)<br>
+that no candidate in civil war sought foreign help. And as<br>
+Sher Ali established himself on the throne, Lawrence tried<br>
+to cultivate friendship with him.</p>
+<h3 id="lytton-and-the-policy-of-proud-reserve">Lytton and the Policy of Proud Reserve </h3>
+<p>Lytton, a nominee of the Conservative government under<br>
+Benjamin Disraeli (1874–80), became the Viceroy of India<br>
+in 1876. He started a new foreign policy of ‘proud reserve’,<br>
+which was aimed at having scientific frontiers and safeguarding<br>
+‘spheres of influence’. According to Lytton, the relations<br>
+with Afghanistan could no longer be left ambiguous.<br>
+Second Anglo-Afghan War (1870–80)<br>
+Lytton made an offer of a favourable treaty to Sher Ali, but<br>
+the Amir wanted friendship with both his powerful neighbours,<br>
+Russia and British India, while keeping both of them at an<br>
+arm’s length. Later, Sher Ali refused to keep a British envoy<br>
+in Kabul while having earlier granted a similar concession<br>
+to the Russians. Lytton was displeased, and when the Russians<br>
+withdrew their envoy from Kabul, Lytton decided to invade<br>
+Afghanistan. Sher Ali fled in face of the British invasion, and<br>
+the Treaty of Gandamak (May 1879) was signed with Yakub<br>
+Khan, the eldest son of Sher Ali.<br>
+Treaty of Gandamak (May 1879) The treaty signed<br>
+after the Second-Anglo Afghan War provided that:<br>
+● the Amir conduct his foreign policy with the advice<br>
+of the Government of India;<br>
+● a permanent British resident be stationed at Kabul;<br>
+and<br>
+● the Government of India give Amir all support against<br>
+foreign aggression, and an annual subsidy.<br>
+But soon, Yakub had to abdicate under popular pressure<br>
+View<br>
+Sir John Lawrence’s foreign policy was a policy of self-reliance<br>
+and self-restraint, of defence not defiance, of waiting and<br>
+watching that he might be able to strike harder and in the right<br>
+direction, if the time for aggressive action should ever come.<br>
+—R.B. Smith, Biographer of John Lawrence<br>
+Expansion and Consolidation of British Power ✫ 133<br>
+and the British had to recapture Kabul and Kandhar. Abdur<br>
+Rehman became the new Amir. Lytton chalked out a plan for<br>
+the dismemberment of Afghanistan, but could not carry it out.<br>
+Ripon abandoned this plan and decided on a policy of keeping<br>
+Afghanistan as a buffer state.<br>
+[After the First World War and the Russian Revolution<br>
+(1917), the Afghans demanded full independence. Habibullah<br>
+(who succeeded Abdur Rahman in 1901) was killed in 1919<br>
+and the new ruler Amamullah declared open war on the<br>
+British. Peace came in 1921 when Afghanistan recovered<br>
+independence in foreign affairs.]</p>
+<h3 id="british-india-and-the-north-west-frontier">British India and the North-West Frontier </h3>
+<p>Successive Indian rulers tried to reach out to this region lying<br>
+between the Indus and Afghanistan in their search for a<br>
+scientific frontier. The conquest of Sindh (1843) and<br>
+annexation of Punjab (1849) carried British boundaries<br>
+beyond the Indus and brought them in contact with Baluch<br>
+and Pathan tribes, who were mostly independent, but the Amir<br>
+of Afghanistan claimed nominal suzerainty over them.<br>
+During 1891–92 the British occupation of Hunza and<br>
+Nagar in Gilgit Valley, which were passes commanding<br>
+communications with Chitral, alarmed Abdur Rahman (Amir<br>
+of Afghanistan). A compromise was finally reached by<br>
+drawing a boundary line known as Durand Line between<br>
+Afghan and British territories. Amir received some districts,<br>
+and his subsidy was increased. But the Durand Agreement<br>
+(1893) failed to keep peace and soon there were tribal<br>
+uprisings. To check these, a permanent British garrison was<br>
+established at Chitral and troops posted to guard Malakand<br>
+Pass, but tribal uprisings continued till 1898.<br>
+Curzon, the viceroy between 1899 and 1905, followed<br>
+a policy of withdrawal and concentration. British troops<br>
+withdrew from advanced posts, which were replaced by tribal<br>
+levies, trained and commanded by British officers. He also<br>
+encouraged the tribals to maintain peace. He created the<br>
+North-West Frontier Province (NWFP) directly under the<br>
+134 ✫ A Brief History of Modern India<br>
+Government of India (earlier, it was under control of the<br>
+lieutenant-governor of Punjab). Overall, Curzon’s policies<br>
+resulted in a peaceful north-west frontier. The peaceful<br>
+conditions continued thereafter with occasional tribal<br>
+uprisings. In January 1932, it was announced that the NWFP<br>
+was to be constituted as a governor’s province. Since 1947,<br>
+the province belongs to Pakistan.</p>
+
+      </div>
+      
+      
+    
+    
+    
+    
+    
+    
+  
+    </body></html>

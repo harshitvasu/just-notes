@@ -1,0 +1,83 @@
+body, html {
+  font-family: Arial, sans-serif;
+  padding: 0;
+  margin: 0;
+  height: 100%; /* Ensuring full height management */
+}
+
+.tag-buttons {
+  position: relative;
+  top: 0;
+  left: 10%;
+  width: 80%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  background: white;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+  z-index: 1001; /* High z-index to keep above the main content */
+}
+
+.button, .tag-button {
+  padding: 5px 10px;
+  margin: 5px;
+  border: 1px solid #ccc;
+  background-color: #f0f0f0;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.button:hover, .tag-button:hover {
+  background-color: #e0e0e0;
+}
+
+.button.active, .tag-button.active {
+  background-color: #555;
+  color: white;
+  border-color: #555;
+}
+
+.timeline {
+  position: relative;
+  width: 80%;
+  margin: 60px auto 20px; /* Adjust margin to ensure no overlap with tag buttons */
+  border-left: 2px solid #333;
+  padding: 20px;
+  overflow-y: auto;
+  max-height: 90vh;
+}
+
+.event {
+  position: relative;
+  display: flex;
+  align-items: center;
+  margin: 20px 0;
+}
+
+.dot {
+  height: 10px;
+  width: 10px;
+  background-color: #333;
+  border-radius: 50%;
+  position: relative;
+  left: -15px; /* Adjust position to ensure visibility */
+}
+
+.date {
+  flex: 0 0 100px;
+  text-align: right;
+  margin-right: 10px;
+  background: #f0f0f0;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.event-box {
+  flex-grow: 1;
+  background: #f0f0f0;
+  padding: 10px;
+  border-radius: 5px;
+}
