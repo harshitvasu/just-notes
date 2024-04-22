@@ -1721,6 +1721,92 @@ const chapterFiveTimeline = [
   renderTimeline(timelineData.sort((a, b) => new Date(parseDate(a.date)) - new Date(parseDate(b.date))));
 
   function renderTags(tags) {
+      const specificTags = [
+        "Marathas",
+        "Delhi",
+        "Military Conflict",
+        "Architecture",
+        "British East India Company",
+        "European Conflict",
+        "British Empire",
+        "French Empire",
+        "Anglo-French Struggle",
+        "British",
+        "Policies",
+        "Maratha Empire",
+        "Mughals",
+        "Bengal",
+        "Portuguese Empire",
+        "Exploration",
+        "Trade",
+        "Governance",
+        "Administrative Change",
+        "English East India Company",
+        "French East India Company",
+        "Carnatic Wars",
+        "Anglo-French Rivalry",
+        "Britain",
+        "Naval Conflict",
+        "United States",
+        "East India Company",
+        "World War I",
+        "World War II",
+        "Dutch",
+        "Treaty",
+        "Governor of Bengal",
+        "Military Leadership",
+        "War",
+        "War Declaration",
+        "Naval Military",
+        "Leadership",
+        "British Conflict",
+        "Peace Agreement",
+        "Internal Conflict",
+        "Leadership Change",
+        "British Factory",
+        "British Expulsion",
+        "Sikh History",
+        "Punjab",
+        "Sikh Empire",
+        "Kashmir",
+        "Rajput States",
+        "Awadh",
+        "British Administration",
+        "Nepal",
+        "Bhutan",
+        "Burma",
+        "Independence",
+        "Tibet",
+        "North-West Frontier",
+        "North-West Frontier Province",
+        "Pakistan",
+        "British Officials",
+        "Administration",
+        "Conflicts",
+        "Reforms",
+        "Economic Policies",
+        "Administrative Reforms",
+        "Social Reforms",
+        "Viceroy of India",
+        "Diplomacy",
+        "Education",
+        "Expansionism",
+        "Infrastructure Development",
+        "Social Justice",
+        "Modernization",
+        "Infrastructure",
+        "Indian National Congress",
+        "Nationalist Movements",
+        "Self-Governance",
+        "Indian Nationalism",
+        "Social Reform",
+        "Economic Development",
+        "Welfare Programs",
+        "Quit India Movement",
+        "Independence Movement",
+        "Communal Tensions",
+        "Partition of India"
+];
       const container = document.querySelector('.tag-buttons');
       container.innerHTML = ''; // Clear previous tags
       const allButton = document.createElement('button');
@@ -1734,7 +1820,7 @@ const chapterFiveTimeline = [
       };
       container.appendChild(allButton);
 
-      tags.forEach(tag => {
+      (specificTags || tags).forEach(tag => {
           const button = document.createElement('button');
           button.textContent = tag;
           button.classList.add('tag-button');
@@ -1809,4 +1895,21 @@ const chapterFiveTimeline = [
       );
       renderTimeline(filteredData.sort((a, b) => new Date(parseDate(a.date)) - new Date(parseDate(b.date))));
   }
+});
+
+// timeline.js
+document.addEventListener('DOMContentLoaded', function() {
+  const hamburger = document.querySelector('.hamburger-menu');
+  const closeBtn = document.querySelector('.close-btn');
+  const tagsDiv = document.querySelector('.tag-buttons');
+
+  hamburger.addEventListener('click', function() {
+      tagsDiv.classList.add('open'); // Open the div
+      closeBtn.style.display = 'block'; // Show close button
+  });
+
+  closeBtn.addEventListener('click', function() {
+      tagsDiv.classList.remove('open'); // Close the div
+      closeBtn.style.display = 'none'; // Hide close button
+  });
 });
