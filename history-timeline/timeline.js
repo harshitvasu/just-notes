@@ -1443,7 +1443,7 @@ const chapterFiveTimeline = [
       "tags": [ "Battle of Chillianwala", "Second Anglo-Sikh War", "Sikh Army", "Spectrum Chapter 5"]
   },
   {
-      "date": "02-21--1849",
+      "date": "02-21-1849",
       "event": "Battle of Gujarat",
       "details": "The decisive battle of the Second Anglo-Sikh War, leading to the surrender of the Sikh army at Rawalpindi and the final annexation of Punjab.",
       "tags": [ "Battle of Gujarat", "Second Anglo-Sikh War", "Annexation of Punjab", "Spectrum Chapter 5"]
@@ -1722,90 +1722,92 @@ const chapterFiveTimeline = [
 
   function renderTags(tags) {
       const specificTags = [
-        "Marathas",
-        "Delhi",
-        "Military Conflict",
-        "Architecture",
-        "British East India Company",
-        "European Conflict",
-        "British Empire",
-        "French Empire",
-        "Anglo-French Struggle",
-        "British",
-        "Policies",
-        "Maratha Empire",
-        "Mughals",
-        "Bengal",
-        "Portuguese Empire",
-        "Exploration",
-        "Trade",
-        "Governance",
-        "Administrative Change",
-        "English East India Company",
-        "French East India Company",
-        "Carnatic Wars",
-        "Anglo-French Rivalry",
-        "Britain",
-        "Naval Conflict",
-        "United States",
-        "East India Company",
-        "World War I",
-        "World War II",
-        "Dutch",
-        "Treaty",
-        "Governor of Bengal",
-        "Military Leadership",
-        "War",
-        "War Declaration",
-        "Naval Military",
-        "Leadership",
-        "British Conflict",
-        "Peace Agreement",
-        "Internal Conflict",
-        "Leadership Change",
-        "British Factory",
-        "British Expulsion",
-        "Sikh History",
-        "Punjab",
-        "Sikh Empire",
-        "Kashmir",
-        "Rajput States",
-        "Awadh",
-        "British Administration",
-        "Nepal",
-        "Bhutan",
-        "Burma",
-        "Independence",
-        "Tibet",
-        "North-West Frontier",
-        "North-West Frontier Province",
-        "Pakistan",
-        "British Officials",
-        "Administration",
-        "Conflicts",
-        "Reforms",
-        "Economic Policies",
-        "Administrative Reforms",
-        "Social Reforms",
-        "Viceroy of India",
-        "Diplomacy",
-        "Education",
-        "Expansionism",
-        "Infrastructure Development",
-        "Social Justice",
-        "Modernization",
-        "Infrastructure",
-        "Indian National Congress",
-        "Nationalist Movements",
-        "Self-Governance",
-        "Indian Nationalism",
-        "Social Reform",
-        "Economic Development",
-        "Welfare Programs",
-        "Quit India Movement",
-        "Independence Movement",
-        "Communal Tensions",
-        "Partition of India"
+        // "Marathas",
+        // "Delhi",
+        // "Military Conflict",
+        // "Architecture",
+        // "British East India Company",
+        // "European Conflict",
+        // "British Empire",
+        // "French Empire",
+        // "Anglo-French Struggle",
+        // "British",
+        // "Policies",
+        // "Maratha Empire",
+        // "Mughals",
+        // "Bengal",
+        // "Portuguese Empire",
+        // "Exploration",
+        // "Trade",
+        // "Governance",
+        // "Administrative Change",
+        // "English East India Company",
+        // "French East India Company",
+        // "Carnatic Wars",
+        // "Anglo-French Rivalry",
+        // "Britain",
+        // "Naval Conflict",
+        // "United States",
+        // "East India Company",
+        // "World War I",
+        // "World War II",
+        // "Dutch",
+        // "Treaty",
+        // "Governor of Bengal",
+        // "Military Leadership",
+        // "War",
+        // "War Declaration",
+        // "Naval Military",
+        // "Leadership",
+        // "British Conflict",
+        // "Peace Agreement",
+        // "Internal Conflict",
+        // "Leadership Change",
+        // "British Factory",
+        // "British Expulsion",
+        // "Sikh History",
+        // "Punjab",
+        // "Sikh Empire",
+        // "Kashmir",
+        // "Rajput States",
+        // "Awadh",
+        // "British Administration",
+        // "Nepal",
+        // "Bhutan",
+        // "Burma",
+        // "Independence",
+        // "Tibet",
+        // "North-West Frontier",
+        // "North-West Frontier Province",
+        // "Pakistan",
+        // "British Officials",
+        // "Administration",
+        // "Conflicts",
+        // "Reforms",
+        // "Economic Policies",
+        // "Administrative Reforms",
+        // "Social Reforms",
+        // "Viceroy of India",
+        // "Diplomacy",
+        // "Education",
+        // "Expansionism",
+        // "Infrastructure Development",
+        // "Social Justice",
+        // "Modernization",
+        // "Infrastructure",
+        // "Indian National Congress",
+        // "Nationalist Movements",
+        // "Self-Governance",
+        // "Indian Nationalism",
+        // "Social Reform",
+        // "Economic Development",
+        // "Welfare Programs",
+        // "Quit India Movement",
+        // "Independence Movement",
+        // "Communal Tensions",
+        // "Partition of India",
+        "Spectrum Chapter 1", 
+        "Spectrum Chapter 5"
 ];
       const container = document.querySelector('.tag-buttons');
       container.innerHTML = ''; // Clear previous tags
@@ -1837,28 +1839,66 @@ const chapterFiveTimeline = [
           container.appendChild(button);
       });
   }
-
   function renderTimeline(data) {
-      const container = document.querySelector('.timeline');
-      container.innerHTML = ''; // Clear previous contents
-      data.forEach(event => {
-          const eventElement = document.createElement('div');
-          eventElement.className = 'event';
-          const dot = document.createElement('div');
-          dot.className = 'dot';
-          const dateLabel = document.createElement('div');
-          dateLabel.className = 'date';
-          dateLabel.textContent = event.date; // Optionally use parseDate(event.date) to display formatted date
-          const eventBox = document.createElement('div');
-          eventBox.className = 'event-box';
-          eventBox.innerHTML += "<strong>"+event.event+"</strong>" + "<br>" + (event.details || "");
+    const container = document.querySelector('.timeline');
+    container.innerHTML = ''; // Clear previous contents
+    data.forEach(event => {
+        const eventElement = document.createElement('div');
+        eventElement.className = 'event';
 
-          eventElement.appendChild(dot);
-          eventElement.appendChild(dateLabel);
-          eventElement.appendChild(eventBox);
-          container.appendChild(eventElement);
-      });
-  }
+        const dot = document.createElement('div');
+        dot.className = 'dot';
+
+        const dateLabel = document.createElement('div');
+        dateLabel.className = 'date';
+        dateLabel.textContent = event.date; // Optionally use parseDate(event.date)
+
+        const eventBox = document.createElement('div');
+        eventBox.className = 'event-box';
+        
+        // Initially displaying truncated text
+        eventBox.innerHTML = `<strong>${event.event}</strong><br>` + truncateText(event.details || "", 100);
+        eventBox.dataset.fullText = `<strong>${event.event}</strong><br>` + (event.details || "");
+        eventBox.dataset.truncatedText = `<strong>${event.event}</strong><br>` + truncateText(event.details || "", 100);
+        eventBox.dataset.expanded = "false"; // Track whether the text is expanded
+
+        // Click event to toggle full text or truncated
+        eventBox.addEventListener('click', function() {
+            if (eventBox.dataset.expanded === "false") {
+                eventBox.innerHTML = eventBox.dataset.fullText;
+                eventBox.dataset.expanded = "true";
+            } else {
+                eventBox.innerHTML = eventBox.dataset.truncatedText;
+                eventBox.dataset.expanded = "false";
+            }
+        });
+
+        eventElement.appendChild(dot);
+        eventElement.appendChild(dateLabel);
+        eventElement.appendChild(eventBox);
+        container.appendChild(eventElement);
+    });
+}
+
+// Helper function to truncate text
+function truncateText(text, maxLength) {
+    if (text.length > maxLength) {
+        return text.substring(0, maxLength) + '...';
+    } else {
+        return text;
+    }
+}
+
+
+// Helper function to truncate text
+function truncateText(text, maxLength) {
+    if (text.length > maxLength) {
+        return text.substring(0, maxLength) + '...';
+    } else {
+        return text;
+    }
+}
+
 
   function parseDate(dateStr) {
     // Handle different date formats

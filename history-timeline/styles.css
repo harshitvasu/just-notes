@@ -17,9 +17,9 @@ body, html {
 
 .close-btn {
   position: fixed;
-  top: 20px;
-  right: 50px; /* Adjusted for visibility */
-  font-size: 40px; /* Larger size */
+  top: 10px;
+  right: 10px; /* Adjusted for visibility */
+  font-size: 20px; /* Larger size */
   display: none; /* Hidden by default */
   cursor: pointer;
   background: #b88783; /* Distinctive color */
