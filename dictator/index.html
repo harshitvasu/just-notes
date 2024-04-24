@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Enhanced Text-to-Speech Control with Toggle Pause/Resume</title>
+<style>
+    .spoken {
+        color: green;
+        font-weight: bold;
+    }
+    .paused {
+        color: red;
+    }
+</style>
+</head>
+<body>
+    <h1>Advanced Text-to-Speech Features</h1>
+    <textarea id="text-input" rows="4" cols="50" placeholder="Enter text here..."></textarea><br>
+    <input type="number" id="pause-seconds" placeholder="Pause duration in seconds" value="1"><br>
+    <input type="number" id="speech-rate" placeholder="Speech rate (e.g., 0.75)" value="0.75"><br>
+    <input type="number" id="words-per-block" placeholder="Words per block" value="4"><br>
+    <button onclick="speakText()">Speak</button>
+    <button id="pauseResumeButton" onclick="togglePauseResume()">Pause</button>
+    <button onclick="stopSpeech()">Stop</button>
+    <div id="display-area" style="white-space: pre-wrap;"></div>
+
+    <script>
+        var currentIndex = 0;
+        var words;
+        var pauseTime;
+        var speechRate;
+        var wordsPerBlock;
+        var isPausedByUser = false;
+        var resumeIndex = 0; // Store the index to resume from
+        var timeoutId; // Store timeout ID
+
+        function speakText() {
+            const text = document.getElementById('text-input').value;
+            pauseTime = parseFloat(document.getElementById('pause-seconds').value);
+            speechRate = parseFloat(document.getElementById('speech-rate').value);
+            wordsPerBlock = parseInt(document.getElementById('words-per-block').value, 10);
+            words = text.split(/(?<=[.])\s+|(?<=\n)|\s+/);
+            currentIndex = 0;
+            resumeIndex = 0; // Reset resume index
+            document.getElementById('display-area').innerHTML = ''; // Clear previous text
+            speakNextBlock();
+        }
+
+        function speakNextBlock() {
+            if (currentIndex < words.length && !isPausedByUser) {
+                let block = words.slice(currentIndex, currentIndex + wordsPerBlock).join(' ');
+                const msg = new SpeechSynthesisUtterance(block);
+                msg.rate = speechRate;
+                msg.onend = function() {
+                    markWordsAsSpoken(block);
+                    currentIndex += wordsPerBlock;
+                    if (currentIndex < words.length) {
+                        timeoutId = setTimeout(speakNextBlock, pauseTime * 1000);
+                    }
+                };
+                window.speechSynthesis.speak(msg);
+            }
+        }
+
+        function markWordsAsSpoken(block) {
+            const displayArea = document.getElementById('display-area');
+            const span = document.createElement('span');
+            span.classList.add('spoken');
+            span.textContent = block + ' ';
+            displayArea.appendChild(span);
+        }
+
+        function togglePauseResume() {
+            const button = document.getElementById('pauseResumeButton');
+            if (!isPausedByUser) {
+                window.speechSynthesis.cancel();
+                button.textContent = 'Resume';
+                button.classList.add('paused');
+                isPausedByUser = true;
+                resumeIndex = currentIndex; // Store the current index
+                clearTimeout(timeoutId); // Clear the timeout
+            } else {
+                window.speechSynthesis.resume();
+                button.textContent = 'Pause';
+                button.classList.remove('paused');
+                isPausedByUser = false;
+                speakNextBlock(); // Start speaking from the current index
+            }
+        }
+
+        function stopSpeech() {
+            window.speechSynthesis.cancel();
+            document.getElementById('display-area').innerHTML = '';
+            currentIndex = 0;
+            isPausedByUser = false;
+            document.getElementById('pauseResumeButton').textContent = 'Pause';
+            document.getElementById('pauseResumeButton').classList.remove('paused');
+            clearTimeout(timeoutId); // Clear the timeout
+        }
+    </script>
+</body>
+</html>
