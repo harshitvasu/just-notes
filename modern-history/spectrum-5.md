@@ -113,6 +113,7 @@ like a prime minister.
 
 ### The Battle of Plassey
 #### Prelude to the battle
+The officials of the Company made rampant misuse of its trade privileges that adversely affected the nawab’s finances. The English fortified Calcutta without the nawab’s permission. The Company further tried to mislead him, and compounded their sin by giving asylum to a political fugitive, Krishna Das, son of Raj Ballabh who had fled with immense treasures against the nawab’s will. The Company, on its part, suspected that Siraj would drastically reduce its trade privileges in collusion with the French in Bengal. Thus, when Siraj attacked and seized the English fort at Calcutta, it brought their hostility into the open. Mention may be made here of the much propagated ‘Black Hole Tragedy’. Siraj-ud-Daulah is believed to have imprisoned 146 English persons, who were lodged in a very tiny room due to which 123 of them died of suffocation. However, historians either do not believe this story, or say that the number of victims must have been much smaller.
 #### The Battle
 The arrival of a strong force under the command of Robert
 Clive at Calcutta from Madras strengthened the English
@@ -192,37 +193,8 @@ to enhance its skill and efficiency.
 
 ### The Battle of Buxar
 #### Prelude to the Battle
-The Company had thought that Mir Kasim would prove to
-be an ideal puppet for them. However, Mir Kasim belied the
-expectations of the Company. Ram Narayan, the deputygovernor
-of Bihar, was not responding to repeated requests
-by the nawab to submit the accounts of the revenues of Bihar.
-Mir Kasim could not tolerate this open defiance of his
-authority. But Ram Narayan was supported by the English
-trade permit (a permit which exempted the goods specified
-from payment of duties) by Company officials also resulted
-in tensions between the nawab and the English.
-The misuse of the dastak meant the loss of tax revenue
-to the nawab. It also made the local merchants face unequal
-competition with the Company merchants. By an imperial
-farman, the English company had obtained the right to trade
-in Bengal without paying transit dues or tolls. However, the
-servants of the Company also claimed the same privileges
-for their private trade. The Company’s servants also sold
-dastak to Indian merchants for a commission. Besides, they
-used coercive methods to get goods at cheaper rates, which
-was against the spirit of the duty-free trade. The duty-free
-trade simply meant buying cheap in an otherwise competitive
-market. Mir Kasim decided to abolish the duties altogether,
-but the British protested against this and insisted upon having
-preferential treatment as against other traders.
-The Nawab-Company tussle over transit duty led to the
-outbreak of wars between the English and Mir Kasim in 1763.
-The English gained successive victories at Katwah,
-Murshidabad, Giria, Sooty, and Munger. Mir Kasim fled to
-Awadh (or Oudh) and formed a confederacy with the Nawab
-of Awadh, Shuja-ud-Daulah, and the Mughal Emperor, Shah
-Alam II, with a view to recover Bengal from the English.
+The Company had thought that Mir Kasim would prove to be an ideal puppet for them. However, Mir Kasim belied the expectations of the Company. Ram Narayan, the deputygovernor of Bihar, was not responding to repeated requests by the nawab to submit the accounts of the revenues of Bihar. Mir Kasim could not tolerate this open defiance of his authority. But Ram Narayan was supported by the English officials of Patna. The misuse of the Company’s dastak or trade permit (a permit which exempted the goods specified from payment of duties) by Company officials also resulted in tensions between the nawab and the English. The misuse of the dastak meant the loss of tax revenue to the nawab. It also made the local merchants face unequal competition with the Company merchants. By an imperial farman, the English company had obtained the right to trade in Bengal without paying transit dues or tolls. However, the servants of the Company also claimed the same privileges for their private trade. The Company’s servants also sold dastak to Indian merchants for a commission. Besides, they used coercive methods to get goods at cheaper rates, which was against the spirit of the duty-free trade. The duty-free trade simply meant buying cheap in an otherwise competitive market. Mir Kasim decided to abolish the duties altogether, but the British protested against this and insisted upon having preferential treatment as against other traders. The Nawab-Company tussle over transit duty led to the outbreak of wars between the English and Mir Kasim in 1763. The English gained successive victories at Katwah, Murshidabad, Giria, Sooty, and Munger. Mir Kasim fled to Awadh (or Oudh) and formed a confederacy with the Nawab of Awadh, Shuja-ud-Daulah, and the Mughal Emperor, Shah Alam II, with a view to recover Bengal from the English.
+
 #### The Battle
 The combined armies of Mir Kasim, the Nawab of Awadh,
 and Shah Alam II were defeated by the English forces under
