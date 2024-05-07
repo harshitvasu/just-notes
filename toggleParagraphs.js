@@ -1,14 +1,12 @@
 (function() {
-    // Define the styles directly in JavaScript
     const style = document.createElement('style');
     document.head.appendChild(style);
     style.sheet.insertRule(`p { border: 1px solid #ddd; padding: 10px; position: relative; overflow: hidden; cursor: pointer; }`, 0);
     style.sheet.insertRule(`.down-arrow { position: absolute; right: 10px; top: 50%; transform: translateY(-50%); }`, 1);
-    // style.sheet.insertRule(`.speak-btn { right: 40px; }`, 2);
     style.sheet.insertRule(`.hidden { height: 20px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }`, 2);
-    style.sheet.insertRule(`#percentage-display { position: fixed; right: 20px; top: 20px; background-color: #f9f9f9; padding: 5px 10px; border: 1px solid #ccc; border-radius: 5px; }`, 3);
+    style.sheet.insertRule(`#percentage-display, #control-panel { position: fixed; right: 20px; top: 20px; background-color: #f9f9f9; padding: 5px 10px; border: 1px solid #ccc; border-radius: 5px; }`, 3);
+    style.sheet.insertRule(`#control-panel { bottom: 20px; right: 50%; transform: translateX(50%); top: auto; }`, 4);
 
-    // Select all paragraph tags
     const paragraphs = document.querySelectorAll('p');
     let expandedCount = 0;
     const totalCount = paragraphs.length;
@@ -17,21 +15,10 @@
     document.body.appendChild(percentageDisplay);
 
     paragraphs.forEach(paragraph => {
-        const originalHTML = paragraph.innerHTML; // Store the original HTML
-        const textContent = paragraph.textContent; // Use textContent for processing
+        const originalHTML = paragraph.innerHTML;
+        const textContent = paragraph.textContent;
         const firstNewLineIndex = textContent.indexOf('\n');
-        let previewText;
-
-        if (firstNewLineIndex !== -1) {
-            previewText = textContent.substring(0, firstNewLineIndex) + ' ...';
-        } else {
-            const words = textContent.split(/\s+/);
-            if (words.length > 25) {
-                previewText = words.slice(0, 25).join(' ') + ' ...';
-            } else {
-                previewText = words.join(' ');
-            }
-        }
+        let previewText = firstNewLineIndex !== -1 ? textContent.substring(0, firstNewLineIndex) + ' ...' : textContent.split(/\s+/).slice(0, 25).join(' ') + ' ...';
 
         const downArrow = document.createElement("span");
         downArrow.textContent = "↓";
@@ -40,9 +27,8 @@
         const speakButton = document.createElement("button");
         speakButton.textContent = "👂";
         speakButton.className = "speak-btn";
-        speakButton.onclick = function() { speak(textContent); };
+        speakButton.onclick = () => speak(textContent);
 
-        // Set preview text and hide original content
         paragraph.innerHTML = `<span class="preview-text">${previewText}</span>`;
         paragraph.appendChild(downArrow);
         paragraph.appendChild(speakButton);
@@ -51,8 +37,8 @@
         paragraph.addEventListener('click', function(event) {
             if (event.target !== speakButton) {
                 if (paragraph.classList.contains('hidden')) {
-                    paragraph.innerHTML = originalHTML; // Restore the original HTML
-                    paragraph.appendChild(speakButton); // Re-add the speak button
+                    paragraph.innerHTML = originalHTML;
+                    paragraph.appendChild(speakButton);
                     paragraph.classList.remove('hidden');
                     expandedCount++;
                 } else {
@@ -72,13 +58,36 @@
         percentageDisplay.textContent = `${percentage}% Expanded`;
     }
 
-    updatePercentageDisplay(); // Initial display update
+    updatePercentageDisplay();
+
+    const controlPanel = document.createElement("div");
+    controlPanel.id = "control-panel";
+    document.body.appendChild(controlPanel);
+
+    const pauseButton = document.createElement("button");
+    pauseButton.textContent = "Pause/Resume";
+    pauseButton.onclick = toggleSpeech;
+    controlPanel.appendChild(pauseButton);
+
+    const stopButton = document.createElement("button");
+    stopButton.textContent = "Stop Speaking";
+    stopButton.onclick = () => window.speechSynthesis.cancel();
+    controlPanel.appendChild(stopButton);
 })();
+
 function speak(text) {
     var msg = new SpeechSynthesisUtterance(text);
     var voices = window.speechSynthesis.getVoices();
-    // alert(voices.map(function(voice) { return voice.name }).join(","));
-    msg.voice = voices.filter(function(voice) { return voice.name == 'Samantha'; })[0];  // Replace 'Alice' with the name of the desired voice
+    msg.voice = voices.find(voice => voice.name === 'Samantha');
     msg.rate = 0.75;
     window.speechSynthesis.speak(msg);
+}
+
+function toggleSpeech() {
+    const synth = window.speechSynthesis;
+    if (synth.paused) {
+        synth.resume();
+    } else if (synth.speaking) {
+        synth.pause();
+    }
 }
