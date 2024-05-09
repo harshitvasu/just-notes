@@ -2,14 +2,14 @@
     // Define the styles directly in JavaScript
     const style = document.createElement('style');
     document.head.appendChild(style);
-    style.sheet.insertRule(`p, ol { border: 1px solid #ddd; padding: 10px; position: relative; overflow: hidden; cursor: pointer; }`, 0);
+    style.sheet.insertRule(`p, ol, ul { border: 1px solid #ddd; padding: 10px; position: relative; overflow: hidden; cursor: pointer; }`, 0);
     style.sheet.insertRule(`.down-arrow { position: absolute; right: 10px; top: 50%; transform: translateY(-50%); }`, 1);
     style.sheet.insertRule(`.hidden { height: 20px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }`, 2);
     style.sheet.insertRule(`#percentage-display, #control-panel { position: fixed; right: 20px; top: 20px; background-color: #f9f9f9; padding: 5px 10px; border: 1px solid #ccc; border-radius: 5px; }`, 3);
     style.sheet.insertRule(`#control-panel { bottom: 20px; right: 50%; transform: translateX(50%); top: auto; }`, 4);
 
     // Select both paragraph and specified ordered list tags
-    const paragraphs = document.querySelectorAll('p, .crossnote.markdown-preview > ol');
+    const paragraphs = document.querySelectorAll('p, .crossnote.markdown-preview > ol ,.crossnote.markdown-preview > ul');
     let expandedCount = 0;
     const totalCount = paragraphs.length;
     const percentageDisplay = document.createElement('div');
@@ -85,12 +85,33 @@
     controlPanel.appendChild(stopButton);
 })();
 function speak(text) {
-    var msg = new SpeechSynthesisUtterance(text);
-    var voices = window.speechSynthesis.getVoices();
-    msg.voice = voices.filter(function(voice) { return voice.name == 'Samantha'; })[0]; // Replace 'Alice' with the name of the desired voice
-    msg.rate = 0.75;
-    window.speechSynthesis.speak(msg);
+    var synth = window.speechSynthesis;
+    var voices = synth.getVoices();
+    var selectedVoice = voices.filter(function(voice) { return voice.name === 'Samantha'; })[0];
+
+    // Splitting text into parts for pausing
+    var parts = text.split(/(\n|(?<![A-Z])[.])/);
+
+    function speakPart(index) {
+        if (index >= parts.length) return; // Stop if there are no more parts to speak
+
+        var part = parts[index];
+        var msg = new SpeechSynthesisUtterance(part);
+        msg.voice = selectedVoice;
+        msg.rate = 0.75;
+
+        msg.onend = function() {
+            if (index < parts.length - 1) {
+                setTimeout(function() { speakPart(index + 1); }, 500); // Wait for 5 seconds before speaking the next part
+            }
+        };
+
+        synth.speak(msg);
+    }
+
+    speakPart(0); // Start speaking the first part
 }
+
 
 function copyText(text) {
     navigator.clipboard.writeText(text).then(function() {
