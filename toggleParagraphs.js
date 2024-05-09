@@ -89,8 +89,16 @@ function speak(text) {
     var voices = synth.getVoices();
     var selectedVoice = voices.filter(function(voice) { return voice.name === 'Samantha'; })[0];
 
-    // Splitting text into parts for pausing
+    // Splitting text into parts for pausing, the regex will capture newlines and periods not preceded by capital letters
     var parts = text.split(/(\n|(?<![A-Z])[.])/);
+
+    // Concatenate each period not preceded by a capital letter back to the previous text part
+    for (var i = parts.length - 2; i >= 0; i--) {
+        if (parts[i + 1] === '.') {
+            parts[i] += parts[i + 1];
+            parts.splice(i + 1, 1);  // Remove the period from the array after appending it to the previous string
+        }
+    }
 
     function speakPart(index) {
         if (index >= parts.length) return; // Stop if there are no more parts to speak
@@ -102,16 +110,16 @@ function speak(text) {
 
         msg.onend = function() {
             if (index < parts.length - 1) {
-                setTimeout(function() { speakPart(index + 1); }, 500); // Wait for 5 seconds before speaking the next part
+                setTimeout(function() { speakPart(index + 1); }, 5000); // Wait for 5 seconds before speaking the next part
             }
         };
-        if(part!=="."){
-            synth.speak(msg);
-        }
+
+        synth.speak(msg);
     }
 
     speakPart(0); // Start speaking the first part
 }
+
 
 
 function copyText(text) {
