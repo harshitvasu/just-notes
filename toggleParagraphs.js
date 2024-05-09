@@ -110,7 +110,7 @@ function speak(text) {
 
         msg.onend = function() {
             if (index < parts.length - 1) {
-                setTimeout(function() { speakPart(index + 1); }, 5000); // Wait for 5 seconds before speaking the next part
+                setTimeout(function() { speakPart(index + 1); }, 400); // Wait for 5 seconds before speaking the next part
             }
         };
 
