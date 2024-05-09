@@ -84,3 +84,27 @@
     stopButton.onclick = () => window.speechSynthesis.cancel();
     controlPanel.appendChild(stopButton);
 })();
+function speak(text) {
+    var msg = new SpeechSynthesisUtterance(text);
+    var voices = window.speechSynthesis.getVoices();
+    msg.voice = voices.filter(function(voice) { return voice.name == 'Samantha'; })[0]; // Replace 'Alice' with the name of the desired voice
+    msg.rate = 0.75;
+    window.speechSynthesis.speak(msg);
+}
+
+function copyText(text) {
+    navigator.clipboard.writeText(text).then(function() {
+        alert('Text copied successfully!');
+    }, function(err) {
+        alert('Failed to copy text: ', err);
+    });
+}
+
+function toggleSpeech() {
+    const synth = window.speechSynthesis;
+    if (synth.paused) {
+        synth.resume();
+    } else if (synth.speaking) {
+        synth.pause();
+    }
+}
