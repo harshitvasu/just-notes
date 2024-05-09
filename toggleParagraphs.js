@@ -105,8 +105,9 @@ function speak(text) {
                 setTimeout(function() { speakPart(index + 1); }, 500); // Wait for 5 seconds before speaking the next part
             }
         };
-
-        synth.speak(msg);
+        if(part!=="."){
+            synth.speak(msg);
+        }
     }
 
     speakPart(0); // Start speaking the first part
