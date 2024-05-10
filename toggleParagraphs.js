@@ -9,14 +9,14 @@
     style.sheet.insertRule(`#control-panel { bottom: 20px; right: 50%; transform: translateX(50%); top: auto; }`, 4);
 
     // Select both paragraph and specified ordered list tags
-    const paragraphs = document.querySelectorAll('p, .crossnote.markdown-preview > ol ,.crossnote.markdown-preview > ul');
+    const readBoxes = document.querySelectorAll('.markdown-preview > :not(h1, h2, h3, h4)');
     let expandedCount = 0;
-    const totalCount = paragraphs.length;
+    const totalCount = readBoxes.length;
     const percentageDisplay = document.createElement('div');
     percentageDisplay.id = 'percentage-display';
     document.body.appendChild(percentageDisplay);
 
-    paragraphs.forEach(paragraph => {
+    readBoxes.forEach(paragraph => {
         const originalHTML = paragraph.innerHTML; // Store the original HTML
         const textContent = paragraph.textContent.trim(); // Use textContent for processing
         let previewText = textContent.split(/\s+/).slice(0, 25).join(' ') + ' ...';
@@ -87,7 +87,7 @@
 function speak(text) {
     var synth = window.speechSynthesis;
     var voices = synth.getVoices();
-    var selectedVoice = voices.filter(function(voice) { return voice.name === 'Samantha'; })[0];
+    var selectedVoice = voices.filter(function(voice) { return voice.name === 'Alex'; })[0];
 
     // Splitting text into parts for pausing, the regex will capture newlines and periods not preceded by capital letters
     var parts = text.split(/(\n|(?<![A-Z])[.])/);
@@ -110,7 +110,7 @@ function speak(text) {
 
         msg.onend = function() {
             if (index < parts.length - 1) {
-                setTimeout(function() { speakPart(index + 1); }, 400); // Wait for 5 seconds before speaking the next part
+                setTimeout(function() { speakPart(index + 1); }, 1000); // Wait for 5 seconds before speaking the next part
             }
         };
 
