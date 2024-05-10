@@ -1,0 +1,197 @@
+<!DOCTYPE html><html><head>
+      <title>chapter-20</title>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      
+      <link rel="stylesheet" href="file:////Users/harshitvasu/.vscode/extensions/shd101wyy.markdown-preview-enhanced-0.8.13/crossnote/dependencies/katex/katex.min.css">
+      <script src="../toggleParagraphs.js" defer></script>
+      
+      
+      
+      
+      <style>
+      code[class*=language-],pre[class*=language-]{color:#333;background:0 0;font-family:Consolas,"Liberation Mono",Menlo,Courier,monospace;text-align:left;white-space:pre;word-spacing:normal;word-break:normal;word-wrap:normal;line-height:1.4;-moz-tab-size:8;-o-tab-size:8;tab-size:8;-webkit-hyphens:none;-moz-hyphens:none;-ms-hyphens:none;hyphens:none}pre[class*=language-]{padding:.8em;overflow:auto;border-radius:3px;background:#f5f5f5}:not(pre)>code[class*=language-]{padding:.1em;border-radius:.3em;white-space:normal;background:#f5f5f5}.token.blockquote,.token.comment{color:#969896}.token.cdata{color:#183691}.token.doctype,.token.macro.property,.token.punctuation,.token.variable{color:#333}.token.builtin,.token.important,.token.keyword,.token.operator,.token.rule{color:#a71d5d}.token.attr-value,.token.regex,.token.string,.token.url{color:#183691}.token.atrule,.token.boolean,.token.code,.token.command,.token.constant,.token.entity,.token.number,.token.property,.token.symbol{color:#0086b3}.token.prolog,.token.selector,.token.tag{color:#63a35c}.token.attr-name,.token.class,.token.class-name,.token.function,.token.id,.token.namespace,.token.pseudo-class,.token.pseudo-element,.token.url-reference .token.variable{color:#795da3}.token.entity{cursor:help}.token.title,.token.title .token.punctuation{font-weight:700;color:#1d3e81}.token.list{color:#ed6a43}.token.inserted{background-color:#eaffea;color:#55a532}.token.deleted{background-color:#ffecec;color:#bd2c00}.token.bold{font-weight:700}.token.italic{font-style:italic}.language-json .token.property{color:#183691}.language-markup .token.tag .token.punctuation{color:#333}.language-css .token.function,code.language-css{color:#0086b3}.language-yaml .token.atrule{color:#63a35c}code.language-yaml{color:#183691}.language-ruby .token.function{color:#333}.language-markdown .token.url{color:#795da3}.language-makefile .token.symbol{color:#795da3}.language-makefile .token.variable{color:#183691}.language-makefile .token.builtin{color:#0086b3}.language-bash .token.keyword{color:#0086b3}pre[data-line]{position:relative;padding:1em 0 1em 3em}pre[data-line] .line-highlight-wrapper{position:absolute;top:0;left:0;background-color:transparent;display:block;width:100%}pre[data-line] .line-highlight{position:absolute;left:0;right:0;padding:inherit 0;margin-top:1em;background:hsla(24,20%,50%,.08);background:linear-gradient(to right,hsla(24,20%,50%,.1) 70%,hsla(24,20%,50%,0));pointer-events:none;line-height:inherit;white-space:pre}pre[data-line] .line-highlight:before,pre[data-line] .line-highlight[data-end]:after{content:attr(data-start);position:absolute;top:.4em;left:.6em;min-width:1em;padding:0 .5em;background-color:hsla(24,20%,50%,.4);color:#f4f1ef;font:bold 65%/1.5 sans-serif;text-align:center;vertical-align:.3em;border-radius:999px;text-shadow:none;box-shadow:0 1px #fff}pre[data-line] .line-highlight[data-end]:after{content:attr(data-end);top:auto;bottom:.4em}html body{font-family:'Helvetica Neue',Helvetica,'Segoe UI',Arial,freesans,sans-serif;font-size:16px;line-height:1.6;color:#333;background-color:#fff;overflow:initial;box-sizing:border-box;word-wrap:break-word}html body>:first-child{margin-top:0}html body h1,html body h2,html body h3,html body h4,html body h5,html body h6{line-height:1.2;margin-top:1em;margin-bottom:16px;color:#000}html body h1{font-size:2.25em;font-weight:300;padding-bottom:.3em}html body h2{font-size:1.75em;font-weight:400;padding-bottom:.3em}html body h3{font-size:1.5em;font-weight:500}html body h4{font-size:1.25em;font-weight:600}html body h5{font-size:1.1em;font-weight:600}html body h6{font-size:1em;font-weight:600}html body h1,html body h2,html body h3,html body h4,html body h5{font-weight:600}html body h5{font-size:1em}html body h6{color:#5c5c5c}html body strong{color:#000}html body del{color:#5c5c5c}html body a:not([href]){color:inherit;text-decoration:none}html body a{color:#08c;text-decoration:none}html body a:hover{color:#00a3f5;text-decoration:none}html body img{max-width:100%}html body>p{margin-top:0;margin-bottom:16px;word-wrap:break-word}html body>ol,html body>ul{margin-bottom:16px}html body ol,html body ul{padding-left:2em}html body ol.no-list,html body ul.no-list{padding:0;list-style-type:none}html body ol ol,html body ol ul,html body ul ol,html body ul ul{margin-top:0;margin-bottom:0}html body li{margin-bottom:0}html body li.task-list-item{list-style:none}html body li>p{margin-top:0;margin-bottom:0}html body .task-list-item-checkbox{margin:0 .2em .25em -1.8em;vertical-align:middle}html body .task-list-item-checkbox:hover{cursor:pointer}html body blockquote{margin:16px 0;font-size:inherit;padding:0 15px;color:#5c5c5c;background-color:#f0f0f0;border-left:4px solid #d6d6d6}html body blockquote>:first-child{margin-top:0}html body blockquote>:last-child{margin-bottom:0}html body hr{height:4px;margin:32px 0;background-color:#d6d6d6;border:0 none}html body table{margin:10px 0 15px 0;border-collapse:collapse;border-spacing:0;display:block;width:100%;overflow:auto;word-break:normal;word-break:keep-all}html body table th{font-weight:700;color:#000}html body table td,html body table th{border:1px solid #d6d6d6;padding:6px 13px}html body dl{padding:0}html body dl dt{padding:0;margin-top:16px;font-size:1em;font-style:italic;font-weight:700}html body dl dd{padding:0 16px;margin-bottom:16px}html body code{font-family:Menlo,Monaco,Consolas,'Courier New',monospace;font-size:.85em;color:#000;background-color:#f0f0f0;border-radius:3px;padding:.2em 0}html body code::after,html body code::before{letter-spacing:-.2em;content:'\00a0'}html body pre>code{padding:0;margin:0;word-break:normal;white-space:pre;background:0 0;border:0}html body .highlight{margin-bottom:16px}html body .highlight pre,html body pre{padding:1em;overflow:auto;line-height:1.45;border:#d6d6d6;border-radius:3px}html body .highlight pre{margin-bottom:0;word-break:normal}html body pre code,html body pre tt{display:inline;max-width:initial;padding:0;margin:0;overflow:initial;line-height:inherit;word-wrap:normal;background-color:transparent;border:0}html body pre code:after,html body pre code:before,html body pre tt:after,html body pre tt:before{content:normal}html body blockquote,html body dl,html body ol,html body p,html body pre,html body ul{margin-top:0;margin-bottom:16px}html body kbd{color:#000;border:1px solid #d6d6d6;border-bottom:2px solid #c7c7c7;padding:2px 4px;background-color:#f0f0f0;border-radius:3px}@media print{html body{background-color:#fff}html body h1,html body h2,html body h3,html body h4,html body h5,html body h6{color:#000;page-break-after:avoid}html body blockquote{color:#5c5c5c}html body pre{page-break-inside:avoid}html body table{display:table}html body img{display:block;max-width:100%;max-height:100%}html body code,html body pre{word-wrap:break-word;white-space:pre}}.markdown-preview{width:100%;height:100%;box-sizing:border-box}.markdown-preview ul{list-style:disc}.markdown-preview ul ul{list-style:circle}.markdown-preview ul ul ul{list-style:square}.markdown-preview ol{list-style:decimal}.markdown-preview ol ol,.markdown-preview ul ol{list-style-type:lower-roman}.markdown-preview ol ol ol,.markdown-preview ol ul ol,.markdown-preview ul ol ol,.markdown-preview ul ul ol{list-style-type:lower-alpha}.markdown-preview .newpage,.markdown-preview .pagebreak{page-break-before:always}.markdown-preview pre.line-numbers{position:relative;padding-left:3.8em;counter-reset:linenumber}.markdown-preview pre.line-numbers>code{position:relative}.markdown-preview pre.line-numbers .line-numbers-rows{position:absolute;pointer-events:none;top:1em;font-size:100%;left:0;width:3em;letter-spacing:-1px;border-right:1px solid #999;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none}.markdown-preview pre.line-numbers .line-numbers-rows>span{pointer-events:none;display:block;counter-increment:linenumber}.markdown-preview pre.line-numbers .line-numbers-rows>span:before{content:counter(linenumber);color:#999;display:block;padding-right:.8em;text-align:right}.markdown-preview .mathjax-exps .MathJax_Display{text-align:center!important}.markdown-preview:not([data-for=preview]) .code-chunk .code-chunk-btn-group{display:none}.markdown-preview:not([data-for=preview]) .code-chunk .status{display:none}.markdown-preview:not([data-for=preview]) .code-chunk .output-div{margin-bottom:16px}.markdown-preview .md-toc{padding:0}.markdown-preview .md-toc .md-toc-link-wrapper .md-toc-link{display:inline;padding:.25rem 0}.markdown-preview .md-toc .md-toc-link-wrapper .md-toc-link div,.markdown-preview .md-toc .md-toc-link-wrapper .md-toc-link p{display:inline}.markdown-preview .md-toc .md-toc-link-wrapper.highlighted .md-toc-link{font-weight:800}.scrollbar-style::-webkit-scrollbar{width:8px}.scrollbar-style::-webkit-scrollbar-track{border-radius:10px;background-color:transparent}.scrollbar-style::-webkit-scrollbar-thumb{border-radius:5px;background-color:rgba(150,150,150,.66);border:4px solid rgba(150,150,150,.66);background-clip:content-box}html body[for=html-export]:not([data-presentation-mode]){position:relative;width:100%;height:100%;top:0;left:0;margin:0;padding:0;overflow:auto}html body[for=html-export]:not([data-presentation-mode]) .markdown-preview{position:relative;top:0;min-height:100vh}@media screen and (min-width:914px){html body[for=html-export]:not([data-presentation-mode]) .markdown-preview{padding:2em calc(50% - 457px + 2em)}}@media screen and (max-width:914px){html body[for=html-export]:not([data-presentation-mode]) .markdown-preview{padding:2em}}@media screen and (max-width:450px){html body[for=html-export]:not([data-presentation-mode]) .markdown-preview{font-size:14px!important;padding:1em}}@media print{html body[for=html-export]:not([data-presentation-mode]) #sidebar-toc-btn{display:none}}html body[for=html-export]:not([data-presentation-mode]) #sidebar-toc-btn{position:fixed;bottom:8px;left:8px;font-size:28px;cursor:pointer;color:inherit;z-index:99;width:32px;text-align:center;opacity:.4}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] #sidebar-toc-btn{opacity:1}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc{position:fixed;top:0;left:0;width:300px;height:100%;padding:32px 0 48px 0;font-size:14px;box-shadow:0 0 4px rgba(150,150,150,.33);box-sizing:border-box;overflow:auto;background-color:inherit}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc::-webkit-scrollbar{width:8px}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc::-webkit-scrollbar-track{border-radius:10px;background-color:transparent}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc::-webkit-scrollbar-thumb{border-radius:5px;background-color:rgba(150,150,150,.66);border:4px solid rgba(150,150,150,.66);background-clip:content-box}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc a{text-decoration:none}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc .md-toc{padding:0 16px}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc .md-toc .md-toc-link-wrapper .md-toc-link{display:inline;padding:.25rem 0}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc .md-toc .md-toc-link-wrapper .md-toc-link div,html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc .md-toc .md-toc-link-wrapper .md-toc-link p{display:inline}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc .md-toc .md-toc-link-wrapper.highlighted .md-toc-link{font-weight:800}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .markdown-preview{left:300px;width:calc(100% - 300px);padding:2em calc(50% - 457px - 300px / 2);margin:0;box-sizing:border-box}@media screen and (max-width:1274px){html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .markdown-preview{padding:2em}}@media screen and (max-width:450px){html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .markdown-preview{width:100%}}html body[for=html-export]:not([data-presentation-mode]):not([html-show-sidebar-toc]) .markdown-preview{left:50%;transform:translateX(-50%)}html body[for=html-export]:not([data-presentation-mode]):not([html-show-sidebar-toc]) .md-sidebar-toc{display:none}
+/* Please visit the URL below for more information: */
+/*   https://shd101wyy.github.io/markdown-preview-enhanced/#/customize-css */
+
+      </style>
+      <!-- The content below will be included at the end of the <head> element. --><script type="text/javascript">
+  document.addEventListener("DOMContentLoaded", function () {
+    // your code here
+  });
+</script></head><body for="html-export">
+    
+    
+      <div class="crossnote markdown-preview  ">
+      
+<h1 id="central-council-of-ministers">Central Council of Ministers </h1>
+<p>As the Constitution of India provides for a parliamentary system of government modelled on the British pattern, the council of ministers headed by the prime minister is the real executive authority is our politico-administrative system. The principles of parliamentary system of government are not detailed in the Constitution, but two Articles (74 and 75) deal with them in a broad, sketchy and general manner. Article 74 deals with the status of the council of ministers while Article 75 deals with the appointment, tenure, responsibility, qualification, oath and salaries and allowances of the ministers.</p>
+<h2 id="constitutional-provisions">CONSTITUTIONAL PROVISIONS </h2>
+<h3 id="article-74council-of-ministers-to-aid-and-advise-president">Article 74—Council of Ministers to aid and advise President </h3>
+<ol>
+<li>There shall be a Council of Ministers with the Prime Minister at the head to aid and advise the President who shall, in the exercise of his functions, act in accordance with such advice. However, the President may require the Council of Ministers to reconsider such advice and the President shall act in accordance with the advice tendered after such reconsideration.</li>
+<li>The advice tendered by Ministers to the President shall not be inquired into in any court.</li>
+</ol>
+<h3 id="article-75other-provisions-as-to-ministers">Article 75—Other Provisions as to Ministers </h3>
+<ol>
+<li>The Prime Minister shall be appointed by the President and the other Ministers shall be appointed by the President on the advice of the Prime Minister.</li>
+<li>The total number of ministers, including the Prime Minister, in the Council of Ministers shall not exceed 15% of the total strength of the Lok Sabha. This provision was added by the 91st Amendment Act of 2003.</li>
+<li>A member of either house of Parliament belonging to any political party who is disqualified on the ground of defection shall also be disqualified to be appointed as a minister. This provision was also added by the 91st Amendment Act of 2003.</li>
+<li>The ministers shall hold office during the pleasure of the President.</li>
+<li>The council of ministers shall be collectively responsible to the Lok Sabha.</li>
+<li>The President shall administer the oaths of office and secrecy to a minister.</li>
+<li>A minister who is not a member of the Parliament (either house) for any period of six consecutive months shall cease to be a minister.</li>
+<li>The salaries and allowances of ministers shall be determined by the Parliament.</li>
+</ol>
+<h3 id="article-77conduct-of-business-of-the-government-of-india">Article 77—Conduct of Business of the Government of India </h3>
+<ol>
+<li>All executive action of the Government of India shall be expressed to be taken in the name of the President.</li>
+<li>Orders and other instruments made and executed in the name of the President shall be authenticated in such manner as may be specified in rules to be made by the President. Further, the validity of an order or instrument which is so authenticated shall not be called in question on the ground that it is not an order or instrument made or executed by the President.</li>
+<li>The President shall make rules for the more convenient transaction of the business of the Government of India, and for the allocation among Ministers of the said business.</li>
+</ol>
+<h3 id="article-78duties-of-prime-minister">Article 78—Duties of Prime Minister </h3>
+<p>It shall be the duty of the Prime Minister</p>
+<ol>
+<li>To communicate to the President all decisions of the Council of Ministers relating to the administration of the affairs of the Union and proposals for legislation</li>
+<li>To furnish such information relating to the administration of the affairs of the Union and proposals for legislation as the President may call for</li>
+<li>If the President so requires, to submit for the consideration of the Council of Ministers any matter on which a decision has been taken by a Minister but which has not been considered by the Council</li>
+</ol>
+<h3 id="article-88rights-of-ministers-as-respects-the-houses">Article 88—Rights of Ministers as Respects the Houses </h3>
+<p>Every minister shall have the right to speak and take part in the proceedings of either House, any joint sitting of the Houses and any Committee of Parliament of which he may be named a member. But he shall not be entitled to vote.</p>
+<h1 id="nature-of-advice-by-ministers">NATURE OF ADVICE BY MINISTERS </h1>
+<p>Article 74 provides for a council of ministers with the Prime Minister at the head to aid and advise the President in the exercise of his functions. The 42nd and 44th Constitutional Amendment Acts have made the advice binding on the President. Further, the nature of advice tendered by ministers to the President cannot be inquired by any court. This provision emphasizes the intimate and confidential relationship between the President and the ministers.</p>
+<p>In 1971, the Supreme Court held that ‘even after the dissolution of the Lok Sabha, the council of ministers does not cease to hold office. Article 74 is mandatory and, therefore, the president cannot exercise the executive power without the aid and advice of the council of ministers. Any exercise of executive power without the aid and advice will be unconstitutional as being violative of Article 74’. Again in 1974, the court held that ‘wherever the Constitution requires the satisfaction of the President, the satisfaction is not the personal satisfaction of the President but it is the satisfaction of the council of ministers with whose aid and on whose advice the President exercises his powers and functions’.</p>
+<h2 id="appointment-of-ministers">APPOINTMENT OF MINISTERS </h2>
+<p>The Prime Minister is appointed by the President, while the other ministers are appointed by the President on the advice of the Prime Minister. This means that the President can appoint only those persons as ministers who are recommended by the Prime Minister.</p>
+<p>Usually, the members of Parliament, either Lok Sabha or Rajya Sabha, are appointed as ministers. A person who is not a member of either House of Parliament can also be appointed as a minister. But, within six months, he must become a member (either by election or by nomination) of either House of Parliament, otherwise, he ceases to be a minister.</p>
+<p>A minister who is a member of one House of Parliament has the right to speak and to take part in the proceedings of the other House also, but he can vote only in the House of which he is a member.</p>
+<h2 id="oath-and-salary-of-ministers">OATH AND SALARY OF MINISTERS </h2>
+<p>Before a minister enters upon his office, the President administers to him the oaths of office and secrecy. In his oath of office, the minister swears:</p>
+<ol>
+<li>to bear true faith and allegiance to the Constitution of India,</li>
+<li>to uphold the sovereignty and integrity of India,</li>
+<li>to faithfully and conscientiously discharge the duties of his office, and</li>
+<li>to do right to all manner of people in accordance with the Constitution and the law, without fear or favour, affection or ill will.</li>
+</ol>
+<p>In his oath of secrecy, the minister swears that he will not directly or indirectly communicate or reveal to any person(s) any matter that is brought under his consideration or becomes known to him as a Union minister except as may be required for the due discharge of his duties as such minister.</p>
+<p>In 1990, the oath by Devi Lal as deputy prime minister was challenged as being unconstitutional as the Constitution provides only for the Prime Minister and ministers. The Supreme Court upheld the oath as valid and stated that describing a person as Deputy Prime Minister is descriptive only and such description does not confer on him any powers of Prime Minister. It ruled that the description of a minister as Deputy Prime Minister or any other type of minister such as minister of state or deputy minister of which there is no mention in the Constitution does not vitiate the oath taken by him so long as the substantive part of the oath is correct.</p>
+<p>The salaries and allowances of ministers are determined by Parliament from time to time. A minister gets the salary and allowances that are payable to a member of Parliament. Additionally, he gets a sumptuary allowance (according to his rank), free accommodation, travelling allowance, medical facilities, etc. In 2001, the sumptuary allowance for the prime minister was raised from ₹1,500 to ₹3,000 per month, for a cabinet minister from ₹1,000 to ₹2,000 per month, for a minister of state from ₹500 to ₹1,000 per month, and for a deputy minister from ₹300 to ₹600 per month.</p>
+<h1 id="together">TOGETHER </h1>
+<p>When the Lok Sabha passes a no-confidence motion against the council of ministers, all the ministers have to resign, including those ministers who are from the Rajya Sabha. Alternatively, the council of ministers can advise the president to dissolve the Lok Sabha on the ground that the House does not represent the views of the electorate faithfully and call for fresh elections. The President may not oblige the council of ministers that has lost the confidence of the Lok Sabha.</p>
+<p>The principle of collective responsibility also means that the Cabinet decisions bind all cabinet ministers (and other ministers) even if they differed in the cabinet meeting. It is the duty of every minister to stand by cabinet decisions and support them both within and outside the Parliament. If any minister disagrees with a cabinet decision and is not prepared to defend it, he must resign. Several ministers have resigned in the past owing to their differences with the cabinet. For example, Dr. B.R. Ambedkar resigned because of his differences with his colleagues on the Hindu Code Bill in 1953. C.D. Deshmukh resigned due to his differences on the policy of reorganization of states. Arif Mohammed resigned due to his opposition to the Muslim Women (Protection of Rights on Divorce) Act, 1986.</p>
+<h2 id="individual-responsibility">Individual Responsibility </h2>
+<p>Article 75 also contains the principle of individual responsibility. It states that the ministers hold office during the pleasure of the President, which means that the President can remove a minister even at a time when the council of ministers enjoys the confidence of the Lok Sabha. However, the President removes a minister only on the advice of the Prime Minister. In case of a difference of opinion or dissatisfaction with the performance of a minister, the Prime Minister can ask him to resign or advise the President to dismiss him. By exercising this power, the Prime Minister can ensure the realization of the rule of collective responsibility. In this context, Dr. B.R. Ambedkar observed:</p>
+<p>“Collective responsibility can be achieved only through the instrumentality of the Prime Minister. Therefore, unless and until we create that office and endow that office with statutory authority to nominate and dismiss ministers, there can be no collective responsibility.”</p>
+<h2 id="no-legal-responsibility">No Legal Responsibility </h2>
+<p>In Britain, every order of the King for any public act is countersigned by a minister. If the order is in violation of any law, the minister would be held responsible and would be liable in the court. The legally accepted phrase in Britain is, “The king can do no wrong.” Hence, he cannot be sued in any court.</p>
+<p>In India, on the other hand, there is no provision in the Constitution for the system of legal responsibility of a minister. It is not required that an order of the President for a public act should be countersigned by a minister. Moreover, the courts are barred from inquiring into the nature of advice rendered by the ministers to the President.</p>
+<h1 id="composition-of-the-council-of-ministers">COMPOSITION OF THE COUNCIL OF MINISTERS </h1>
+<p>The council of ministers consists of three categories of ministers, namely, cabinet ministers, ministers of state, and deputy ministers. The difference between them lies in their respective ranks, emoluments, and political importance. At the top of all these ministers stands the Prime Minister – the supreme governing authority of the country.</p>
+<p>The cabinet ministers head the important ministries of the Central government like home, defence, finance, external affairs and so forth. They are members of the cabinet, attend its meetings and play an important role in deciding policies. Thus, their responsibilities extend over the entire gamut of Central government.</p>
+<p>The ministers of state can either be given independent charge of ministries/departments or can be attached to cabinet ministers. In case of attachment, they may either be given the charge of departments of the ministries headed by the cabinet ministers or allotted specific items of work related to the ministries headed by cabinet ministers. In both cases, they work under the supervision and guidance as well as under the overall charge and responsibility of the cabinet ministers. In case of independent charge, they perform the same functions and exercise the same powers in relation to their ministries/departments as cabinet ministers do. However, they are not members of the cabinet and do not attend the cabinet meetings unless specially invited when something related to their ministries/departments are considered by the cabinet.</p>
+<p>Next in rank are the deputy ministers. They are not given independent charge of ministries/departments. They are attached to the cabinet ministers or ministers of state and assist them in their administrative, political, and parliamentary duties. They are not members of the cabinet and do not attend cabinet meetings.</p>
+<p>It must also be mentioned here that there is one more category of ministers, called parliamentary secretaries. They are the members of the last category of the council of ministers (which is also known as the ‘ministry’). They have no department under their control. They are attached to the senior ministers and assist them in the discharge of their parliamentary duties. However, since 1967, no parliamentary secretaries have been appointed except during the first phase of Rajiv Gandhi Government.</p>
+<p>At times, the council of ministers may also include a deputy prime minister. The deputy prime ministers are appointed mostly for political reasons.</p>
+<h1 id="council-of-ministers-vs-cabinet">COUNCIL OF MINISTERS VS CABINET </h1>
+<p>The words ‘council of ministers’ and ‘cabinet’ are often used interchangeably though there is a definite distinction between them. They differ from each other in respects of composition, functions, and role. These differences are shown in Table 20.1.</p>
+<h2 id="role-of-cabinet">ROLE OF CABINET </h2>
+<ol>
+<li>It is the highest decision-making authority in our politico-administrative system.</li>
+<li>It is the chief policy formulating body of the Central government.</li>
+<li>It is the supreme executive authority of the Central government.</li>
+<li>It is the chief coordinator of Central administration.</li>
+<li>It is an advisory body to the president and its advice is binding on him.</li>
+<li>It is the chief crisis manager and thus deals with all emergency situations.</li>
+<li>It deals with all major legislative and financial matters.</li>
+<li>It exercises control over higher appointments like constitutional authorities and senior secretariat administrators.</li>
+<li>It deals with all foreign policies and foreign affairs.</li>
+</ol>
+<table>
+<thead>
+<tr>
+<th></th>
+<th>Council of Ministers</th>
+<th>Cabinet</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1.</td>
+<td>It is a wider body consisting of 60 to 70 ministers.</td>
+<td>It is a smaller body consisting of 15 to 20 ministers.</td>
+</tr>
+<tr>
+<td>2.</td>
+<td>It includes all three categories of ministers, that is, cabinet ministers, ministers of state, and deputy ministers.</td>
+<td>It includes the cabinet ministers only. Thus, it is a part of the council of ministers.</td>
+</tr>
+<tr>
+<td>3.</td>
+<td>It does not meet, as a body, to transact government business. It has no collective functions.</td>
+<td>It meets, as a body, frequently and usually once in a week to deliberate and take decisions regarding the transaction of government business. Thus, it has collective functions.</td>
+</tr>
+<tr>
+<td>4.</td>
+<td>It is vested with all powers but in theory.</td>
+<td>It exercises, in practice, the powers of the council of ministers and thus, acts for the latter.</td>
+</tr>
+<tr>
+<td>5.</td>
+<td>Its functions are determined by the cabinet.</td>
+<td>It directs the council of ministers by taking policy decisions which are binding on all ministers.</td>
+</tr>
+<tr>
+<td>6.</td>
+<td>It implements the decisions taken by the cabinet.</td>
+<td>It supervises the implementation of its decisions by the council of ministers.</td>
+</tr>
+<tr>
+<td>7.</td>
+<td>It is a constitutional body, dealt in detail by the Articles 74 and 75 of the Constitution. Its size and classification are, however, not mentioned in the Constitution. Its size is determined by the prime minister according to the exigencies of the time and requirements of the situation. Its classification into a three-tier body is based on the conventions of parliamentary government as developed in Britain. It has, however, got a legislative sanction. Thus, the Salaries and Allowances Act of 1952 defines a ‘minister’ as a ‘member of the council of ministers, by whatever name called, and includes a deputy minister’.</td>
+<td>It was inserted in Article 352 of the Constitution in 1978 by the 44th Constitutional Amendment Act. Thus, it did not find a place in the original text of the Constitution. Now also, Article 352 only defines the cabinet saying that it is ‘the council consisting of the prime minister and other ministers of cabinet rank appointed under Article 75’ and does not describe its powers and functions. In other words, its role in our politico-administrative system is based on the conventions of parliamentary government as developed in Britain.</td>
+</tr>
+<tr>
+<td>8.</td>
+<td>It is collectively responsible to the Lower House of the Parliament.</td>
+<td>It enforces the collective responsibility of the council of ministers to the Lower House of Parliament.</td>
+</tr>
+</tbody>
+</table>
+<h2 id="role-descriptions">ROLE DESCRIPTIONS </h2>
+<p>The various comments made by the eminent political scientists and constitutional experts on the role of cabinet in Britain holds good in the Indian context also. These are mentioned below.</p>
+<ul>
+<li>Ramsay Muir: “The Cabinet is the steering wheel of the ship of the state.”</li>
+<li>Lowell: “The Cabinet is the keystone of the political arch”.</li>
+<li>Sir John Marriott: “The Cabinet is the pivot around which the whole political machinery revolves”.</li>
+<li>Gladstone: “The Cabinet is the solar orb around which the other bodies revolve”.</li>
+<li>Barker: “The Cabinet is the magnet of policy”.</li>
+<li>Bagehot: “The Cabinet is a hyphen that joins, the buckle that binds the executive and legislative departments together”.</li>
+<li>Sir Ivor Jennings: “The Cabinet is the core of the British Constitutional System. It provides unity to the British system of Government”.</li>
+<li>L.S. Amery: “The Cabinet is the central directing instrument of Government”.</li>
+</ul>
+<p>The position of the Cabinet in the British Government has become so strong that Ramsay Muir referred to it as the ‘Dictatorship of the Cabinet’. In his book ‘How Britain is Governed’, he writes “A body which wields such powers as these may fairly be described as ‘omnipotent’ in theory, however, incapable it may be of using its omnipotence. Its position, whenever it commands a majority, is a dictatorship only qualified by publicity. This dictatorship is far more absolute that it was two generations ago”. The same description holds good in the Indian context too.</p>
+<h1 id="kitchen-cabinet">KITCHEN CABINET </h1>
+<p>The cabinet, a small body consisting of the prime minister as its head and some 15 to 20 most important ministers, is the highest decision-making body in the formal sense. However, a still smaller body called the ‘Inner Cabinet’ or ‘Kitchen Cabinet’ has become the real centre of power. This informal body consists of the Prime Minister and two to four influential colleagues in whom he has faith and with whom he can discuss every problem. It advises the prime minister on important political and administrative issues and assists him in making crucial decisions. It is composed of not only cabinet ministers but also outsiders like friends and family members of the prime minister.<br>
+Every prime minister in India has had his ‘Inner Cabinet’–a circle within a circle. During the era of Indira Gandhi, the ‘Inner Cabinet’ which came to be called the ‘Kitchen Cabinet’ was particularly powerful.<br>
+The prime ministers have resorted to the device of ‘inner cabinet’ (extra-constitutional body) due to its merits, namely:</p>
+<ol>
+<li>It being a small unit, is much more efficient decision-making body than a large cabinet.</li>
+<li>It can meet more often and deal with business much more expeditiously than the large cabinet.</li>
+<li>It helps the Prime Minister in maintaining secrecy in making decisions on important political issues.<br>
+However, it has many demerits also. Thus,</li>
+<li>It reduces the authority and status of the cabinet as the highest decision-making body.</li>
+<li>It circumvents the legal process by allowing outside persons to play an influential role in the government functioning.<br>
+The phenomenon of ‘kitchen cabinet’ (where decisions are cooked and placed before the cabinet for formal approval) is not unique to India. It also exists in USA and Britain and is quite powerful in influencing government decisions there.</li>
+</ol>
+
+      </div>
+      
+      
+    
+    
+    
+    
+    
+    
+  
+    </body></html>
