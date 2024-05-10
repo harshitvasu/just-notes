@@ -87,7 +87,7 @@
 function speak(text) {
     var synth = window.speechSynthesis;
     var voices = synth.getVoices();
-    var selectedVoice = voices.filter(function(voice) { return voice.name === 'Alex'; })[0];
+    var selectedVoice = voices.filter(function(voice) { return voice.name === 'Samantha'; })[0];
 
     // Splitting text into parts for pausing, the regex will capture newlines and periods not preceded by capital letters
     var parts = text.split(/(\n|(?<![A-Z])[.])/);
