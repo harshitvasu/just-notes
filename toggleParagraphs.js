@@ -7,10 +7,10 @@
     style.sheet.insertRule(`.hidden { height: 20px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }`, 2);
     style.sheet.insertRule(`#percentage-display, #control-panel { position: fixed; right: 20px; top: 20px; background-color: #f9f9f9; padding: 5px 10px; border: 1px solid #ccc; border-radius: 5px; }`, 3);
     style.sheet.insertRule(`#control-panel { bottom: 20px; right: 50%; transform: translateX(50%); top: auto; }`, 4);
-    style.sheet.insertRule(`#settings-button { position: fixed; bottom: 20px; right: 20px; background-color: #007bff; color: white; border: none; border-radius: 50%; width: 50px; height: 50px; cursor: pointer; font-size: 24px; z-index: 1000; }`, 5);
+    style.sheet.insertRule(`#settings-button { position: fixed; bottom: 20px; right: 20px; background:none;color: white; border: none; border-radius: 50%; width: 50px; height: 50px; cursor: pointer; font-size: 24px; z-index: 1000; }`, 5);
     style.sheet.insertRule(`#settings-popup { display: none; position: fixed; bottom: 80px; right: 20px; background-color: white; border: 1px solid #ccc; border-radius: 5px; padding: 20px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); max-width: 300px; width: 100%; z-index: 999; }`, 6);
     style.sheet.insertRule(`#settings-popup label { display: block; margin-bottom: 10px; }`, 7);
-    style.sheet.insertRule(`#settings-popup input { margin-bottom: 10px; width: 100%; padding: 5px; box-sizing: border-box; }`, 8);
+    style.sheet.insertRule(`#settings-popup select, #settings-popup input { margin-bottom: 10px; width: 100%; padding: 5px; box-sizing: border-box; }`, 8);
 
     // Select both paragraph and specified ordered list tags
     const readBoxes = document.querySelectorAll('.markdown-preview > :not(h1, h2, h3, h4), .markdown > :not(h1, h2, h3, h4)');
@@ -78,17 +78,11 @@
     controlPanel.id = "control-panel";
     document.body.appendChild(controlPanel);
 
-    const pauseButton = document.createElement("button");
-    pauseButton.textContent = "Pause/Resume";
-    pauseButton.onclick = toggleSpeech;
-    controlPanel.appendChild(pauseButton);
-
     const stopButton = document.createElement("button");
     stopButton.textContent = "Stop Speaking";
     stopButton.onclick = () => window.speechSynthesis.cancel();
     controlPanel.appendChild(stopButton);
 
-    // Add settings button and popup
     const settingsButton = document.createElement("button");
     settingsButton.id = "settings-button";
     settingsButton.textContent = "⚙️";
@@ -102,10 +96,8 @@
     voiceLabel.textContent = "Voice:";
     settingsPopup.appendChild(voiceLabel);
 
-    const voiceInput = document.createElement("input");
-    voiceInput.type = "text";
-    voiceInput.value = "Samantha";
-    settingsPopup.appendChild(voiceInput);
+    const voiceSelect = document.createElement("select");
+    settingsPopup.appendChild(voiceSelect);
 
     const rateLabel = document.createElement("label");
     rateLabel.textContent = "Rate:";
@@ -122,11 +114,16 @@
     const saveButton = document.createElement("button");
     saveButton.textContent = "Save";
     saveButton.onclick = function() {
-        selectedVoice = voiceInput.value;
+        selectedVoice = voiceSelect.value;
         selectedRate = parseFloat(rateInput.value);
         settingsPopup.style.display = "none";
     };
     settingsPopup.appendChild(saveButton);
+
+    const pauseButton = document.createElement("button");
+    pauseButton.textContent = "Pause/Resume";
+    pauseButton.onclick = toggleSpeech;
+    controlPanel.appendChild(pauseButton);
 
     settingsButton.addEventListener("click", function() {
         settingsPopup.style.display = settingsPopup.style.display === "none" ? "block" : "none";
@@ -134,6 +131,30 @@
 
     let selectedVoice = "Samantha";
     let selectedRate = 0.75;
+
+    function populateVoiceList() {
+        const synth = window.speechSynthesis;
+        const voices = synth.getVoices();
+        voiceSelect.innerHTML = '';
+        voices.forEach((voice) => {
+            const option = document.createElement("option");
+            option.textContent = `${voice.name} (${voice.lang})`;
+            option.value = voice.name;
+            voiceSelect.appendChild(option);
+        });
+
+        // Set default voice
+        const defaultVoice = voices.find(v => v.name === "Samantha") || voices[0];
+        if (defaultVoice) {
+            voiceSelect.value = defaultVoice.name;
+            selectedVoice = defaultVoice.name;
+        }
+    }
+
+    populateVoiceList();
+    if (window.speechSynthesis.onvoiceschanged !== undefined) {
+        window.speechSynthesis.onvoiceschanged = populateVoiceList;
+    }
 
     function speak(text) {
         var synth = window.speechSynthesis;
@@ -161,44 +182,15 @@
 
             msg.onend = function() {
                 if (index < parts.length - 1) {
-                    setTimeout(function() { speakPart(index + 1); }, 1000); // Wait for 5 seconds before speaking the next part
+                    setTimeout(function() { speakPart(index + 1); }, 1000); // Wait for 1 second before speaking the next part
                 }
             };
 
             synth.speak(msg);
         }
 
-        speakPart(0); // Start speaking the first part
+        speakPart(0);
     }
-
-    function printVoices() {
-        // Check if speech synthesis is supported
-        if ('speechSynthesis' in window) {
-            // Wait for the voices to be loaded
-            window.speechSynthesis.onvoiceschanged = function() {
-                // Get the list of voices
-                var voices = window.speechSynthesis.getVoices();
-                
-                // Create a string to store voice names
-                var voiceNames = "Voices available on this device:\n";
-                
-                // Loop through each voice and add its name to the string
-                voices.forEach(function(voice, index) {
-                    voiceNames += (index + 1) + ". " + voice.name + "\n";
-                });
-                
-                // Display the list of voices using window.alert()
-                window.alert(voiceNames);
-            };
-        } else {
-            // If speech synthesis is not supported, alert the user
-            window.alert("Speech synthesis is not supported in this browser.");
-        }
-    }
-    
-    // Call the function to print out the voices
-    printVoices();
-    
 
     function copyText(text) {
         navigator.clipboard.writeText(text).then(function() {
