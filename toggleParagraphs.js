@@ -60,7 +60,7 @@
                     paragraph.appendChild(speakButton);
                     paragraph.appendChild(copyButton);
                     paragraph.classList.add('hidden');
-                    expandedCount--;
+                    expandedCount = Math.max(0, expandedCount - 1); // Ensure expandedCount does not go below 0
                 }
                 updatePercentageDisplay();
             }
