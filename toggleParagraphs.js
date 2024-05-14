@@ -111,11 +111,24 @@
     rateInput.value = "0.75";
     settingsPopup.appendChild(rateInput);
 
+    const gapLabel = document.createElement("label");
+    gapLabel.textContent = "Gap Time:";
+    settingsPopup.appendChild(gapLabel);
+
+    const gapTime = document.createElement("input");
+    gapTime.type = "number";
+    gapTime.min = "500";
+    gapTime.max = "2000";
+    gapTime.step = "100";
+    gapTime.value = "750";
+    settingsPopup.appendChild(gapTime);
+
     const saveButton = document.createElement("button");
     saveButton.textContent = "Save";
     saveButton.onclick = function() {
         selectedVoice = voiceSelect.value;
         selectedRate = parseFloat(rateInput.value);
+        selectedGap = parseFloat(gapTime.value);
         settingsPopup.style.display = "none";
     };
     settingsPopup.appendChild(saveButton);
@@ -131,6 +144,7 @@
 
     let selectedVoice = "Samantha";
     let selectedRate = 0.75;
+    let selectedGap = 750;
 
     function populateVoiceList() {
         const synth = window.speechSynthesis;
@@ -182,7 +196,7 @@
 
             msg.onend = function() {
                 if (index < parts.length - 1) {
-                    setTimeout(function() { speakPart(index + 1); }, 1000); // Wait for 1 second before speaking the next part
+                    setTimeout(function() { speakPart(index + 1); }, selectedGap); // Wait for 1 second before speaking the next part
                 }
             };
 
