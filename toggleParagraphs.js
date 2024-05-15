@@ -5,151 +5,160 @@
     const readBoxes = document.querySelectorAll('.markdown-preview > :not(h1, h2, h3, h4), .markdown > :not(h1, h2, h3, h4)');
     let expandedCount = 0;
     const totalCount = readBoxes.length;
+
     const percentageDisplay = document.createElement('div');
     percentageDisplay.id = 'percentage-display';
     document.body.appendChild(percentageDisplay);
 
-    readBoxes.forEach(paragraph => {
-        const originalHTML = paragraph.innerHTML; // Store the original HTML
-        const textContent = paragraph.textContent.trim(); // Use textContent for processing
-        let previewText = textContent.split(/\s+/).slice(0, 25).join(' ') + ' ...';
+    const controlPanel = createControlPanel();
+    document.body.appendChild(controlPanel);
 
-        const collapsibleIcon = document.createElement("span");
-        collapsibleIcon.textContent = ">";
-        collapsibleIcon.className = "collapsible-icon";
+    const settingsPopup = createSettingsPopup();
+    document.body.appendChild(settingsPopup);
 
-        const speakButton = document.createElement("button");
-        speakButton.textContent = "👂";
-        speakButton.className = "speak-btn";
-        speakButton.onclick = function() {
-             speak(textContent); 
-             playPauseButton.innerHTML = "⏸️"; // Pause icon
-            };
+    let selectedVoice = "Samantha";
+    let selectedRate = 0.75;
+    let selectedGap = 750;
 
-        const copyButton = document.createElement("button");
-        copyButton.textContent = "📋";
-        copyButton.className = "copy-btn";
-        copyButton.onclick = function() { copyText(textContent); };
+    initializeReadBoxes();
+    populateVoiceList();
 
-        paragraph.innerHTML = `<span class="collapsible-icon">${collapsibleIcon.outerHTML}</span><span class="preview-text">${previewText}</span>`;
-        paragraph.appendChild(speakButton);
-        paragraph.appendChild(copyButton);
-        paragraph.classList.add("hidden");
+    if (window.speechSynthesis.onvoiceschanged !== undefined) {
+        window.speechSynthesis.onvoiceschanged = populateVoiceList;
+    }
 
-        paragraph.addEventListener('click', function(event) {
-            if (event.target !== speakButton && event.target !== copyButton) {
-                if (paragraph.classList.contains('hidden')) {
-                    paragraph.innerHTML = originalHTML; // Restore the original HTML
-                    paragraph.appendChild(speakButton); // Re-add the speak button
-                    paragraph.appendChild(copyButton); // Re-add the copy button
-                    paragraph.classList.remove('hidden');
-                    paragraph.style.padding = "10px"; // Ensure padding is applied when expanded
-                    collapsibleIcon.textContent = "↓"; // Change icon to downward arrow when expanded
-                    expandedCount++;
-                } else {
-                    paragraph.innerHTML = `<span class="collapsible-icon">${collapsibleIcon.outerHTML}</span><span class="preview-text">${previewText}</span>`;
-                    paragraph.appendChild(speakButton);
-                    paragraph.appendChild(copyButton);
-                    paragraph.classList.add('hidden');
-                    collapsibleIcon.textContent = ">"; // Change icon back to right arrow when collapsed
-                    expandedCount = Math.max(0, expandedCount - 1); // Ensure expandedCount does not go below 0
+    function initializeReadBoxes() {
+        readBoxes.forEach(paragraph => {
+            const originalHTML = paragraph.innerHTML;
+            const textContent = paragraph.textContent.trim();
+            const previewText = textContent.split(/\s+/).slice(0, 25).join(' ') + ' ...';
+
+            paragraph.innerHTML = `<span class="collapsible-icon">></span><span class="preview-text">${previewText}</span>`;
+            paragraph.classList.add('hidden');
+
+            const speakButton = createButton('👂', 'speak-btn', () => speak(textContent));
+            const copyButton = createButton('📋', 'copy-btn', () => copyText(textContent));
+            paragraph.appendChild(speakButton);
+            paragraph.appendChild(copyButton);
+
+            paragraph.addEventListener('click', function(event) {
+                if (![speakButton, copyButton].includes(event.target)) {
+                    toggleParagraph(paragraph, originalHTML, previewText, speakButton, copyButton);
                 }
-                updatePercentageDisplay();
-            }
+            });
         });
-    });
+        updatePercentageDisplay();
+    }
+
+    function toggleParagraph(paragraph, originalHTML, previewText, speakButton, copyButton) {
+        if (paragraph.classList.contains('hidden')) {
+            paragraph.innerHTML = originalHTML;
+            paragraph.appendChild(speakButton);
+            paragraph.appendChild(copyButton);
+            paragraph.classList.remove('hidden');
+            expandedCount++;
+        } else {
+            paragraph.innerHTML = `<span class="collapsible-icon">></span><span class="preview-text">${previewText}</span>`;
+            paragraph.appendChild(speakButton);
+            paragraph.appendChild(copyButton);
+            paragraph.classList.add('hidden');
+            expandedCount = Math.max(0, expandedCount - 1);
+        }
+        updatePercentageDisplay();
+    }
 
     function updatePercentageDisplay() {
         const percentage = (expandedCount / totalCount * 100).toFixed(0);
         percentageDisplay.textContent = `${percentage}% Expanded`;
     }
 
-    updatePercentageDisplay(); // Initial display update
+    function createControlPanel() {
+        const controlPanel = document.createElement('div');
+        controlPanel.id = 'control-panel';
 
-    const controlPanel = document.createElement("div");
-    controlPanel.id = "control-panel";
-    document.body.appendChild(controlPanel);
+        const stopButton = createButton('⏹️', '', () => window.speechSynthesis.cancel());
+        const playPauseButton = createButton('▶️', '', toggleSpeech);
+        const settingsButton = createButton('⚙️', 'settings-button', toggleSettingsPopup);
 
-    const stopButton = document.createElement("button");
-    stopButton.innerHTML = "⏹️"; // Stop icon
-    stopButton.onclick = () => window.speechSynthesis.cancel();
-    controlPanel.appendChild(stopButton);
+        controlPanel.appendChild(stopButton);
+        controlPanel.appendChild(playPauseButton);
+        controlPanel.appendChild(settingsButton);
 
-    const playPauseButton = document.createElement("button");
-    playPauseButton.innerHTML = "▶️"; // Play icon initially
-    playPauseButton.onclick = toggleSpeech;
-    controlPanel.appendChild(playPauseButton);
+        return controlPanel;
+    }
 
-    const settingsButton = document.createElement("button");
-    settingsButton.id = "settings-button";
-    settingsButton.textContent = "⚙️";
-    controlPanel.appendChild(settingsButton);
+    function createSettingsPopup() {
+        const settingsPopup = document.createElement('div');
+        settingsPopup.id = 'settings-popup';
 
-    const settingsPopup = document.createElement("div");
-    settingsPopup.id = "settings-popup";
-    document.body.appendChild(settingsPopup);
+        const voiceLabel = createLabel('Voice:', settingsPopup);
+        const voiceSelect = document.createElement('select');
+        settingsPopup.appendChild(voiceSelect);
 
-    const voiceLabel = document.createElement("label");
-    voiceLabel.textContent = "Voice:";
-    settingsPopup.appendChild(voiceLabel);
+        const rateLabel = createLabel('Rate:', settingsPopup);
+        const rateInput = createNumberInput('0.5', '2', '0.1', '0.75');
+        settingsPopup.appendChild(rateInput);
 
-    const voiceSelect = document.createElement("select");
-    settingsPopup.appendChild(voiceSelect);
+        const gapLabel = createLabel('Gap Time:', settingsPopup);
+        const gapTime = createNumberInput('500', '2000', '100', '750');
+        settingsPopup.appendChild(gapTime);
 
-    const rateLabel = document.createElement("label");
-    rateLabel.textContent = "Rate:";
-    settingsPopup.appendChild(rateLabel);
+        const saveButton = createButton('Save', '', saveSettings);
+        settingsPopup.appendChild(saveButton);
 
-    const rateInput = document.createElement("input");
-    rateInput.type = "number";
-    rateInput.min = "0.5";
-    rateInput.max = "2";
-    rateInput.step = "0.1";
-    rateInput.value = "0.75";
-    settingsPopup.appendChild(rateInput);
+        function saveSettings() {
+            selectedVoice = voiceSelect.value;
+            selectedRate = parseFloat(rateInput.value);
+            selectedGap = parseFloat(gapTime.value);
+            settingsPopup.style.display = 'none';
+        }
 
-    const gapLabel = document.createElement("label");
-    gapLabel.textContent = "Gap Time:";
-    settingsPopup.appendChild(gapLabel);
+        return settingsPopup;
+    }
 
-    const gapTime = document.createElement("input");
-    gapTime.type = "number";
-    gapTime.min = "500";
-    gapTime.max = "2000";
-    gapTime.step = "100";
-    gapTime.value = "750";
-    settingsPopup.appendChild(gapTime);
+    function createLabel(text, parent) {
+        const label = document.createElement('label');
+        label.textContent = text;
+        parent.appendChild(label);
+        return label;
+    }
 
-    const saveButton = document.createElement("button");
-    saveButton.textContent = "Save";
-    saveButton.onclick = function() {
-        selectedVoice = voiceSelect.value;
-        selectedRate = parseFloat(rateInput.value);
-        selectedGap = parseFloat(gapTime.value);
-        settingsPopup.style.display = "none";
-    };
-    settingsPopup.appendChild(saveButton);
+    function createNumberInput(min, max, step, value) {
+        const input = document.createElement('input');
+        input.type = 'number';
+        input.min = min;
+        input.max = max;
+        input.step = step;
+        input.value = value;
+        return input;
+    }
 
-    settingsButton.addEventListener("click", function() {
-        settingsPopup.style.display = settingsPopup.style.display === "none" ? "block" : "none";
-    });
+    function createButton(text, className, onClick) {
+        const button = document.createElement('button');
+        button.textContent = text;
+        if (className) button.className = className;
+        button.onclick = onClick;
+        return button;
+    }
 
-    let selectedVoice = "Samantha";
-    let selectedRate = 0.75;
-    let selectedGap = 750;
+    function toggleSettingsPopup() {
+        const settingsPopup = document.getElementById('settings-popup');
+        settingsPopup.style.display = settingsPopup.style.display === 'none' ? 'block' : 'none';
+    }
 
     function populateVoiceList() {
         const synth = window.speechSynthesis;
         const voices = synth.getVoices();
+        const voiceSelect = document.querySelector('#settings-popup select');
         voiceSelect.innerHTML = '';
-        voices.forEach((voice) => {
-            const option = document.createElement("option");
+
+        voices.forEach(voice => {
+            const option = document.createElement('option');
             option.textContent = `${voice.name} (${voice.lang})`;
             option.value = voice.name;
             voiceSelect.appendChild(option);
         });
 
-        // Set default voice
         const defaultVoice = voices.find(v => v.name === "Samantha") || voices[0];
         if (defaultVoice) {
             voiceSelect.value = defaultVoice.name;
@@ -157,63 +166,64 @@
         }
     }
 
-    populateVoiceList();
-    if (window.speechSynthesis.onvoiceschanged !== undefined) {
-        window.speechSynthesis.onvoiceschanged = populateVoiceList;
-    }
-
     function speak(text) {
-        var synth = window.speechSynthesis;
-        var voices = synth.getVoices();
-        var voice = voices.find(v => v.name === selectedVoice);
-
-        // Splitting text into parts for pausing, the regex will capture newlines and periods not preceded by capital letters
-        var parts = text.split(/(\n|(?<![A-Z])[.])/);
-
-        // Concatenate each period not preceded by a capital letter back to the previous text part
-        for (var i = parts.length - 2; i >= 0; i--) {
-            if (parts[i + 1] === '.') {
-                parts[i] += parts[i + 1];
-                parts.splice(i + 1, 1);  // Remove the period from the array after appending it to the previous string
-            }
-        }
+        
+        const synth = window.speechSynthesis;
+        const voices = synth.getVoices();
+        const voice = voices.find(v => v.name === selectedVoice);
+        const parts = splitTextIntoParts(text);
 
         function speakPart(index) {
-            if (index >= parts.length) return; // Stop if there are no more parts to speak
+            if (index >= parts.length) return;
 
-            var part = parts[index];
-            var msg = new SpeechSynthesisUtterance(part);
+            const part = parts[index];
+            const msg = new SpeechSynthesisUtterance(part);
             msg.voice = voice;
             msg.rate = selectedRate;
 
-            msg.onend = function() {
+            msg.onend = () => {
                 if (index < parts.length - 1) {
-                    setTimeout(function() { speakPart(index + 1); }, selectedGap); // Wait for 1 second before speaking the next part
+                    setTimeout(() => speakPart(index + 1), selectedGap);
                 }
             };
 
             synth.speak(msg);
+            
+            
         }
-
+        const playPauseButton = document.querySelector('#control-panel button:nth-child(2)');
+        playPauseButton.innerHTML = "⏸️";
         speakPart(0);
     }
 
+    function splitTextIntoParts(text) {
+        const parts = text.split(/(\n|(?<![A-Z])[.])/);
+        for (let i = parts.length - 2; i >= 0; i--) {
+            if (parts[i + 1] === '.') {
+                parts[i] += parts[i + 1];
+                parts.splice(i + 1, 1);
+            }
+        }
+        return parts;
+    }
+
     function copyText(text) {
-        navigator.clipboard.writeText(text).then(function() {
+        navigator.clipboard.writeText(text).then(() => {
             alert('Text copied successfully!');
-        }, function(err) {
+        }).catch(err => {
             alert('Failed to copy text: ', err);
         });
     }
 
     function toggleSpeech() {
         const synth = window.speechSynthesis;
+        const playPauseButton = document.querySelector('#control-panel button:nth-child(2)');
         if (synth.paused) {
             synth.resume();
-            playPauseButton.innerHTML = "⏸️"; // Pause icon
+            playPauseButton.innerHTML = "⏸️";
         } else if (synth.speaking) {
             synth.pause();
-            playPauseButton.innerHTML = "▶️"; // Play icon
+            playPauseButton.innerHTML = "▶️";
         }
     }
 })();
