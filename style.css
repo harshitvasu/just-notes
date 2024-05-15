@@ -1,0 +1,275 @@
+/* General styles for p, ol, and ul elements */
+p, ol, ul {
+    border-left: 2px solid #ddd;
+    padding: 10px;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+    box-sizing: border-box;
+}
+
+/* Style for collapsible icon */
+.collapsible-icon {
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 16px;
+}
+
+/* Style for hidden class to manage preview text */
+.hidden {
+    max-height: 40px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    padding-left: 30px;
+    white-space: nowrap;
+}
+
+/* Style for preview text */
+.preview-text {
+    display: inline-block;
+    padding-left: 30px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: calc(100% - 100px);
+    vertical-align: middle;
+}
+
+
+
+#settings-popup {
+    display: none;
+    position: fixed;
+    bottom: 80px;
+    right: 20px;
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 300px;
+    width: 100%;
+    z-index: 999;
+}
+
+#settings-popup label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+#settings-popup select, #settings-popup input {
+    margin-bottom: 10px;
+    width: 100%;
+    padding: 5px;
+    box-sizing: border-box;
+}
+
+.speak-btn, .copy-btn {
+    background: none;
+    border: 1px solid #ddd;
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    margin-left: 5px;
+    cursor: pointer;
+    font-size: 12px;
+}
+
+.speak-btn {
+    position: absolute;
+    right: 35px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.copy-btn {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+/* GitHub styled headers */
+h1 {
+    font-size: 2em;
+    font-weight: 600;
+    margin: 0.67em 0;
+    padding-bottom: 0.3em;
+    border-bottom: 1px solid #eaecef;
+}
+
+h2 {
+    font-size: 1.5em;
+    font-weight: 600;
+    margin: 0.83em 0;
+    padding-bottom: 0.3em;
+    border-bottom: 1px solid #eaecef;
+}
+
+h3 {
+    font-size: 1.25em;
+    font-weight: 600;
+    margin: 1em 0;
+}
+
+h4 {
+    font-size: 1em;
+    font-weight: 600;
+    margin: 1.33em 0;
+    color: #6a737d; /* Greyish color for lighter look */
+}
+
+/* General styles for p, ol, and ul elements */
+p, ol, ul {
+  border-left: 2px solid #ddd;
+  padding: 10px;
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+  box-sizing: border-box;
+}
+
+/* Style for collapsible icon */
+.collapsible-icon {
+  position: absolute;
+  left: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 16px;
+}
+
+/* Style for hidden class to manage preview text */
+.hidden {
+  max-height: 40px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  padding-left: 30px;
+  white-space: nowrap;
+}
+
+/* Style for preview text */
+.preview-text {
+  display: inline-block;
+  padding-left: 30px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: calc(100% - 100px);
+  vertical-align: middle;
+}
+
+/* Styles for percentage display and control panel */
+#percentage-display, #control-panel {
+  position: fixed;
+  right: 20px;
+  top: 20px;
+  background-color: #f9f9f9;
+  padding: 5px 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+#control-panel {
+  bottom: 20px;
+  right: 50%;
+  transform: translateX(50%);
+  top: auto;
+  display: inline;
+  flex-direction: column;
+  align-items: center;
+}
+
+#control-panel button{
+  width: 50px;
+  height: 50px;
+  border:none;
+  font-size: 24px;
+  background:none;
+}
+
+
+
+#settings-popup {
+  display: none;
+  position: fixed;
+  bottom: 80px;
+  right: 20px;
+  background-color: white;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  max-width: 300px;
+  width: 100%;
+  z-index: 999;
+}
+
+#settings-popup label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+#settings-popup select, #settings-popup input {
+  margin-bottom: 10px;
+  width: 100%;
+  padding: 5px;
+  box-sizing: border-box;
+}
+
+.speak-btn, .copy-btn {
+  background: none;
+  border: 1px solid #ddd;
+  border-radius: 50%;
+  width: 25px;
+  height: 25px;
+  margin-left: 5px;
+  cursor: pointer;
+  font-size: 12px;
+}
+
+.speak-btn {
+  position: absolute;
+  right: 35px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.copy-btn {
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+/* GitHub styled headers */
+h1 {
+  font-size: 2em;
+  font-weight: 600;
+  margin: 0.67em 0;
+  padding-bottom: 0.3em;
+  border-bottom: 1px solid #eaecef;
+}
+
+h2 {
+  font-size: 1.5em;
+  font-weight: 600;
+  margin: 0.83em 0;
+  padding-bottom: 0.3em;
+  border-bottom: 1px solid #eaecef;
+}
+
+h3 {
+  font-size: 1.25em;
+  font-weight: 600;
+  margin: 1em 0;
+}
+
+h4 {
+  font-size: 1em;
+  font-weight: 600;
+  margin: 1.33em 0;
+  color: #6a737d; /* Greyish color for lighter look */
+}
+
