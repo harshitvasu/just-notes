@@ -1,18 +1,7 @@
 (function() {
-    // Define the styles directly in JavaScript
     const style = document.createElement('style');
     document.head.appendChild(style);
-    style.sheet.insertRule(`p, ol, ul { border: 1px solid #ddd; padding: 10px; position: relative; overflow: hidden; cursor: pointer; }`, 0);
-    style.sheet.insertRule(`.down-arrow { position: absolute; right: 10px; top: 50%; transform: translateY(-50%); }`, 1);
-    style.sheet.insertRule(`.hidden { height: 20px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }`, 2);
-    style.sheet.insertRule(`#percentage-display, #control-panel { position: fixed; right: 20px; top: 20px; background-color: #f9f9f9; padding: 5px 10px; border: 1px solid #ccc; border-radius: 5px; }`, 3);
-    style.sheet.insertRule(`#control-panel { bottom: 20px; right: 50%; transform: translateX(50%); top: auto; }`, 4);
-    style.sheet.insertRule(`#settings-button { position: fixed; bottom: 20px; right: 20px; background:none;color: white; border: none; border-radius: 50%; width: 50px; height: 50px; cursor: pointer; font-size: 24px; z-index: 1000; }`, 5);
-    style.sheet.insertRule(`#settings-popup { display: none; position: fixed; bottom: 80px; right: 20px; background-color: white; border: 1px solid #ccc; border-radius: 5px; padding: 20px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); max-width: 300px; width: 100%; z-index: 999; }`, 6);
-    style.sheet.insertRule(`#settings-popup label { display: block; margin-bottom: 10px; }`, 7);
-    style.sheet.insertRule(`#settings-popup select, #settings-popup input { margin-bottom: 10px; width: 100%; padding: 5px; box-sizing: border-box; }`, 8);
 
-    // Select both paragraph and specified ordered list tags
     const readBoxes = document.querySelectorAll('.markdown-preview > :not(h1, h2, h3, h4), .markdown > :not(h1, h2, h3, h4)');
     let expandedCount = 0;
     const totalCount = readBoxes.length;
@@ -25,23 +14,24 @@
         const textContent = paragraph.textContent.trim(); // Use textContent for processing
         let previewText = textContent.split(/\s+/).slice(0, 25).join(' ') + ' ...';
 
-        const downArrow = document.createElement("span");
-        downArrow.textContent = "↓";
-        downArrow.className = "down-arrow";
+        const collapsibleIcon = document.createElement("span");
+        collapsibleIcon.textContent = ">";
+        collapsibleIcon.className = "collapsible-icon";
 
         const speakButton = document.createElement("button");
         speakButton.textContent = "👂";
         speakButton.className = "speak-btn";
-        speakButton.onclick = function() { speak(textContent); };
+        speakButton.onclick = function() {
+             speak(textContent); 
+             playPauseButton.innerHTML = "⏸️"; // Pause icon
+            };
 
         const copyButton = document.createElement("button");
         copyButton.textContent = "📋";
         copyButton.className = "copy-btn";
         copyButton.onclick = function() { copyText(textContent); };
 
-        // Set preview text and hide original content
-        paragraph.innerHTML = `<span class="preview-text">${previewText}</span>`;
-        paragraph.appendChild(downArrow);
+        paragraph.innerHTML = `<span class="collapsible-icon">${collapsibleIcon.outerHTML}</span><span class="preview-text">${previewText}</span>`;
         paragraph.appendChild(speakButton);
         paragraph.appendChild(copyButton);
         paragraph.classList.add("hidden");
@@ -53,13 +43,15 @@
                     paragraph.appendChild(speakButton); // Re-add the speak button
                     paragraph.appendChild(copyButton); // Re-add the copy button
                     paragraph.classList.remove('hidden');
+                    paragraph.style.padding = "10px"; // Ensure padding is applied when expanded
+                    collapsibleIcon.textContent = "↓"; // Change icon to downward arrow when expanded
                     expandedCount++;
                 } else {
-                    paragraph.innerHTML = `<span class="preview-text">${previewText}</span>`;
-                    paragraph.appendChild(downArrow);
+                    paragraph.innerHTML = `<span class="collapsible-icon">${collapsibleIcon.outerHTML}</span><span class="preview-text">${previewText}</span>`;
                     paragraph.appendChild(speakButton);
                     paragraph.appendChild(copyButton);
                     paragraph.classList.add('hidden');
+                    collapsibleIcon.textContent = ">"; // Change icon back to right arrow when collapsed
                     expandedCount = Math.max(0, expandedCount - 1); // Ensure expandedCount does not go below 0
                 }
                 updatePercentageDisplay();
@@ -79,14 +71,19 @@
     document.body.appendChild(controlPanel);
 
     const stopButton = document.createElement("button");
-    stopButton.textContent = "Stop Speaking";
+    stopButton.innerHTML = "⏹️"; // Stop icon
     stopButton.onclick = () => window.speechSynthesis.cancel();
     controlPanel.appendChild(stopButton);
+
+    const playPauseButton = document.createElement("button");
+    playPauseButton.innerHTML = "▶️"; // Play icon initially
+    playPauseButton.onclick = toggleSpeech;
+    controlPanel.appendChild(playPauseButton);
 
     const settingsButton = document.createElement("button");
     settingsButton.id = "settings-button";
     settingsButton.textContent = "⚙️";
-    document.body.appendChild(settingsButton);
+    controlPanel.appendChild(settingsButton);
 
     const settingsPopup = document.createElement("div");
     settingsPopup.id = "settings-popup";
@@ -132,11 +129,6 @@
         settingsPopup.style.display = "none";
     };
     settingsPopup.appendChild(saveButton);
-
-    const pauseButton = document.createElement("button");
-    pauseButton.textContent = "Pause/Resume";
-    pauseButton.onclick = toggleSpeech;
-    controlPanel.appendChild(pauseButton);
 
     settingsButton.addEventListener("click", function() {
         settingsPopup.style.display = settingsPopup.style.display === "none" ? "block" : "none";
@@ -218,8 +210,10 @@
         const synth = window.speechSynthesis;
         if (synth.paused) {
             synth.resume();
+            playPauseButton.innerHTML = "⏸️"; // Pause icon
         } else if (synth.speaking) {
             synth.pause();
+            playPauseButton.innerHTML = "▶️"; // Play icon
         }
     }
 })();
