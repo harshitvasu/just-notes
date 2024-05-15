@@ -36,31 +36,34 @@
             paragraph.innerHTML = `<span class="collapsible-icon">></span><span class="preview-text">${previewText}</span>`;
             paragraph.classList.add('hidden');
 
+            const buttonContainer = document.createElement('div');
+            buttonContainer.className = 'button-container';
+
             const speakButton = createButton('👂', 'speak-btn', () => speak(textContent));
             const copyButton = createButton('📋', 'copy-btn', () => copyText(textContent));
-            paragraph.appendChild(speakButton);
-            paragraph.appendChild(copyButton);
+            buttonContainer.appendChild(speakButton);
+            buttonContainer.appendChild(copyButton);
+
+            paragraph.appendChild(buttonContainer);
 
             paragraph.addEventListener('click', function(event) {
                 if (![speakButton, copyButton].includes(event.target)) {
-                    toggleParagraph(paragraph, originalHTML, previewText, speakButton, copyButton);
+                    toggleParagraph(paragraph, originalHTML, previewText, buttonContainer);
                 }
             });
         });
         updatePercentageDisplay();
     }
 
-    function toggleParagraph(paragraph, originalHTML, previewText, speakButton, copyButton) {
+    function toggleParagraph(paragraph, originalHTML, previewText, buttonContainer) {
         if (paragraph.classList.contains('hidden')) {
             paragraph.innerHTML = originalHTML;
-            paragraph.appendChild(speakButton);
-            paragraph.appendChild(copyButton);
+            paragraph.appendChild(buttonContainer);
             paragraph.classList.remove('hidden');
             expandedCount++;
         } else {
             paragraph.innerHTML = `<span class="collapsible-icon">></span><span class="preview-text">${previewText}</span>`;
-            paragraph.appendChild(speakButton);
-            paragraph.appendChild(copyButton);
+            paragraph.appendChild(buttonContainer);
             paragraph.classList.add('hidden');
             expandedCount = Math.max(0, expandedCount - 1);
         }
@@ -76,7 +79,10 @@
         const controlPanel = document.createElement('div');
         controlPanel.id = 'control-panel';
 
-        const stopButton = createButton('⏹️', '', () => window.speechSynthesis.cancel());
+        const stopButton = createButton('⏹️', '', () => {
+            window.speechSynthesis.cancel();
+            playPauseButton.innerHTML = "▶️";
+        });
         const playPauseButton = createButton('▶️', '', toggleSpeech);
         const settingsButton = createButton('⚙️', 'settings-button', toggleSettingsPopup);
 
@@ -167,7 +173,6 @@
     }
 
     function speak(text) {
-        
         const synth = window.speechSynthesis;
         const voices = synth.getVoices();
         const voice = voices.find(v => v.name === selectedVoice);
@@ -188,9 +193,8 @@
             };
 
             synth.speak(msg);
-            
-            
         }
+
         const playPauseButton = document.querySelector('#control-panel button:nth-child(2)');
         playPauseButton.innerHTML = "⏸️";
         speakPart(0);

@@ -1,3 +1,8 @@
+.markdown-preview {
+  margin-bottom: 40px;
+  margin-top: 40px !important;
+}
+
 /* General styles for p, ol, and ul elements */
 p,
 ol,
@@ -26,7 +31,7 @@ ul {
   max-height: 40px;
   overflow: hidden;
   text-overflow: ellipsis;
-  padding-left: 30px;
+  padding-left: 15px;
   white-space: nowrap;
 }
 
@@ -39,6 +44,20 @@ ul {
   text-overflow: ellipsis;
   max-width: calc(100% - 100px);
   vertical-align: middle;
+}
+
+/* Style for button container */
+.button-container {
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  display: flex;
+  gap: 5px;
+  min-height: 40px;
+  min-width: 60px;
+  justify-content: center;
+  align-items: center;
 }
 
 /* Style for settings popup */
@@ -81,24 +100,10 @@ ul {
   border-radius: 50%;
   width: 25px;
   height: 25px;
-  margin-left: 5px;
+  margin: 0;
   cursor: pointer;
   font-size: 12px;
   transition: background 0.3s ease;
-}
-
-.speak-btn {
-  position: absolute;
-  right: 35px;
-  top: 50%;
-  transform: translateY(-50%);
-}
-
-.copy-btn {
-  position: absolute;
-  right: 10px;
-  top: 50%;
-  transform: translateY(-50%);
 }
 
 .speak-btn:hover,
@@ -124,8 +129,8 @@ ul {
   right: 50%;
   transform: translateX(50%);
   top: auto;
-  display: inline;
-  flex-direction: column;
+  display: flex;
+  flex-direction: row;
   align-items: center;
   gap: 10px;
 }
@@ -134,7 +139,7 @@ ul {
   width: 50px;
   height: 50px;
   border: none;
-  font-size: 24px;
+  font-size: 22px;
   background: none;
   cursor: pointer;
   transition: background 0.3s ease;
@@ -142,4 +147,66 @@ ul {
 
 #control-panel button:hover {
   background-color: #f0f0f0;
+}
+
+/* Responsive styles for smaller devices */
+@media (max-width: 600px) {
+  #control-panel {
+    right: 50%;
+    transform: translateX(50%);
+    bottom: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 5px;
+  }
+
+  #control-panel button {
+    width: 40px;
+    height: 40px;
+    font-size: 15px;
+  }
+
+  .speak-btn,
+  .copy-btn {
+    width: 25px;
+    height: 25px;
+    font-size: 12px;
+  }
+
+  p,
+  ol,
+  ul {
+    padding: 8px;
+  }
+
+  .collapsible-icon {
+    font-size: 14px;
+    left: 8px;
+  }
+
+  .preview-text {
+    padding-left: 28px;
+    max-width: calc(100% - 90px);
+  }
+
+  .button-container {
+    right: 5px;
+    gap: 3px;
+    min-height: 40px;
+    min-width: 60px;
+  }
+}
+
+/* Style for headings */
+h3 {
+  border-bottom: 2px solid #ddd;
+  padding-bottom: 5px;
+  padding-top: 5px;
+}
+
+h4 {
+  font-weight: 300 !important;
+  font-size: 1.00em;
+  padding-bottom: 5px;
 }
