@@ -60,7 +60,9 @@ ul {
   min-width: 60px;
   justify-content: center;
   align-items: center;
+  box-sizing: border-box;
 }
+
 
 /* Style for settings popup */
 #settings-popup {
@@ -106,6 +108,10 @@ ul {
   cursor: pointer;
   font-size: 12px;
   transition: background 0.3s ease;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
 }
 
 .speak-btn:hover,
@@ -168,14 +174,6 @@ ul {
     height: 40px;
     font-size: 15px;
   }
-
-  .speak-btn,
-  .copy-btn {
-    width: 25px;
-    height: 25px;
-    font-size: 12px;
-  }
-
   p,
   ol,
   ul {
@@ -190,15 +188,22 @@ ul {
   }
 
   .preview-text {
-    padding-left: 28px;
+    padding-left: 15px;
     max-width: calc(100% - 90px);
   }
 
+  .speak-btn,
+  .copy-btn {
+    width: 25px;
+    height: 25px;
+    font-size: 12px;
+  }
   .button-container {
     right: 5px;
     gap: 3px;
     min-height: 40px;
     min-width: 60px;
+    transform: translateY(-50%);
   }
 }
 
