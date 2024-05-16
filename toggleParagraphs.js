@@ -48,7 +48,7 @@
             const buttonContainer = document.createElement('div');
             buttonContainer.className = 'button-container';
 
-            const speakButton = createButton('👂', 'speak-btn', () => speak(textContent));
+            const speakButton = createButton('👂', 'speak-btn', () => speak(textContent, paragraph));
             const copyButton = createButton('📋', 'copy-btn', () => copyText(textContent));
             buttonContainer.appendChild(speakButton);
             buttonContainer.appendChild(copyButton);
@@ -81,10 +81,13 @@
         updateProgressBar();
     }
 
-    // function updatePercentageDisplay() {
-    //     const percentage = (expandedCount / totalCount * 100).toFixed(0);
-    //     percentageDisplay.textContent = `${percentage}% Expanded`;
-    // }
+    function togglePlaying(paragraph, isPlaying) {
+        if (isPlaying) {
+            paragraph.classList.add('playing');
+        } else {
+            paragraph.classList.remove('playing');
+        }
+    }
 
     function updateProgressBar() {
         const percentage = (expandedCount / totalCount * 100).toFixed(0);
@@ -99,6 +102,8 @@
         const stopButton = createButton('⏹️', '', () => {
             window.speechSynthesis.cancel();
             playPauseButton.innerHTML = "▶️";
+            stopButton.style.opacity = 0.2;
+            playPauseButton.style.opacity = 0.2;
         });
         stopButton.id = 'stop-button';
         stopButton.style.opacity = 0.2;
@@ -204,7 +209,7 @@
         }
     }
 
-    function speak(text) {
+    function speak(text, paragraph) {
         const synth = window.speechSynthesis;
         const voices = synth.getVoices();
         const voice = voices.find(v => v.name === selectedVoice);
@@ -222,6 +227,7 @@
                 if (index < parts.length - 1) {
                     setTimeout(() => speakPart(index + 1), selectedGap);
                 } else {
+                    togglePlaying(paragraph,false)
                     playPauseButton.innerHTML = "▶️";
                     playPauseButton.style.opacity = 0.2;
                     stopButton.style.opacity = 0.2;
@@ -229,6 +235,7 @@
             };
             playPauseButton.style.opacity = 1.0;
             stopButton.style.opacity = 1.0;
+            togglePlaying(paragraph,true)
             synth.speak(msg);
         }
 

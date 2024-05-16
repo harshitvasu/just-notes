@@ -243,3 +243,18 @@ h4 {
   line-height: 20px;
   color: white;
 }
+
+.playing {
+  animation: colorChange 2s infinite;
+}
+
+@keyframes colorChange {
+  0% { background-color: #f0f0f0; }
+  25% { background-color: #fbf7d8; }
+  50% { background-color: #fff8bc; }
+  70% { background-color: #fffce0; }
+  100% { background-color: #f0f0f0; }
+}
+.underlined {
+  text-decoration: underline;
+}
