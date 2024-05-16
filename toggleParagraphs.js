@@ -6,19 +6,27 @@
     let expandedCount = 0;
     const totalCount = readBoxes.length;
 
-    const percentageDisplay = document.createElement('div');
-    percentageDisplay.id = 'percentage-display';
-    document.body.appendChild(percentageDisplay);
+    // const percentageDisplay = document.createElement('div');
+    // percentageDisplay.id = 'percentage-display';
+    // document.body.appendChild(percentageDisplay);
+
+    // Create progress bar
+    const progressBarContainer = document.createElement('div');
+    progressBarContainer.id = 'progress-bar-container';
+    const progressBar = document.createElement('div');
+    progressBar.id = 'progress-bar';
+    progressBarContainer.appendChild(progressBar);
+    document.body.appendChild(progressBarContainer);
 
     const controlPanel = createControlPanel();
     document.body.appendChild(controlPanel);
 
+    let selectedVoice = localStorage.getItem('last-used-voice') || "Samantha";
+    let selectedRate = localStorage.getItem('last-used-rate')  || 0.75;
+    let selectedGap = localStorage.getItem('last-used-gap')  || 750;
+
     const settingsPopup = createSettingsPopup();
     document.body.appendChild(settingsPopup);
-
-    let selectedVoice = "Samantha";
-    let selectedRate = 0.75;
-    let selectedGap = 750;
 
     initializeReadBoxes();
     populateVoiceList();
@@ -52,7 +60,8 @@
                 }
             });
         });
-        updatePercentageDisplay();
+        // updatePercentageDisplay();
+        updateProgressBar();
     }
 
     function toggleParagraph(paragraph, originalHTML, previewText, buttonContainer) {
@@ -67,12 +76,19 @@
             paragraph.classList.add('hidden');
             expandedCount = Math.max(0, expandedCount - 1);
         }
-        updatePercentageDisplay();
+        // updatePercentageDisplay();
+        updateProgressBar();
     }
 
-    function updatePercentageDisplay() {
+    // function updatePercentageDisplay() {
+    //     const percentage = (expandedCount / totalCount * 100).toFixed(0);
+    //     percentageDisplay.textContent = `${percentage}% Expanded`;
+    // }
+
+    function updateProgressBar() {
         const percentage = (expandedCount / totalCount * 100).toFixed(0);
-        percentageDisplay.textContent = `${percentage}% Expanded`;
+        progressBar.style.width = `${percentage}%`;
+        progressBar.textContent = `${percentage}%`;
     }
 
     function createControlPanel() {
@@ -83,7 +99,13 @@
             window.speechSynthesis.cancel();
             playPauseButton.innerHTML = "▶️";
         });
+        stopButton.id = 'stop-button';
+        stopButton.style.opacity = 0.2;
+
         const playPauseButton = createButton('▶️', '', toggleSpeech);
+        playPauseButton.id = 'play-pause-button';
+        playPauseButton.style.opacity = 0.2;
+
         const settingsButton = createButton('⚙️', 'settings-button', toggleSettingsPopup);
 
         controlPanel.appendChild(stopButton);
@@ -102,11 +124,11 @@
         settingsPopup.appendChild(voiceSelect);
 
         const rateLabel = createLabel('Rate:', settingsPopup);
-        const rateInput = createNumberInput('0.5', '2', '0.1', '0.75');
+        const rateInput = createNumberInput('0.5', '2', '0.1', selectedRate);
         settingsPopup.appendChild(rateInput);
 
         const gapLabel = createLabel('Gap Time:', settingsPopup);
-        const gapTime = createNumberInput('500', '2000', '100', '750');
+        const gapTime = createNumberInput('500', '2000', '100', selectedGap);
         settingsPopup.appendChild(gapTime);
 
         const saveButton = createButton('Save', '', saveSettings);
@@ -116,7 +138,10 @@
             selectedVoice = voiceSelect.value;
             selectedRate = parseFloat(rateInput.value);
             selectedGap = parseFloat(gapTime.value);
-            settingsPopup.style.display = 'none';
+            document.body.classList.remove('show-settings-popup');
+            localStorage.setItem('last-used-voice', selectedVoice);
+            localStorage.setItem('last-used-rate', selectedRate);
+            localStorage.setItem('last-used-gap', selectedGap);
         }
 
         return settingsPopup;
@@ -149,7 +174,11 @@
 
     function toggleSettingsPopup() {
         const settingsPopup = document.getElementById('settings-popup');
-        settingsPopup.style.display = settingsPopup.style.display === 'none' ? 'block' : 'none';
+        if (!document.body.classList.contains('show-settings-popup')) {
+            document.body.classList.add('show-settings-popup');
+        } else {
+            document.body.classList.remove('show-settings-popup');
+        }
     }
 
     function populateVoiceList() {
@@ -165,7 +194,9 @@
             voiceSelect.appendChild(option);
         });
 
-        const defaultVoice = voices.find(v => v.name === "Samantha") || voices[0];
+        const lastUsedVoice = localStorage.getItem('last-used-voice');
+        const defaultVoice = voices.find(v => v.name === lastUsedVoice) || voices.find(v => v.name === "Samantha") || voices[0];
+        
         if (defaultVoice) {
             voiceSelect.value = defaultVoice.name;
             selectedVoice = defaultVoice.name;
@@ -189,13 +220,19 @@
             msg.onend = () => {
                 if (index < parts.length - 1) {
                     setTimeout(() => speakPart(index + 1), selectedGap);
+                } else {
+                    playPauseButton.innerHTML = "▶️";
+                    playPauseButton.style.opacity = 0.2;
+                    stopButton.style.opacity = 0.2;
                 }
             };
-
+            playPauseButton.style.opacity = 1.0;
+            stopButton.style.opacity = 1.0;
             synth.speak(msg);
         }
 
-        const playPauseButton = document.querySelector('#control-panel button:nth-child(2)');
+        const playPauseButton = document.querySelector('#play-pause-button');
+        const stopButton = document.querySelector('#stop-button');
         playPauseButton.innerHTML = "⏸️";
         speakPart(0);
     }
@@ -221,7 +258,7 @@
 
     function toggleSpeech() {
         const synth = window.speechSynthesis;
-        const playPauseButton = document.querySelector('#control-panel button:nth-child(2)');
+        const playPauseButton = document.querySelector('#play-pause-button');
         if (synth.paused) {
             synth.resume();
             playPauseButton.innerHTML = "⏸️";
