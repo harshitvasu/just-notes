@@ -43,6 +43,7 @@
 
             paragraph.innerHTML = `<span class="collapsible-icon">></span><span class="preview-text">${previewText}</span>`;
             paragraph.classList.add('hidden');
+            paragraph.classList.add('read-content');
 
             const buttonContainer = document.createElement('div');
             buttonContainer.className = 'button-container';
