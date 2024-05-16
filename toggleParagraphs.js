@@ -6,11 +6,6 @@
     let expandedCount = 0;
     const totalCount = readBoxes.length;
 
-    // const percentageDisplay = document.createElement('div');
-    // percentageDisplay.id = 'percentage-display';
-    // document.body.appendChild(percentageDisplay);
-
-    // Create progress bar
     const progressBarContainer = document.createElement('div');
     progressBarContainer.id = 'progress-bar-container';
     const progressBar = document.createElement('div');
@@ -24,6 +19,7 @@
     let selectedVoice = localStorage.getItem('last-used-voice') || "Samantha";
     let selectedRate = localStorage.getItem('last-used-rate')  || 0.75;
     let selectedGap = localStorage.getItem('last-used-gap')  || 750;
+    let currentPlayingParagraph = null;
 
     const settingsPopup = createSettingsPopup();
     document.body.appendChild(settingsPopup);
@@ -61,7 +57,6 @@
                 }
             });
         });
-        // updatePercentageDisplay();
         updateProgressBar();
     }
 
@@ -77,15 +72,21 @@
             paragraph.classList.add('hidden');
             expandedCount = Math.max(0, expandedCount - 1);
         }
-        // updatePercentageDisplay();
         updateProgressBar();
     }
 
     function togglePlaying(paragraph, isPlaying) {
-        if (isPlaying) {
+        if (currentPlayingParagraph) {
+            currentPlayingParagraph.classList.remove('playing');
+            if (!isPlaying) {
+                currentPlayingParagraph.classList.add('completed');
+            }
+        }
+        if (isPlaying && paragraph) {
             paragraph.classList.add('playing');
+            currentPlayingParagraph = paragraph;
         } else {
-            paragraph.classList.remove('playing');
+            currentPlayingParagraph = null;
         }
     }
 
@@ -104,6 +105,7 @@
             playPauseButton.innerHTML = "▶️";
             stopButton.style.opacity = 0.2;
             playPauseButton.style.opacity = 0.2;
+            togglePlaying(null, false);
         });
         stopButton.id = 'stop-button';
         stopButton.style.opacity = 0.2;
@@ -214,20 +216,20 @@
         const voices = synth.getVoices();
         const voice = voices.find(v => v.name === selectedVoice);
         const parts = splitTextIntoParts(text);
-
+    
         function speakPart(index) {
             if (index >= parts.length) return;
-
+    
             const part = parts[index];
             const msg = new SpeechSynthesisUtterance(part);
             msg.voice = voice;
             msg.rate = selectedRate;
-
+    
             msg.onend = () => {
                 if (index < parts.length - 1) {
                     setTimeout(() => speakPart(index + 1), selectedGap);
                 } else {
-                    togglePlaying(paragraph,false)
+                    togglePlaying(paragraph, false);
                     playPauseButton.innerHTML = "▶️";
                     playPauseButton.style.opacity = 0.2;
                     stopButton.style.opacity = 0.2;
@@ -235,10 +237,10 @@
             };
             playPauseButton.style.opacity = 1.0;
             stopButton.style.opacity = 1.0;
-            togglePlaying(paragraph,true)
+            togglePlaying(paragraph, true);
             synth.speak(msg);
         }
-
+    
         const playPauseButton = document.querySelector('#play-pause-button');
         const stopButton = document.querySelector('#stop-button');
         playPauseButton.innerHTML = "⏸️";

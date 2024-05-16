@@ -14,6 +14,10 @@
   transition: height 0.3s ease, padding 0.3s ease;
 }
 
+.read-content.completed {
+  border-left: 4px solid lightgreen;
+}
+
 .collapsible-icon {
   position: absolute;
   left: 10px;
@@ -250,9 +254,7 @@ h4 {
 
 @keyframes colorChange {
   0% { background-color: #f0f0f0; }
-  25% { background-color: #fbf7d8; }
   50% { background-color: #fff8bc; }
-  70% { background-color: #fffce0; }
   100% { background-color: #f0f0f0; }
 }
 .underlined {
