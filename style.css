@@ -1,12 +1,12 @@
 .markdown-preview {
   margin-bottom: 40px;
-  margin-top: 40px !important;
+  max-width: calc(100% - 70px);
 }
 
 .read-content {
   border-left: 3px solid #ddd;
   margin-left: 5px;
-  padding: 5px 20px;
+  padding: 5px 25px;
   position: relative;
   overflow: hidden;
   cursor: pointer;
@@ -151,17 +151,22 @@
 
 @media (max-width: 1100px) {
   #control-panel {
-    right: 50%;
-    transform: translateX(50%);
-    bottom: 20px;
+    right: 0px;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
+    max-width:40px;
     align-items: center;
+    text-align:center;
     gap: 5px;
   }
 }
 
 @media (max-width: 600px) {
+  .markdown-preview {
+    margin-bottom: 40px;
+    max-width: calc(100%);
+  }
+
   #control-panel {
     right: 50%;
     transform: translateX(50%);
@@ -170,6 +175,7 @@
     flex-direction: row;
     align-items: center;
     gap: 5px;
+    max-width:none;
   }
 
   #control-panel button {
@@ -178,9 +184,7 @@
     font-size: 15px;
   }
 
-  p,
-  ol,
-  ul {
+  read-content {
     padding: 8px;
   }
 
@@ -191,7 +195,6 @@
   }
 
   .preview-text {
-    padding-left: 15px;
     max-width: calc(100% - 90px);
   }
 
