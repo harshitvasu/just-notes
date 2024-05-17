@@ -220,6 +220,7 @@ Dayananda launched a **frontal attack** on **Hindu orthodoxy**, **caste rigiditi
 ad through **shraddhas**, etc.
 Dayananda subscribed to the Vedic notion of the **chaturvarna system** in which a person was identified as a **brahmin**, **kshatriya**, **vaishya**, or **shudra** not by birth but according to the occupation and merit of the person.
 The **Arya Samaj** fixed the minimum marriageable age at **25 years for boys** and **16 years for girls**. **Swami Dayananda** once lamented the Hindu race as “the children of children”.
+
 The ten guiding principles of the **Arya Samaj** are—
 
 1. **God** is the primary source of all true knowledge.
