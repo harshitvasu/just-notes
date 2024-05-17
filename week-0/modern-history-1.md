@@ -78,44 +78,15 @@ Jambhekar founded the **Bombay Native General Library** and started the **Native
 Founded in **1849** in **Maharashtra**, the founders of the **Paramahansa Mandali**—**Dadoba Pandurang**, **Mehtaji Durgaram**, and others—began as a secret society that worked to reform **Hindu religion** and **society** in general. The ideology of the society was closely linked to that of the **Manav Dharma Sabha**. Besides believing that one god should be worshipped, the society also said real religion is based on **love** and **moral conduct**. **Freedom of thought** was encouraged as was **rationality**. The founders of the mandali were primarily interested in breaking **caste rules**. At their meetings, food cooked by **lower caste people** was taken by the members. These mandalis also advocated **widow remarriage** and **women’s education**. Branches of Paramahansa Mandali existed in **Poona**, **Satara**, and other towns of Maharashtra.
 
 ### Jyotirao Phule and Savitribai Phule
-Jyotirao or Jyotiba Phule (1827–90), born in Satara,
-Maharashtra, belonged to the mali (gardener) community and
-organised a powerful movement against upper caste domination
-and brahminical supremacy. Phule founded the Satyashodhak
-Samaj (Truth Seekers’ Society) in 1873, with the leadership
-of the samaj coming from the backward classes, malis, telis,
-kunbis, saris, and dhangars. The main aims of the movement
-were (i) social service, and (ii) spread of education among
-women and lower caste people.
-Phule wanted social transformation, not just social
-reform. He was of the view that until the oppressed classes
-or the masses were educated, there would be no mass
-awakening, and social revolution would not be possible.
-Jyotiba wanted a society free of exploitation. Many believe
-that Phule introduced the Marathi word ‘dalit’ (meaning
-crushed) to describe those outside the varna system.
-He propagated what came to be called the Satyashodhak
-marriage ceremony – simple and inexpensive, besides making
-the services of the brahmin priest redundant.
-Phule’s works, Sarvajanik Satyadharma and Gulamgiri,
-became sources of inspiration for the common masses. Phule
-used the symbol of Rajah Bali as opposed to the brahmins’
-symbol of Rama. Phule aimed at the complete abolition of
-the caste system and socio-economic inequalities; he was
-against Sanskritic Hinduism. This movement gave a sense of
-identity to the depressed communities as a class against those
-brahmins who used religion and the blind faith of the masses
-to exploit the masses for personal monetary gain.
-Jyotiba Phule was given the title of Mahatma in 1888
-by another Maharashtrian social reformer, Vithalrao Krishnaji
-Vandekar.
-Jyotiba was not allowed to continue schooling because
-of his caste. However, with help and encouragement from
-the Persian scholar Ghaffar Baig Munshi and a British
-official, Lizit Sahab, Jyotiba was admitted in a Scottish
-missionary school. The society of the day was against
-education of girls as well. Yet, he along with his wife,
-**Savitribai**, were instrumental in opening a **school for girls** in **Pune**. The school syllabus included **mathematics**, **science**, and **social studies**. Savitribai, also of the **mali community**, was born in **1831** at **Naigaon** in Maharashtra’s **Satara district** and was married to **Jyotiba Phule** when a child of nine. Jyotiba, a firm believer in **education for all**, including women, taught his wife at home. Later, she took a **teacher’s training course**. She faced abuse and humiliation from the people along the way when she walked to the school to teach, but she braved it to persist with her vocation. Savitribai also began to teach women and children from the downtrodden castes, including **Mang** and **Mahar**. She and her husband established two educational trusts, namely the **Native Female School, Pune**, and the **Society for Promoting the Education of Mahars, Mangs, and others**.
+**Jyotirao** or **Jyotiba Phule** (**1827–90**), born in **Satara**, **Maharashtra**, belonged to the **mali (gardener) community** and organized a powerful movement against upper caste domination and **brahminical supremacy**. Phule founded the **Satyashodhak Samaj (Truth Seekers’ Society)** in **1873**, with the leadership of the samaj coming from the backward classes, malis, telis, kunbis, saris, and dhangars. The main aims of the movement were (i) **social service**, and (ii) **spread of education** among women and lower caste people.
+
+Phule wanted **social transformation**, not just social reform. He was of the view that until the oppressed classes or the masses were educated, there would be no mass awakening, and social revolution would not be possible. Jyotiba wanted a society free of exploitation. Many believe that Phule introduced the Marathi word **‘dalit’** (meaning crushed) to describe those outside the varna system.
+
+He propagated what came to be called the **Satyashodhak marriage ceremony** – simple and inexpensive, besides making the services of the brahmin priest redundant. Phule’s works, **Sarvajanik Satyadharma** and **Gulamgiri**, became sources of inspiration for the common masses. Phule used the symbol of **Rajah Bali** as opposed to the brahmins’ symbol of **Rama**. Phule aimed at the complete abolition of the caste system and socio-economic inequalities; he was against Sanskritic Hinduism. This movement gave a sense of identity to the depressed communities as a class against those brahmins who used religion and the blind faith of the masses to exploit the masses for personal monetary gain.
+
+Jyotiba Phule was given the title of **Mahatma** in **1888** by another Maharashtrian social reformer, **Vithalrao Krishnaji Vandekar**. Jyotiba was not allowed to continue schooling because of his caste. However, with help and encouragement from the Persian scholar **Ghaffar Baig Munshi** and a British official, **Lizit Sahab**, Jyotiba was admitted to a Scottish missionary school. The society of the day was against the **education of girls** as well. Yet, he along with his wife, **Savitribai**, were instrumental in opening a **school for girls** in **Pune**. The school syllabus included **mathematics**, **science**, and **social studies**.
+
+**Savitribai**, also of the **mali community**, was born in **1831** at **Naigaon** in Maharashtra’s **Satara district** and was married to **Jyotiba Phule** when a child of nine. Jyotiba, a firm believer in **education for all**, including women, taught his wife at home. Later, she took a **teacher’s training course**. She faced abuse and humiliation from the people along the way when she walked to the school to teach, but she braved it to persist with her vocation. **Savitribai** also began to teach women and children from the downtrodden castes, including **Mang** and **Mahar**. She and her husband established two educational trusts, namely the **Native Female School, Pune**, and the **Society for Promoting the Education of Mahars, Mangs, and others**.
 
 Savitribai went on from **girls’ education** to question many **social evils** and work towards eradicating them. She started the **Mahila Seva Mandal** to raise awareness about **women’s rights**. She and her husband rigorously campaigned against the **dehumanisation of widows** and advocated **widow remarriage**. Savitribai is said to have organized a successful **barbers’ strike** to denounce the inhumane practice of shaving widows’ heads. With her husband, she set up a home called **Balhatya Pratibandhak Griha** (home to prevent infanticide) in **1863**, where unwed mothers and widows who became pregnant under unfortunate circumstances could have safe deliveries instead of resorting to killing the infants or themselves.
 
@@ -248,537 +219,158 @@ The **College Party** retained control over the **D.A.V. School and College**, w
 The Arya Samaj was able to give **self-respect** and **self-confidence** to the Hindus, which helped to undermine the myth of superiority of **whites** and the **Western culture**. In its zeal to protect the Hindu society from the onslaught of **Christianity** and **Islam**, the Samaj started the **shuddhi (purification) movement** to reconvert to the Hindu fold the converts to Christianity and Islam. An aggressive campaign of shuddhi led to increasing **communalisation** of social life during the **1920s** and later snowballed into **communal political consciousness**. The shuddhi movement also attempted to uplift those regarded as **untouchables** and outside the caste system of Hindus into pure caste Hindus.
 
 ### Seva Sadan
-A Parsi social reformer, Behramji M. Malabari (1853–1912),
-founded the Seva Sadan in 1908 along with a friend, Diwan
-Dayaram Gidumal. Malabari spoke vigorously against child
-marriage and for widow remarriage among Hindus. It was his
-efforts that led to the Age of Consent Act, regulating the
-age of consent for females, Seva Sadan specialised in taking
+A **Parsi social reformer**, **Behramji M. Malabari** (**1853–1912**), founded the **Seva Sadan** in **1908** along with a friend, **Diwan Dayaram Gidumal**. Malabari spoke vigorously against **child marriage** and for **widow remarriage** among Hindus. It was his efforts that led to the **Age of Consent Act**, regulating the age of consent for females. Seva Sadan specialized in taking care of those women who were exploited and then discarded by society. It catered to all castes and provided the destitute women with **education**, and **medical** and **welfare services**.
 
-care of those women who were exploited and then discarded
-by society. It catered to all castes and provided the destitute
-women with education, and medical and welfare services.
-[Behramji Malabari acquired and edited the Indian
-Spectator.]
+**\[Behramji Malabari acquired and edited the Indian Spectator.\]**
 
 ### Dev Samaj
-Founded in 1887 at Lahore by Shiv Narayan Agnihotri (1850–
-1927), earlier a Brahmo follower, Dev Sadan is a religious
-and social reform society. The society emphasised on the
-eternity of the soul, the supremacy of the guru, and the need
-for good action. It called for an ideal social behaviour such
-as not accepting bribes, avoiding intoxicants and non-vegetarian
-food, and keeping away from violent actions. Its teachings
-were compiled in a book, Deva Shastra. Agnihotri spoke
-against child marriage.
+
+Founded in **1887** at **Lahore** by **Shiv Narayan Agnihotri** (**1850–1927**), earlier a Brahmo follower, **Dev Sadan** is a religious and social reform society. The society emphasized the **eternity of the soul**, the **supremacy of the guru**, and the need for **good action**. It called for ideal social behavior such as not accepting bribes, avoiding intoxicants and non-vegetarian food, and keeping away from violent actions. Its teachings were compiled in a book, **Deva Shastra**. Agnihotri spoke against **child marriage**.
 
 ### Dharma Sabha
-Radhakant Deb founded this sabha in 1830. An orthodox
-society, it stood for the preservation of the status quo in
-socio-religious matters, opposing even the abolition of sati.
-However, it favoured the promotion of Western education,
-even for girls.
+**Radhakant Deb** founded this sabha in **1830**. An **orthodox society**, it stood for the preservation of the status quo in **socio-religious matters**, opposing even the **abolition of sati**. However, it favored the promotion of **Western education**, even for girls.
 
 ### Bharat Dharma Mahamandala
-An all-India organisation of the orthodox educated Hindus,
-it stood for a defence of orthodox Hinduism against the
-teachings of the Arya Samajists, the Theosophists, and the
-Ramakrishna Mission. Other organisations created to defend
-orthodox Hinduism were the Sanatana Dharma Sabha (1895),
-the Dharma Maha Parishad in South India, and Dharma
-Mahamandali in Bengal. These organisations combined in
-1902 to form the single organisation of Bharat Dharma
-Mahamandala, with headquarters at Varanasi. This organisation
-sought to introduce proper management of Hindu religious
-institutions, open Hindu educational institutions, etc. Pandit
-Madan Mohan Malaviya was a prominent figure in this
-movement.
+An **all-India organisation** of the orthodox educated Hindus, it stood for a defense of **orthodox Hinduism** against the teachings of the **Arya Samajists**, the **Theosophists**, and the **Ramakrishna Mission**. Other organisations created to defend orthodox Hinduism were the **Sanatana Dharma Sabha** (**1895**), the **Dharma Maha Parishad** in South India, and **Dharma Mahamandali** in Bengal. These organisations combined in **1902** to form the single organisation of **Bharat Dharma Mahamandala**, with headquarters at **Varanasi**. This organisation sought to introduce proper management of Hindu religious institutions, open Hindu educational institutions, etc. **Pandit Madan Mohan Malaviya** was a prominent figure in this movement.
 
 ### Radhaswami Movement
-Tulsi Ram, a banker from Agra, also known as Shiv Dayal
-Saheb, founded this movement in 1861. The Radhaswamis
 
-believe in one supreme being, supremacy of the guru, a
-company of pious people (satsang), and a simple social life.
-Spiritual attainment, they believe, does not call for renunciation
-of the worldly life. They consider all religions to be true.
-While the sect has no belief in temples, shrines, and sacred
-places, it considers as necessary duties, works of faith and
-charity, service and prayer.
+**Tulsi Ram**, a banker from **Agra**, also known as **Shiv Dayal Saheb**, founded this movement in **1861**. The **Radhaswamis** believe in one supreme being, the **supremacy of the guru**, a company of pious people (**satsang**), and a simple social life. **Spiritual attainment**, they believe, does not call for renunciation of the worldly life. They consider all religions to be true. While the sect has no belief in **temples, shrines**, and **sacred places**, it considers as necessary duties, works of **faith** and **charity**, **service** and **prayer**.
 
-### Sree Narayana Guru Dharma Paripalana
-(SNDP) Movement
-The SNDP movement was an example of a regional movement
-born out of conflict between the depressed classes and upper
-castes. It was started by Sree Narayana Guru Swamy (1856–
-1928) among the Ezhavas of Kerala, who were a backward
-caste of toddy-tappers and were considered to be untouchables,
-and were denied education and entry into temples. The
-Ezhavas were the single largest caste group in Kerala
-constituting 26 per cent of the total population. Narayana
-Guru, himself from the Ezhava caste, took a stone from the
-Neyyar river and installed it as a Sivalinga at Aruvippuram
-on Sivaratri in 1888. It was intended to show that consecration
-of an idol was not the monopoly of the higher castes. With
-this, he began a revolution that soon led to the removal of
-many discriminations in Kerala’s society. The movement
-(Aruvippuram Movement) drew the famous poet Kumaran
-Asan as a disciple of Narayana Guru. In 1889, the Aruvippuram
-Kshetra Yogam was formed, which was decided to expand
-into a big organisation to help the Ezhavas to progress
-materially as well as spiritually.
-Thus, the Aruvippuram Sree Narayana Guru Dharma
-Paripalana Yogam (in short SNDP) was registered in 1903
-under the Indian Companies Act, with Narayana Guru as its
-permanent chairman, and Kumaran Asan as the general
-secretary. (In the formation of SNDP, the efforts of Dr Palpu
-must be acknowledged. He had started the fight for social
-justice through movements like Ezhava Memorial, Malayali
-Memorial, etc.)
-Sree Narayana Guru held all religions to be the same
-and condemned animal sacrifice besides speaking against
+### Sree Narayana Guru Dharma Paripalana (SNDP) Movement
+The **SNDP movement** was an example of a regional movement born out of conflict between the depressed classes and upper castes. It was started by **Sree Narayana Guru Swamy** (**1856–1928**) among the **Ezhavas of Kerala**, a backward caste of toddy-tappers considered to be untouchables and denied education and entry into temples. The Ezhavas were the single largest caste group in Kerala, constituting 26 percent of the total population.
 
-divisiveness on the basis of caste, race, or creed. On the wall
-of the Aruvippuram temple he got inscribed the words,
-“Devoid of dividing walls of caste or race, or hatred of rival
-faith, we all live here in brotherhood.” He urged the Ezhavas
-to leave the toddy-tapping profession and even to stop
-drinking liquor.
-The SNDP Yogam took up several issues for the
-Ezhavas, such as: (i) right of admission to public schools;
-(ii) recruitment to government services; (iii) access to roads
-and entry to temples; and (iv) political representation. The
-movement as a whole brought transformative structural
-changes such as upward social mobility, shift in traditional
-distribution of power, and a federation of ‘backward castes’
-into a large conglomeration.
-Vokkaliga Sangha
-The Vokkaliga Sangha in Mysore launched an anti-brahmin
-movement in 1905.
+**Narayana Guru**, himself from the Ezhava caste, took a stone from the Neyyar river and installed it as a **Sivalinga** at **Aruvippuram** on **Sivaratri in 1888**. This act was intended to show that the consecration of an idol was not the monopoly of the higher castes. With this, he began a revolution that soon led to the removal of many discriminations in Kerala’s society. The movement (**Aruvippuram Movement**) drew the famous poet **Kumaran Asan** as a disciple of Narayana Guru. In **1889**, the **Aruvippuram Kshetra Yogam** was formed, which was decided to expand into a big organisation to help the Ezhavas progress materially as well as spiritually.
+
+Thus, the **Aruvippuram Sree Narayana Guru Dharma Paripalana Yogam** (in short **SNDP**) was registered in **1903** under the Indian Companies Act, with **Narayana Guru** as its permanent chairman, and **Kumaran Asan** as the general secretary. (In the formation of SNDP, the efforts of **Dr. Palpu** must be acknowledged. He had started the fight for social justice through movements like **Ezhava Memorial**, **Malayali Memorial**, etc.)
+
+**Sree Narayana Guru** held all religions to be the same and condemned animal sacrifice besides speaking against divisiveness on the basis of caste, race, or creed. On the wall of the Aruvippuram temple he got inscribed the words, “**Devoid of dividing walls of caste or race, or hatred of rival faith, we all live here in brotherhood.**” He urged the Ezhavas to leave the toddy-tapping profession and even to stop drinking liquor.
+
+The **SNDP Yogam** took up several issues for the Ezhavas, such as:
+
+1. **Right of admission to public schools**;
+2. **Recruitment to government services**;
+3. **Access to roads and entry to temples**;
+4. **Political representation**.
+
+The movement as a whole brought transformative structural changes such as upward social mobility, a shift in the traditional distribution of power, and a federation of 'backward castes' into a large conglomeration.
+
+### Vokkaliga Sangha
+
+The **Vokkaliga Sangha** in **Mysore** launched an **anti-brahmin movement** in **1905**.
 
 ### Justice Movement
-This movement in Madras Presidency was started by C.N.
-Mudaliar, T.M. Nair, and P. Tyagaraja to secure jobs and
-representation for the non-brahmins in the legislature. In
-1917, Madras Presidency Association was formed which
-demanded separate representation for the lower castes in the
-legislature.
+This movement in **Madras Presidency** was started by **C.N. Mudaliar**, **T.M. Nair**, and **P. Tyagaraja** to secure jobs and representation for the non-brahmins in the legislature. In **1917**, the **Madras Presidency Association** was formed, which demanded **separate representation for the lower castes** in the legislature.
 
 ### Self-Respect Movement
-This movement was started by E.V. Ramaswamy Naicker, a
-Balija Naidu, in the mid-1920s. The movement aimed at
-nothing short of a rejection of the brahminical religion and
-culture which Naicker felt was the prime instrument of
-exploitation of the lower castes. He sought to undermine the
-position of brahmin priests by formalising weddings without
-brahmin priests.
+This movement was started by **E.V. Ramaswamy Naicker**, a **Balija Naidu**, in the mid-1920s. The movement aimed at nothing short of a rejection of the **brahminical religion and culture**, which Naicker felt was the prime instrument of exploitation of the lower castes. He sought to undermine the position of brahmin priests by formalizing **weddings without brahmin priests**.
 
 ### Temple Entry Movement
-Significant work in this direction had already been done by
-reformers and intellectuals like Sree Narayana Guru and
-N. Kumaran Asan. T.K. Madhavan, a prominent social reformer
-and editor of Deshabhimani, took up the issue of temple
-entry with the Travancore administration. Nothing transpired.
-In the meanwhile, Vaikom, in the northern part of Travancore,
-became a centre of agitation for temple entry. In 1924, the
-Vaikom Satyagraha, led by K.P. Kesava, was launched in
-Kerala demanding the throwing open of Hindu temples and
-roads to the untouchables. The satyagraha was reinforced by
-jathas from Punjab and Madurai. Gandhi undertook a tour
-of Kerala in support of the movement.
-Again, in 1931, when the Civil Disobedience Movement
-was suspended, temple entry movement was organised in
-Kerala. Inspired by K. Kelappan, poet Subramaniyam
-Tirumambu (the ‘singing sword of Kerala’) led a group of
-16 volunteers to Guruvayur. Leaders like P. Krishna Pillai
-and A.K. Gopalan were among the satyagrahis. Finally, on
-November 12, 1936, the Maharaja of Travancore issued a
-proclamation throwing open all government-controlled
-temples to all Hindus.
-A similar step was taken by the C. Rajagopalachari
-administration in Madras in 1938.
+Significant work in this direction had already been done by reformers and intellectuals like **Sree Narayana Guru** and **N. Kumaran Asan**. **T.K. Madhavan**, a prominent social reformer and editor of **Deshabhimani**, took up the issue of temple entry with the Travancore administration, but nothing transpired. In the meanwhile, **Vaikom**, in the northern part of Travancore, became a center of agitation for temple entry. In **1924**, the **Vaikom Satyagraha**, led by **K.P. Kesava**, was launched in Kerala demanding the throwing open of Hindu temples and roads to the untouchables. The satyagraha was reinforced by **jathas** from **Punjab** and **Madurai**. **Gandhi** undertook a tour of Kerala in support of the movement.
+
+Again, in **1931**, when the **Civil Disobedience Movement** was suspended, the **temple entry movement** was organized in Kerala. Inspired by **K. Kelappan**, poet **Subramaniyam Tirumambu** (the ‘singing sword of Kerala’) led a group of 16 volunteers to **Guruvayur**. Leaders like **P. Krishna Pillai** and **A.K. Gopalan** were among the satyagrahis. Finally, on **November 12, 1936**, the **Maharaja of Travancore** issued a proclamation throwing open all government-controlled temples to all Hindus.
+
+A similar step was taken by the **C. Rajagopalachari administration** in **Madras** in **1938**.
 
 ### Indian Social Conference
-Founded by M.G. Ranade and Raghunath Rao, the Indian
-Social Conference met annually from its first session in
-Madras in 1887 at the same time and venue as the Indian
-National Congress. It focused attention on the social issues
-of importance; it could be called the social reform cell of
-the Indian National Congress, in fact. The conference advocated
-inter-caste marriages, opposed polygamy and kulinism. It
-launched the ‘Pledge Movement’ to inspire people to take
-a pledge against child marriage.
+Founded by **M.G. Ranade** and **Raghunath Rao**, the **Indian Social Conference** met annually from its first session in **Madras in 1887** at the same time and venue as the **Indian National Congress**. It focused attention on social issues of importance; it could be called the social reform cell of the Indian National Congress, in fact. The conference advocated **inter-caste marriages**, opposed **polygamy** and **kulinism**. It launched the **‘Pledge Movement’** to inspire people to take a pledge against **child marriage**.
 
 ### Wahabi/Walliullah Movement
-The teachings of Abdul Wahab of Arabia and the preachings
-of Shah Walliullah (1702–63) inspired this essentially
-revivalist response to Western influences and the degeneration
-which had set in among Indian Muslims and called for a return
-to the true spirit of Islam. He was the first Indian Muslim
-leader of the 18th century to organise Muslims around the
-two-fold ideals of this movement: (i) desirability of harmony
-among the four schools of Muslim jurisprudence which had
+The teachings of **Abdul Wahab** of Arabia and the preachings of **Shah Walliullah** (**1702–63**) inspired this essentially revivalist response to Western influences and the degeneration which had set in among Indian Muslims, calling for a return to the true spirit of Islam. He was the first Indian Muslim leader of the 18th century to organize Muslims around the two-fold ideals of this movement:
 
-divided the Indian Muslims (he sought to integrate the best
-elements of the four schools); (ii) recognition of the role
-of individual conscience in religion where conflicting
-interpretations were derived from the Quran and the Hadis.
-The teachings of Walliullah were further popularised
-by Shah Abdul Aziz and Syed Ahmad Barelvi who also gave
-them a political perspective. Un-Islamic practices that had
-crept into Muslim society were sought to be eliminated. Syed
-Ahmad called for a return to the pure Islam and the kind of
-society that had existed in the Arabia of the Prophet’s time.
-India was considered to be dar-ul-Harb (land of the kafirs),
-and it needed to be converted to dar-ul-Islam (land of Islam).
-Initially, the movement was directed at the Sikhs in Punjab,
-but after the British annexation of Punjab (1849), the
-movement was directed against the British. During the 1857
-Revolt, the Wahabi’s played an important role in spreading
-anti-British feelings. The Wahabi Movement fizzled out in
-the face of British military might in the 1870s.
+1. **Desirability of harmony among the four schools of Muslim jurisprudence**, which had divided the Indian Muslims (he sought to integrate the best elements of the four schools).
+2. **Recognition of the role of individual conscience in religion** where conflicting interpretations were derived from the Quran and the Hadis.
+
+The teachings of Walliullah were further popularized by **Shah Abdul Aziz** and **Syed Ahmad Barelvi**, who also gave them a political perspective. Un-Islamic practices that had crept into Muslim society were sought to be eliminated. **Syed Ahmad** called for a return to pure Islam and the kind of society that had existed in the Arabia of the Prophet’s time. India was considered to be **dar-ul-Harb** (land of the kafirs), and it needed to be converted to **dar-ul-Islam** (land of Islam).
+
+Initially, the movement was directed at the Sikhs in Punjab, but after the British annexation of Punjab (**1849**), the movement was directed against the British. During the **1857 Revolt**, the **Wahabis** played an important role in spreading anti-British feelings. The **Wahabi Movement** fizzled out in the face of British military might in the **1870s**.
 
 ### Titu Mir’s Movement
-Syed Mir Nisar Ali, popularly known as Titu Mir, was a
-disciple of Syed Ahmad Barelvi (of Rae Bareilly), an adherent
-of the Wahabi movement. Titu Mir adopted Wahabism and
-advocated the Sharia. He organised the Muslim peasants of
-Bengal against the landlords, who were mosly Hindu, and the
-British indigo planters. The movement was not as militant
-as the British records made it out to be; only in the last year
-of Titu’s life was there a confrontation between him and
-the British police. He was killed in action in 1831.
+**Syed Mir Nisar Ali**, popularly known as **Titu Mir**, was a disciple of **Syed Ahmad Barelvi** (of Rae Bareilly), an adherent of the **Wahabi movement**. Titu Mir adopted **Wahabism** and advocated the **Sharia**. He organized the **Muslim peasants of Bengal** against the landlords, who were mostly Hindu, and the **British indigo planters**. The movement was not as militant as the British records made it out to be; only in the last year of Titu’s life was there a confrontation between him and the British police. He was killed in action in **1831**.
 
 ### Faraizi Movement
-The movement, also called the Fara’idi Movement because
-of its emphasis on the Islamic pillars of faith, was founded
-by Haji Shariatullah in 1819. Its scene of action was East
-Bengal, and it aimed at the eradication of social innovations
-or un-Islamic practices current among the Muslims of the
-region and draw their attention to their duties as Muslims.
-Under the leadership of Haji’s son, Dudu Mian, the movement
-became revolutionary from 1840 onwards. He gave the
-movement an organisational system from the village to the
+The movement, also called the **Fara’idi Movement** because of its emphasis on the **Islamic pillars of faith**, was founded by **Haji Shariatullah** in **1819**. Its scene of action was **East Bengal**, and it aimed at the eradication of social innovations or un-Islamic practices current among the Muslims of the region and drawing their attention to their duties as Muslims. Under the leadership of Haji’s son, **Dudu Mian**, the movement became revolutionary from **1840** onwards. He gave the movement an organizational system from the village to the provincial level with a **khalifa** or authorized deputy at every level.
 
-provincial level with a khalifa or authorised deputy at every
-level. The Fara’idis organised a paramilitary force armed with
-clubs to fight the zamindars who were mostly Hindu, though
-there were some Muslim landlords too, besides the indigo
-planters. Dudu Mian asked his followers not to pay rent. The
-organisation even established its own law courts.
-Dudu Mian was arrested several times, and his arrest
-in 1847 finally weakened the movement. The movement
-survived merely as a religious movement without political
-overtones after the death of Dudu Mian in 1862.
+The Fara’idis organized a paramilitary force armed with clubs to fight the zamindars, who were mostly Hindu, though there were some Muslim landlords too, besides the indigo planters. **Dudu Mian** asked his followers not to pay rent. The organization even established its own law courts.
+
+Dudu Mian was arrested several times, and his arrest in **1847** finally weakened the movement. The movement survived merely as a religious movement without political overtones after the death of **Dudu Mian** in **1862**.
 
 ### Ahmadiyya Movement
-The Ahmadiyya forms a sect of Islam which originated from
-India. It was founded by Mirza Ghulam Ahmad in 1889. It
-was based on liberal principles. It described itself as the
-standard-bearer of Mohammedan Renaissance, and based
-itself, like the Brahmo Samaj, on the principles of universal
-religion of all humanity, opposing jihad (sacred war against
-non-Muslims). The movement spread Western liberal education
-among the Indian Muslims. The Ahmadiyya community is the
-only Islamic sect to believe that the Messiah had come in
-the person of Mirza Ghulam Ahmad to end religious wars
-and bloodshed and to reinstate morality, peace, and justice.
-They believed in separating the mosque from the State as
-well as in human rights and tolerance. However, the Ahmadiyya
-Movement, like Baha’ism which flourished in the West Asian
-countries, suffered from mysticism.
+The **Ahmadiyya** forms a sect of Islam which originated from India. It was founded by **Mirza Ghulam Ahmad** in **1889**. It was based on **liberal principles**. It described itself as the standard-bearer of **Mohammedan Renaissance**, and based itself, like the **Brahmo Samaj**, on the principles of universal religion of all humanity, opposing **jihad** (sacred war against non-Muslims). The movement spread **Western liberal education** among the Indian Muslims.
+
+The **Ahmadiyya** community is the only Islamic sect to believe that the **Messiah had come** in the person of Mirza Ghulam Ahmad to end religious wars and bloodshed and to reinstate **morality, peace, and justice**. They believed in separating the **mosque from the State** as well as in **human rights and tolerance**. However, the Ahmadiyya Movement, like **Baha’ism** which flourished in the West Asian countries, suffered from **mysticism**.
 
 ### Sir Syed Ahmed Khan and the Aligarh Movement
-The British view on the revolt of 1857 held the Muslims
-to be the main conspirators. This view was further strengthened
-by the activities of the Wahabis. But later, an opinion got
-currency among the rulers that the Muslims could be used
-as allies against a rising tide of nationalist political activity
-represented, among others, by the foundation of the Indian
-National Congress. This was to be achieved through offers
-of thoughtful concessions to the Muslims. A section of
-Muslims led by Syed Ahmed Khan (1817–98) was ready to
-allow the official patronage to stimulate a process of growth
+The **British view** on the **revolt of 1857** held the **Muslims** to be the main conspirators. This view was further strengthened by the activities of the **Wahabis**. But later, an opinion gained currency among the rulers that the Muslims could be used as allies against a rising tide of nationalist political activity represented, among others, by the foundation of the **Indian National Congress**. This was to be achieved through offers of thoughtful concessions to the Muslims. A section of Muslims led by **Syed Ahmed Khan** (**1817–98**) was ready to allow the official patronage to stimulate a process of growth among Indian Muslims through better education and employment opportunities.
 
-among Indian Muslims through better education and
-employment opportunities.
-Syed Ahmed Khan, born in a respectable Muslim
-family, was a loyalist member of the judicial service of the
-British government. After retirement in 1876, he became a
-member of the Imperial Legislative Council in 1878. His
-loyalty earned him a knighthood in 1888. He wanted to
-reconcile Western scientific education with the teachings of
-the Quran, which were to be interpreted in the light of
-contemporary rationalism and science even though he also
-held the Quran to be the ultimate authority. He said that
-religion should be adaptable with time or else it would
-become fossilised, and that religious tenets were not
-immutable. He advocated a critical approach and freedom of
-thought and not complete dependence on tradition or custom.
-He was also a zealous educationist—as an official, he opened
-schools in towns, got books translated into Urdu, and started
-the Mohammedan Anglo-Oriental College (later, the Aligarh
-Muslim University) at Aligarh in 1875. He also struggled to
-bring about an improvement in the position of women through
-better education and by opposing purdah and polygamy,
-advocating easy divorce, and condemning the system of piri
-and muridi. He believed in the fundamental underlying unity
-of religions or ‘practical morality’. He also preached the
-basic commonality of Hindu and Muslim interests.
-Syed Ahmed Khan argued that Muslims should first
-concentrate on education and jobs and try to catch up with
-their Hindu counterparts who had gained the advantage of an
-early start. Active participation in politics at that point, he
-felt, would invite hostility of the government towards the
-Muslim masses. Therefore, he opposed political activity by
-the Muslims. Unfortunately, in his enthusiasm to promote
-the educational and employment interests of the Muslims,
-he allowed himself to be used by the colonial government
-in its obnoxious policy of divide and rule and, in later years,
-started propagating divergence of interests of Hindus and
-Muslims.
-Syed’s progressive social ideas were propagated through
+**Syed Ahmed Khan**, born in a respectable Muslim family, was a loyalist member of the judicial service of the British government. After retirement in **1876**, he became a member of the **Imperial Legislative Council** in **1878**. His loyalty earned him a knighthood in **1888**. He wanted to reconcile **Western scientific education** with the teachings of the **Quran**, which were to be interpreted in the light of contemporary rationalism and science even though he also held the Quran to be the ultimate authority. He said that religion should be adaptable with time or else it would become fossilized, and that religious tenets were not immutable. He advocated a critical approach and **freedom of thought** and not complete dependence on tradition or custom.
 
-his magazine Tahdhib-ul-Akhlaq (Improvement of Manners
-and Morals).
-The Aligarh Movement emerged as a liberal, modern
-trend among the Muslim intelligentsia based in Mohammedan
-Anglo-Oriental College, Aligarh. It aimed at spreading:
-(i) modern education among Indian Muslims without weakening
-their allegiance to Islam; (ii) social reforms among Muslims
-relating to purdah, polygamy, widow remarriage, women’s
-education, slavery, divorce, etc. The ideology of the followers
-of the movement was based on a liberal interpretation of the
-Quran and they sought to harmonise Islam with modern
-liberal culture. They wanted to impart a distinct socio-cultural
-identity to Muslims on modern lines. Soon, Aligarh became
-the centre of religious and cultural revival of the Muslim
-community.
+He was also a zealous educationist—as an official, he opened schools in towns, got books translated into Urdu, and started the **Mohammedan Anglo-Oriental College** (later, the **Aligarh Muslim University**) at **Aligarh** in **1875**. He also struggled to bring about an improvement in the position of women through better education and by opposing **purdah** and **polygamy**, advocating easy divorce, and condemning the system of **piri** and **muridi**. He believed in the fundamental underlying unity of religions or ‘practical morality’. He also preached the basic commonality of Hindu and Muslim interests.
+
+**Syed Ahmed Khan** argued that Muslims should first concentrate on **education and jobs** and try to catch up with their Hindu counterparts who had gained the advantage of an early start. Active participation in politics at that point, he felt, would invite hostility of the government towards the Muslim masses. Therefore, he opposed political activity by the Muslims. Unfortunately, in his enthusiasm to promote the educational and employment interests of the Muslims, he allowed himself to be used by the colonial government in its obnoxious policy of **divide and rule** and, in later years, started propagating divergence of interests of Hindus and Muslims.
+
+Syed’s progressive social ideas were propagated through his magazine **Tahdhib-ul-Akhlaq** (Improvement of Manners and Morals).
+
+The **Aligarh Movement** emerged as a liberal, modern trend among the Muslim intelligentsia based in **Mohammedan Anglo-Oriental College, Aligarh**. It aimed at spreading:
+
+1. **Modern education** among Indian Muslims without weakening their allegiance to Islam.
+2. **Social reforms** among Muslims relating to purdah, polygamy, widow remarriage, women’s education, slavery, divorce, etc.
+
+The ideology of the followers of the movement was based on a **liberal interpretation of the Quran** and they sought to harmonize Islam with modern liberal culture. They wanted to impart a distinct socio-cultural identity to Muslims on modern lines. Soon, Aligarh became the center of religious and cultural revival of the Muslim community.
 
 ### The Deoband School (Darul Uloom)
-The Deoband Movement was organised by the orthodox
-section among the Muslim ulema as a revivalist movement
-with the twin objectives of propagating pure teachings of the
-Quran and Hadis among Muslims and keeping alive the spirit
-of jihad against the foreign rulers.
-The Deoband Movement was begun at the Darul Uloom
-(or Islamic academic centre), Deoband, in Saharanpur district
-(United Provinces) in 1866 by Muhammad Qasim Nanautavi
-(1832–80) and Rashid Ahmad Gangohi (1828–1905) to train
-religious leaders for the Muslim community. In contrast to
-the Aligarh Movement, which aimed at the welfare of
-Muslims through Western education and support of the
-British government, the aim of the Deoband Movement was
-moral and religious regeneration of the Muslim community.
-The instruction imparted at Deoband was in original Islamic
-religion.
-On the political front, the Deoband school welcomed
-the formation of the Indian National Congress and in 1888
-issued a fatwa (religious decree) against Syed Ahmed Khan’s
-organisations, the United Patriotic Association and the
-Mohammaden Anglo-Oriental Association. Some critics
-attribute Deoband’s support to the nationalists more to its
+The **Deoband Movement** was organized by the orthodox section among the **Muslim ulema** as a revivalist movement with the twin objectives of propagating pure teachings of the **Quran and Hadis** among Muslims and keeping alive the spirit of **jihad** against the foreign rulers. The Deoband Movement was begun at the **Darul Uloom** (or Islamic academic centre), **Deoband**, in **Saharanpur district** (United Provinces) in **1866** by **Muhammad Qasim Nanautavi** (**1832–80**) and **Rashid Ahmad Gangohi** (**1828–1905**) to train religious leaders for the Muslim community.
 
-determined opposition to Syed Ahmed Khan than to any
-positive political philosophy.
-Mahmud-ul-Hasan, the new Deoband leader, gave a
-political and intellectual content to the religious ideas of the
-school. He worked out a synthesis of Islamic principles and
-nationalist aspirations. The Jamiat-ul-Ulema gave a concrete
-shape to Hasan’s ideas of protection of the religious and
-political rights of the Muslims in the overall context of Indian
-unity and national objectives.
-Shibli Numani, a supporter of the Deoband school,
-favoured the inclusion of English language and European
-sciences in the system of education. He founded the Nadwatal
-Ulama and Darul Uloom in Lucknow in 1894–96. He
-believed in the idealism of the Congress and cooperation
-between the Muslims and the Hindus of India to create a state
-in which both could live amicably.
+In contrast to the **Aligarh Movement**, which aimed at the welfare of Muslims through **Western education** and support of the British government, the aim of the Deoband Movement was the **moral and religious regeneration** of the Muslim community. The instruction imparted at Deoband was in original Islamic religion.
+
+On the political front, the Deoband school welcomed the formation of the **Indian National Congress** and in **1888** issued a **fatwa** (religious decree) against **Syed Ahmed Khan’s** organizations, the **United Patriotic Association** and the **Mohammaden Anglo-Oriental Association**. Some critics attribute Deoband’s support to the nationalists more to its determined opposition to Syed Ahmed Khan than to any positive political philosophy.
+
+**Mahmud-ul-Hasan**, the new Deoband leader, gave a political and intellectual content to the religious ideas of the school. He worked out a synthesis of Islamic principles and nationalist aspirations. The **Jamiat-ul-Ulema** gave a concrete shape to Hasan’s ideas of protection of the religious and political rights of the Muslims in the overall context of Indian unity and national objectives.
+
+**Shibli Numani**, a supporter of the Deoband school, favored the inclusion of the **English language** and **European sciences** in the system of education. He founded the **Nadwatal Ulama** and **Darul Uloom** in **Lucknow** in **1894–96**. He believed in the idealism of the Congress and cooperation between the **Muslims and the Hindus** of India to create a state in which both could live amicably.
 
 ### Parsi Reform Movements
-The Rahnumai Mazdayasnan Sabha (Religious Reform
-Association) was founded in 1851 by a group of Englisheducated
-Parsis for the “regeneration of the social conditions
-of the Parsis and the restoration of the Zoroastrian religion
-to its pristine purity”. The movement had Naoroji Furdonji,
-Dadabhai Naoroji, K.R. Cama, and S.S. Bengalee as its
-leaders. The message of reform was spread by the newspaper
-Rast Goftar (Truth-Teller). Parsi religious rituals and practices
-were reformed and the Parsi creed redefined. In the social
-sphere, attempts were made to uplift the status of Parsi
-women through removal of the purdah system, raising the
-age of marriage and education. Gradually, the Parsis emerged
-as the most westernised section of the Indian society.
+The **Rahnumai Mazdayasnan Sabha** (Religious Reform Association) was founded in **1851** by a group of **English-educated Parsis** for the “regeneration of the social conditions of the Parsis and the restoration of the Zoroastrian religion to its pristine purity.” The movement had **Naoroji Furdonji**, **Dadabhai Naoroji**, **K.R. Cama**, and **S.S. Bengalee** as its leaders. The message of reform was spread by the newspaper **Rast Goftar** (Truth-Teller).
+
+**Parsi religious rituals and practices** were reformed and the **Parsi creed** redefined. In the social sphere, attempts were made to uplift the status of **Parsi women** through the removal of the **purdah system**, raising the **age of marriage**, and promoting **education**. Gradually, the Parsis emerged as the most **westernised section** of Indian society.
 
 ### Sikh Reform Movements
-The Sikh community could not remain untouched by the
-rising tide of rationalist and progressive ideas of the 19th
-century.
-The Singh Sabha Movement was founded at Amritsar
-in 1873 with a two-fold objective: (i) to make available
-modern western education to the Sikhs, and (ii) to counter
-the proselytising activities of Christian missionaries as well
-as the Brahmo Samajists, Arya Samajists, and Muslim maulvis.
+The **Sikh community** could not remain untouched by the rising tide of **rationalist and progressive ideas** of the 19th century. The **Singh Sabha Movement** was founded at **Amritsar in 1873** with a two-fold objective:
 
-For the first objective, a network of Khalsa schools was
-established by the Sabha throughout Punjab. In the second
-direction, everything that went against the Gurus’ teachings
-was rejected, and rites and customs considered to be
-consistent with Sikh doctrine were sought to be established.
-The Akali Movement (also known as Gurudwara
-Reform Movement) was an offshoot of the Singh Sabha
-Movement. It aimed at liberating the Sikh gurudwaras from
-the control of corrupt Udasi mahants (the post having become
-hereditary). These mahants were a loyalist and reactionary
-lot, enjoying government patronage. The government tried its
-repressive policies against the non-violent non-cooperation
-satyagraha launched by the Akalis in 1921, but had to bow
-before popular demands; it passed the Sikh Gurudwaras Act
-in 1922 (amended in 1925) which gave the control of
-gurudwaras to the Sikh masses to be administered through
-Shiromani Gurudwara Prabandhak Committee (SGPC) as the
-apex body.
-The Akali Movement was a regional movement but not
-a communal one. The Akali leaders played a notable role in
-the national liberation struggle though some dissenting voices
-were heard occasionally.
+1. To make available **modern Western education** to the Sikhs.
+2. To counter the proselytizing activities of **Christian missionaries** as well as the **Brahmo Samajists**, **Arya Samajists**, and **Muslim maulvis**.
+
+For the first objective, a network of **Khalsa schools** was established by the Sabha throughout Punjab. In the second direction, everything that went against the **Gurus’ teachings** was rejected, and rites and customs considered to be consistent with **Sikh doctrine** were sought to be established.
+
+The **Akali Movement** (also known as **Gurudwara Reform Movement**) was an offshoot of the Singh Sabha Movement. It aimed at liberating the Sikh **gurudwaras** from the control of corrupt **Udasi mahants** (the post having become hereditary). These mahants were a loyalist and reactionary lot, enjoying government patronage. The government tried its repressive policies against the non-violent non-cooperation **satyagraha** launched by the Akalis in **1921**, but had to bow before popular demands; it passed the **Sikh Gurudwaras Act** in **1922** (amended in **1925**) which gave the control of gurudwaras to the Sikh masses to be administered through the **Shiromani Gurudwara Prabandhak Committee (SGPC)** as the apex body.
+
+The **Akali Movement** was a regional movement but not a communal one. The **Akali leaders** played a notable role in the national liberation struggle though some dissenting voices were heard occasionally.
 
 ### The Theosophical Movement
-A group of westerners led by Madame H.P. Blavatsky (1831–
-91) and Colonel M.S. Olcott, who were inspired by Indian
-thought and culture, founded the Theosophical Society in
-New York City, United States in 1875. In 1882, they shifted
-their headquarters to Adyar, on the outskirts of Madras (at
-that time) in India. The society believed that a special
-relationship could be established between a person’s soul and
-God by contemplation, prayer, revelation, etc. It accepted the
-Hindu beliefs in reincarnation and karma, and drew inspiration
-from the philosophy of the Upanishads and samkhya, yoga,
-and Vedanta schools of thought. It aimed to work for
-universal brotherhood of humanity without distinction of
-race, creed, sex, caste, or colour. The society also sought
-to investigate the unexplained laws of nature and the powers
-latent in man. The Theosophical Movement came to be allied
-with the Hindu renaissance. (At one time it allied with the
+A group of westerners led by **Madame H.P. Blavatsky** (**1831–91**) and **Colonel M.S. Olcott**, who were inspired by Indian thought and culture, founded the **Theosophical Society** in **New York City**, United States in **1875**. In **1882**, they shifted their headquarters to **Adyar**, on the outskirts of **Madras** (now Chennai) in India. The society believed that a special relationship could be established between a person’s soul and God by contemplation, prayer, revelation, etc. It accepted the Hindu beliefs in **reincarnation** and **karma**, and drew inspiration from the philosophy of the **Upanishads** and **Samkhya**, **Yoga**, and **Vedanta** schools of thought. It aimed to work for the **universal brotherhood of humanity** without distinction of race, creed, sex, caste, or color. The society also sought to investigate the **unexplained laws of nature** and the **powers latent in man**.
 
-Arya Samaj too.) It opposed child marriage and advocated
-the abolition of caste discrimination, uplift of and improvement
-in the condition of widows.
-In India, the movement became somewhat popular with
-the election of Annie Besant (1847–1933) as its president
-after the death of Olcott in 1907. Annie Besant had come
-to India in 1893. She laid the foundation of the Central Hindu
-College in Benaras in 1898 where both Hindu religion and
-Western scientific subjects were taught. The college became
-the nucleus for the formation of Benaras Hindu University
-in 1916. Annie Besant also did much for the cause of the
-education of women.
-The Theosophical Society provided a common denominator
-for the various sects and fulfilled the urge of educated
-Hindus. However, to an average Indian, the Theosophist
-philosophy seemed to be vague and lacking a positive
-programme; to that extent, its impact was limited to a small
-segment of the westernised class. As religious revivalists, the
-Theosophists did not attain much success, but as a movement
-of westerners glorifying Indian religious and philosophical
-traditions, it gave much-needed self-respect to the Indians
-fighting British colonial rule. Viewed from another angle, the
-Theosophists also had the effect of giving a false sense of
-pride to the Indians in their outdated and sometimes backwardlooking
-traditions and philosophy.
+The **Theosophical Movement** came to be allied with the **Hindu renaissance**. (At one time it allied with the **Arya Samaj** too.) It opposed **child marriage** and advocated the **abolition of caste discrimination**, uplift of and improvement in the condition of widows.
+
+In India, the movement became somewhat popular with the election of **Annie Besant** (**1847–1933**) as its president after the death of Olcott in **1907**. **Annie Besant** had come to India in **1893**. She laid the foundation of the **Central Hindu College** in **Benaras** in **1898** where both Hindu religion and Western scientific subjects were taught. The college became the nucleus for the formation of **Benaras Hindu University** in **1916**. Annie Besant also did much for the cause of the **education of women**.
+
+The **Theosophical Society** provided a common denominator for the various sects and fulfilled the urge of educated Hindus. However, to an average Indian, the Theosophist philosophy seemed to be vague and lacking a positive program; to that extent, its impact was limited to a small segment of the westernized class. As religious revivalists, the Theosophists did not attain much success, but as a movement of westerners glorifying Indian religious and philosophical traditions, it gave much-needed **self-respect to the Indians** fighting British colonial rule. Viewed from another angle, the Theosophists also had the effect of giving a **false sense of pride** to the Indians in their outdated and sometimes backward-looking traditions and philosophy.
 
 ## Significance of Reform Movements
 ### Positive Aspects
-The orthodox sections of society could not accept the
-scientific ideological onslaught of the socio-religious rebels.
-As a result of this, the reformers were subjected to abuse,
-persecution, issuing of fatwas, and even assassination attempts
-by the reactionaries.
-However, in spite of opposition, these movements
-managed to contribute towards the liberation of the individual
-from the conformity born out of fear and from uncritical
-submission to exploitation by the priests and other classes.
+The **orthodox sections of society** could not accept the scientific ideological onslaught of the socio-religious rebels. As a result, the reformers were subjected to abuse, persecution, issuing of **fatwas**, and even **assassination attempts** by the reactionaries. However, in spite of opposition, these movements managed to contribute towards the **liberation of the individual** from the conformity born out of fear and from uncritical submission to exploitation by the priests and other classes.
 
-The translation of religious texts into vernacular languages,
-emphasis on an individual’s right to interpret the scriptures,
-and simplification of rituals made worship a more personal
-experience.
-The movements emphasised the human intellect’s
-capacity to think and reason.
-By weeding out corrupt elements, religious beliefs and
-practices, the reformers enabled their followers to meet the
-official taunt that their religions and society were decadent
-and inferior.
-The reform movements gave the rising middle classes
-the much-needed cultural roots to cling to, and served the
-purpose of reducing the sense of humiliation which the
-conquest by a foreign power had produced.
-A realisation of the special needs of modern times,
-especially in terms of scientific knowledge, and thus promoting
-a modern, this-worldly, secular, and rational outlook was a
-major contribution of these reform movements. Socially, this
-attitude reflected in a basic change in the notions of
-‘pollution and purity’. Although traditional values and customs
-were a prominent target of attack from the reformers, yet
-the reformers aimed at modernisation rather than outright
-westernisation based on blind imitation of alien Western
-cultural values. In fact, the reform movements sought to
-create a favourable social climate for modernisation. To that
-extent, these movements ended India’s cultural and intellectual
-isolation from the rest of the world. The reformers argued
-that modern ideas and culture could be best imbibed by
-integrating them into Indian cultural streams.
-The underlying concern of these reformist efforts was
-revival of the native cultural personality which had got
-distorted by various factors over the years. This cultural
-ideological struggle was to prove to be an important instrument
-in the evolution of national consciousness and a part of Indian
-national resolve to resist colonial cultural and ideological
-hegemony. However, not all these progressive, nationalist
-tendencies were able to outgrow the sectarian and obscurantist
-outlook. This was possibly due to the divergent duality of
+The translation of **religious texts into vernacular languages**, emphasis on an individual’s right to **interpret the scriptures**, and **simplification of rituals** made worship a more personal experience. The movements emphasized the **human intellect’s capacity to think and reason**. By weeding out corrupt elements, religious beliefs and practices, the reformers enabled their followers to meet the official taunt that their religions and society were decadent and inferior.
 
-cultural and political struggles, resulting in cultural
-backwardness despite political advancement.
+The **reform movements** gave the rising middle classes the much-needed **cultural roots** to cling to and served the purpose of reducing the sense of **humiliation** which the conquest by a foreign power had produced. A realization of the special needs of modern times, especially in terms of **scientific knowledge**, and thus promoting a modern, this-worldly, **secular**, and **rational outlook** was a major contribution of these reform movements.
+
+Socially, this attitude reflected in a basic change in the notions of **‘pollution and purity’**. Although traditional values and customs were a prominent target of attack from the reformers, yet the reformers aimed at **modernization** rather than outright **westernization** based on blind imitation of alien Western cultural values. In fact, the reform movements sought to create a favorable social climate for modernization. To that extent, these movements ended India’s **cultural and intellectual isolation** from the rest of the world. The reformers argued that modern ideas and culture could be best imbibed by integrating them into Indian cultural streams.
+
+The underlying concern of these reformist efforts was the **revival of the native cultural personality** which had got distorted by various factors over the years. This **cultural ideological struggle** was to prove to be an important instrument in the evolution of **national consciousness** and a part of Indian national resolve to resist colonial cultural and ideological hegemony. However, not all these progressive, nationalist tendencies were able to outgrow the sectarian and obscurantist outlook. This was possibly due to the **divergent duality of cultural and political struggles**, resulting in cultural backwardness despite political advancement.
 ### Negative Aspects
-One of the major limitations of the religious reform
-movements was that they had a narrow social base, namely
-the educated and urban middle classes, while the needs of
-the vast masses of peasantry and the urban poor were ignored.
-The tendency of reformers to appeal to the greatness
-of the past and to rely on scriptural authority encouraged
-mysticism in new garbs and fostered pseudo-scientific thinking
-while exercising a check on the full acceptance of the need
-for a modern scientific outlook. But, above all, these
-tendencies contributed, at least to some extent, in
-compartmentalising Hindus, Muslims, Sikhs, and Parsis, as
-also alienating high-caste Hindus from low-caste Hindus.
-The emphasis on religious and philosophical aspects of
-the cultural heritage got somewhat magnified by an insufficient
-emphasis on other aspects of culture—art, architecture,
-literature, music, science, and technology. To make matters
-worse, the Hindu reformers confined their praise of the
-Indian past to its ancient period and looked upon the medieval
-period of Indian history, essentially as an era of decadence.
-This tended to create a notion of two separate peoples, on
-the one hand; on the other, an uncritical praise of the past
-was not acceptable to the low-caste sections of society which
-had suffered under religiously sanctioned exploitation during
-the ancient period. Moreover, the past itself tended to be
-placed into compartments on a partisan basis. Many in the
-Muslim middle classes went to the extent of turning to the
-history of West Asia for their traditions and moments of
-pride.
-The process of evolution of a composite culture which
-was evident throughout Indian history showed signs of being
-arrested with the rise of another form of consciousness—
-communal consciousness—along with national consciousness
-among the middle classes.
-Many other factors were certainly responsible for the
+One of the major limitations of the **religious reform movements** was that they had a narrow social base, namely the **educated and urban middle classes**, while the needs of the vast masses of **peasantry and the urban poor** were ignored. The tendency of reformers to appeal to the greatness of the past and to rely on **scriptural authority** encouraged mysticism in new garbs and fostered pseudo-scientific thinking while exercising a check on the full acceptance of the need for a modern scientific outlook. But, above all, these tendencies contributed, at least to some extent, to compartmentalizing **Hindus, Muslims, Sikhs**, and **Parsis**, as also alienating **high-caste Hindus** from **low-caste Hindus**.
 
-birth of communalism in modern times, but, undoubtedly, the
-nature of religious reform movements also contributed to it.
-On the whole, however, whatever the net outcome of
-these reform movements, it was out of this struggle that a
-new society evolved in India.
+The emphasis on **religious and philosophical aspects** of the cultural heritage got somewhat magnified by an insufficient emphasis on other aspects of culture—**art, architecture, literature, music, science, and technology**. To make matters worse, the Hindu reformers confined their praise of the Indian past to its **ancient period** and looked upon the **medieval period** of Indian history essentially as an era of decadence. This tended to create a notion of **two separate peoples**, on the one hand; on the other, an uncritical praise of the past was not acceptable to the low-caste sections of society which had suffered under religiously sanctioned exploitation during the ancient period. Moreover, the past itself tended to be placed into compartments on a partisan basis. Many in the **Muslim middle classes** went to the extent of turning to the history of **West Asia** for their traditions and moments of pride.
+
+The process of evolution of a **composite culture** which was evident throughout Indian history showed signs of being arrested with the rise of another form of consciousness—**communal consciousness**—along with **national consciousness** among the middle classes. Many other factors were certainly responsible for the birth of **communalism** in modern times, but, undoubtedly, the nature of religious reform movements also contributed to it.
+
+On the whole, however, whatever the net outcome of these reform movements, it was out of this struggle that a **new society evolved in India**.
