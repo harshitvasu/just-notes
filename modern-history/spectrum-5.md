@@ -113,7 +113,7 @@ like a prime minister.
 
 ### The Battle of Plassey
 #### Prelude to the battle
-The officials of the Company made rampant misuse of its trade privileges that adversely affected the nawab’s finances. The English fortified Calcutta without the nawab’s permission. The Company further tried to mislead him, and compounded their sin by giving asylum to a political fugitive, Krishna Das, son of Raj Ballabh who had fled with immense treasures against the nawab’s will. The Company, on its part, suspected that Siraj would drastically reduce its trade privileges in collusion with the French in Bengal. Thus, when Siraj attacked and seized the English fort at Calcutta, it brought their hostility into the open. Mention may be made here of the much propagated ‘Black Hole Tragedy’. Siraj-ud-Daulah is believed to have imprisoned 146 English persons, who were lodged in a very tiny room due to which 123 of them died of suffocation. However, historians either do not believe this story, or say that the number of victims must have been much smaller.
+The officials of the Company made rampant misuse of its trade privileges that adversely affected the nawab’s finances. The English fortified Calcutta without the nawab’s permission. The Company further tried to mislead him, and compounded their sin by giving asylum to a political fugitive, *** Krishna Das, son of Raj Ballabh who had fled with immense treasures against the nawab’s will. The Company, on its part, suspected that Siraj would drastically reduce its trade privileges in collusion with the French in Bengal. Thus, when Siraj attacked and seized the English fort at Calcutta, it brought their hostility into the open. Mention may be made here of the much propagated ‘Black Hole Tragedy’. Siraj-ud-Daulah is believed to have imprisoned 146 English persons, who were lodged in a very tiny room due to which 123 of them died of suffocation. However, historians either do not believe this story, or say that the number of victims must have been much smaller.
 #### The Battle
 The arrival of a strong force under the command of Robert
 Clive at Calcutta from Madras strengthened the English
@@ -508,7 +508,7 @@ the confederacy united on occasion, as against the British
 ### Entry of the English into Maratha Politics
 The years between the last quarter of the 18th century and
 the first quarter of the 19th century witnessed the Marathas
-Expansion and Consolidation of British Power ✫ 103
+
 and the English clashing thrice for political supremacy, with
 the English emerging victorious in the end. The cause of
 these conflicts was the inordinate ambition of the English,
@@ -546,7 +546,7 @@ rejected this and gave refuge to Raghunath. In 1777, Nana
 Phadnavis violated his treaty with the Calcutta Council by
 granting the French a port on the west coast. The English
 retaliated by sending a force towards Pune.
-104 ✫ A Brief History of Modern India
+
 Course of War
 The English and the Maratha armies met on the outskirts of
 Pune. Though the Maratha army had a larger number of
@@ -587,7 +587,7 @@ restored to the Marathas.
 (iii) In Gujarat, Fateh Singh Gaekwad should remain in
 possession of the territory which he had before the war and
 should serve the Peshwa as before.
-Expansion and Consolidation of British Power ✫ 105
+
 (iv) The English should not offer any further support
 to Raghunathrao and the Peshwa should grant him a
 maintenance allowance.
@@ -627,7 +627,7 @@ agreed:
 (consisting of not less than 6,000 troops), with the usual
 proportion of field artillery and European artillery men
 attached, to be permanently stationed in his territories;
-106 ✫ A Brief History of Modern India
+
 (ii) to cede to the Company territories yielding an
 income of Rs 26 lakh;
 (iii) to surrender the city of Surat;
@@ -668,7 +668,7 @@ Company was now well placed to expand its areas of
 influence. In the circumstances, the observation that the
 treaty “gave the English the key to India,” may be exaggerated,
 but appears understandable.
-Expansion and Consolidation of British Power ✫ 107
+
 ### Third Anglo-Maratha War (1817–19)
 Background
 Lord Hastings had the imperialistic design of imposing
@@ -707,7 +707,7 @@ administer the state properly because she was influenced by
 some unworthy men such as Balram Seth and Amir Khan.
 The Bhonsle at Nagpur and the Scindia at Gwalior had also
 become weak. So, the English, striking back vigorously,
-108 ✫ A Brief History of Modern India
+
 succeeded in not allowing the Peshwa to exert his authority
 again on the Maratha confederacy.
 Result The Peshwa was defeated at Khirki, Bhonsle at
@@ -747,7 +747,7 @@ a loose confederation under the leadership of the Chhatrapati
 and later the Peshwa. Powerful chiefs such as the Gaikwad,
 the Holkar, the Scindia, and the Bhonsle carved out semiindependent
 kingdoms for themselves and paid lip service to
-Expansion and Consolidation of British Power ✫ 109
+
 the authority of the Peshwa. Further, there existed
 irreconcilable hostility between different units of the
 confederacy. The Maratha chief often took sides with one
@@ -788,7 +788,7 @@ notions. The Maratha leaders paid very little attention to
 mundane matters of the state. Insistence on maintenance of
 traditional social hierarchy based on the dominance of the
 priestly class made the union of an empire difficult.
-110 ✫ A Brief History of Modern India
+
 In the end, it can be concluded that the English attacked
 a ‘divided house’ which started crumbling after a few pushes.
 ## Conquest of Sindh
@@ -826,7 +826,7 @@ the chief of Luz, and Shaikarpur and Bukkar from the Afghans.
 A common belief in the late 18th century was that Napoleon
 was conspiring with Tipu Sultan to invade India. In 1799,
 behind Lord Wellesley’s efforts to revive commercial relations
-Expansion and Consolidation of British Power ✫ 111
+
 with Sindh was the hidden aim to counteract the alliance of
 the French, Tipu Sultan and Shah Zaman, the Kabul monarch.
 Negotiations were opened with Fath Ali Khan. But under the
@@ -865,7 +865,7 @@ for war would be carried.
 and passports would be needed for travellers.
 (iii) Tariff rates could be altered by the Amirs if found
 high and no military dues or tolls would be demanded.
-112 ✫ A Brief History of Modern India
+
 (iv) The Amirs would work with the Raja of Jodhpur
 to put down the robbers of Kachch.
 (v) The old treaties were confirmed and the parties
@@ -904,7 +904,7 @@ before and the plain fact is that the treatment of Sindh from
 this time onward, however expedient politically, was morally
 indefensible.
 —P.E. Roberts
-Expansion and Consolidation of British Power ✫ 113
+
 Emperor Shah Shuja give up his sovereign rights on Sindh,
 provided the arrears of tribute were paid. The exact amount
 of the tribute was to be determined by the English whose
@@ -944,7 +944,7 @@ plying on the Indus, and to stop minting coins. Furthermore,
 in a succession dispute, the English intervened through
 Napier and started a war when the Amirs rose in revolt. The
 whole of Sindh capitulated within a short time, and the Amirs
-114 ✫ A Brief History of Modern India
+
 were made captives and banished from Sindh. In 1843, under
 Governor General Ellenborough, Sindh was merged into the
 British Empire and Charles Napier was appointed its first
@@ -968,19 +968,6 @@ a section of Sikhs under the leadership of Banda Bahadur
 revolted against the Mughals during the rule of Bahadur Shah.
 In 1715, Banda Bahadur was defeated by Farrukhsiyar and put
 to death in 1716. Thus, the Sikh polity, once again, became
-Views
-We have no right to seize Sindh, yet we shall do so, and a
-very advantageous, useful, humane piece of rascality it will be.
-—Charles Napier
-...to remove such brutal tyrants (the Amirs) was worthy of
-England’s greatness. The conquest of Sindh is therefore no
-iniquity...
-—Charles Napier
-I am sick of your policy; I will not say yours is the best, but
-it is undoubtedly the shortest, that of the sword...
-—James Outram, Deputy of Napier at
-the time of annexation of Sindh.
-Expansion and Consolidation of British Power ✫ 115
 leaderless and later got divided into two groups—Bandai
 (Liberal) and Tat Khalsa (Orthodox). This rift among the
 followers ended in 1721 under the influence of Bhai Mani
@@ -1020,7 +1007,7 @@ neighbouring regions were fully exploited by Ranjit Singh,
 who followed a ruthless policy of ‘blood and iron’ and carved
 out for himself a kingdom in the central Punjab. In 1799,
 Ranjit Singh was appointed as the governor of Lahore by
-116 ✫ A Brief History of Modern India
+
 Zaman Shah, the ruler of Afghanistan. In 1805, Ranjit Singh
 acquired Jammu and Amritsar, and, thus, the political capital
 (Lahore) and religious capital (Amritsar) of Punjab came
@@ -1060,7 +1047,7 @@ he took no step to organise a coalition of other Indian princes
 or maintain a balance of power. Ranjit Singh died in June
 1839, and, with his death, the process of the decline of his
 empire began.
-Expansion and Consolidation of British Power ✫ 117
+
 ### Punjab After Ranjit Singh
 Beginning of Court Factions
 Ranjit Singh’s only legitimate son and successor, Kharak
@@ -1099,7 +1086,7 @@ Singh was appointed as the commander of the forces.
 Causes
 The outbreak of the first of the Anglo-Sikh wars has been
 attributed to the action of the Sikh army crossing the River
-118 ✫ A Brief History of Modern India
+
 Sutlej on December 11, 1845. This was seen as an aggressive
 manoeuvre that provided the English with the justification to
 declare war. The causes were, however, much more complex
@@ -1139,7 +1126,7 @@ under Henry Lawrence.
 Jindan as regent and Lal Singh as wazir.
 ● Since the Sikhs were not able to pay the entire war
 indemnity, Kashmir, including Jammu, was sold to Gulab Singh
-Expansion and Consolidation of British Power ✫ 119
+
 and he was required to pay 75 lakh rupees to the Company
 as the price. The transfer of Kashmir to Gulab Singh was
 formalised by a separate treaty on March 16, 1846.
@@ -1177,7 +1164,7 @@ commander-in-chief of the Company
 surrendered at Rawalpindi, and their Afghan allies were
 chased out of India. (Gujarat is a small town on the banks
 of River Jhelum.)
-120 ✫ A Brief History of Modern India
+
 Result At the end of the war came:
 ● surrender of the Sikh army and Sher Singh in 1849;
 ● annexation of Punjab; and for his services the Earl
@@ -1213,7 +1200,7 @@ to see how the British dominion expanded in India.
 ### The Policy of Ring-Fence
 Warren Hastings took charge as the governor general at a
 critical period of British rule when the British were to
-Expansion and Consolidation of British Power ✫ 121
+
 encounter the powerful combination of the Marathas, Mysore,
 and Hyderabad. He followed a policy of ring-fence which
 aimed at creating buffer zones to defend the Company’s
@@ -1252,7 +1239,7 @@ governor general. In return for all this, the British would
 defend the ruler from his enemies and adopt a policy of noninterference
 in the internal matters of the allied state.
 One of the objectives behind Wellesley’s strengthening
-122 ✫ A Brief History of Modern India
+
 of the subsidiary alliance system was to keep the French from
 reviving and expanding their influence in India. Around this
 time, the fear of Napoleon’s expedition towards the East was
@@ -1290,7 +1277,7 @@ signed in February 1787. It was Wellesley’s genius to make
 it a general rule to negotiate for the surrender of territory
 in full sovereignty for the maintenance of the subsidiary
 force.
-Expansion and Consolidation of British Power ✫ 123
+
 View
 Wellesley converted the British Empire in India to the British
 Empire of India. From one of the political powers in India, the
@@ -1330,39 +1317,7 @@ Scindia (February 1804), the Rajput states of Jodhpur, Jaipur,
 Macheri, Bundi, and the ruler of Bharatpur (1818). The
 Holkars were the last Maratha confederation to accept the
 Subsidiary Alliance in 1818.
-124 ✫ A Brief History of Modern India
-Views
-A 1950 Colonial Office paper disarmingly says that Britain ‘as
-a seafaring and trading nation... had long been a “collector of
-islands and peninsulas”’. In a much-quoted remark, Sir John
-Seeley, the Regius Professor of Modern History at Cambridge,
-said something similar in 1883: ‘We seem, as it were, to have
-conquered and peopled half the world in a fit of absence of mind.
-That didn’t mean quite what it seemed to say: what Seeley meant
-was that there had not been a coherent policy behind Britain’s
-imperial expansion. There had been an incoherent set of policies.
-The 1950 paper explained that the collection of islands and
-peninsulas was assembled to protect trade and the sea routes.
-The motive for Empire was selfish… the motivation consisted
-of desires which interlocked: desires for wealth, for strategic
-possessions from which to defend the wealth, and for prestige,
-the inevitable concomitant of wealth. In the process, numberless
-hundreds of thousands of native populations were slaughtered,
-… Almost always, the subject races, even the most sophisticated
-and educated amongst them, were regarded as and made to
-feel inferior to the ruling caste.
-—Walter Reid, Keeping the Jewel in the Crown
-In the hundred years after Plassey, the East India Company,
-with an army of 260,000 men at the start of the nineteenth
-century and the backing of the British government and Parliament
-(many of whose members were shareholders in the enterprise),
-extended its control over most of India. The Company conquered
-and absorbed a number of hitherto independent or autonomous
-states, imposed executive authority through a series of highborn
-Governors General appointed from London, regulated the
-country’s trade, collected taxes and imposed its fiat on all
-aspects of Indian life.
-Shashi Tharoor, An Era of Darkness
+
 ### Doctrine of Lapse
 In simple terms, the doctrine stated that the adopted son
 could be the heir to his foster father’s private property, but
@@ -1371,7 +1326,7 @@ to decide whether to bestow the state on the adopted son
 or to annex it. The doctrine was stated to be based on Hindu
 law and Indian customs, but Hindu law seemed to be
 somewhat inconclusive on this point, and the instances of
-Expansion and Consolidation of British Power ✫ 125
+
 Annexation of Awadh
 Awadh was the oldest of the surviving states brought under the
 Subsidiary Alliance, and the cruel impact of the system resulted
@@ -1412,7 +1367,7 @@ that during his governor-generalship several important cases
 arose in which the ‘Doctrine’ could be applied. Dalhousie
 showed too much zeal in enforcing this policy which had been
 theoretically enunciated on some previous occasions. His
-126 ✫ A Brief History of Modern India
+
 predecessors had acted on the general principle of avoiding
 annexation if it could be avoided; Dalhousie, in turn, acted
 on the general principle of annexing if he could do so
@@ -1448,7 +1403,7 @@ allowance paid to the Bhutanese. In 1865, the Bhutanese were
 forced to surrender the passes in return for an annual subsidy.
 It was the surrendered district which became a productive
 area with tea gardens.
-Expansion and Consolidation of British Power ✫ 127
+
 ### Anglo-Nepalese Relations
 The Gorkhas wrested control of Nepal from the successors
 of Ranjit Malla of Bhatgaon in 1760. They began to expand
@@ -1487,7 +1442,7 @@ expansion westwards and occupation of Arakan and Manipur,
 and the threat to Assam and the Brahmaputra Valley led to
 continuous friction along the ill-defined border between
 Bengal and Burma, in the opening decades of the 19th
-128 ✫ A Brief History of Modern India
+
 century. The British expeditionary forces occupied Rangoon
 in May 1824 and reached within 72 km of the capital at Ava.
 Peace was established in 1826 with the Treaty of Yandabo,
@@ -1526,7 +1481,7 @@ the whole of Burma soon after, and a nationalist movement
 after the First World War. The Burmese nationalists joined
 hands with the Indian National Congress. To weaken this link,
 Burma was separated from India in 1935. The Burmese
-Expansion and Consolidation of British Power ✫ 129
+
 nationalist movement further intensified under U Aung San
 during the Second World War, which finally led to the
 independence of Burma on January 4, 1948.]
@@ -1565,7 +1520,7 @@ providing for evacuation of Chumbi valley after three years
 (the valley was actually evacuated only in January 1908).
 Significance Only China gained in the end out of the
 whole affair because the Anglo-Russian convention of 1907
-130 ✫ A Brief History of Modern India
+
 provided that the two great powers would not negotiate with
 Tibet, except through the mediation of the Chinese government.
 However, Curzon’s policy counteracted all Russian schemes
@@ -1604,7 +1559,7 @@ the money-bag’;
 of the Sikhs and the British;
 ● Shah Shuja give up his sovereign rights over Amirs
 of Sindh in return for a large sum of money;
-Expansion and Consolidation of British Power ✫ 131
+
 ● Shah Shuja recognise the Sikh ruler, Maharaja Ranjit
 Singh’s claims over the Afghan territories on the right bank
 of the River Indus.
@@ -1642,7 +1597,7 @@ an intimate knowledge of the frontier problem and of Afghan
 passion for independence. Even when Dost Mohammed died
 in 1863, there was no interference in the war of succession.
 Lawrence’s policy rested on the fulfilment of two conditions:
-132 ✫ A Brief History of Modern India
+
 (i) that the peace at the frontier was not disturbed, and (ii)
 that no candidate in civil war sought foreign help. And as
 Sher Ali established himself on the throne, Lawrence tried
@@ -1654,7 +1609,7 @@ in 1876. He started a new foreign policy of ‘proud reserve’,
 which was aimed at having scientific frontiers and safeguarding
 ‘spheres of influence’. According to Lytton, the relations
 with Afghanistan could no longer be left ambiguous.
-Second Anglo-Afghan War (1870–80)
+#### Second Anglo-Afghan War (1870–80)
 Lytton made an offer of a favourable treaty to Sher Ali, but
 the Amir wanted friendship with both his powerful neighbours,
 Russia and British India, while keeping both of them at an
@@ -1665,8 +1620,8 @@ withdrew their envoy from Kabul, Lytton decided to invade
 Afghanistan. Sher Ali fled in face of the British invasion, and
 the Treaty of Gandamak (May 1879) was signed with Yakub
 Khan, the eldest son of Sher Ali.
-Treaty of Gandamak (May 1879) The treaty signed
-after the Second-Anglo Afghan War provided that:
+#### Treaty of Gandamak (May 1879) 
+The treaty signed after the Second-Anglo Afghan War provided that:
 ● the Amir conduct his foreign policy with the advice
 of the Government of India;
 ● a permanent British resident be stationed at Kabul;
@@ -1674,13 +1629,6 @@ and
 ● the Government of India give Amir all support against
 foreign aggression, and an annual subsidy.
 But soon, Yakub had to abdicate under popular pressure
-View
-Sir John Lawrence’s foreign policy was a policy of self-reliance
-and self-restraint, of defence not defiance, of waiting and
-watching that he might be able to strike harder and in the right
-direction, if the time for aggressive action should ever come.
-—R.B. Smith, Biographer of John Lawrence
-Expansion and Consolidation of British Power ✫ 133
 and the British had to recapture Kabul and Kandhar. Abdur
 Rehman became the new Amir. Lytton chalked out a plan for
 the dismemberment of Afghanistan, but could not carry it out.
@@ -1717,7 +1665,7 @@ withdrew from advanced posts, which were replaced by tribal
 levies, trained and commanded by British officers. He also
 encouraged the tribals to maintain peace. He created the
 North-West Frontier Province (NWFP) directly under the
-134 ✫ A Brief History of Modern India
+
 Government of India (earlier, it was under control of the
 lieutenant-governor of Punjab). Overall, Curzon’s policies
 resulted in a peaceful north-west frontier. The peaceful
