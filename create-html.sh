@@ -31,6 +31,7 @@ cat > "$output_file" <<EOF
 <!DOCTYPE html>
 <html>
 <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta charset="UTF-8">
     <title>Generated HTML</title>
     <link rel="stylesheet" type="text/css" href="$css_file">
