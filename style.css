@@ -249,13 +249,14 @@ h4 {
 }
 
 .playing {
+  border-width: 5px;
   animation: colorChange 2s infinite;
 }
 
 @keyframes colorChange {
-  0% { background-color: #f0f0f0; }
-  50% { background-color: #fff8bc; }
-  100% { background-color: #f0f0f0; }
+  0% { border-left-color: #f0f0f0; }
+  50% { border-left-color: #ffe600; }
+  100% { border-left-color: #f0f0f0; }
 }
 .underlined {
   text-decoration: underline;
