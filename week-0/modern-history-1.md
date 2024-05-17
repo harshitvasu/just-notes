@@ -49,6 +49,32 @@ The Brahmo Samaj experienced another phase of energy,when Keshab Chandra Sen (18
 In matters of social reform, the Samaj attacked many dogmas and superstitions. It condemned the prevailing Hindu prejudice against going abroad. It worked for a respectable status for women in society—condemned sati, worked for abolition of the purdah system, discouraged child marriage and polygamy, crusaded for widow remarriage and for provisions of educational facilities. It also attacked casteism and untouchability though in these matters it attained only limited success. 
 The influence of the Brahmo Samaj, however, did not go much beyond Calcutta and, at most, Bengal. It did not have a lasting impact.
 
+### Prarthana Samaj 
+In 1867, Keshab Chandra Sen helped Atmaram Pandurang
+found the Prarthana Samaj in Bombay. Earlier, the Brahmo
+ideas spread in Maharashtra. A precursor of the Prarthana
+Samaj was the Paramahansa Sabha, something like a secret
+society to spread liberal ideas and encourage the breakdown
+of caste and communal barriers. Mahadeo Govind Ranade
+(1842–1901), joined the samaj in 1870, and much of the
+popularity of and work done by the society was due to his
+efforts. His efforts made the samaj gain an all-India character.
+Other leaders of the samaj were R.G. Bhandarkar (1837–
+1925) and N.G. Chandavarkar (1855–1923). The emphasis
+was on monotheism, but on the whole, the samaj was more
+concerned with social reforms than with religion. The
+Prarthana Sabha was very attached to the bhakti cult of
+Maharashtra. The samaj relied on education and persuasion
+and not on confrontation with Hindu orthodoxy. There was
+a four-point social agenda also: (i) disapproval of caste
+system; (ii) women’s education; (iii) widow remarriage; and
+(iv) raising the age of marriage for both males and females.
+Dhondo Keshav Karve and Vishnu Shastri were champions
+of social reform with Ranade. Along with Karve, Ranade
+founded the Widow Remarriage Movement as well as Widows’
+Home Association with the aim of providing education and
+training to widows so that they could support themselves.
+
 ### Young Bengal Movement and Henry Vivian Derozio
 During the late 1820s and early 1830s, there emerged a radical, intellectual trend among the youth in Bengal, which came to be known as the ‘Young Bengal Movement’. A young Anglo-Indian, Henry Vivian Derozio (1809–31), who taught at the Hindu College from 1826 to 1831, was the leader and inspirer of this progressive trend. Drawing inspiration from the great French Revolution, Derozio inspired his pupils to think freely and rationally, question all authority, love liberty, equality and freedom, and oppose decadent customs and traditions. The Derozians also supported women’s rights and education. Also, Derozio was perhaps the first nationalist poet of modern India. 
  
