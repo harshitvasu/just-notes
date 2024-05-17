@@ -34,8 +34,8 @@
     function initializeReadBoxes() {
         readBoxes.forEach(paragraph => {
             const originalHTML = paragraph.innerHTML;
-            const textContent = paragraph.textContent.trim();
-            const previewText = textContent.split(/\s+/).slice(0, 25).join(' ') + ' ...';
+            const innerText = paragraph.innerText.trim();
+            const previewText = innerText.split(/\s+/).slice(0, 25).join(' ') + ' ...';
 
             paragraph.innerHTML = `<span class="collapsible-icon">></span><span class="preview-text">${previewText}</span>`;
             paragraph.classList.add('hidden');
@@ -44,8 +44,8 @@
             const buttonContainer = document.createElement('div');
             buttonContainer.className = 'button-container';
 
-            const speakButton = createButton('👂', 'speak-btn', () => speak(textContent, paragraph));
-            const copyButton = createButton('📋', 'copy-btn', () => copyText(textContent));
+            const speakButton = createButton('👂', 'speak-btn', () => speak(innerText, paragraph));
+            const copyButton = createButton('📋', 'copy-btn', () => copyText(innerText));
             buttonContainer.appendChild(speakButton);
             buttonContainer.appendChild(copyButton);
 
