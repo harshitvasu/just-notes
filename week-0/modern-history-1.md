@@ -23,128 +23,59 @@ Rammohan Roy did not want to establish a new religion. He only wanted to purify 
 - It criticized the caste system.
 
 ### Raja Rammohan Roy’s Efforts at Social Reform
-Rammohan was a determined crusader against the inhuman practice of sati. He started his anti-sati struggle in 1818, and he cited sacred texts to prove his contention that no religion sanctioned the burning alive of widows, besides appealing to humanity, reason, and compassion. He also visited the cremation grounds, organized vigilance groups, and filed counter petitions to the government during his struggle against sati. His efforts were rewarded by the Government Regulation in 1829, which declared the practice of sati a crime.
-As a campaigner for women’s rights, Roy condemned the general subjugation of women and opposed prevailing misconceptions which formed the basis of according an inferior social status to women. Roy attacked polygamy and the degraded state of widows and demanded the right of inheritance and property for women.
+**Rammohan Roy** was a determined advocate against the abhorrent practice of **sati**. Commencing his anti-sati campaign in **1818**, he marshaled sacred texts to disprove any religious sanction for the burning of widows, while appealing to **humanity, reason, and compassion**. His activism extended to visiting cremation grounds, organizing vigilance groups, and submitting counter petitions to the government. His relentless efforts bore fruit with the **Government Regulation of 1829**, which outlawed sati.
 
-Rammohan Roy did much to disseminate the benefits of modern education to his countrymen. He supported David Hare’s efforts to found the Hindu College in 1817, while Roy’s English school taught mechanics and Voltaire’s philosophy. In 1825, he established a Vedanta college where courses in both Indian learning and Western social and physical sciences were offered. He also helped enrich the Bengali language by compiling a Bengali grammar book and evolving a modern elegant prose style.
-Rammohan was a gifted linguist. He knew more than a dozen languages including Sanskrit, Persian, Arabic, English, French, Latin, Greek, and Hebrew. A knowledge of different languages helped him broadbase his range of study.
+As a fervent campaigner for **women’s rights**, Roy confronted the widespread subjugation of women, challenging misconceptions that perpetuated their inferior social status. He vehemently opposed practices like **polygamy** and advocated for the rights of widows, including the right to **inheritance and property**.
 
-As a bold supporter of freedom of the Press and as a pioneer in Indian journalism, Roy brought out journals in Bengali, Hindi, English, Persian to educate and inform the public and represent their grievances before the government.
-As a political activist, Roy condemned oppressive practices of Bengali zamindars and demanded fixation of maximum rents. He also demanded abolition of taxes on taxfree lands. He called for a reduction of export duties on Indian goods abroad and abolition of the East India Company’s trading rights. He demanded the Indianisation of superior services and separation of the executive from the judiciary. He demanded judicial equality between Indians and Europeans and that trial be held by jury.
+Roy played a pivotal role in advancing **modern education** in India. Supporting **David Hare’s** initiative to establish the **Hindu College** in **1817**, he promoted a curriculum blending Indian and Western knowledge. His linguistic acumen, spanning languages such as **Sanskrit, Persian, Arabic, English, French, Latin, Greek**, and **Hebrew**, facilitated his intellectual pursuits.
 
-Rammohan was an internationalist with a vision beyond his times. He stood for cooperation of thought and activity and brotherhood among nations. His understanding of the universal character of the principles of liberty, equality, and justice indicated that he well understood the significance of the modern age. He supported the revolutions of Naples and Spanish America and condemned the oppression of Ireland by absentee English landlordism and threatened emigration from the empire if the reform bill was not passed.
-Roy had David Hare, Alexander Duff, Debendranath Tagore, P.K. Tagore, Chandrashekhar Deb, and Tarachand Chakraborty as his associates.
+As a staunch advocate of **freedom of the Press**, Roy pioneered Indian journalism, publishing newspapers in multiple languages to educate the public and voice grievances against the government. His activism extended to political arenas, where he challenged oppressive practices, advocated for **land reforms** and reduction of **export duties**, and demanded **judicial equality** between Indians and Europeans.
+
+Roy’s vision transcended national boundaries, advocating for **cooperation among nations** and standing against oppression globally. His support for revolutions in **Naples** and **Spanish America**, as well as his condemnation of English landlordism in **Ireland**, demonstrated his commitment to **universal principles of liberty, equality, and justice**.
+
+**Associates** like **David Hare**, **Alexander Duff**, **Debendranath Tagore**, **P.K. Tagore**, **Chandrashekhar Deb**, and **Tarachand Chakraborty** played significant roles in Roy’s endeavors, enriching the collaborative spirit of his reformist movement.
 
 ### Debendranath Tagore and Brahmo Samaj
-Maharishi Debendranath Tagore (1817–1905), father of Rabindranath Tagore and a product of the best in traditional Indian learning and Western thought, gave a new life to Brahmo Samaj and a definite form and shape to the theist movement, when he joined the Samaj in 1842. Earlier, Tagore headed the Tattvabodhini Sabha (founded in 1839) which, along with its organ Tattvabodhini Patrika in Bengali, was devoted to the systematic study of India’s past with a rational outlook and to the propagation of Rammohan’s ideas. A new vitality and strength of membership came to be associated with the Brahmo Samaj due to the informal association of the two sabhas. Gradually, the Brahmo Samaj came to include prominent followers of Rammohan, the Derozians and independent thinkers such as Ishwar Chandra Vidyasagar and Ashwini Kumar Datta. Tagore worked on two fronts: within Hinduism, the Brahmo Samaj was a reformist movement; outside, it resolutely opposed the Christian missionaries for their criticism of Hinduism and their attempts at conversion. The revitalised Samaj supported widow remarriage, women’s education, abolition of polygamy, improvement in ryots’ conditions, and temperance.
+**Maharishi Debendranath Tagore (1817–1905)**, father of **Rabindranath Tagore** and a product of the best in traditional Indian learning and Western thought, gave a new life to Brahmo Samaj and a definite form and shape to the **theist movement**, when he **joined the Samaj in 1842**. Earlier, Tagore headed the **Tattvabodhini Sabha** (founded in **1839**) which, along with its organ **Tattvabodhini Patrika** in Bengali, was devoted to the systematic study of India’s past with a rational outlook and to the propagation of **Rammohan’s ideas**. A new vitality and strength of membership came to be associated with the Brahmo Samaj due to the informal association of the two sabhas. Gradually, the Brahmo Samaj came to include prominent followers of Rammohan, the **Derozians** and independent thinkers such as **Ishwar Chandra Vidyasagar** and **Ashwini Kumar Datta**. Tagore worked on two fronts: within Hinduism, the Brahmo Samaj was a **reformist movement**; outside, it resolutely **opposed the Christian missionaries** for their criticism of Hinduism and their attempts at conversion. The revitalised Samaj supported **widow remarriage**, **women’s education**, **abolition of polygamy**, improvement in **ryots’ conditions**, and **temperance**.
 
 ### Keshab Chandra Sen and the Brahmo Samaj
-The Brahmo Samaj experienced another phase of energy,when Keshab Chandra Sen (1838–84) was made the acharyaby Debendranath Tagore soon after the former joined theSamaj in 1858. Keshab (also spelt Keshub) was instrumentalin popularising the movement, and branches of the Samajwere opened outside Bengal—in the United Provinces,Punjab, Bombay, Madras, and other towns. Unfortunately,Debendranath did not like some of Sen’s ideas which hefound too radical, such as cosmopolitanisation of the Samaj’smeetings by inclusion of teachings from all religions and hisstrong views against the caste system, even open support tointer-caste marriages. Keshab Chandra Sen was dismissedfrom the office of acharya in 1865.Keshab and his followers founded the Brahmo Samajof India in 1866, while Debendranath Tagore’s Samaj cameto be known as the Adi Brahmo Samaj.In 1878, Keshab’s inexplicable act of getting his 13-year-old daughter married to the minor Hindu Maharaja ofCooch-Behar with all the orthodox Hindu rituals causedanother split in Keshab’s Brahmo Samaj of India. Earlier,Keshab had begun to be considered as an incarnation by someof his followers, much to the dislike of his progressivefollowers. Further, Keshab had begun to be accused ofauthoritarianism.After 1878, the disgusted followers of Keshab set upa new organisation, the Sadharan Brahmo Samaj. TheSadharan Brahmo Samaj was started by Ananda Mohan Bose,Sib Chandra Deb, and Umeshchandra Dutta. It reiterated theBrahmo doctrines of faith in a Supreme being, one God, thebelief that no scripture or man is infallible, belief in thedictates of reason, truth, and morality.A number of Brahmo centres were opened in Madrasprovince. In Punjab, the Dayal Singh Trust sought to implantBrahmo ideas by the opening of Dayal Singh College atLahore in 1910.
+The **Brahmo Samaj** experienced another phase of energy when **Keshab Chandra Sen** (1838–84) was made the **acharya** by **Debendranath Tagore** soon after the former joined the Samaj in **1858**. **Keshab** (also spelt **Keshub**) was instrumental in popularising the movement, and branches of the Samaj were opened outside **Bengal**—in the **United Provinces**, **Punjab**, **Bombay**, **Madras**, and other towns. Unfortunately, Debendranath did not like some of Sen’s ideas which he found too radical, such as cosmopolitanisation of the Samaj’s meetings by inclusion of teachings from all religions and his strong views against the **caste system**, even open support to **inter-caste marriages**. **Keshab Chandra Sen** was dismissed from the office of **acharya** in **1865**. Keshab and his followers founded the **Brahmo Samaj of India** in **1866**, while Debendranath Tagore’s Samaj came to be known as the **Adi Brahmo Samaj**.
+In **1878**, Keshab’s inexplicable act of getting his **13-year-old daughter** married to the minor **Hindu Maharaja of Cooch-Behar** with all the orthodox Hindu rituals caused another split in Keshab’s Brahmo Samaj of India. Earlier, Keshab had begun to be considered as an **incarnation** by some of his followers, much to the dislike of his progressive followers. Further, Keshab had begun to be accused of **authoritarianism**. After **1878**, the disgusted followers of Keshab set up a new organisation, the **Sadharan Brahmo Samaj**. The Sadharan Brahmo Samaj was started by **Ananda Mohan Bose**, **Sib Chandra Deb**, and **Umeshchandra Dutta**. It reiterated the Brahmo doctrines of faith in a **Supreme being**, one **God**, the belief that no scripture or man is infallible, and belief in the dictates of **reason**, **truth**, and **morality**.
+A number of Brahmo centres were opened in **Madras province**. In **Punjab**, the **Dayal Singh Trust** sought to implant Brahmo ideas by the opening of **Dayal Singh College** at **Lahore** in **1910**.
  
-### Prarthana Samaj 
-
 
 ### Significance of the Brahmo Samaj
-
-In matters of social reform, the Samaj attacked many dogmas and superstitions. It condemned the prevailing Hindu prejudice against going abroad. It worked for a respectable status for women in society—condemned sati, worked for abolition of the purdah system, discouraged child marriage and polygamy, crusaded for widow remarriage and for provisions of educational facilities. It also attacked casteism and untouchability though in these matters it attained only limited success. 
-The influence of the Brahmo Samaj, however, did not go much beyond Calcutta and, at most, Bengal. It did not have a lasting impact.
+In matters of social reform, the **Samaj** attacked many **dogmas** and **superstitions**. It condemned the prevailing **Hindu prejudice against going abroad**. It worked for a respectable status for women in society—condemned **sati**, worked for the abolition of the **purdah system**, discouraged **child marriage** and **polygamy**, crusaded for **widow remarriage** and for provisions of **educational facilities**. It also attacked **casteism** and **untouchability**, though in these matters it attained only limited success.
+The influence of the **Brahmo Samaj**, however, did not go much beyond **Calcutta** and, at most, **Bengal**. It did not have a lasting impact.
 
 ### Prarthana Samaj 
-In 1867, Keshab Chandra Sen helped Atmaram Pandurang
-found the Prarthana Samaj in Bombay. Earlier, the Brahmo
-ideas spread in Maharashtra. A precursor of the Prarthana
-Samaj was the Paramahansa Sabha, something like a secret
-society to spread liberal ideas and encourage the breakdown
-of caste and communal barriers. Mahadeo Govind Ranade
-(1842–1901), joined the samaj in 1870, and much of the
-popularity of and work done by the society was due to his
-efforts. His efforts made the samaj gain an all-India character.
-Other leaders of the samaj were R.G. Bhandarkar (1837–
-1925) and N.G. Chandavarkar (1855–1923). The emphasis
-was on monotheism, but on the whole, the samaj was more
-concerned with social reforms than with religion. The
-Prarthana Sabha was very attached to the bhakti cult of
-Maharashtra. The samaj relied on education and persuasion
-and not on confrontation with Hindu orthodoxy. There was
-a four-point social agenda also: (i) disapproval of caste
-system; (ii) women’s education; (iii) widow remarriage; and
-(iv) raising the age of marriage for both males and females.
-Dhondo Keshav Karve and Vishnu Shastri were champions
-of social reform with Ranade. Along with Karve, Ranade
-founded the Widow Remarriage Movement as well as Widows’
-Home Association with the aim of providing education and
-training to widows so that they could support themselves.
+In **1867**, **Keshab Chandra Sen** helped **Atmaram Pandurang** found the **Prarthana Samaj** in **Bombay**. Earlier, the Brahmo ideas spread in **Maharashtra**. A precursor of the Prarthana Samaj was the **Paramahansa Sabha**, something like a secret society to spread liberal ideas and encourage the breakdown of **caste** and **communal barriers**. **Mahadeo Govind Ranade** (1842–1901) joined the samaj in **1870**, and much of the popularity of and work done by the society was due to his efforts. His efforts made the samaj gain an all-India character. Other leaders of the samaj were **R.G. Bhandarkar** (1837–1925) and **N.G. Chandavarkar** (1855–1923).
+The emphasis was on **monotheism**, but on the whole, the samaj was more concerned with **social reforms** than with religion. The Prarthana Sabha was very attached to the **bhakti cult** of Maharashtra. The samaj relied on **education** and **persuasion** and not on confrontation with **Hindu orthodoxy**. There was a four-point social agenda also:
+1. Disapproval of **caste system**
+2. **Women’s education**
+3. **Widow remarriage**
+4. Raising the **age of marriage** for both males and females.
+**Dhondo Keshav Karve** and **Vishnu Shastri** were champions of social reform with Ranade. Along with Karve, Ranade founded the **Widow Remarriage Movement** as well as the **Widows’ Home Association** with the aim of providing education and training to widows so that they could support themselves.
 
 ### Young Bengal Movement and Henry Vivian Derozio
-During the late 1820s and early 1830s, there emerged a radical, intellectual trend among the youth in Bengal, which came to be known as the ‘Young Bengal Movement’. A young Anglo-Indian, Henry Vivian Derozio (1809–31), who taught at the Hindu College from 1826 to 1831, was the leader and inspirer of this progressive trend. Drawing inspiration from the great French Revolution, Derozio inspired his pupils to think freely and rationally, question all authority, love liberty, equality and freedom, and oppose decadent customs and traditions. The Derozians also supported women’s rights and education. Also, Derozio was perhaps the first nationalist poet of modern India. 
- 
-The Derozians, however, failed to have a long-term impact. Derozio was removed from the Hindu College in 1831 because of his radicalism. The main reason for their limited success was the prevailing social conditions at that time, which were not ripe for the adoption of radical ideas. Further, there was no support from any other social group or class. The Derozians lacked any real link with the masses; for instance, they failed to take up the peasants’ cause. In fact, their radicalism was bookish in character. But, despite their limitations, the Derozians carried forward Rammohan Roy’s tradition of public education on social, economic, and political questions. For instance, they demanded induction of Indians in higher grades of services, protection of ryots from oppressive zamindars, better treatment to Indian labour abroad in British colonies, revision of the Company’s charter, freedom of press, and trial by jury.
+During the late **1820s** and early **1830s**, there emerged a radical, intellectual trend among the youth in **Bengal**, which came to be known as the **Young Bengal Movement**. A young Anglo-Indian, **Henry Vivian Derozio** (1809–31), who taught at the **Hindu College** from **1826** to **1831**, was the leader and inspirer of this progressive trend. Drawing inspiration from the **great French Revolution**, Derozio inspired his pupils to think freely and rationally, question all authority, love **liberty**, **equality**, and **freedom**, and oppose decadent customs and traditions. The **Derozians** also supported **women’s rights** and **education**. Also, Derozio was perhaps the first **nationalist poet** of modern India.
 
-Later, Surendranath Banerjea was to describe the Derozians as “the pioneers of the modern civilisation of Bengal, the conscript fathers of our race whose virtues will excite veneration and whose failings will be treated with gentlest consideration”.
+The **Derozians**, however, failed to have a long-term impact. Derozio was removed from the Hindu College in **1831** because of his radicalism. The main reason for their limited success was the prevailing social conditions at that time, which were not ripe for the adoption of radical ideas. Further, there was no support from any other social group or class. The Derozians lacked any real link with the masses; for instance, they failed to take up the **peasants’ cause**. In fact, their radicalism was bookish in character. But, despite their limitations, the Derozians carried forward **Rammohan Roy’s** tradition of public education on social, economic, and political questions. For instance, they demanded induction of **Indians in higher grades of services**, protection of **ryots** from oppressive **zamindars**, better treatment to **Indian labour abroad in British colonies**, revision of the **Company’s charter**, freedom of **press**, and **trial by jury**.
 
+Later, **Surendranath Banerjea** was to describe the Derozians as “the pioneers of the modern civilisation of Bengal, the conscript fathers of our race whose virtues will excite veneration and whose failings will be treated with gentlest consideration.”
 
 ### Ishwar Chandra Vidyasagar
+The great scholar and reformer, **Vidyasagar**, blended **Indian** and **Western thought** harmoniously. He believed in high **moral values**, was a deep **humanist**, and was generous to the poor. In **1850**, he became the principal of **Sanskrit College**. Determined to break the **priestly monopoly** of scriptural knowledge, he opened the Sanskrit College to **non-brahmins**. He introduced **Western thought** in Sanskrit College to break the self-imposed isolation of **Sanskritic learning**. As an academician, he evolved a new methodology to teach Sanskrit. He also devised a new **Bengali primer** and evolved a new **prose style**.
 
-The great scholar and reformer, Vidyasagar’s ideas were a
-happy blend of Indian and Western thought. He believed in
-high moral values, was a deep humanist, and was generous
-to the poor. In 1850, he became the principal of Sanskrit
-College. He was determined to break the priestly monopoly
-of scriptural knowledge, and for this he opened the Sanskrit
-College to non-brahmins. He introduced Western thought in
-Sanskrit College to break the self-imposed isolation of
-Sanskritic learning. As an academician, he evolved a new
-methodology to teach Sanskrit. He also devised a new Bengali
-primer and evolved a new prose style.
-Vidyasagar started a movement in support of widow
-remarriage which resulted in legalisation of widow remarriage.
-He was also a crusader against child marriage and polygamy.
-He did much for the cause of women’s education. As
-government inspector of schools, he helped organise 35
-girls’ schools many of which he ran at his own expense. As
-secretary of Bethune School (established in 1849), he was
-one of the pioneers of higher education for women in India.
+Vidyasagar started a movement in support of **widow remarriage**, which resulted in its legalisation. He was also a crusader against **child marriage** and **polygamy**. He did much for the cause of **women’s education**. As government inspector of schools, he helped organise **35 girls’ schools**, many of which he ran at his own expense. As secretary of **Bethune School** (established in **1849**), he was one of the pioneers of higher education for women in India.
 
-The Bethune School, founded in Calcutta, was the result
-of the powerful movement for women’s education that arose
-in the 1840s and 1850s. The movement had to face great
-difficulties. The young students were shouted at and abused
-and, sometimes, even their parents subjected to social
-boycott. Many believed that girls who had received Western
-education would make slaves of their husbands.
-
+The **Bethune School**, founded in **Calcutta**, was the result of the powerful movement for women’s education that arose in the **1840s** and **1850s**. The movement faced great difficulties. The young students were shouted at and abused, and sometimes even their parents were subjected to **social boycott**. Many believed that girls who had received **Western education** would make slaves of their husbands.
 ### Balshastri Jambhekar
-Balshastri Jambhekar (1812–46) was a pioneer of social
-reform through journalism in Bombay; he attacked brahminical
-orthodoxy and tried to reform popular Hinduism. He started
-the newspaper Darpan in 1832. Known as the father of
-Marathi journalism, Jambhekar used the Darpan to awaken
-the people to awareness of social reforms, such as widow
-remarriage, and to instil in the masses a scientific approach
-to life. In 1840, he started Digdarshan, which published
-articles on scientific subjects as well as history.
-Jambhekar founded the Bombay Native General Library
-and started the Native Improvement Society of which an
-offshoot was the Students Literary and Scientific Library. He
-was the first professor of Hindi at the Elphinston College,
-besides being a director of the Colaba Observatory.
+**Balshastri Jambhekar** (1812–46) was a pioneer of **social reform through journalism** in **Bombay**; he attacked **brahminical orthodoxy** and tried to reform popular **Hinduism**. He started the newspaper **Darpan** in **1832**. Known as the **father of Marathi journalism**, Jambhekar used the Darpan to awaken the people to awareness of social reforms, such as **widow remarriage**, and to instill in the masses a **scientific approach** to life. In **1840**, he started **Digdarshan**, which published articles on scientific subjects as well as history.
 
+Jambhekar founded the **Bombay Native General Library** and started the **Native Improvement Society**, an offshoot of which was the **Students Literary and Scientific Library**. He was the first professor of **Hindi** at **Elphinston College**, besides being a director of the **Colaba Observatory**.
 ### Paramahansa Mandali
-Founded in 1849 in Maharashtra, the founders of the
-Paramahansa Mandali—Dadoba Pandurang, Mehtaji Durgaram
-and others—began as a secret society that worked to reform
-Hindu religion and society in general. The ideology of the
-society was closely linked to that of the Manav Dharma
-Sabha. Besides believing that one god should be worshipped,
-the society also said real religion is based on love and moral
-conduct. Freedom of thought was encouraged as was
-rationality. The founders of the mandali were primarily
-interested in breaking caste rules. At their meetings, food
-cooked by lower caste people was taken by the members.
-These mandalis also advocated widow remarriage and women’s
-education. Branches of Paramahansa Mandali existed in
-Poona, Satara, and other towns of Maharashtra.
-
+Founded in **1849** in **Maharashtra**, the founders of the **Paramahansa Mandali**—**Dadoba Pandurang**, **Mehtaji Durgaram**, and others—began as a secret society that worked to reform **Hindu religion** and **society** in general. The ideology of the society was closely linked to that of the **Manav Dharma Sabha**. Besides believing that one god should be worshipped, the society also said real religion is based on **love** and **moral conduct**. **Freedom of thought** was encouraged as was **rationality**. The founders of the mandali were primarily interested in breaking **caste rules**. At their meetings, food cooked by **lower caste people** was taken by the members. These mandalis also advocated **widow remarriage** and **women’s education**. Branches of Paramahansa Mandali existed in **Poona**, **Satara**, and other towns of Maharashtra.
 
 ### Jyotirao Phule and Savitribai Phule
 Jyotirao or Jyotiba Phule (1827–90), born in Satara,
@@ -184,477 +115,136 @@ the Persian scholar Ghaffar Baig Munshi and a British
 official, Lizit Sahab, Jyotiba was admitted in a Scottish
 missionary school. The society of the day was against
 education of girls as well. Yet, he along with his wife,
+**Savitribai**, were instrumental in opening a **school for girls** in **Pune**. The school syllabus included **mathematics**, **science**, and **social studies**. Savitribai, also of the **mali community**, was born in **1831** at **Naigaon** in Maharashtra’s **Satara district** and was married to **Jyotiba Phule** when a child of nine. Jyotiba, a firm believer in **education for all**, including women, taught his wife at home. Later, she took a **teacher’s training course**. She faced abuse and humiliation from the people along the way when she walked to the school to teach, but she braved it to persist with her vocation. Savitribai also began to teach women and children from the downtrodden castes, including **Mang** and **Mahar**. She and her husband established two educational trusts, namely the **Native Female School, Pune**, and the **Society for Promoting the Education of Mahars, Mangs, and others**.
 
-Savitribai, were instrumental in opening a school for girls
-in Pune. The school syllabus included mathematics, science,
-and social studies.
-Savitribai, also of the mali community, was born in
-1831 at Naigaon in Maharashtra’s Satara district and was
-married to Jyotiba Phule when a child of nine. Jyotiba, a firm
-believer in education for all, including women, taught his wife
-at home. Later, she took a teacher’s training course. She
-faced abuse and humiliation from the people along the way
-when she walked to the school to teach, but she braved it
-to persist with her vocation. Savitribai also began to teach
-women and children from the downtrodden castes including
-Mang and Mahar. She and her husband established two
-educational trusts, namely the Native Female School, Pune,
-and the Society for Promoting the Education of Mahars,
-Mangs, and others.
-Savitribai went on from girls’ education to question
-many social evils and work towards eradicating them. She
-started the Mahila Seva Mandal to raise awareness about
-women’s rights. She and her husband rigorously campaigned
-against the dehumanisation of widows and advocated widow
-remarriage. Savitribai is said to have organised a successful
-barbers’ strike to denounce the inhumane practice of shaving
-widows’ heads. With her husband, she set up a home called
-Balhatya Pratibandhak Griha (home to prevent infanticide) in
-1863, where unwed mothers and widows who became pregnant
-under unfortunate circumstances could have safe deliveries
-instead of resorting to killing the infants or themselves.
-Savitribai is said to have organised a successful barbers’
-strike to denounce the inhumane practice of shaving widows’
-heads. She and her husband set an example against the evil
-of untouchability by opening their own water storage to
-everyone.
-After Jyotiba’s death, Savitribai took over the Satya
-Shodhak Samaj, presiding over the meetings, guiding the
-workers, and working for plague victims. She died in 1897,
-getting infected by the plague while caring for a patient.
+Savitribai went on from **girls’ education** to question many **social evils** and work towards eradicating them. She started the **Mahila Seva Mandal** to raise awareness about **women’s rights**. She and her husband rigorously campaigned against the **dehumanisation of widows** and advocated **widow remarriage**. Savitribai is said to have organized a successful **barbers’ strike** to denounce the inhumane practice of shaving widows’ heads. With her husband, she set up a home called **Balhatya Pratibandhak Griha** (home to prevent infanticide) in **1863**, where unwed mothers and widows who became pregnant under unfortunate circumstances could have safe deliveries instead of resorting to killing the infants or themselves.
 
-Savitribai wrote poetry, and two of her collections are
-Kavyaphule and Bavankashi Subodh Ratnakar.
-(In August 2014, the name of the University of Pune
-was changed to Savitribai Phule Pune University in honour
-of Savitribai Phule.)
+Savitribai and her husband set an example against the evil of **untouchability** by opening their own **water storage** to everyone. After Jyotiba’s death, Savitribai took over the **Satya Shodhak Samaj**, presiding over the meetings, guiding the workers, and working for **plague victims**. She died in **1897**, getting infected by the plague while caring for a patient.
+
+Savitribai wrote poetry, and two of her collections are **Kavyaphule** and **Bavankashi Subodh Ratnakar**. (In August **2014**, the name of the **University of Pune** was changed to **Savitribai Phule Pune University** in honor of Savitribai Phule.)
 
 ### Gopal Baba Walangkar
-Gopal Baba Walangkar, also known as Gopal Krishna, (circa
-1840–1900) was a pioneer in the cause of uplifting the Dalits
-from the socio-economic oppression that they suffered.
-Indeed, Walangkar is generally considered by Ambedkar to
-be the pioneer of the Dalit movement. Born into a Mahar
-family near Mahad in what is now Raigad district of
-Maharashtra, Gopal Krishna served in the army till he retired
-in 1886. He was deeply influenced by Jyotiba Phule.
-Walangkar subscribed to Phule’s idea of the Aryan
-invasion theory, and said that the untouchable people of India
-were the indigenous inhabitants and that the brahmins came
-from the invading Aryans. He contended that the concept of
-caste was contrived by the Aryan invaders to subjugate and
-control the Anaryans (who were the indigenous people). He
-formed a group of Mahar astrologers so as to give a sense
-of empowerment to the Mahars and reduce the importance
-of the brahmins as the service of setting the time for
-ceremonies was the only one that brahmins had been willing
-to perform for the Mahars.
-Walangkar founded the Anarya Dosh-Parihar Mandali
-(Society for the Removal of Evils Among the Non-Aryans).
-It was through this society that a petition was sought to be
-raised against the policy of the government to discontinue
-the recruitment of Mahars in the army.
-In 1888, Walangkar began publishing the monthly
-journal Vital Vidhvansak (Destroyer of Brahmanical or
-Ceremonial Pollution). In 1889, he followed with a pamphlet,
-Vital Viduvansan (Annihilation of Ceremonial Pollution),
-which spoke against the position of untouchables in society.
-He has been called “the first intellectual rebel from the Dalit
-community to have launched a scathing criticism of the caste
+**Gopal Baba Walangkar**, also known as **Gopal Krishna** (circa 1840–1900), was a pioneer in the cause of uplifting the **Dalits** from the socio-economic oppression they suffered. Walangkar is generally considered by **Ambedkar** to be the pioneer of the **Dalit movement**. Born into a **Mahar family** near **Mahad** in what is now **Raigad district** of **Maharashtra**, Gopal Krishna served in the **army** until he retired in **1886**. He was deeply influenced by **Jyotiba Phule**.
 
-system and the position of Dalits in it.” His approach was
-not so much a direct opposition to the elites of society; it
-was rather an appeal aimed at making them change their
-attitude. He also wrote Hindu Dharma Darpan published in
-1894. He contributed to Marathi language journals such as
-Sudharak and Deenbandhu to arouse awareness and inspire
-the depressed classes.
-The attitude of the upper castes is manifest in the
-opposition they showed when Walangkar was appointed to
-the local taluk board of Mahad in 1895.
+Walangkar subscribed to Phule’s idea of the **Aryan invasion theory** and said that the untouchable people of India were the **indigenous inhabitants** and that the brahmins came from the invading Aryans. He contended that the concept of **caste** was contrived by the Aryan invaders to subjugate and control the **Anaryans** (who were the indigenous people). He formed a group of **Mahar astrologers** to give a sense of empowerment to the Mahars and reduce the importance of the brahmins, as the service of setting the time for ceremonies was the only one that brahmins had been willing to perform for the Mahars.
+
+Walangkar founded the **Anarya Dosh-Parihar Mandali** (Society for the Removal of Evils Among the Non-Aryans). It was through this society that a petition was sought to be raised against the policy of the government to discontinue the recruitment of Mahars in the army.
+
+In **1888**, Walangkar began publishing the monthly journal **Vital Vidhvansak** (Destroyer of Brahmanical or Ceremonial Pollution). In **1889**, he followed with a pamphlet, **Vital Viduvansan** (Annihilation of Ceremonial Pollution), which spoke against the position of untouchables in society. He has been called “the first intellectual rebel from the Dalit community to have launched a scathing criticism of the **caste system** and the position of Dalits in it.” His approach was not so much a direct opposition to the elites of society; it was rather an appeal aimed at making them change their attitude. He also wrote **Hindu Dharma Darpan**, published in **1894**. He contributed to Marathi language journals such as **Sudharak** and **Deenbandhu** to arouse awareness and inspire the depressed classes.
+
+The attitude of the upper castes is manifest in the opposition they showed when Walangkar was appointed to the local **taluk board of Mahad** in **1895**.
 
 ### Kisan Faguji Bansod
-Kisan Faguji Bansod (1879–1946) was born in a Mahar
-family at Mohapa village near Nagpur in Maharashtra. He
-wanted the Dalits boys and girls to be educated. He established
-the Chokhamela girls’ school at Nagpur. Setting up his own
-press in 1910, Bansod published the journals Nirashrit Hind
-Nagarik, Vital Vidhvansak, and Majur Patrika. He was one
-of the secretaries of the All India Depressed Classes
-Conference in 1920.
-Bansod was influenced by the Bhakti cult and the work
-of the Brahmo Samaj and the Prarthana Samaj. Though he
-also subscribed to the theory of the enslavement of the Dalits
-because of the Aryan invasion, he advocated reforms within
-Hinduism for the upliftment of the Dalits.
+**Kisan Faguji Bansod** (1879–1946) was born in a **Mahar family** at **Mohapa village** near **Nagpur** in **Maharashtra**. He wanted **Dalit boys and girls** to be educated and established the **Chokhamela girls’ school** at **Nagpur**. Setting up his own press in **1910**, Bansod published the journals **Nirashrit Hind Nagarik**, **Vital Vidhvansak**, and **Majur Patrika**. He was one of the secretaries of the **All India Depressed Classes Conference** in **1920**.
+
+Bansod was influenced by the **Bhakti cult** and the work of the **Brahmo Samaj** and the **Prarthana Samaj**. Though he also subscribed to the theory of the **enslavement of the Dalits** because of the **Aryan invasion**, he advocated reforms within **Hinduism** for the upliftment of the Dalits.
 
 ### Vitthal Ramji Shinde
-Maharshi Vitthal Ramji Shinde (1873–1944) was born in a
-Marathi family in Karnataka. He was influenced in his
-spiritual journey by the works of Tukaram, Eknath, and
-Ramdas. Brought up in a liberal intellectual atmosphere, he
-was also influenced by Hari Narayan Apte, Gopal Ganesh
-Agarkar, Mahadev Govind Ranade, Ramakrishna Gopal
-Bhandarkar, G.B. Kotkar among other thinkers. He joined the
-Prarthana Samaj and worked towards the removal of
-untouchability in India. He established a night school for the
-children of untouchables in Pune in 1905. He established the
-Depressed Classes Mission in Bombay in 1906. The mission
-was aimed at trying to get rid of untouchability; to provide
 
-educational facilities for the untouchables; and try to solve
-the problems of the untouchables.
-Shinde gave evidence before the Southborough Franchise
-Committee in 1919, and expressed the need for giving special
-representation to the untouchable class. He resigned as the
-executive of the Depressed Classes Mission when some of
-the members wanted the mission’s affairs to be managed by
-their own people. He, however, continued to work for the
-depressed classes. He was in favour of a united front from
-the depressed classes and the caste Hindus as he feared the
-British rulers would otherwise exploit the divisions in Indian
-society for their own advantage.
-He expressed his opposition to the caste system, idol
-worship, and inequities forced on women and the depressed
-classes even as he was against meaningless rituals, the
-dominance of hereditary priesthood, and the very need for
-a priest to mediate between a devotee and God.
-He took part in the Civil Disobedience Movement and
-was imprisoned in the Yerawda Central Jail.
-Shinde was the author of Bharatiya Asprushyatecha
-Prashna.
+**Maharshi Vitthal Ramji Shinde** (1873–1944) was born in a **Marathi family** in **Karnataka**. He was influenced in his spiritual journey by the works of **Tukaram**, **Eknath**, and **Ramdas**. Brought up in a liberal intellectual atmosphere, he was also influenced by **Hari Narayan Apte**, **Gopal Ganesh Agarkar**, **Mahadev Govind Ranade**, **Ramakrishna Gopal Bhandarkar**, and **G.B. Kotkar** among other thinkers. He joined the **Prarthana Samaj** and worked towards the **removal of untouchability** in India. He established a **night school** for the children of untouchables in **Pune** in **1905**. He established the **Depressed Classes Mission** in **Bombay** in **1906**. The mission aimed at eliminating untouchability, providing **educational facilities** for the untouchables, and solving their problems.
+
+Shinde gave evidence before the **Southborough Franchise Committee** in **1919**, expressing the need for giving special representation to the **untouchable class**. He resigned as the executive of the **Depressed Classes Mission** when some members wanted the mission’s affairs to be managed by their own people. He, however, continued to work for the depressed classes. He favored a **united front** from the depressed classes and the caste Hindus, fearing the British rulers would otherwise exploit divisions in Indian society for their own advantage.
+
+He expressed his opposition to the **caste system**, **idol worship**, and inequities forced on women and the depressed classes, as well as meaningless rituals, the dominance of **hereditary priesthood**, and the need for a priest to mediate between a devotee and God.
+
+He took part in the **Civil Disobedience Movement** and was imprisoned in the **Yerawda Central Jail**. Shinde was the author of **Bharatiya Asprushyatecha Prashna**.
 
 ### Gopalhari Deshmukh ‘Lokahitawadi’
-Gopalhari Deshmukh (1823–92) was a social reformer and
-rationalist from Maharashtra. He held the post of a judge
-under British raj, but wrote for a weekly Prabhakar under
-the pen name of Lokahitawadi on social reform issues.
-He advocated a reorganisation of Indian society on rational
-principles and modern, humanistic, secular values. He attacked
-Hindu orthodoxy and supported social and religious equality.
-He wrote against the evils of the caste system. He said, “If
-religion does not sanction social reform, then change religion.”
-He started a weekly, Hitechhu, and also played a leading role
-in founding the periodicals, Gyan Prakash, Indu Prakash,
-and Lokahitawadi.
+**Gopalhari Deshmukh** (1823–92) was a **social reformer** and **rationalist** from **Maharashtra**. He held the post of a **judge** under the **British Raj**, but wrote for a weekly **Prabhakar** under the pen name of **Lokahitawadi** on social reform issues. He advocated a reorganization of **Indian society** on rational principles and modern, humanistic, secular values. He attacked **Hindu orthodoxy** and supported **social and religious equality**. He wrote against the evils of the **caste system**, famously stating, “If religion does not sanction social reform, then change religion.”
+
+He started a weekly, **Hitechhu**, and also played a leading role in founding the periodicals **Gyan Prakash**, **Indu Prakash**, and **Lokahitawadi**.
 
 ### Gopal Ganesh Agarkar
-Gopal Ganesh Agarkar (1856–95) was an educationist and
-social reformer from Maharashtra. A strong advocate of the
-power of human reason, he criticised the blind dependence
-on tradition and false glorification of the past. He was a co
 
-founder of the New English School, the Deccan Education
-Society and Fergusson College. He was a principal of
-Fergusson College. He was also the first editor of Kesari,
-the journal started by Lokmanya Tilak. Later, he started his
-own periodical, Sudharak, which spoke against untouchability
-and the caste system.
-
+**Gopal Ganesh Agarkar** (1856–95) was an **educationist** and **social reformer** from **Maharashtra**. A strong advocate of the power of **human reason**, he criticized the **blind dependence on tradition** and false glorification of the past. He was a co-founder of the **New English School**, the **Deccan Education Society**, and **Fergusson College**, where he also served as principal. He was the first editor of **Kesari**, the journal started by **Lokmanya Tilak**. Later, he started his own periodical, **Sudharak**, which spoke against **untouchability** and the **caste system**.
 
 ### The Servants of India Society
-Gopal Krishna Gokhale (1866–1915), a liberal leader of the
-Indian National Congress, founded the Servants of India
-Society in 1905 with the help of M.G. Ranade. The aim of
-the society was to train national missionaries for the service
-of India; to promote, by all constitutional means, the true
-interests of the Indian people; and to prepare a cadre of
-selfless workers who were to devote their lives to the cause
-of the country in a religious spirit. In 1911, the Hitavada
-began to be published to project the views of the society.
-The society chose to remain aloof from political activities
-and organisations like the Indian National Congress.
-After Gokhale’s death (1915), Srinivasa Shastri took
-over as president. The society still continues to function,
-though with a shrunken base, at many places in India. It works
-in the field of education, providing ashram type of schools
-for tribal girls and balwadis at many places.
+
+**Gopal Krishna Gokhale** (1866–1915), a liberal leader of the **Indian National Congress**, founded the **Servants of India Society** in **1905** with the help of **M.G. Ranade**. The aim of the society was to train **national missionaries** for the service of India; to promote, by all constitutional means, the true interests of the Indian people; and to prepare a cadre of **selfless workers** who were to devote their lives to the cause of the country in a religious spirit. In **1911**, the **Hitavada** began to be published to project the views of the society. The society chose to remain aloof from political activities and organizations like the Indian National Congress.
+
+After Gokhale’s death in **1915**, **Srinivasa Shastri** took over as president. The society still continues to function, though with a shrunken base, at many places in India. It works in the field of **education**, providing **ashram-type schools** for tribal girls and **balwadis** at many places.
+
+
 ### Social Service League
-A follower of Gokhale, Narayan Malhar Joshi founded the
-Social Service League in Bombay with an aim to secure for
-the masses better and reasonable conditions of life and work.
-They organised many schools, libraries, reading rooms, day
-nurseries, and cooperative societies. Their activities also
-included police court agents’ work, legal aid and advice to
-the poor and illiterate, excursions for slum dwellers, facilities
-for gymnasia and theatrical performances, sanitary work,
-medical relief, and boys’ clubs and scout corps. Joshi also
-founded the All India Trade Union Congress (1920).
+A follower of **Gokhale**, **Narayan Malhar Joshi** founded the **Social Service League** in **Bombay** with the aim of securing better and reasonable conditions of life and work for the masses. They organized many **schools**, **libraries**, **reading rooms**, **day nurseries**, and **cooperative societies**. Their activities also included **police court agents’ work**, **legal aid and advice** to the poor and illiterate, **excursions for slum dwellers**, facilities for **gymnasia** and **theatrical performances**, **sanitary work**, **medical relief**, and **boys’ clubs and scout corps**. Joshi also founded the **All India Trade Union Congress** in **1920**.
+
+
 ### The Ramakrishna Movement and Swami Vivekananda
-The didactic nationalism of the Brahmo Samaj appealed more
-to the intellectual elite in Bengal, while the average Bengali
+The didactic nationalism of the **Brahmo Samaj** appealed more to the **intellectual elite** in **Bengal**, while the average Bengali found more emotional satisfaction in the **cult of bhakti and yoga**. The teachings of **Ramakrishna Paramahamsa** (1836–86), a poor priest at the **Kali temple** in **Dakshineshwar** (known in childhood as **Gadadhar Chattopadhyay**), found many followers. Ramakrishna experienced **spiritual trances (ecstasy)** from a very early age and is considered to have attained the highest spiritual experience available to Hindus. He did not write books, but his conversations with people formed the basis of his teachings. He spoke simply, using **parables** and **metaphors** drawn from ordinary life and nature. His teachings were of universal relevance.
 
-found more emotional satisfaction in the cult of bhakti and
-yoga. The teachings of Ramakrishna Paramahamsa (1836–
-86), a poor priest at the Kali temple in Dakshineshwar, on
-the outskirts of Calcutta (who was known in childhood as
-Gadadhar Chattopadhyay) found many followers. Ramakrishna
-experienced spiritual trances (ecstasy) from a very early age.
-He is considered to have attained the highest spiritual
-experience available to Hindus. He did not write books, but
-his conversations with people formed the basis of what were
-considered his teachings. He spoke simply, in the form of
-parables and metaphors, drawn from the observation of
-ordinary life and nature. But what he said was of universal
-relevance. Two objectives of the Ramakrishna movement
-were—(i) to bring into existence a band of monks dedicated
-to a life of renunciation and practical spirituality, from among
-whom teachers and workers would be sent out to spread the
-universal message of Vedanta as illustrated in the life of
-Ramakrishna, and (ii) in conjunction with lay disciples to
-carry on preaching, philanthropic and charitable works, looking
-upon all men, women and children, irrespective of caste,
-creed, or colour, as veritable manifestations of the Divine.
-Paramahamsa himself laid the foundations of the Ramakrishna
-Math with his young monastic disciples as a nucleus to fulfil
-the first objective. The second objective was taken up by
-Swami Vivekananda after Ramakrishna’s death when he founded
-the Ramakrishna Mission in 1897. The headquarters of the
-Ramakrishna Math and Mission are at Belur near Calcutta.
-The two are twin organisations, though legally and financially
-separate
-Paramahamsa sought salvation through traditional ways
-of renunciation, meditation, and bhakti amidst increasing
-westernisation and modernisation. He recognised the
-fundamental oneness of all religions and emphasised that
-Krishna, Hari, Ram, Christ, Allah are different names for the
-same God, and that there are many ways to God and salvation:
-“As many faiths, so many paths.” Paramahamsa’s spirituality
-and compassion for the suffering humanity inspired those
-who listened to him. He used to say, “Service of man is the
-service of God.”
+Two objectives of the **Ramakrishna movement** were:
+1. To bring into existence a band of **monks** dedicated to a life of **renunciation** and **practical spirituality**, from among whom teachers and workers would be sent out to spread the **universal message of Vedanta** as illustrated in the life of Ramakrishna.
+2. In conjunction with lay disciples, to carry on **preaching**, **philanthropic**, and **charitable works**, looking upon all people, irrespective of **caste**, **creed**, or **colour**, as manifestations of the Divine.
+Ramakrishna himself laid the foundations of the **Ramakrishna Math** with his young monastic disciples as a nucleus to fulfil the first objective. The second objective was taken up by **Swami Vivekananda** after Ramakrishna’s death, when he founded the **Ramakrishna Mission** in **1897**. The headquarters of the **Ramakrishna Math and Mission** are at **Belur** near **Calcutta**. The two are twin organizations, though legally and financially separate.
 
-Incidentally, Ramakrishna was married to Saradmani
-Mukherjee, later known as Sarada Devi. Ramakrishna
-considered Sarada as the embodiment of the Divine Mother.
-It was as ‘holy mother’ that the disciples also knew her as.
-She played an important role in the work of the math and
-encouraging the young disciples in their mission.
+Paramahamsa sought salvation through traditional ways of **renunciation**, **meditation**, and **bhakti** amidst increasing westernization and modernization. He recognized the fundamental **oneness of all religions** and emphasized that **Krishna**, **Hari**, **Ram**, **Christ**, and **Allah** are different names for the same God, and that there are many ways to God and salvation: "As many faiths, so many paths." Paramahamsa’s spirituality and compassion for suffering humanity inspired those who listened to him. He used to say, "Service of man is the service of God."
+Incidentally, Ramakrishna was married to **Saradmani Mukherjee**, later known as **Sarada Devi**. Ramakrishna considered Sarada as the embodiment of the **Divine Mother**. It was as ‘**holy mother**’ that the disciples also knew her. She played an important role in the work of the math and encouraged the young disciples in their mission.
 
 #### Swami Vivekananda
-Narendranath Datta (1862–1902), who later came to be
-known as Swami Vivekananda, spread Ramakrishna’s message
-and tried to reconcile it to the needs of contemporary Indian
-society. He emerged as the preacher of neo-Hinduism.
-Certain spiritual experiences of Ramakrishna, the teachings
-of the Upanishads and the Gita and the examples of the
-Buddha and Jesus are the basis of Vivekananda’s message to
-the world about human values. He subscribed to the Vedanta,
-which he considered a fully rational system with a superior
-approach. His mission was to bridge the gulf between
-paramartha (service) and vyavahara (behaviour), and between
-spirituality and day-to-day life.
-Vivekananda believed in the fundamental oneness of
-God and said, “For our own motherland a junction of the two
-great systems, Hinduism and Islam, is the only hope.”
-Emphasising social action, he declared that knowledge
-without action is useless. He lamented the isolationist
-tendencies and the touch-me-not attitude of Hindus in
-religious matters. He frowned at religion’s tacit approval of
-the oppression of the poor by the rich. He believed that it
-was an insult to God and humanity to teach religion to a
-starving man. He pointed out that the masses needed two
-kinds of knowledge—secular knowledge about how to work
-for their economic uplift and the spiritual knowledge to have
-faith in themselves and strengthen their moral sense. He
-called upon his countrymen to imbibe a spirit of liberty,
-equality, and free thinking.
-At the Parliament of Religions held at Chicago in
-1893, Swami Vivekananda made a great impression on people
-by his learned interpretations. The keynote of his opening
-address was the need for a healthy balance between spiritualism
+**Narendranath Datta** (1862–1902), who later came to be known as **Swami Vivekananda**, spread **Ramakrishna’s message** and tried to reconcile it to the needs of contemporary Indian society. He emerged as the preacher of **neo-Hinduism**. Certain spiritual experiences of Ramakrishna, the teachings of the **Upanishads** and the **Gita**, and the examples of the **Buddha** and **Jesus** are the basis of Vivekananda’s message to the world about human values. He subscribed to the **Vedanta**, which he considered a fully rational system with a superior approach. His mission was to bridge the gulf between **paramartha** (service) and **vyavahara** (behavior), and between **spirituality** and day-to-day life.
 
-and materialism. Envisaging a new culture for the whole
-world, he called for a blend of the materialism of the West
-and the spiritualism of the East into a new harmony to
-produce happiness for mankind. Vivekananda gave several
-lectures on Vedanta in the USA and in London before
-returning to India in 1897.
-In India he delivered a series of lectures, the focus of
-which were to infuse into the new generation a sense of pride
-in India’s past, a new faith in India’s culture, and a rare sense
-of confidence in India’s future; to bring about a unification
-of Hinduism by pointing out the common foundation of its
-sects; to make the educated people see the misery of the
-downtrodden and work for their uplift by the application of
-practical Vedanta principles. His emphasis was not only on
-personal salvation but also on social good and reform.
-In 1897, he founded the Ramakrishna Mission.
-Vivekananda was a great humanist and used the Ramakrishna
-Mission for humanitarian relief and social work. The Mission
-stands for religious and social reform. Vivekananda advocated
-the doctrine of service—the service of all beings. The service
-of jiva (living objects) is the worship of Siva. Life itself
-is religion. By service, the Divine exists within man.
-Vivekananda was for using technology and modern science
-in the service of mankind.
-Ever since its inception, the Mission has been running
-Views
-No other religion preaches the dignity of humanity in such a lofty
-strain as Hinduism and no other religion on earth treads upon the
-poor and the low in such a fashion as Hinduism.
-—Swami Vivekananda
-A country where millions have nothing to eat and where few
-thousand holy men and brahmins suck the blood of the poor and
-do nothing at all for them, is not a country but a living hell. Is
-this religion or a dance of death?
-—Swami Vivekananda
-Forget not that the lower classes, the ignorant, the poor, the
-illiterate, the cobbler, the sweeper are thy flesh and blood, thy
-brothers. —Swami Vivekananda
+Vivekananda believed in the fundamental **oneness of God** and said, “For our own motherland a junction of the two great systems, **Hinduism and Islam**, is the only hope.” Emphasizing social action, he declared that **knowledge without action is useless**. He lamented the isolationist tendencies and the touch-me-not attitude of Hindus in religious matters. He frowned at religion’s tacit approval of the **oppression of the poor by the rich**. He believed that it was an insult to God and humanity to teach religion to a starving man. He pointed out that the masses needed two kinds of knowledge—**secular knowledge** about how to work for their economic uplift and **spiritual knowledge** to have faith in themselves and strengthen their moral sense. He called upon his countrymen to imbibe a spirit of **liberty**, **equality**, and **free thinking**.
 
-a number of schools, hospitals, dispensaries. It offers help
-to the afflicted in times of natural calamities like earthquakes,
-famines, floods, and epidemics. The Mission has developed
-into a worldwide organisation. It is a deeply religious body,
-but it is not a proselytising body. It does not consider itself
-to be a sect of Hinduism. In fact, this is one of the strong
-reasons for the success of the Mission. Unlike the Arya
-Samaj, the Mission recognises the utility and value of image
-worship in developing spiritual fervour and worship of the
-eternal omnipotent God, although it emphasises on the
-essential spirit and not the symbols or rituals. It believes that
-the philosophy of Vedanta will make a Christian a better
-Christian, and a Hindu a better Hindu.
-It was in 1898 that Swami Vivekananda acquired a large
-piece of land at Belur where the Ramakrishna Math was
-finally shifted and registered as such. The monastic order is
-open to all men without discrimination on the basis of caste
-or creed.
+At the **Parliament of Religions** held at **Chicago** in **1893**, Swami Vivekananda made a great impression on people by his learned interpretations. The keynote of his opening address was the need for a healthy balance between **spiritualism and materialism**. Envisaging a new culture for the whole world, he called for a blend of the materialism of the West and the spiritualism of the East into a new harmony to produce happiness for mankind. Vivekananda gave several lectures on **Vedanta** in the **USA** and in **London** before returning to India in **1897**.
+In India, **Swami Vivekananda** delivered a series of lectures aimed at infusing the new generation with a sense of **pride in India’s past**, a new faith in **India’s culture**, and a rare sense of **confidence in India’s future**. He sought to bring about a **unification of Hinduism** by highlighting the common foundation of its sects, and to make the educated people see the misery of the downtrodden and work for their uplift through the application of practical **Vedanta principles**. His emphasis was not only on **personal salvation** but also on **social good and reform**.
+
+In **1897**, he founded the **Ramakrishna Mission**. Vivekananda was a great **humanist** and used the Mission for **humanitarian relief** and **social work**. The Mission stands for religious and social reform. Vivekananda advocated the **doctrine of service**—the service of all beings. The service of **jiva** (living beings) is the worship of **Siva**. Life itself is religion. By service, the **Divine exists within man**. Vivekananda promoted using **technology and modern science** in the service of mankind.
+
+Ever since its inception, the Mission has been running a number of **schools**, **hospitals**, and **dispensaries**. It offers help to the afflicted in times of natural calamities like **earthquakes**, **famines**, **floods**, and **epidemics**. The Mission has developed into a **worldwide organisation**. It is a deeply religious body, but it is not a **proselytising body**. It does not consider itself to be a sect of Hinduism. Unlike the **Arya Samaj**, the Mission recognizes the utility and value of **image worship** in developing spiritual fervour and worship of the eternal omnipotent God, although it emphasizes the essential spirit and not the symbols or rituals. It believes that the philosophy of Vedanta will make a Christian a better Christian, and a Hindu a better Hindu.
+It was in **1898** that Swami Vivekananda acquired a large piece of land at **Belur** where the **Ramakrishna Math** was finally shifted and registered. The **monastic order** is open to all men without discrimination on the basis of **caste** or **creed**.
+
+**Views of Swami Vivekananda**
+
+- "No other religion preaches the dignity of humanity in such a lofty strain as **Hinduism** and no other religion on earth treads upon the poor and the low in such a fashion as Hinduism."
+
+- "A country where millions have nothing to eat and where a few thousand holy men and brahmins suck the blood of the poor and do nothing at all for them, is not a country but a living hell. Is this religion or a dance of death?"
+
+- "Forget not that the lower classes, the ignorant, the poor, the illiterate, the cobbler, the sweeper are thy flesh and blood, thy brothers."
 
 ### Dayananda Saraswati and Arya Samaj
-The Arya Samaj Movement, revivalist in form though not in
-content, was the result of a reaction to Western influences.
-Its founder, Dayananda Saraswati or Mulshankar (1824–83)
-was born in the old Morvi state in Gujarat in a brahmin family.
-He wandered as an ascetic for 15 years (1845–60) in search
-of truth. The first Arya Samaj unit was formally set up by
-him at Bombay in 1875, and later the headquarters of the
-Samaj were established at Lahore.
-Dayananda’s views were published in his famous work,
-Satyarth Prakash (The True Exposition). His vision of India
-included a classless and casteless society, a united India
-(religiously, socially, and nationally), and an India free from
-foreign rule, with Aryan religion being the common religion
-of all. He took inspiration from the Vedas and considered
-View
-So far as Bengal is concerned Vivekananda may be regarded
-as the spiritual father of the modern nationalist movement.
-—Subash Chandra Bose
 
-them to be ‘India’s Rock of Ages’, the infallible and the true
-original seed of Hinduism. He gave the slogan “Back to the
-Vedas”.
-Dayananda’s slogan of ‘Back to the Vedas’ was a call
-for a revival of Vedic learning and Vedic purity of religion
-and not a revival of Vedic times. He accepted modernity and
-displayed a patriotic attitude to national problems.
-Dayananda had received education on Vedanta from a
-blind teacher named Swami Virajananda in Mathura. Along
-with his emphasis on Vedic authority, he stressed the
-significance of individual interpretation of the scriptures and
-said that every person has the right of access to God. He
-criticised later Hindu scriptures such as the Puranas and the
-ignorant priests for perverting Hinduism.
-Dayananda strongly criticised the escapist Hindu belief
-in maya (illusion) as the running theme of all physical
-existence and the aim of human life as a struggle to attain
-moksha (salvation) through escape from this evil world to
-seek union with God. Instead, he advocated that God, soul,
-and matter (prakriti) were distinct and eternal entities and
-every individual had to work out his own salvation in the light
-of the eternal principles governing human conduct. Thus, he
-attacked the prevalent popular belief that every individual
-contributed and got back from the society according the
-principles of niyati (destiny). Dayananda believed in the
-theory of karma and reincarnation. But he also said the good
-deeds should be primarily for the good of others and not
-for self.
-Dayananda launched a frontal attack on Hindu orthodoxy,
-caste rigidities, untouchability, idolatry, polytheism, belief in
-magic, charms and animal sacrifices, taboo on sea voyages,
-feeding the dead through shraddhas, etc.
-Dayananda subscribed to the Vedic notion of
-chaturvarna system in which a person was identified as a
-brahmin, kshatriya, vaishya, or shudra not by birth but
-according to the occupation and merit of the person.
-The Arya Samaj fixed the minimum marriageable age
-at 25 years for boys and 16 years for girls. Swami Dayananda
-once lamented the Hindu race as “the children of children”.
+The **Arya Samaj Movement**, revivalist in form though not in content, was the result of a reaction to **Western influences**. Its founder, **Dayananda Saraswati** or **Mulshankar** (**1824–83**), was born in the old **Morvi state** in **Gujarat** in a brahmin family. He wandered as an ascetic for 15 years (**1845–60**) in search of truth. The first **Arya Samaj** unit was formally set up by him at **Bombay** in **1875**, and later the headquarters of the Samaj were established at **Lahore**.
 
-The ten guiding principles of the Arya Samaj are—
-(i) God is the primary source of all true knowledge; (ii) God,
-as all-truth, all-knowledge, almighty, immortal, creator of
-Universe, is alone worthy of worship; (iii) the Vedas are the
-books of true knowledge; (iv) an Arya should always be ready
-to accept truth and abandon untruth; (v) dharma, that is, due
-consideration of right and wrong, should be the guiding
-principle of all actions; (vi) the principal aim of the Samaj
-is to promote world’s well-being in the material, spiritual
-and social sense; (vii) everybody should be treated with love
-and justice; (viii) ignorance is to be dispelled and knowledge
-increased; (ix) one’s own progress should depend on uplift
-of all others; (x) social well-being of mankind is to be placed
-above an individual’s well-being.
-The Arya Samaj’s social ideals comprise, among others,
-the fatherhood of God and brotherhood of Man, equality of
-the sexes, absolute justice and fair play between man and man
-and nation and nation. Intercaste marriages and widow
-remarriages were also encouraged.
-Dayananda also met other reformers of the time—
-Keshab Chandra Sen, Ishwar Chandra Vidyasagar, Ranade,
-Deshmukh, etc.
-The Arya Samaj came to be known for the social service
-it rendered in times of calamities such as earthquake, famine
-and floods. It also took initiative in promoting education.
-After the death of Dayananda in 1883, the work of the
-samaj was carried on by illustrious members. Education was
-an all-important field for the samaj. The Dayananda Anglo-
-Vedic (D.A.V.) College was established in 1886 at Lahore.
-But a difference of opinion between two groups in the samaj
-arose over the curriculum of the D.A.V. College. One group
-was known as the College Party (some sources say ‘Culture’
-Party), among whose leaders were Lala Hansraj, Lala Lal
-Chand and Lala Lajpat Rai, and the other was the Mahatma
-(later Gurukul) Party led by Guru Datta Vidyarthi and Lala
-Munshi Ram (who later came to be known as Swami
-Shraddhanand). While the College Party favoured the
-government curriculum and English education to meet
-economic and professional needs, the Mahatma Party was
-interested in introducing the study of Sanskrit and Vedic
+**Dayananda’s views** were published in his famous work, **Satyarth Prakash** (The True Exposition). His vision of India included a classless and casteless society, a united India (religiously, socially, and nationally), and an India free from foreign rule, with **Aryan religion** being the common religion of all. He took inspiration from the **Vedas** and considered them to be ‘India’s Rock of Ages’, the infallible and the true original seed of Hinduism. He gave the slogan **“Back to the Vedas”**.
 
-philosophy in the tradition of ancient gurukuls. Later, the
-issue of vegetarianism also became a point of contention:
-the College Party had nothing against non-vegetarianism,
-claiming that diet was a personal choice and it was not
-mentioned in the principles of the samaj; the Mahatma Party
-was in favour of all the Aryas being strict vegetarians. In the
-end, the Arya Samaj split in 1893 over these issues.
-The College Party retained control over the D.A.V.
-School and College, while the Arya Pratinidhi Sabha, Punjab,
-and a majority of the local Arya Samaj branches were taken
-over by the Mahatma Party. Swami Shraddhanand opened the
-Gurukul in 1900 at Gujaranwala (in West Punjab, now in
-Pakistan). In 1902, the Gurukul was moved to Kangri near
-Haridwar, hence the name, Gurukul Kangri. The gurukul
-aimed at providing an indigenous alternative to Lord
-Macaulay’s education policy by offering education in the
-areas of vedic literature, Indian philosophy, Indian culture as
-well as modern sciences and research. The Gurukul believed
-in radical social reform. It founded the Kanya Mahavidyalaya
-at Jalandhar in 1896 and sponsored education for widows.
-The Arya Samaj was able to give self-respect and selfconfidence
-to the Hindus which helped to undermine the
-myth of superiority of whites and the Western culture.
-In its zeal to protect the Hindu society from the
-onslaught of Christianity and Islam, the Samaj started the
-shuddhi (purification) movement to reconvert to the Hindu
-fold the converts to Christianity and Islam. An aggressive
-campaign of shuddhi led to increasing communalisation of
-social life during the 1920s and later snowballed into
-communal political consciousness. The shuddhi movement
-also attempted to uplift those regarded as untouchables and
-outside the caste system of Hindus into pure caste Hindus.
+Dayananda’s slogan of **‘Back to the Vedas’** was a call for a revival of **Vedic learning** and **Vedic purity of religion** and not a revival of **Vedic times**. He accepted modernity and displayed a patriotic attitude to national problems.
+
+Dayananda had received education on **Vedanta** from a blind teacher named **Swami Virajananda** in **Mathura**. Along with his emphasis on Vedic authority, he stressed the significance of individual interpretation of the scriptures and said that every person has the right of access to God. He criticised later Hindu scriptures such as the **Puranas** and the ignorant priests for perverting Hinduism.
+
+Dayananda strongly criticised the escapist Hindu belief in **maya** (illusion) as the running theme of all physical existence and the aim of human life as a struggle to attain **moksha** (salvation) through escape from this evil world to seek union with God. Instead, he advocated that **God, soul, and matter (prakriti)** were distinct and eternal entities and every individual had to work out his own salvation in the light of the eternal principles governing human conduct. Thus, he attacked the prevalent popular belief that every individual contributed and got back from the society according to the principles of **niyati** (destiny). Dayananda believed in the theory of **karma** and **reincarnation**. But he also said the good deeds should be primarily for the good of others and not for self.
+
+> So far as Bengal is concerned **Vivekananda** may be regarded as the spiritual father of the modern nationalist movement.  
+> —**Subash Chandra Bose**
+
+Dayananda launched a **frontal attack** on **Hindu orthodoxy**, **caste rigidities**, **untouchability**, **idolatry**, **polytheism**, belief in **magic**, **charms**, and **animal sacrifices**, taboo on sea voyages, feeding the de
+ad through **shraddhas**, etc.
+Dayananda subscribed to the Vedic notion of the **chaturvarna system** in which a person was identified as a **brahmin**, **kshatriya**, **vaishya**, or **shudra** not by birth but according to the occupation and merit of the person.
+The **Arya Samaj** fixed the minimum marriageable age at **25 years for boys** and **16 years for girls**. **Swami Dayananda** once lamented the Hindu race as “the children of children”.
+The ten guiding principles of the **Arya Samaj** are—
+
+1. **God** is the primary source of all true knowledge.
+2. **God**, as all-truth, all-knowledge, almighty, immortal, creator of Universe, is alone worthy of worship.
+3. The **Vedas** are the books of true knowledge.
+4. An **Arya** should always be ready to accept truth and abandon untruth.
+5. **Dharma**, that is, due consideration of right and wrong, should be the guiding principle of all actions.
+6. The principal aim of the **Samaj** is to promote the world’s well-being in the material, spiritual, and social sense.
+7. Everybody should be treated with **love and justice**.
+8. **Ignorance** is to be dispelled and **knowledge increased**.
+9. One’s own progress should depend on the **uplift of all others**.
+10. **Social well-being** of mankind is to be placed above an individual’s well-being.
+
+The **Arya Samaj’s social ideals** comprise, among others, the **fatherhood of God** and **brotherhood of Man**, **equality of the sexes**, **absolute justice** and fair play between man and man and nation and nation. **Intercaste marriages** and **widow remarriages** were also encouraged.
+
+**Dayananda** also met other reformers of the time—**Keshab Chandra Sen**, **Ishwar Chandra Vidyasagar**, **Ranade**, **Deshmukh**, etc.
+The **Arya Samaj** came to be known for the **social service** it rendered in times of calamities such as earthquakes, famine, and floods. It also took the initiative in **promoting education**. After the death of **Dayananda** in **1883**, the work of the samaj was carried on by illustrious members. **Education** was an all-important field for the samaj. The **Dayananda Anglo-Vedic (D.A.V.) College** was established in **1886** at **Lahore**.
+
+However, a difference of opinion between two groups in the samaj arose over the curriculum of the D.A.V. College. One group was known as the **College Party** (some sources say ‘Culture’ Party), among whose leaders were **Lala Hansraj**, **Lala Lal Chand**, and **Lala Lajpat Rai**. The other was the **Mahatma (later Gurukul) Party** led by **Guru Datta Vidyarthi** and **Lala Munshi Ram** (who later came to be known as **Swami Shraddhanand**). While the **College Party** favoured the government curriculum and **English education** to meet economic and professional needs, the **Mahatma Party** was interested in introducing the study of **Sanskrit** and **Vedic philosophy** in the tradition of ancient gurukuls.
+
+Later, the issue of **vegetarianism** also became a point of contention: the **College Party** had nothing against non-vegetarianism, claiming that diet was a personal choice and it was not mentioned in the principles of the samaj; the **Mahatma Party** was in favour of all the Aryas being strict vegetarians. In the end, the Arya Samaj split in **1893** over these issues.
+
+The **College Party** retained control over the **D.A.V. School and College**, while the **Arya Pratinidhi Sabha, Punjab**, and a majority of the local Arya Samaj branches were taken over by the **Mahatma Party**. **Swami Shraddhanand** opened the **Gurukul** in **1900** at **Gujaranwala** (in West Punjab, now in Pakistan). In **1902**, the Gurukul was moved to **Kangri near Haridwar**, hence the name, **Gurukul Kangri**. The gurukul aimed at providing an indigenous alternative to **Lord Macaulay’s education policy** by offering education in the areas of **vedic literature**, **Indian philosophy**, **Indian culture** as well as **modern sciences and research**. The Gurukul believed in **radical social reform**. It founded the **Kanya Mahavidyalaya** at **Jalandhar** in **1896** and sponsored education for widows.
+
+The Arya Samaj was able to give **self-respect** and **self-confidence** to the Hindus, which helped to undermine the myth of superiority of **whites** and the **Western culture**. In its zeal to protect the Hindu society from the onslaught of **Christianity** and **Islam**, the Samaj started the **shuddhi (purification) movement** to reconvert to the Hindu fold the converts to Christianity and Islam. An aggressive campaign of shuddhi led to increasing **communalisation** of social life during the **1920s** and later snowballed into **communal political consciousness**. The shuddhi movement also attempted to uplift those regarded as **untouchables** and outside the caste system of Hindus into pure caste Hindus.
 
 ### Seva Sadan
 A Parsi social reformer, Behramji M. Malabari (1853–1912),
