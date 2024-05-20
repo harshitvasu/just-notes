@@ -91,14 +91,20 @@ class Player {
 
     rewind() {
         if (this.currentIndex === 0) {
-            this.speakPart(0);
+            this.synth.cancel();
+            setTimeout(() => {
+                this.speakPart(0);
+            }, 100); // Adjust the delay as necessary
         } else {
             this.synth.cancel();
-            this.currentIndex = Math.max(0, this.currentIndex - 1);
-            this.speakPart(this.currentIndex);
+            setTimeout(() => {
+                this.currentIndex = Math.max(0, this.currentIndex - 1);
+                this.speakPart(this.currentIndex);
+            }, 100); // Adjust the delay as necessary
         }
     }
 }
+
 (function() {
     const readBoxes = document.querySelectorAll('.markdown-preview > :not(h1, h2, h3, h4), .markdown > :not(h1, h2, h3, h4)');
     let expandedCount = 0;
