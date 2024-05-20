@@ -5,7 +5,7 @@ class Player {
         this.selectedGap = localStorage.getItem('last-used-gap') || 750;
         this.onSpeechEndCallback = onSpeechEndCallback;
         this.synth = window.speechSynthesis;
-        this.voice = "null";
+        this.voice = null;
         this.parts = [];
         this.currentIndex = 0;
         this.setVoice(this.selectedVoice);
@@ -104,11 +104,29 @@ class Player {
             }, 100); // Adjust the delay as necessary
         }
     }
+
+    speakOnce(text, callback) {
+        const msg = new SpeechSynthesisUtterance(text);
+        msg.voice = this.voice;
+        msg.rate = this.selectedRate;
+
+        msg.onend = () => {
+            this.stop();
+            if (callback) callback();
+        };
+
+        this.synth.speak(msg);
+    }
 }
+
 (function() {
     const readBoxes = document.querySelectorAll('.markdown-preview > :not(h1, h2, h3, h4), .markdown > :not(h1, h2, h3, h4)');
     const totalCount = readBoxes.length;
     let expandedCount = 0;
+    let playQueue = [];
+    let isPlayingAll = false;
+    let currentSentences = [];
+    let currentSentenceIndex = 0;
 
     const progressBarContainer = document.createElement('div');
     progressBarContainer.id = 'progress-bar-container';
@@ -117,7 +135,7 @@ class Player {
     progressBarContainer.appendChild(progressBar);
     document.body.appendChild(progressBarContainer);
 
-    const player = new Player(onSpeechEnd);
+    const player = new Player(onSentenceEnd);
     createControlPanel();
     createSettingsPopup();
     initializeReadBoxes();
@@ -132,6 +150,8 @@ class Player {
             playPauseButton.innerHTML = "▶️";
             setControlOpacity(0.2);
             removePlayingClass();
+            isPlayingAll = false;
+            playQueue = [];
         });
         stopButton.id = 'stop-button';
         stopButton.style.opacity = 0.2;
@@ -144,13 +164,13 @@ class Player {
                 player.pause();
                 playPauseButton.innerHTML = "▶️";
             } else {
-                player.resume();
+                playNonCompletedTracks();
                 playPauseButton.innerHTML = "⏸️";
             }
             setControlOpacity(1.0);
         });
         playPauseButton.id = 'play-pause-button';
-        playPauseButton.style.opacity = 0.2;
+        playPauseButton.style.opacity = 1.0;
 
         const rewindButton = createButton('⏪', '', () => {
             player.rewind();
@@ -158,7 +178,7 @@ class Player {
             setControlOpacity(1.0);
         });
         rewindButton.id = 'rewind-button';
-        rewindButton.style.opacity = 0.2;
+        rewindButton.style.opacity = 1.0;
 
         const settingsButton = createButton('⚙️', 'settings-button', () => toggleSettingsPopup());
 
@@ -311,7 +331,9 @@ class Player {
 
             const speakButton = createButton('👂', 'speak-btn', () => {
                 if (!window.speechSynthesis.speaking) {
-                    player.speak(innerText);
+                    currentSentences = innerText.split('. ');
+                    currentSentenceIndex = 0;
+                    speakNextSentence();
                     setControlOpacity(1.0);
                     element.classList.add('playing');
                     document.getElementById('play-pause-button').innerHTML = "⏸️";
@@ -384,13 +406,56 @@ class Player {
         updateProgressBar();
     }
 
-    function onSpeechEnd() {
-        const currentPlayingParagraph = document.querySelector('.read-content.playing');
-        if (currentPlayingParagraph) {
-            currentPlayingParagraph.classList.remove('playing');
-            currentPlayingParagraph.classList.add('completed');
-            saveCompletedBoxes();
-            updateProgressBar();
+    function onSentenceEnd() {
+        if (currentSentenceIndex < currentSentences.length - 1) {
+            currentSentenceIndex++;
+            speakNextSentence();
+        } else {
+            onSectionEnd();
         }
     }
+
+    function onSectionEnd() {
+        removePlayingClass();
+
+        if (isPlayingAll) {
+            if (playQueue.length > 0) {
+                pauseAndMoveToNextSection(() => {
+                    const nextBox = playQueue.shift();
+                    nextBox.querySelector('.speak-btn').click();
+                });
+            } else {
+                isPlayingAll = false;
+                document.getElementById('play-pause-button').innerHTML = "▶️";
+            }
+        }
+    }
+
+    function pauseAndMoveToNextSection(callback) {
+        pause(5000, () => {
+            player.speakOnce("Moving on to next Section", () => {
+                pause(3000, callback);
+            });
+        });
+    }
+
+    function pause(duration, callback) {
+        setTimeout(callback, duration);
+    }
+
+    function speakNextSentence() {
+        if (currentSentenceIndex < currentSentences.length) {
+            player.speak(currentSentences[currentSentenceIndex], onSentenceEnd);
+        }
+    }
+
+    function playNonCompletedTracks() {
+        const nonCompletedBoxes = Array.from(document.querySelectorAll('.read-content:not(.completed)'));
+        if (nonCompletedBoxes.length > 0) {
+            isPlayingAll = true;
+            playQueue = nonCompletedBoxes;
+            playQueue.shift().querySelector('.speak-btn').click();
+        }
+    }
+
 })();
