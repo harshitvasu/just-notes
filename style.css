@@ -147,10 +147,10 @@
   cursor: pointer;
   transition: background 0.3s ease;
 }
-
+/* 
 #control-panel button:hover {
   background-color: #f0f0f0;
-}
+} */
 
 @media (max-width: 1100px) {
   #control-panel {
