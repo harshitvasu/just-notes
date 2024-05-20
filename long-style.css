@@ -393,8 +393,8 @@ html body blockquote>:last-child {
 }
 
 html body hr {
-	height: 4px;
-	margin: 32px 0;
+	/* height: 4px; */
+	/* margin: 32px 0; */
 	background-color: #d6d6d6;
 	border: 0 none
 }
