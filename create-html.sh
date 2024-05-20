@@ -12,7 +12,7 @@ input_dir=$(dirname "$input_file")
 input_basename=$(basename "$input_file" .md)  # Extract base name without .md extension
 css_file="style.css"
 long_css_file="long-style.css"
-js_file="toggleParagraphs.js"
+js_file="main.js"
 output_file="$input_dir/$input_basename.html"  # Create output file name
 
 # Calculate relative paths for CSS and JavaScript files based on the depth of input file's directory

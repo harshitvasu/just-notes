@@ -105,7 +105,6 @@ class Player {
         }
     }
 }
-
 (function() {
     const readBoxes = document.querySelectorAll('.markdown-preview > :not(h1, h2, h3, h4), .markdown > :not(h1, h2, h3, h4)');
     const totalCount = readBoxes.length;
@@ -122,6 +121,7 @@ class Player {
     createControlPanel();
     createSettingsPopup();
     initializeReadBoxes();
+    loadCompletedBoxes();
 
     function createControlPanel() {
         const controlPanel = document.createElement('div');
@@ -268,11 +268,11 @@ class Player {
         const container = document.querySelector('.markdown-preview, .markdown');
         const children = Array.from(container.children);
         const completedBoxes = JSON.parse(localStorage.getItem('completedBoxes')) || [];
-    
+
         let readBoxes = [];
         let currentBox = document.createElement('div');
         currentBox.className = 'read-content hidden';
-    
+
         children.forEach(child => {
             if (['H1', 'H2', 'H3', 'H4', 'HR'].includes(child.tagName)) {
                 if (currentBox.children.length > 0) {
@@ -286,29 +286,29 @@ class Player {
                 currentBox.appendChild(child);
             }
         });
-    
+
         if (currentBox.children.length > 0) {
             readBoxes.push(currentBox);
             container.appendChild(currentBox);
         }
-    
+
         readBoxes.forEach(element => {
             if (['H1', 'H2', 'H3', 'H4', 'HR'].includes(element.tagName)) return; // Skip headings and <hr> elements
-    
+
             const originalHTML = element.innerHTML;
             const innerText = element.innerText.trim();
             const previewText = innerText.split(/\s+/).slice(0, 25).join(' ') + ' ...';
-    
+
             if (completedBoxes.includes(innerText)) {
                 element.classList.add('completed');
             } else {
                 element.innerHTML = `<span class="collapsible-icon">></span><span class="preview-text">${previewText}</span>`;
                 element.classList.add('hidden');
             }
-    
+
             const buttonContainer = document.createElement('div');
             buttonContainer.className = 'button-container';
-    
+
             const speakButton = createButton('👂', 'speak-btn', () => {
                 if (!window.speechSynthesis.speaking) {
                     player.speak(innerText);
@@ -320,9 +320,9 @@ class Player {
             const copyButton = createButton('📋', 'copy-btn', () => copyText(innerText));
             buttonContainer.appendChild(speakButton);
             buttonContainer.appendChild(copyButton);
-    
+
             element.appendChild(buttonContainer);
-    
+
             element.addEventListener('click', function(event) {
                 if (![speakButton, copyButton].includes(event.target)) {
                     toggleContainer(element, originalHTML, previewText, buttonContainer);
@@ -372,6 +372,16 @@ class Player {
             completedBoxes.push(box.innerText.trim());
         });
         localStorage.setItem('completedBoxes', JSON.stringify(completedBoxes));
+    }
+
+    function loadCompletedBoxes() {
+        const completedBoxes = JSON.parse(localStorage.getItem('completedBoxes')) || [];
+        document.querySelectorAll('.read-content').forEach(box => {
+            if (completedBoxes.includes(box.innerText.trim())) {
+                box.classList.add('completed');
+            }
+        });
+        updateProgressBar();
     }
 
     function onSpeechEnd() {
