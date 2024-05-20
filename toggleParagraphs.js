@@ -30,50 +30,78 @@
     if (window.speechSynthesis.onvoiceschanged !== undefined) {
         window.speechSynthesis.onvoiceschanged = populateVoiceList;
     }
-
     function initializeReadBoxes() {
-        readBoxes.forEach(paragraph => {
-            const originalHTML = paragraph.innerHTML;
-            const innerText = paragraph.innerText.trim();
+        const container = document.querySelector('.markdown-preview, .markdown');
+        const children = Array.from(container.children);
+    
+        let readBoxes = [];
+        let currentBox = document.createElement('div');
+        currentBox.className = 'read-content hidden';
+    
+        children.forEach(child => {
+            if (['H1', 'H2', 'H3', 'H4', 'HR'].includes(child.tagName)) {
+                if (currentBox.children.length > 0) {
+                    readBoxes.push(currentBox);
+                    container.insertBefore(currentBox, child);
+                    currentBox = document.createElement('div');
+                    currentBox.className = 'read-content hidden';
+                }
+                readBoxes.push(child); // Add the heading or <hr> as a direct child
+            } else {
+                currentBox.appendChild(child);
+            }
+        });
+    
+        if (currentBox.children.length > 0) {
+            readBoxes.push(currentBox);
+            container.appendChild(currentBox);
+        }
+    
+        readBoxes.forEach(element => {
+            if (['H1', 'H2', 'H3', 'H4', 'HR'].includes(element.tagName)) return; // Skip headings and <hr> elements
+    
+            const originalHTML = element.innerHTML;
+            const innerText = element.innerText.trim();
             const previewText = innerText.split(/\s+/).slice(0, 25).join(' ') + ' ...';
-
-            paragraph.innerHTML = `<span class="collapsible-icon">></span><span class="preview-text">${previewText}</span>`;
-            paragraph.classList.add('hidden');
-            paragraph.classList.add('read-content');
-
+    
+            element.innerHTML = `<span class="collapsible-icon">></span><span class="preview-text">${previewText}</span>`;
+            element.classList.add('hidden');
+    
             const buttonContainer = document.createElement('div');
             buttonContainer.className = 'button-container';
-
-            const speakButton = createButton('👂', 'speak-btn', () => speak(innerText, paragraph));
+    
+            const speakButton = createButton('👂', 'speak-btn', () => speak(innerText, element));
             const copyButton = createButton('📋', 'copy-btn', () => copyText(innerText));
             buttonContainer.appendChild(speakButton);
             buttonContainer.appendChild(copyButton);
-
-            paragraph.appendChild(buttonContainer);
-
-            paragraph.addEventListener('click', function(event) {
+    
+            element.appendChild(buttonContainer);
+    
+            element.addEventListener('click', function(event) {
                 if (![speakButton, copyButton].includes(event.target)) {
-                    toggleParagraph(paragraph, originalHTML, previewText, buttonContainer);
+                    toggleContainer(element, originalHTML, previewText, buttonContainer);
                 }
             });
         });
         updateProgressBar();
     }
-
-    function toggleParagraph(paragraph, originalHTML, previewText, buttonContainer) {
-        if (paragraph.classList.contains('hidden')) {
-            paragraph.innerHTML = originalHTML;
-            paragraph.appendChild(buttonContainer);
-            paragraph.classList.remove('hidden');
+    
+    function toggleContainer(container, originalHTML, previewText, buttonContainer) {
+        if (container.classList.contains('hidden')) {
+            container.innerHTML = originalHTML;
+            container.appendChild(buttonContainer);
+            container.classList.remove('hidden');
             expandedCount++;
         } else {
-            paragraph.innerHTML = `<span class="collapsible-icon">></span><span class="preview-text">${previewText}</span>`;
-            paragraph.appendChild(buttonContainer);
-            paragraph.classList.add('hidden');
+            container.innerHTML = `<span class="collapsible-icon">></span><span class="preview-text">${previewText}</span>`;
+            container.appendChild(buttonContainer);
+            container.classList.add('hidden');
             expandedCount = Math.max(0, expandedCount - 1);
         }
         updateProgressBar();
     }
+    
+    
 
     function togglePlaying(paragraph, isPlaying) {
         if (currentPlayingParagraph) {
