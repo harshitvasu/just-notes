@@ -5,24 +5,25 @@ class Player {
         this.selectedGap = localStorage.getItem('last-used-gap') || 750;
         this.onSpeechEndCallback = onSpeechEndCallback;
         this.synth = window.speechSynthesis;
-        this.voice = null;
+        this.voice = "null";
         this.parts = [];
         this.currentIndex = 0;
-
-        if (this.synth.onvoiceschanged !== undefined) {
-            this.synth.onvoiceschanged = () => this.populateVoiceList();
-        }
-        this.populateVoiceList();
-    }
-
-    populateVoiceList() {
-        const voices = this.getVoices();
-        const lastUsedVoice = localStorage.getItem('last-used-voice');
-        this.voice = voices.find(v => v.name === lastUsedVoice) || voices.find(v => v.name === "Samantha") || voices[0];
+        this.setVoice(this.selectedVoice);
     }
 
     getVoices() {
         return this.synth.getVoices();
+    }
+
+    setVoice(voiceName) {
+        const voices = this.getVoices();
+        if (voices.length === 0) {
+            setTimeout(() => this.setVoice(voiceName), 100);
+            return;
+        }
+
+        this.voice = voices.find(v => v.name === voiceName) || voices.find(v => v.name === "Samantha") || voices[0];
+        this.saveSettings();
     }
 
     saveSettings() {
@@ -107,8 +108,8 @@ class Player {
 
 (function() {
     const readBoxes = document.querySelectorAll('.markdown-preview > :not(h1, h2, h3, h4), .markdown > :not(h1, h2, h3, h4)');
-    let expandedCount = 0;
     const totalCount = readBoxes.length;
+    let expandedCount = 0;
 
     const progressBarContainer = document.createElement('div');
     progressBarContainer.id = 'progress-bar-container';
@@ -118,7 +119,6 @@ class Player {
     document.body.appendChild(progressBarContainer);
 
     const player = new Player(onSpeechEnd);
-
     createControlPanel();
     createSettingsPopup();
     initializeReadBoxes();
@@ -181,6 +181,8 @@ class Player {
         if (currentPlayingParagraph) {
             currentPlayingParagraph.classList.remove('playing');
             currentPlayingParagraph.classList.add('completed');
+            saveCompletedBoxes();
+            updateProgressBar();
         }
     }
 
@@ -201,7 +203,7 @@ class Player {
         settingsPopup.appendChild(gapTime);
 
         const saveButton = createButton('Save', '', () => {
-            player.selectedVoice = voiceSelect.value;
+            player.setVoice(voiceSelect.value);
             player.selectedRate = parseFloat(rateInput.value);
             player.selectedGap = parseFloat(gapTime.value);
             player.saveSettings();
@@ -216,8 +218,12 @@ class Player {
 
     function populateVoiceList(voiceSelect) {
         const voices = player.getVoices();
-        voiceSelect.innerHTML = '';
+        if (voices.length === 0) {
+            setTimeout(() => populateVoiceList(voiceSelect), 100);
+            return;
+        }
 
+        voiceSelect.innerHTML = '';
         voices.forEach(voice => {
             const option = document.createElement('option');
             option.textContent = `${voice.name} (${voice.lang})`;
@@ -226,7 +232,7 @@ class Player {
         });
 
         const lastUsedVoice = localStorage.getItem('last-used-voice');
-        voiceSelect.value = lastUsedVoice || voices[0].name;
+        voiceSelect.value = lastUsedVoice || (voices.find(v => v.name === "Samantha") ? "Samantha" : voices[0].name);
     }
 
     function toggleSettingsPopup() {
@@ -323,6 +329,9 @@ class Player {
                 }
             });
         });
+
+        // Calculate initial expanded count
+        expandedCount = document.querySelectorAll('.read-content.completed').length;
         updateProgressBar();
     }
 
@@ -343,7 +352,8 @@ class Player {
     }
 
     function updateProgressBar() {
-        const percentage = (expandedCount / totalCount * 100).toFixed(0);
+        const completedCount = document.querySelectorAll('.read-content.completed').length;
+        const percentage = (completedCount / totalCount * 100).toFixed(0);
         progressBar.style.width = `${percentage}%`;
         progressBar.textContent = `${percentage}%`;
     }
@@ -370,6 +380,7 @@ class Player {
             currentPlayingParagraph.classList.remove('playing');
             currentPlayingParagraph.classList.add('completed');
             saveCompletedBoxes();
+            updateProgressBar();
         }
     }
 })();
