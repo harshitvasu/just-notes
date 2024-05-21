@@ -62,7 +62,7 @@ class Player {
     }
 
     splitTextIntoParts(text) {
-        const parts = text.split(/(\n|(?<![A-Z])[.])/);
+        const parts = text.split(/(\n|(?<![A-Z])[.])|:/);
         for (let i = parts.length - 2; i >= 0; i--) {
             if (parts[i + 1] === '.') {
                 parts[i] += parts[i + 1];
