@@ -1,7 +1,7 @@
 class Player {
     constructor(onSpeechEndCallback) {
         this.selectedVoice = localStorage.getItem('last-used-voice') || "Samantha";
-        this.selectedRate = localStorage.getItem('last-used-rate') || 0.75;
+        this.selectedRate = localStorage.getItem('last-used-rate') || 1.0;
         this.selectedGap = localStorage.getItem('last-used-gap') || 750;
         this.onSpeechEndCallback = onSpeechEndCallback;
         this.synth = window.speechSynthesis;
