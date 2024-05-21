@@ -17,16 +17,6 @@
   border-left: 4px solid lightgreen;
 }
 
-.collapsible-icon {
-  position: absolute;
-  left: 10px;
-  top: 50%;
-  transform: translateY(-50%);
-  font-size: 16px;
-  color: #888;
-  display: none;
-}
-
 .hidden {
   max-height: 40px;
   overflow: hidden;
@@ -191,11 +181,6 @@
     padding: 8px;
   }
 
-  .collapsible-icon {
-    font-size: 14px;
-    left: 8px;
-    display: none;
-  }
 
   .preview-text {
     max-width: calc(100% - 90px);
@@ -340,4 +325,26 @@ h4 {
   text-transform: uppercase;
   border-left: 3px solid #9C27B0;
   padding-left: 8px;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.smooth-scroll {
+  scroll-behavior: smooth;
+}
+
+.smooth-scroll-long {
+  scroll-behavior: smooth;
+  scroll-duration: 2000ms; /* Custom property to define duration */
+}
+
+/* Custom scroll duration using JavaScript */
+html.smooth-scroll-long {
+  scroll-behavior: auto; /* Disable default smooth scroll */
+}
+
+html.smooth-scroll-long.scrolling {
+  scroll-behavior: smooth; /* Enable smooth scroll during transition */
 }

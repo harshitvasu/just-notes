@@ -120,8 +120,6 @@ class Player {
 }
 
 (function() {
-    const readBoxes = document.querySelectorAll('.markdown-preview > :not(h1, h2, h3, h4), .markdown > :not(h1, h2, h3, h4)');
-    const totalCount = readBoxes.length;
     let expandedCount = 0;
     let playQueue = [];
     let isPlayingAll = false;
@@ -144,18 +142,17 @@ class Player {
     function createControlPanel() {
         const controlPanel = document.createElement('div');
         controlPanel.id = 'control-panel';
-
+    
         const stopButton = createButton('⏹️', '', () => {
             player.stop();
             playPauseButton.innerHTML = "▶️";
-            setControlOpacity(0.2);
+            setControlOpacity(0.2,1.0,0.2);
             removePlayingClass();
             isPlayingAll = false;
             playQueue = [];
         });
         stopButton.id = 'stop-button';
-        stopButton.style.opacity = 0.2;
-
+    
         const playPauseButton = createButton('▶️', '', () => {
             if (window.speechSynthesis.paused) {
                 player.resume();
@@ -167,35 +164,35 @@ class Player {
                 playNonCompletedTracks();
                 playPauseButton.innerHTML = "⏸️";
             }
-            setControlOpacity(1.0);
+            setControlOpacity(1.0,1.0,1.0);
         });
         playPauseButton.id = 'play-pause-button';
-        playPauseButton.style.opacity = 1.0;
 
         const rewindButton = createButton('⏪', '', () => {
             player.rewind();
             playPauseButton.innerHTML = "⏸️";
-            setControlOpacity(1.0);
         });
         rewindButton.id = 'rewind-button';
-        rewindButton.style.opacity = 1.0;
 
+    
         const settingsButton = createButton('⚙️', 'settings-button', () => toggleSettingsPopup());
-
+        settingsButton.id = 'settings-button';
+    
         controlPanel.appendChild(stopButton);
         controlPanel.appendChild(playPauseButton);
         controlPanel.appendChild(rewindButton);
         controlPanel.appendChild(settingsButton);
-
+    
         document.body.appendChild(controlPanel);
+        setControlOpacity(0.2,1.0,0.2);
     }
-
-    function setControlOpacity(opacity) {
-        document.getElementById('stop-button').style.opacity = opacity;
-        document.getElementById('play-pause-button').style.opacity = opacity;
-        document.getElementById('rewind-button').style.opacity = opacity;
+    
+    function setControlOpacity(stopOpacity, playPauseOpacity, rewindOpacity) {
+        document.getElementById('stop-button').style.opacity = stopOpacity;
+        document.getElementById('play-pause-button').style.opacity = playPauseOpacity;
+        document.getElementById('rewind-button').style.opacity = rewindOpacity;
     }
-
+    
     function removePlayingClass() {
         const currentPlayingParagraph = document.querySelector('.read-content.playing');
         if (currentPlayingParagraph) {
@@ -322,7 +319,7 @@ class Player {
             if (completedBoxes.includes(innerText)) {
                 element.classList.add('completed');
             } else {
-                element.innerHTML = `<span class="collapsible-icon">></span><span class="preview-text">${previewText}</span>`;
+                element.innerHTML = `<span class="preview-text">${previewText}</span>`;
                 element.classList.add('hidden');
             }
 
@@ -334,7 +331,7 @@ class Player {
                     currentSentences = innerText.split('. ');
                     currentSentenceIndex = 0;
                     speakNextSentence();
-                    setControlOpacity(1.0);
+                    setControlOpacity(1.0,1.0,1.0);
                     element.classList.add('playing');
                     document.getElementById('play-pause-button').innerHTML = "⏸️";
                 }
@@ -364,17 +361,43 @@ class Player {
             container.classList.remove('hidden');
             expandedCount++;
         } else {
-            container.innerHTML = `<span class="collapsible-icon">></span><span class="preview-text">${previewText}</span>`;
+            container.innerHTML = `<span class="preview-text">${previewText}</span>`;
             container.appendChild(buttonContainer);
             container.classList.add('hidden');
             expandedCount = Math.max(0, expandedCount - 1);
+    
+            // Find the nearest preceding H1, H2, H3, or H4 element
+            let heading = container.previousElementSibling;
+            while (heading && !/H[1-4]/.test(heading.tagName)) {
+                heading = heading.previousElementSibling;
+            }
+    
+            if (heading) {
+                // Use IntersectionObserver to check if the heading is in the viewport
+                const observer = new IntersectionObserver((entries) => {
+                    const entry = entries[0];
+                    if (!entry.isIntersecting) {
+                        // Smoothly scroll the page to place the heading at the top if not in the viewport
+                        heading.scrollIntoView({
+                            behavior: 'smooth',
+                            block: 'start'
+                        });
+                    }
+                    observer.disconnect();
+                }, { threshold: [0] });
+    
+                observer.observe(heading);
+            }
         }
         updateProgressBar();
         saveCompletedBoxes();
     }
-
+    
+    
+    
     function updateProgressBar() {
         const completedCount = document.querySelectorAll('.read-content.completed').length;
+        const totalCount = document.querySelectorAll('.read-content').length;
         const percentage = (completedCount / totalCount * 100).toFixed(0);
         progressBar.style.width = `${percentage}%`;
         progressBar.textContent = `${percentage}%`;
