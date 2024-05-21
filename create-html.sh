@@ -34,9 +34,12 @@ cat > "$output_file" <<EOF
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta charset="UTF-8">
     <title>Generated HTML</title>
+        <link href="https://fonts.googleapis.com/css?family=Oswald|Roboto+Slab|Lora|Merriweather" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="$css_file">
     <link rel="stylesheet" type="text/css" href="$long_css_file">
     <script type="text/javascript" src="$js_file" defer></script>
+
+    <script src="../main.js" defer></script>
 </head>
 <body for="html-export">
   <div class="crossnote markdown-preview">

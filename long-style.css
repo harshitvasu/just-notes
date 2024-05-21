@@ -236,7 +236,7 @@ html body>:first-child {
 	margin-top: 0
 }
 
-html body h1,
+/* html body h1,
 html body h2,
 html body h3,
 html body h4,
@@ -294,7 +294,7 @@ html body h5 {
 
 html body h6 {
 	color: #5c5c5c
-}
+} */
 
 html body strong {
 	color: #000
