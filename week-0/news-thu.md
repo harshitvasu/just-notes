@@ -1,3 +1,4 @@
+# 23 May | THE HINDU
 ### [RBI approves ₹2.11 lakh crore dividend payout to govt for 2023-24](https://www.thehindu.com/business/Economy/rbi-approves-211-lakh-crore-dividend-payout-to-govt-for-2023-24/article68203495.ece) | 2024-05-22
 
 Heading: RBI approves ₹2.11 lakh crore dividend payout to govt for 2023-24
